@@ -1,0 +1,294 @@
+% !TeX program = pdflatex
+% ============================================================================
+%  Informe de revision por pares
+%  Manuscrito: "Two barriers to equitable access: WCAG conformance and
+%               pre-consent tracking on Ecuadorian and top-ranked
+%               university websites"
+%  Revista: Universal Access in the Information Society (Springer Nature)
+%  Lectura independiente. Fecha: 16 de agosto de 2026
+% ============================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.6cm,right=2.6cm]{geometry}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+
+\hypersetup{
+	pdftitle	= {Informe de revision por pares. Manuscrito UAIS sobre conformidad WCAG y rastreo previo al consentimiento},
+	pdfauthor	= {Revisor},
+	pdfsubject	= {Universal Access in the Information Society (Springer Nature)}
+}
+
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.6em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Informe de revision por pares --- UAIS (Springer Nature)}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlist[itemize]{leftmargin=1.5em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.8em,itemsep=3pt,topsep=3pt}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% Sin patrones de particion silabica del espanol disponibles: se desactiva la
+% division de palabras para evitar cortes incorrectos, y se compensa con
+% tolerancia y estiramiento de emergencia.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\tolerance=9999
+\emergencystretch=3.5em
+\hbadness=10000
+
+\title{\textbf{Informe de revisi\'on por pares}\\[4pt]
+	\large Manuscrito: \emph{Two barriers to equitable access: WCAG conformance and pre-consent tracking on Ecuadorian and top-ranked university websites}\\[4pt]
+	\normalsize Revista: \emph{Universal Access in the Information Society} (Springer Nature)}
+\author{}
+\date{Lectura independiente --- 16 de agosto de 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\noindent Este informe recoge una lectura completa e independiente del manuscrito, con verificaci\'on aritm\'etica de las tablas, comprobaci\'on de coherencia interna entre texto, tablas, figuras y ap\'endices, y contraste del marco jur\'idico invocado frente a fuente primaria u oficial. Las objeciones se ordenan por severidad y cada una indica la acci\'on exigible.
+
+% ============================================================================
+\section{Veredicto}
+% ============================================================================
+
+Recomendaci\'on: \textbf{revisi\'on mayor}. El art\'iculo aporta una contribuci\'on emp\'irica genuina y poco frecuente ---la r\'eplica de la auditor\'ia en vivo desde cuatro puntos de observaci\'on con atribuci\'on a proveedores nombrados---, est\'a escrito con una honestidad metodol\'ogica muy superior a la media de la literatura de medici\'on web, y la aritm\'etica de sus tablas resiste la comprobaci\'on celda por celda. Lo que bloquea la aceptaci\'on no es la calidad de la medici\'on sino la atribuci\'on causal que se hace de ella: la afirmaci\'on central sobre el mecanismo no est\'a identificada por el dise\~no, uno de los tres controles declarados falla mientras el texto afirma lo contrario, el argumento jur\'idico de la Secci\'on 5.2 se contradice con el propio Ap\'endice B del manuscrito, y el mapeo normativo de accesibilidad atribuye obligaciones a instrumentos equivocados en las dos jurisdicciones que m\'as instituciones aportan.
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption{Respuestas al formulario de revisor.}
+	\begin{tabular}{@{}L{9.4cm}L{4.6cm}@{}}
+		\toprule
+		\textbf{Pregunta} & \textbf{Respuesta} \\
+		\midrule
+		Recomendaci\'on & Revise (revisi\'on mayor) \\
+		\addlinespace
+		Dise\~no adecuado y conclusiones sostenidas por la evidencia & No, pero puede abordarse con revisiones \\
+		\addlinespace
+		Novedad (1--5) & 4 \\
+		\addlinespace
+		Claridad de lengua y gram\'atica & Aceptable \\
+		\addlinespace
+		T\'itulo, resumen y palabras clave reflejan el contenido & S\'i \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+% ============================================================================
+\section{Verificaciones que el manuscrito supera}
+% ============================================================================
+
+Conviene declarar primero qu\'e resisti\'o la comprobaci\'on, porque condiciona el alcance de las objeciones que siguen: ninguna de ellas puede apoyarse en errores de c\'alculo.
+
+\begin{itemize}
+	\item \textbf{Tabla 1 completa.} Se recalcularon los doce indicadores. Proporciones, diferencias de riesgo y \emph{odds ratios} son correctos, incluida la correcci\'on de Haldane--Anscombe en las dos filas con celda vac\'ia (14,4 y 11,9).
+	\item \textbf{Tabla 2 frente al Ap\'endice C.} Los ocho subtotales regionales cuadran exactamente con la matriz institucional (24/7/10/6/3/5/5/3; aviso 59, marco 47, contacto 54, accesibilidad 47), y la convenci\'on de contar los c\'odigos parciales como ausentes se aplica de forma consistente.
+	\item \textbf{Ap\'endice D frente a la Secci\'on 4.1.} Recuento celda por celda de las 63 filas ecuatorianas: aviso 39, LOPDP 31, derechos 35, contacto 24, accesibilidad 7, transparencia 47. Todos coinciden con el texto.
+	\item \textbf{Tabla 4.} Marginales consistentes con la Tabla 1 (25 y 5 en el estrato conforme; 43 y 41 con rastreo), \emph{odds ratios} de 0,54 y 1,27 correctos y estimador de Mantel--Haenszel $220/326 = 0{,}675 \approx 0{,}67$ correcto.
+	\item \textbf{Tabla 5.} Los seis contrastes exactos de McNemar son correctos ($2 \cdot 0{,}5^{9} = 0{,}0039$; $2 \cdot 0{,}5^{6} = 0{,}031$; $2 \cdot 9/256 = 0{,}070$) y la correcci\'on de Holm sobre la familia de seis est\'a bien aplicada, incluida la imposici\'on de monoton\'ia. Los marginales impl\'icitos (82, 79, 76 y 73) cuadran en las seis tablas $2 \times 2$.
+	\item \textbf{Secci\'on 4.5.} El coeficiente $\rho = 0{,}05$ con intervalo $[-0{,}13, +0{,}22]$ es exactamente lo que produce la transformaci\'on de Fisher con $n = 126$; $p = 0{,}578$ y la diferencia m\'inima detectable de 0,25 con potencia del 80\,\% tambi\'en son correctos.
+	\item \textbf{Secci\'on 4.2.} La cifra de unos 3400 sitios por grupo necesarios para detectar 3,2 puntos porcentuales es reproducible: se obtiene 3405.
+	\item \textbf{Figuras.} Los dos grupos se distinguen por trama adem\'as de por color, lo que en un art\'iculo sobre conformidad WCAG no es un detalle menor y merece reconocerse expresamente.
+\end{itemize}
+
+% ============================================================================
+\section{Problemas mayores}
+% ============================================================================
+
+\subsection{El dise\~no no identifica la capa en la que se ejecuta la diferencia geogr\'afica}
+
+Es la objeci\'on decisiva. La Secci\'on 5.2 concluye que la instituci\'on es un espectador y que la l\'ogica de geolocalizaci\'on reside dentro de la etiqueta del proveedor. Los datos no permiten esa atribuci\'on, porque lo que se mide es el frasco de \emph{cookies} y no el tr\'afico de red. Dos mecanismos distintos producen exactamente el patr\'on observado: que el servidor del proveedor reciba la petici\'on y no devuelva \texttt{Set-Cookie} para direcciones del per\'imetro, o que la p\'agina nunca llegue a emitir la petici\'on porque su propio \texttt{gtag} o \texttt{uetq} lleva un estado por defecto regionalizado, del tipo \texttt{consent default} con par\'ametro \texttt{region}, o porque el gestor de consentimiento bloquea el \emph{script} s\'olo para esas regiones.
+
+El segundo caso es una decisi\'on del responsable del tratamiento o de su agencia, no del proveedor, y desmonta precisamente la conclusi\'on jur\'idica del art\'iculo, que es que el deber se descarga \emph{de facto} en un encargado que la universidad no configur\'o. Y no es un escenario hipot\'etico: desde marzo de 2024 la implantaci\'on del modo de consentimiento de Google es obligatoria para los anunciantes que se dirigen a usuarios del Espacio Econ\'omico Europeo y del Reino Unido, y esa implantaci\'on vive en la p\'agina del anunciante, no en el servidor del proveedor.
+
+\textbf{Acci\'on exigible.} Re-medir registrando si la petici\'on al dominio del proveedor lleg\'o a emitirse ---petici\'on observada sin \texttt{Set-Cookie} indica capa de proveedor; petici\'on ausente indica capa de sitio, gestor de consentimiento o gestor de etiquetas--- e inspeccionar la presencia de un estado de consentimiento por defecto con par\'ametro de regi\'on en el HTML servido. Playwright ya expone el evento de petici\'on y el coste marginal es bajo. Mientras eso no se haga, la Secci\'on 5.2 debe reescribirse como dos hip\'otesis compatibles con los datos y no como un hallazgo establecido.
+
+\subsection{El argumento de que la frontera es comercial y no legal se contradice con el Ap\'endice B}
+
+La Secci\'on 5.2 sostiene que la inclusi\'on del Reino Unido dentro del per\'imetro protegido, pese a su salida del Espacio Econ\'omico Europeo, demuestra que los proveedores operan una lista de pa\'ises y no una prueba jur\'idica. Pero el Ap\'endice B del propio manuscrito registra que el Reino Unido s\'i impone un deber general de consentimiento previo a trav\'es de su transposici\'on nacional. La inclusi\'on brit\'anica es, por tanto, exactamente lo que predice una prueba jur\'idica, y no evidencia de lo contrario.
+
+El contraejemplo que s\'i sostiene la tesis est\'a en los datos y el art\'iculo no lo explota: Suiza. El Ap\'endice B la clasifica sin deber general de consentimiento previo y, sin embargo, la documentaci\'on p\'ublica de Microsoft sit\'ua el Espacio Econ\'omico Europeo, el Reino Unido y Suiza dentro del mismo per\'imetro, con el modo de consentimiento activado por defecto para los visitantes procedentes de esas tres regiones. Hay adem\'as dos instituciones suizas en el grupo de referencia.
+
+\textbf{Acci\'on exigible.} Reconstruir el argumento sobre Suiza y no sobre el Reino Unido, y a\~nadir un quinto punto de observaci\'on en Zurich o Ginebra. Sin ese punto, la tesis central del art\'iculo descansa sobre el \'unico caso que no la apoya.
+
+\subsection{La afirmaci\'on de que las listas de pa\'ises no est\'an publicadas es contestable}
+
+El resumen y las conclusiones afirman que el per\'imetro lo delimitan listas de pa\'ises que no est\'an publicadas, ni armonizadas, ni supervisadas. La segunda y la tercera se sostienen; la primera no. Microsoft publica el per\'imetro en su documentaci\'on t\'ecnica y ha fechado su exigibilidad, con se\~nales de consentimiento requeridas para el Espacio Econ\'omico Europeo, el Reino Unido y Suiza desde mayo de 2025 en publicidad y desde octubre de 2025 en anal\'itica de comportamiento.
+
+Esto no debilita el art\'iculo: lo mejora. La contribuci\'on deja de ser el descubrimiento de una lista secreta y pasa a ser la medici\'on, desde fuera del per\'imetro, de la distancia entre el per\'imetro que los proveedores declaran por regi\'on y el mapa real de obligaciones legales que el propio Ap\'endice B levanta. Es una afirmaci\'on m\'as defendible y m\'as interesante. Exige reescribir tres pasajes ---resumen, Secci\'on 5.2 y Secci\'on 6--- e incorporar la documentaci\'on de proveedor como fuente citada.
+
+\subsection{Contradicci\'on interna sobre los controles de la r\'eplica}
+
+La Secci\'on 3.6 declara tres cantidades de control. La Secci\'on 4.6 abre afirmando que las tres se comportaron como se requer\'ia y a continuaci\'on reporta una sola, el n\'umero medio de violaciones WCAG por sitio, con una dispersi\'on del 1,1\,\%. Doce l\'ineas m\'as abajo, el mismo apartado admite que la tercera ---el volumen de \emph{cookies} no atribuibles a ning\'un proveedor publicitario--- cay\'o un 25,5\,\% y un 21,2\,\% en los puntos alem\'an y brit\'anico.
+
+Un control declarado que se desplaza una cuarta parte no se comport\'o como se requer\'ia: fall\'o. Y su fallo apunta justamente al artefacto que el dise\~no quer\'ia descartar, esto es, la gesti\'on de \emph{bots} frente a direcciones de centro de datos suprimiendo la carga de etiquetas. Que el contraste entre Alemania y Estados Unidos comparta tipo de red no resuelve el problema aqu\'i, porque el residuo tambi\'en los separa.
+
+\textbf{Acci\'on exigible.} Suprimir la afirmaci\'on de que los tres controles se comportaron como se requer\'ia; reportar los tres expl\'icitamente con sus valores; y a\~nadir al menos un punto de observaci\'on europeo sobre conexi\'on residencial. Si el residuo persiste con direcci\'on residencial alemana, el artefacto queda descartado y el hallazgo se refuerza de forma considerable. Si desaparece, el art\'iculo habr\'a evitado publicar un artefacto de medici\'on como resultado.
+
+\subsection{Ausencia de fiabilidad intercodificador en los indicadores que sostienen las mayores diferencias}
+
+Las cuatro brechas m\'as amplias y m\'as robustas del estudio ---aviso de privacidad, marco citado, derechos enumerados y contacto de privacidad--- descansan \'integramente en codificaci\'on documental realizada por un solo codificador, sin doble codificaci\'on y sin coeficiente de acuerdo, sobre documentos redactados en chino, japon\'es, coreano, alem\'an, franc\'es y sueco. El subestudio de verificaci\'on encontr\'o dos errores en veinticuatro celdas, y los propios autores advierten que esa proporci\'on no constituye una cota. La asimetr\'ia con la parte viva del estudio, donde hay ochenta y cuatro verificaciones de geolocalizaci\'on y consolidaci\'on sobre tres pasadas, es dif\'icil de defender ante un editor.
+
+Diferir esto al trabajo futuro no es aceptable cuando se trata de la evidencia que sostiene la conclusi\'on principal. Con tres autores, doble codificar un 30\,\% aleatorio, del orden de treinta y ocho sitios por seis indicadores, es cuesti\'on de d\'ias.
+
+\textbf{Acci\'on exigible.} Doble codificaci\'on de al menos el 30\,\% de la muestra seleccionada al azar, coeficiente $\kappa$ de Cohen por indicador, reconciliaci\'on de todas las discrepancias y propagaci\'on de las correcciones a todas las tablas y figuras.
+
+\subsection{Dos errores en el mapeo normativo de accesibilidad}
+
+\textbf{Europa.} La Secci\'on 4.3 atribuye la publicaci\'on de declaraciones de accesibilidad en las instituciones europeas continentales a la Ley Europea de Accesibilidad. El instrumento que impone esa obligaci\'on a las universidades p\'ublicas es la Directiva (UE) 2016/2102, cuyo art\'iculo 7 exige a los organismos del sector p\'ublico proporcionar y actualizar peri\'odicamente una declaraci\'on de accesibilidad detallada, exhaustiva y clara, publicada en el propio sitio web y en formato accesible conforme al modelo adoptado por la Comisi\'on. La Directiva 2019/882 se dirige a productos y servicios, principalmente del sector privado. Falta adem\'as la norma armonizada EN 301 549, ausente en un art\'iculo que eval\'ua conformidad WCAG.
+
+\textbf{Estados Unidos.} Se citan \'unicamente la \emph{Americans with Disabilities Act} de 1990 y la Secci\'on 508, que se dirige a agencias federales y no a universidades estatales, y se omite el instrumento decisivo pese a que veinticuatro instituciones del grupo de referencia son estadounidenses. En abril de 2024 el Departamento de Justicia emiti\'o la regla final del T\'itulo II que obliga a las instituciones p\'ublicas de educaci\'on superior a conformar sus sitios web y aplicaciones m\'oviles con WCAG 2.1 nivel AA, y en abril de 2026 una regla provisional traslad\'o la fecha de cumplimiento de las entidades con poblaci\'on igual o superior a cincuenta mil habitantes del 24 de abril de 2026 al 26 de abril de 2027. Para un estudio fechado en agosto de 2026 que interpreta la elevada prevalencia estadounidense de declaraciones de accesibilidad como efecto de deberes estatutarios concretos, la omisi\'on es sustantiva: el plazo se estaba desplazando dentro de la propia ventana de medici\'on.
+
+\subsection{Enunciado del contraste de equivalencia y una cifra de potencia no reproducible}
+
+La Secci\'on 4.2 afirma que la equivalencia se rechaza con un margen de $\pm 10$ puntos porcentuales y $p = 0{,}208$. Un contraste de dos pruebas unilaterales no significativo no rechaza la equivalencia: no consigue establecerla. El art\'iculo enuncia despu\'es la interpretaci\'on correcta, de modo que la primera formulaci\'on es un desliz terminol\'ogico, pero se encuentra en el pasaje que un lector estad\'istico examinar\'a antes que ning\'un otro.
+
+Adem\'as, la afirmaci\'on de que demostrar equivalencia dentro de $\pm 10$ puntos requerir\'ia unos 350 sitios por grupo no es reproducible. Asumiendo diferencia verdadera nula, $\alpha = 0{,}05$ unilateral y potencia del 80\,\%, se obtienen unos 275 sitios por grupo; asumiendo la diferencia observada de 3,2 puntos, unos 590. Ninguno de los dos da 350. Con potencia del 90\,\% y diferencia nula el valor sube a unos 380, lo que sugiere un supuesto distinto del declarado. De igual modo, la diferencia m\'inima detectable de 23 puntos porcentuales da 21 puntos por aproximaci\'on normal, y 23 puntos requerir\'ian $n \approx 52$.
+
+\textbf{Acci\'on exigible.} Declarar en la Secci\'on 3.7 el m\'etodo, la funci\'on y los supuestos exactos de las tres cifras de potencia ---diferencia verdadera asumida, potencia, nivel y car\'acter exacto o asint\'otico--- y publicarlos en el cuaderno de an\'alisis depositado.
+
+\subsection{La accesibilidad, que es la mitad que interesa a la revista, es la mitad d\'ebil}
+
+El estudio emplea una sola herramienta autom\'atica, audita una sola p\'agina por sitio, no valida manualmente ninguna submuestra, no incorpora a personas usuarias de tecnolog\'ia de apoyo y no normaliza los nodos fallidos por complejidad de p\'agina. El manuscrito reconoce cada una de estas limitaciones, pero el reconocimiento no sustituye a la medida, y para \emph{Universal Access in the Information Society} no es defendible que la mitad de privacidad sea el doble de s\'olida que la mitad de accesibilidad. Lo m\'inimo exigible es explotable sobre datos ya recogidos.
+
+\begin{enumerate}
+	\item Reportar violaciones por cada mil nodos del \'arbol de documento, adem\'as del recuento bruto.
+	\item Analizar el recuento de comprobaciones marcadas para revisi\'on manual, que se registr\'o y se declar\'o expresamente no analizado: es la medida de lo que la herramienta no puede decidir y es exactamente el argumento de la literatura sobre cobertura de verificadores autom\'aticos que el propio art\'iculo cita.
+	\item Validaci\'on manual experta de unos quince sitios contra, al menos, los criterios 1.1.1, 1.4.3 y 2.4.4, reportando el acuerdo entre herramienta y experto.
+	\item Ampliar la auditor\'ia a cinco o m\'as p\'aginas por sitio, incluyendo una ruta de admisi\'on o matr\'icula, que es la ruta que la introducci\'on invoca como motivaci\'on y que no se mide en ning\'un momento.
+\end{enumerate}
+
+% ============================================================================
+\section{Inconsistencias internas y problemas menores}
+% ============================================================================
+
+\small
+\begin{longtable}{@{}L{0.8cm}L{2.8cm}L{6.4cm}L{4.2cm}@{}}
+	\caption{Inconsistencias internas y observaciones menores, con la acci\'on correspondiente.}\\
+	\toprule
+	\textbf{\#} & \textbf{Ubicaci\'on} & \textbf{Problema} & \textbf{Acci\'on} \\
+	\midrule
+	\endfirsthead
+	\toprule
+	\textbf{\#} & \textbf{Ubicaci\'on} & \textbf{Problema} & \textbf{Acci\'on} \\
+	\midrule
+	\endhead
+	m1 & Tabla 3 frente a Figura 3(b) & La renormalizaci\'on sin reglas AAA da 46,0 y 61,1 en la tabla y 46,3 y 60,8 en la figura; la figura parece calculada sobre los enteros ya redondeados ($19/41 = 46{,}3$; $45/74 = 60{,}8$) & Recalcular ambas desde los datos sin redondear y unificar \\
+	\addlinespace
+	m2 & Secci\'on 4.6 frente a Secci\'on 5.5 & El acuerdo entre pasadas se reporta como 95,9\,\% a 100\,\% en un lugar y 94,4\,\% a 100\,\% en el otro & Unificar y declarar sobre qu\'e conjunto se calcula cada rango \\
+	\addlinespace
+	m3 & Figura 1 & El r\'otulo emplea el vocabulario de cumplimiento que la Secci\'on 3.8 y el Ap\'endice B proh\'iben expresamente & Sustituir por una formulaci\'on de conducta observada \\
+	\addlinespace
+	m4 & Secci\'on 3.8 frente a Secci\'on 4.6 & La declaraci\'on \'etica afirma que ninguna instituci\'on se nombra en el cuerpo como incumplidora; la Secci\'on 4.6 nombra cinco, cuatro de ellas ecuatorianas, y la Secci\'on 5.5 eleva el hecho a hallazgo sobre su infraestructura & Reconciliar: admitir y justificar la excepci\'on, o trasladar los cinco casos al ap\'endice \\
+	\addlinespace
+	m5 & Secci\'on 3.5 & Se declara una visita \'unica en agosto de 2026; la fecha exacta, 14 de agosto, s\'olo aparece en la Secci\'on 4.6 & Declarar la fecha exacta en M\'etodos \\
+	\addlinespace
+	m6 & Secci\'on 4.6 & S\'olo Ecuador y Alemania llevan intervalo de confianza & A\~nadir intervalos de Wilson a los cuatro puntos \\
+	\addlinespace
+	m7 & Secci\'on 4.6 y Figura 4 & Un proveedor presente en dos sitios se discute en resumen, resultados, discusi\'on y conclusiones, pero se omite de la figura por estar bajo el umbral de cuatro sitios & Tabla suplementaria con todos los proveedores y sus recuentos en los cuatro puntos \\
+	\addlinespace
+	m8 & Ap\'endice B, Jap\'on & La ausencia de deber general de consentimiento previo ignora el r\'egimen de informaci\'on referible a la persona introducido por la reforma de 2020 & Matizar en nota al pie \\
+	\addlinespace
+	m9 & Ap\'endice B, Reino Unido & Se alude a la transposici\'on nacional sin nombrar el instrumento, cuando el resto de la tabla s\'i los nombra & Citar el reglamento brit\'anico de forma expresa \\
+	\addlinespace
+	m10 & Material suplementario & El repositorio se anuncia bajo el identificador facilitado con el env\'io & Depositar con DOI y facilitar enlace anonimizado para la revisi\'on; sin \'el ninguna cifra de la Secci\'on 4.6 es verificable \\
+	\addlinespace
+	m11 & Secci\'on 3.2 & Las tres decisiones arbitrarias de agregaci\'on de \emph{rankings} no se var\'ian y s\'olo se declaran como limitaci\'on & Reportar el solapamiento de la composici\'on bajo dos reglas alternativas; acota la sensibilidad sin recodificar \\
+	\addlinespace
+	m12 & Secciones 3.1 y 5.5 & Confusores registrables no registrados: gestor de contenidos, proveedor de alojamiento y red de distribuci\'on son detectables desde el mismo rastreo & Extraerlos del HTML ya almacenado y usarlos para agrupar; la no independencia por plantilla compartida en el grupo ecuatoriano hoy s\'olo se enuncia \\
+	\bottomrule
+\end{longtable}
+\normalsize
+
+% ============================================================================
+\section{Referencias que el manuscrito necesita incorporar}
+% ============================================================================
+
+Las entradas siguientes corresponden a instrumentos y documentaci\'on verificados contra fuente primaria u oficial en la fecha de este informe.
+
+\footnotesize
+\begin{verbatim}
+@misc{EU2016WAD,
+    author       = {{European Parliament and Council of the
+                     European Union}},
+    title        = {Directive (EU) 2016/2102 on the accessibility of
+                    the websites and mobile applications of public
+                    sector bodies},
+    year         = {2016},
+    howpublished = {Official Journal of the European Union, L 327,
+                    2 December 2016},
+    url          = {https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng},
+    note         = {Article 7 establishes the accessibility statement
+                    obligation}
+}
+
+@misc{DOJ2024TitleII,
+    author       = {{United States Department of Justice}},
+    title        = {Nondiscrimination on the Basis of Disability:
+                    Accessibility of Web Information and Services of
+                    State and Local Government Entities},
+    year         = {2024},
+    howpublished = {Final rule, 28 CFR Part 35;
+                    published 24 April 2024},
+    url          = {https://www.ada.gov/resources/2024-03-08-web-rule/}
+}
+
+@misc{DOJ2026Extension,
+    author       = {{United States Department of Justice}},
+    title        = {Extension of Compliance Dates for Nondiscrimination
+                    on the Basis of Disability: Accessibility of Web
+                    Information and Services of State and Local
+                    Government Entities},
+    year         = {2026},
+    howpublished = {Interim final rule, 91 Federal Register 20902;
+                    published 20 April 2026}
+}
+
+@misc{Microsoft2026ClarityConsent,
+    author       = {{Microsoft}},
+    title        = {Consent Mode --- Microsoft Clarity documentation},
+    year         = {2026},
+    url          = {https://learn.microsoft.com/en-us/clarity/
+                    setup-and-installation/consent-mode},
+    note         = {Consent Mode enabled by default for EEA, UK and
+                    Switzerland; accessed 16 August 2026}
+}
+
+@misc{Google2026ConsentMode,
+    author       = {{Google}},
+    title        = {Updates to consent mode for traffic in the
+                    European Economic Area (EEA)},
+    year         = {2026},
+    url          = {https://support.google.com/google-ads/answer/13695607},
+    note         = {Accessed 16 August 2026}
+}
+\end{verbatim}
+\normalsize
+
+Dos advertencias de trazabilidad, que se dejan expresas para que ninguna entrada se d\'e por verificada sin serlo. El rango de p\'aginas del Diario Oficial para la Directiva 2016/2102 debe confirmarse en EUR-Lex antes de fijarlo en el archivo bibliogr\'afico. Y la cita de la regla final del Departamento de Justicia de 2024 deber\'ia llevar su referencia completa de \emph{Federal Register}, que no se pudo confirmar campo a campo al preparar este informe. A ello debe a\~nadirse la norma EN 301 549 y la metodolog\'ia WCAG-EM del consorcio W3C, ausentes en un art\'iculo que eval\'ua conformidad con una sola herramienta autom\'atica.
+
+% ============================================================================
+\section{S\'intesis}
+% ============================================================================
+
+El manuscrito mide bien, calcula bien y se autocritica bien, pero atribuye el hallazgo que lo hace publicable a una capa t\'ecnica que su instrumento no observa, y construye el argumento jur\'idico sobre el pa\'is equivocado. Ambas cosas son reparables sin rehacer el estudio: bastan una re-medici\'on que registre las peticiones de red y un quinto punto de observaci\'on en Suiza, junto con la doble codificaci\'on de una fracci\'on de la matriz documental y la correcci\'on del mapeo normativo de accesibilidad. Reparadas, el art\'iculo deja de sostener una conjetura bien contada y pasa a sostener una demostraci\'on. Esa es exactamente la distancia que separa hoy una revisi\'on mayor de una aceptaci\'on.
+
+\end{document}
