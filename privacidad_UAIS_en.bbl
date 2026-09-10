@@ -1,0 +1,440 @@
+\begin{thebibliography}{73}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{Abascal et~al(2016)Abascal, Barbosa, Nicolle, and
+  Zaphiris}]{abascal2016rethinking}
+Abascal J, Barbosa SDJ, Nicolle C, et~al (2016) Rethinking universal
+  accessibility: A broader approach considering the digital gap. Universal
+  Access in the Information Society 15(2):179--182.
+  \doi{10.1007/s10209-015-0416-1}
+
+\bibitem[{Acosta-Vargas et~al(2020{\natexlab{a}})Acosta-Vargas, Gonz{\'a}lez,
+  and Luj{\'a}n-Mora}]{acostavargas2020dataset}
+Acosta-Vargas P, Gonz{\'a}lez M, Luj{\'a}n-Mora S (2020{\natexlab{a}}) Dataset
+  for evaluating the accessibility of the websites of selected {L}atin
+  {A}merican universities. Data in Brief 28:105013.
+  \doi{10.1016/j.dib.2019.105013}
+
+\bibitem[{Acosta-Vargas et~al(2020{\natexlab{b}})Acosta-Vargas, Ramos-Galarza,
+  Salvador-Ullauri, Chanchi, and Jad{\'a}n-Guerrero}]{acostavargas2020improve}
+Acosta-Vargas P, Ramos-Galarza C, Salvador-Ullauri L, et~al
+  (2020{\natexlab{b}}) Improve accessibility and visibility of selected
+  university websites. In: Nunes IL (ed) Advances in Human Factors and Systems
+  Interaction ({AHFE} 2020), Advances in Intelligent Systems and Computing, vol
+  1207. Springer, Cham, p 229--235, \doi{10.1007/978-3-030-51369-6_31}
+
+\bibitem[{Aljedaani(2025)}]{aljedaani2025egovernment}
+Aljedaani W (2025) Evaluating the accessibility of {E}-government websites in
+  the {U}nited {S}tates: Empirical evidence and insights. Universal Access in
+  the Information Society 24(3):2845--2866. \doi{10.1007/s10209-025-01229-z}
+
+\bibitem[{{Asamblea Nacional del Ecuador}(2021)}]{lopdp2021}
+{Asamblea Nacional del Ecuador} (2021) Ley org{\'a}nica de protecci{\'o}n de
+  datos personales. Registro Oficial No.~459, Quinto Suplemento, 26 May 2021
+
+\bibitem[{Belcheva et~al(2023)Belcheva, Ermakova, and
+  Fabian}]{belcheva2023understanding}
+Belcheva V, Ermakova T, Fabian B (2023) Understanding website privacy
+  policies---a longitudinal analysis using natural language processing.
+  Information 14(11):622. \doi{10.3390/info14110622}
+
+\bibitem[{Bollinger et~al(2022)Bollinger, Kubicek, Cotrini, and
+  Basin}]{bollinger2022automating}
+Bollinger D, Kubicek K, Cotrini C, et~al (2022) Automating cookie consent and
+  {GDPR} violation detection. In: 31st {USENIX} Security Symposium ({USENIX}
+  Security 22). {USENIX} Association, Boston, MA, USA, pp 2893--2910,
+  \urlprefix\url{https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger}
+
+\bibitem[{{California State Legislature}(2018)}]{ccpa2018}
+{California State Legislature} (2018) California consumer privacy act of 2018.
+  Cal.\ Civ.\ Code {\S}1798.100 et seq.; amended by the California Privacy
+  Rights Act of 2020
+
+\bibitem[{Campoverde-Molina et~al(2023)Campoverde-Molina, Luj{\'a}n-Mora, and
+  Valverde}]{campoverdemolina2023accessibility}
+Campoverde-Molina M, Luj{\'a}n-Mora S, Valverde L (2023) Accessibility of
+  university websites worldwide: A systematic literature review. Universal
+  Access in the Information Society 22(1):133--168.
+  \doi{10.1007/s10209-021-00825-z}
+
+\bibitem[{Carrillo and Jackson(2022)}]{carrillo2022follow}
+Carrillo AJ, Jackson M (2022) Follow the leader? a comparative law study of the
+  {EU}'s general data protection regulation's impact in {L}atin {A}merica.
+  {ICL} Journal 16(2):177--262. \doi{10.1515/icl-2021-0037}
+
+\bibitem[{Chavarr{\'i}a-Mora(2025)}]{chavarriamora2025lack}
+Chavarr{\'i}a-Mora E (2025) (lack of) patterns in commitment: Data protection
+  in the {L}atin {A}merica and {C}aribbean personal data protection laws.
+  Social Media + Society 11(2):20563051251337206.
+  \doi{10.1177/20563051251337206}
+
+\bibitem[{{Court of Justice of the European Union}(2019)}]{cjeu2019fashionid}
+{Court of Justice of the European Union} (2019) Judgment of 29 july 2019,
+  {Fashion ID GmbH \& Co. KG v Verbraucherzentrale NRW eV}, case {C-40/17}.
+  {ECLI:EU:C:2019:629},
+  \urlprefix\url{https://curia.europa.eu/juris/liste.jsf?num=C-40/17}, decided
+  under Directive 95/46/EC
+
+\bibitem[{Dabrowski et~al(2019)Dabrowski, Merzdovnik, Ullrich, Sendera, and
+  Weippl}]{dabrowski2019measuring}
+Dabrowski A, Merzdovnik G, Ullrich J, et~al (2019) Measuring cookies and web
+  privacy in a post-{GDPR} world. In: Choffnes D, Barcellos M (eds) Passive and
+  Active Measurement (PAM 2019), Lecture Notes in Computer Science, vol 11419.
+  Springer, Cham, pp 258--270, \doi{10.1007/978-3-030-15986-3_17}
+
+\bibitem[{Degeling et~al(2019)Degeling, Utz, Lentzsch, Hosseini, Schaub, and
+  Holz}]{degeling2019value}
+Degeling M, Utz C, Lentzsch C, et~al (2019) We value your privacy \ldots now
+  take some cookies: Measuring the {GDPR}'s impact on web privacy. In:
+  Proceedings of the 2019 Network and Distributed System Security Symposium
+  ({NDSS} 2019). Internet Society, \doi{10.14722/ndss.2019.23378}
+
+\bibitem[{{Deque Systems}(2025)}]{axecore2026}
+{Deque Systems} (2025) axe-core: Accessibility engine for automated {W}eb {UI}
+  testing, version 4.13. \url{https://github.com/dequelabs/axe-core}, accessed
+  11 August 2026
+
+\bibitem[{van Eijk et~al(2019)van Eijk, Asghari, Winter, and
+  Narayanan}]{vaneijk2019impact}
+van Eijk R, Asghari H, Winter P, et~al (2019) The impact of user location on
+  cookie notices (inside and outside of the {European Union}). In: Workshop on
+  Technology and Consumer Protection (ConPro '19), co-located with the 40th
+  {IEEE} Symposium on Security and Privacy, San Francisco, CA, USA
+
+\bibitem[{Englehardt and Narayanan(2016)}]{englehardt2016online}
+Englehardt S, Narayanan A (2016) Online tracking: A 1-million-site measurement
+  and analysis. In: Proceedings of the 2016 {ACM} {SIGSAC} Conference on
+  Computer and Communications Security ({CCS} '16). Association for Computing
+  Machinery, New York, NY, USA, pp 1388--1401, \doi{10.1145/2976749.2978313}
+
+\bibitem[{Etxabe-Antia et~al(2025)Etxabe-Antia, Beitia-Amondarain,
+  {Gonz{\'a}lez de Heredia-L{\'o}pez de Sabando}, and
+  Justel-Lozano}]{etxabeantia2025characterisation}
+Etxabe-Antia A, Beitia-Amondarain A, {Gonz{\'a}lez de Heredia-L{\'o}pez de
+  Sabando} A, et~al (2025) Characterisation of accessibility guidelines for
+  digital technologies. Universal Access in the Information Society
+  24(3):2105--2125. \doi{10.1007/s10209-025-01214-6}
+
+\bibitem[{{European Data Protection Board}(2019)}]{edpb2019territorial}
+{European Data Protection Board} (2019) Guidelines 3/2018 on the territorial
+  scope of the {GDPR} (article 3). Guidelines, version adopted after public
+  consultation, {European Data Protection Board},
+  \urlprefix\url{https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-32018-territorial-scope-gdpr-article-3-version_en}
+
+\bibitem[{{European Data Protection Board}(2021)}]{edpb2021controller}
+{European Data Protection Board} (2021) Guidelines 07/2020 on the concepts of
+  controller and processor in the {GDPR}. Guidelines, version 2.1, {European
+  Data Protection Board},
+  \urlprefix\url{https://www.edpb.europa.eu/system/files/2021-07/eppb_guidelines_202007_controllerprocessor_final_en.pdf},
+  version 2.0 adopted 7 July 2021; version 2.1, minor corrections, 20 September
+  2022
+
+\bibitem[{{European Data Protection Board}(2024)}]{edpb2024eprivacy}
+{European Data Protection Board} (2024) Guidelines 2/2023 on technical scope of
+  art.\ 5(3) of the {ePrivacy} directive. Guidelines, version 2.0, {European
+  Data Protection Board},
+  \urlprefix\url{https://www.edpb.europa.eu/system/files/2024-10/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf}
+
+\bibitem[{{European Parliament and Council of the European
+  Union}(2002)}]{eprivacy2002}
+{European Parliament and Council of the European Union} (2002) Directive
+  2002/58/{EC} concerning the processing of personal data and the protection of
+  privacy in the electronic communications sector ({ePrivacy} directive).
+  Official Journal of the European Union, L 201, 31 July 2002, pp.~37--47;
+  amended by Directive 2009/136/{EC}
+
+\bibitem[{{European Parliament and Council of the European
+  Union}(2016)}]{gdpr2016}
+{European Parliament and Council of the European Union} (2016) Regulation
+  ({EU}) 2016/679 on the protection of natural persons with regard to the
+  processing of personal data and on the free movement of such data (general
+  data protection regulation). Official Journal of the European Union, L 119, 4
+  May 2016, pp.~1--88
+
+\bibitem[{{European Parliament and Council of the European
+  Union}(2019)}]{eaa2019}
+{European Parliament and Council of the European Union} (2019) Directive ({EU})
+  2019/882 on the accessibility requirements for products and services
+  (european accessibility act). Official Journal of the European Union, L 151,
+  7 June 2019, pp.~70--115
+
+\bibitem[{Fabian et~al(2017)Fabian, Ermakova, and Lentz}]{fabian2017largescale}
+Fabian B, Ermakova T, Lentz T (2017) Large-scale readability analysis of
+  privacy policies. In: Proceedings of the International Conference on Web
+  Intelligence ({WI} '17). Association for Computing Machinery, New York, NY,
+  USA, pp 18--25, \doi{10.1145/3106426.3106427}
+
+\bibitem[{Fakrudeen(2025)}]{fakrudeen2025evaluation}
+Fakrudeen M (2025) Evaluation of the accessibility and usability of university
+  websites: A comparative study of the {G}ulf region. Universal Access in the
+  Information Society 24(2):1883--1898. \doi{10.1007/s10209-024-01160-9}
+
+\bibitem[{Fiers et~al(2026)Fiers, Boland~Jr., Doyle, Kraft, and
+  Kirkpatrick}]{actformat}
+Fiers W, Boland~Jr. K, Doyle E, et~al (2026) Accessibility conformance testing
+  ({ACT}) rules format 1.1. {W3C} recommendation, {World Wide Web Consortium},
+  \urlprefix\url{https://www.w3.org/TR/act-rules-format/}, recommendation of 5
+  February 2026
+
+\bibitem[{Fischer et~al(2025)Fischer, Lundell, and
+  Gamalielsson}]{fischer2025coverage}
+Fischer T, Lundell B, Gamalielsson J (2025) Coverage of web accessibility
+  guidelines provided by automated checking tools. Universal Access in the
+  Information Society 24(4):3615--3637. \doi{10.1007/s10209-025-01263-x}
+
+\bibitem[{{Government of Japan}(2003)}]{appi2003}
+{Government of Japan} (2003) Act on the protection of personal information. Act
+  No.~57 of 2003, as amended
+
+\bibitem[{Gray et~al(2021)Gray, Santos, Bielova, Toth, and
+  Clifford}]{gray2021dark}
+Gray CM, Santos C, Bielova N, et~al (2021) Dark patterns and the legal
+  requirements of consent banners: An interaction criticism perspective. In:
+  Proceedings of the 2021 {CHI} Conference on Human Factors in Computing
+  Systems ({CHI} '21). Association for Computing Machinery, New York, NY, USA,
+  pp 1--18, \doi{10.1145/3411764.3445779}
+
+\bibitem[{Guerrero-Ulloa et~al(2026)Guerrero-Ulloa, Zu{\~n}iga~Paredes, and
+  D{\'i}az-Mac{\'i}as}]{deposito2026}
+Guerrero-Ulloa G, Zu{\~n}iga~Paredes A, D{\'i}az-Mac{\'i}as E (2026) {WCAG}
+  conformance and pre-consent tracking on {Ecuadorian} and top-ranked
+  university websites: audit dataset, multi-vantage measurements and analysis
+  code. Zenodo, \doi{10.5281/zenodo.22405998},
+  \urlprefix\url{https://doi.org/10.5281/zenodo.22405998}, dataset. Concept
+  DOI, resolving to the latest version. Licensed CC BY 4.0
+
+\bibitem[{Habib et~al(2022)Habib, Li, Young, and Cranor}]{habib2022okay}
+Habib H, Li M, Young E, et~al (2022) ``okay, whatever'': An evaluation of
+  cookie consent interfaces. In: Proceedings of the 2022 {CHI} Conference on
+  Human Factors in Computing Systems ({CHI} '22). Association for Computing
+  Machinery, New York, NY, USA, pp 1--27, \doi{10.1145/3491102.3501985}
+
+\bibitem[{Hermosa-Ram{\'i}rez(2025)}]{hermosaramirez2025universal}
+Hermosa-Ram{\'i}rez I (2025) Universal and ecological design in media
+  accessibility: Finding common ground. Universal Access in the Information
+  Society 24(3):1977--1984. \doi{10.1007/s10209-023-01077-9}
+
+\bibitem[{Iniesto and Rodrigo(2025)}]{iniesto2025service}
+Iniesto F, Rodrigo C (2025) Service-learning for accessibility: Understanding
+  {WCAG} errors and successes in {S}panish city council websites. Universal
+  Access in the Information Society 24(4):3241--3255.
+  \doi{10.1007/s10209-025-01252-0}
+
+\bibitem[{{International Organization for Standardization}(2025)}]{iso40500}
+{International Organization for Standardization} (2025) {ISO/IEC} 40500:2025
+  --- information technology --- {W3C} web content accessibility guidelines
+  ({WCAG}) 2.2. International standard, International Organization for
+  Standardization, Geneva, Switzerland,
+  \urlprefix\url{https://www.iso.org/standard/58625.html}, approved 21 October
+  2025; available free of charge
+
+\bibitem[{Krejtz et~al(2025)Krejtz, Marcus-Quinn, Duarte, Stasiak,
+  Seixas~Pereira, and Krejtz}]{krejtz2025higher}
+Krejtz K, Marcus-Quinn A, Duarte C, et~al (2025) Higher education accessibility
+  information in practice: A report on the accessibility of {E}uropean
+  universities. Universal Access in the Information Society 24(3):2673--2685.
+  \doi{10.1007/s10209-025-01224-4}
+
+\bibitem[{Kretschmer et~al(2021)Kretschmer, Pennekamp, and
+  Wehrle}]{kretschmer2021cookie}
+Kretschmer M, Pennekamp J, Wehrle K (2021) Cookie banners and privacy policies:
+  Measuring the impact of the {GDPR} on the web. {ACM} Transactions on the Web
+  15(4):1--42. \doi{10.1145/3466722}
+
+\bibitem[{Krittika and Shimray(2025)}]{krittika2025accessibility}
+Krittika K, Shimray SR (2025) Accessibility evaluation of top 25 {QS}-ranked
+  world universities and top 25 {QS}-ranked {I}ndian universities using {WCAG}
+  2.2: A comparative study. Universal Access in the Information Society
+  24(3):2889--2902. \doi{10.1007/s10209-025-01218-2}
+
+\bibitem[{{Legislative Assembly of British Columbia}(1996)}]{fippa_bc}
+{Legislative Assembly of British Columbia} (1996) Freedom of information and
+  protection of privacy act. RSBC 1996, c.~165
+
+\bibitem[{{Legislative Assembly of Ontario}(1990)}]{fippa_on}
+{Legislative Assembly of Ontario} (1990) Freedom of information and protection
+  of privacy act. R.S.O. 1990, c.~F.31
+
+\bibitem[{{Legislative Council of Hong Kong}(1995)}]{pdpo_hk}
+{Legislative Council of Hong Kong} (1995) Personal data (privacy) ordinance.
+  Cap.~486
+
+\bibitem[{Libert(2015)}]{libert2015exposing}
+Libert T (2015) Exposing the hidden web: An analysis of third-party {HTTP}
+  requests on 1 million websites. International Journal of Communication
+  9:3544--3561.
+  \urlprefix\url{https://ijoc.org/index.php/ijoc/article/view/3646}
+
+\bibitem[{Liu and Khalil(2023)}]{liu2023understanding}
+Liu Q, Khalil M (2023) Understanding privacy and data protection issues in
+  learning analytics using a systematic review. British Journal of Educational
+  Technology 54(6):1715--1747. \doi{10.1111/bjet.13388}
+
+\bibitem[{Maldonado-Garc{\'e}s et~al(2025)Maldonado-Garc{\'e}s,
+  S{\'a}nchez-Garc{\'i}a, Hern{\'a}ndez-S{\'a}nchez, Acosta-Vargas, and
+  Araujo}]{maldonadogarces2025physical}
+Maldonado-Garc{\'e}s V, S{\'a}nchez-Garc{\'i}a JC, Hern{\'a}ndez-S{\'a}nchez B,
+  et~al (2025) Physical accessibility in higher education: Evaluating a
+  university campus in {E}cuador for sustainable inclusion. Sustainability
+  17(12):5652. \doi{10.3390/su17125652}
+
+\bibitem[{Matte et~al(2020)Matte, Bielova, and Santos}]{matte2020cookie}
+Matte C, Bielova N, Santos C (2020) Do cookie banners respect my choice?
+  measuring legal compliance of banners from {IAB} {E}urope's transparency and
+  consent framework. In: 2020 {IEEE} Symposium on Security and Privacy ({SP}).
+  {IEEE}, pp 791--809, \doi{10.1109/SP40000.2020.00076}
+
+\bibitem[{{Microsoft}(2026)}]{playwright2026}
+{Microsoft} (2026) Playwright: Reliable end-to-end testing for modern web apps.
+  \url{https://playwright.dev}, accessed 11 August 2026
+
+\bibitem[{Munot et~al(2025)Munot, Fiebig, and Kaur}]{munot2025compliance}
+Munot S, Fiebig T, Kaur M (2025) Compliance by design or by disguise? {GDPR}'s
+  reshaping of universities' privacy policies. In: Proceedings of the 24th
+  Workshop on Privacy in the Electronic Society ({WPES} '25). Association for
+  Computing Machinery, New York, NY, USA, pp 183--197,
+  \doi{10.1145/3733802.3764047}
+
+\bibitem[{Mutimukwe et~al(2026)Mutimukwe, Viberg, McGrath, and
+  Cerratto-Pargman}]{mutimukwe2026privacy}
+Mutimukwe C, Viberg O, McGrath C, et~al (2026) Privacy in online proctoring
+  systems in higher education: Stakeholders' perceptions, awareness and
+  responsibility. Journal of Computing in Higher Education 38(2):732--761.
+  \doi{10.1007/s12528-025-09461-5}
+
+\bibitem[{{National Assembly of Quebec}(1982)}]{quebec_privacy}
+{National Assembly of Quebec} (1982) Act respecting access to documents held by
+  public bodies and the protection of personal information. CQLR c.~A-2.1;
+  amended by S.Q. 2021, c.~25
+
+\bibitem[{{National Assembly of the Republic of Korea}(2011)}]{pipa2011}
+{National Assembly of the Republic of Korea} (2011) Personal information
+  protection act. Act No.~10465
+
+\bibitem[{{National People's Congress of the People's Republic of
+  China}(2021)}]{pipl2021}
+{National People's Congress of the People's Republic of China} (2021) Personal
+  information protection law. Effective 1 November 2021
+
+\bibitem[{Nouwens et~al(2020)Nouwens, Liccardi, Veale, Karger, and
+  Kagal}]{nouwens2020dark}
+Nouwens M, Liccardi I, Veale M, et~al (2020) Dark patterns after the {GDPR}:
+  Scraping consent pop-ups and demonstrating their influence. In: Proceedings
+  of the 2020 {CHI} Conference on Human Factors in Computing Systems ({CHI}
+  '20). Association for Computing Machinery, New York, NY, USA, pp 1--13,
+  \doi{10.1145/3313831.3376321}
+
+\bibitem[{{Parliament of Australia}(1988)}]{privacyact1988}
+{Parliament of Australia} (1988) Privacy act 1988 (cth) and the {A}ustralian
+  privacy principles. No.~119 of 1988
+
+\bibitem[{{Parliament of Canada}(2000)}]{pipeda2000}
+{Parliament of Canada} (2000) Personal information protection and electronic
+  documents act. S.C. 2000, c.~5
+
+\bibitem[{{Parliament of Singapore}(2012)}]{pdpa2012}
+{Parliament of Singapore} (2012) Personal data protection act 2012. Act No.~26
+  of 2012
+
+\bibitem[{{Parliament of the United Kingdom}(2018)}]{ukdpa2018}
+{Parliament of the United Kingdom} (2018) Data protection act 2018. 2018 c.~12
+
+\bibitem[{Persson et~al(2015)Persson, {\AA}hman, Yngling, and
+  Gulliksen}]{persson2015universal}
+Persson H, {\AA}hman H, Yngling AA, et~al (2015) Universal design, inclusive
+  design, accessible design, design for all: Different concepts---one goal? on
+  the concept of accessibility---historical, methodological and philosophical
+  aspects. Universal Access in the Information Society 14(4):505--526.
+  \doi{10.1007/s10209-014-0358-z}
+
+\bibitem[{{Presidencia de la Rep{\'u}blica del
+  Ecuador}(2023)}]{reglamentolopdp2023}
+{Presidencia de la Rep{\'u}blica del Ecuador} (2023) Reglamento general a la
+  ley org{\'a}nica de protecci{\'o}n de datos personales. Executive Decree
+  No.~904; Registro Oficial Supplement No.~435, 13 November 2023
+
+\bibitem[{{QS Quacquarelli Symonds}(2025)}]{qs2026}
+{QS Quacquarelli Symonds} (2025) {QS} world university rankings 2026.
+  \url{https://www.topuniversities.com/world-university-rankings/2026},
+  accessed 11 August 2026
+
+\bibitem[{Rasaii et~al(2023)Rasaii, Singh, Gosain, and
+  Gasser}]{rasaii2023exploring}
+Rasaii A, Singh S, Gosain D, et~al (2023) Exploring the cookieverse: A
+  multi-perspective analysis of web cookies. In: Brunstrom A, Flores M, Fiore M
+  (eds) Passive and Active Measurement (PAM 2023), Lecture Notes in Computer
+  Science, vol 13882. Springer, Cham, pp 623--651,
+  \doi{10.1007/978-3-031-28486-1_26}
+
+\bibitem[{Sanchez-Rola et~al(2019)Sanchez-Rola, Dell'Amico, Kotzias,
+  Balzarotti, Bilge, Vervier, and Santos}]{sanchezrola2019can}
+Sanchez-Rola I, Dell'Amico M, Kotzias P, et~al (2019) Can {I} opt out yet?
+  {GDPR} and the global illusion of cookie control. In: Proceedings of the 2019
+  {ACM} {A}sia Conference on Computer and Communications Security ({A}sia{CCS}
+  '19). Association for Computing Machinery, New York, NY, USA, pp 340--351,
+  \doi{10.1145/3321705.3329806}
+
+\bibitem[{{ShanghaiRanking Consultancy}(2025)}]{arwu2025}
+{ShanghaiRanking Consultancy} (2025) Academic ranking of world universities
+  2025. \url{https://www.shanghairanking.com/rankings/arwu/2025}, accessed 11
+  August 2026
+
+\bibitem[{{Swiss Federal Assembly}(2020)}]{fadp_ch}
+{Swiss Federal Assembly} (2020) Federal act on data protection. SR 235.1, of 25
+  September 2020; in force since 1 September 2023
+
+\bibitem[{{Times Higher Education}(2025)}]{the2026}
+{Times Higher Education} (2025) World university rankings 2026.
+  \url{https://www.timeshighereducation.com/world-university-rankings/latest/world-ranking},
+  accessed 11 August 2026
+
+\bibitem[{Trevisan et~al(2019)Trevisan, Traverso, Bassi, and
+  Mellia}]{trevisan2019four}
+Trevisan M, Traverso S, Bassi E, et~al (2019) 4 years of {EU} cookie law:
+  Results and lessons learned. Proceedings on Privacy Enhancing Technologies
+  2019(2):126--145. \doi{10.2478/popets-2019-0023}
+
+\bibitem[{{United States Congress}(1974)}]{ferpa1974}
+{United States Congress} (1974) Family educational rights and privacy act. 20
+  U.S.C. {\S}1232g
+
+\bibitem[{{United States Congress}(1986)}]{section508}
+{United States Congress} (1986) Section 508 of the rehabilitation act of 1973,
+  electronic and information technology. 29 U.S.C. {\S}794d
+
+\bibitem[{{United States Congress}(1990)}]{ada1990}
+{United States Congress} (1990) Americans with disabilities act of 1990.
+  Pub.~L. No.~101--336, 104 Stat.~327; 42 U.S.C. {\S}12101 et seq.
+
+\bibitem[{{United States Congress}(1996)}]{hipaa1996}
+{United States Congress} (1996) Health insurance portability and accountability
+  act. Pub.~L. No.~104--191, 110 Stat.~1936
+
+\bibitem[{{W3C Web Accessibility Initiative}(2026)}]{actrules}
+{W3C Web Accessibility Initiative} (2026) {ACT} rules. Accessibility
+  conformance testing rule catalogue, {World Wide Web Consortium},
+  \urlprefix\url{https://www.w3.org/WAI/standards-guidelines/act/rules/}, rules
+  \texttt{23a2a8}, \texttt{qt1vmo}, \texttt{e88epe}, \texttt{afw4f7},
+  \texttt{c487ae}, \texttt{5effbb} and \texttt{fd3a94}
+
+\bibitem[{{World Wide Web Consortium}(2008)}]{wcag20}
+{World Wide Web Consortium} (2008) Web content accessibility guidelines
+  ({WCAG}) 2.0. {W3C} recommendation, {World Wide Web Consortium},
+  \urlprefix\url{https://www.w3.org/TR/2008/REC-WCAG20-20081211/}
+
+\bibitem[{{World Wide Web Consortium}(2018)}]{wcag21}
+{World Wide Web Consortium} (2018) Web content accessibility guidelines
+  ({WCAG}) 2.1. {W3C} recommendation, {World Wide Web Consortium},
+  \urlprefix\url{https://www.w3.org/TR/2018/REC-WCAG21-20180605/}
+
+\bibitem[{{World Wide Web Consortium}(2024)}]{wcag22}
+{World Wide Web Consortium} (2024) Web content accessibility guidelines
+  ({WCAG}) 2.2. {W3C} recommendation, {World Wide Web Consortium},
+  \urlprefix\url{https://www.w3.org/TR/2024/REC-WCAG22-20241212/}
+
+\end{thebibliography}
