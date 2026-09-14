@@ -206,7 +206,8 @@ Guerrero-Ulloa G, Zu{\~n}iga~Paredes A, D{\'i}az-Mac{\'i}as E (2026) {WCAG}
   university websites: audit dataset, multi-vantage measurements and analysis
   code. Zenodo, \doi{10.5281/zenodo.22405998},
   \urlprefix\url{https://doi.org/10.5281/zenodo.22405998}, dataset. Concept
-  DOI, resolving to the latest version. Licensed CC BY 4.0
+  DOI, resolving to the latest version. Data and documentation under CC BY 4.0;
+  code under MIT
 
 \bibitem[{Habib et~al(2022)Habib, Li, Young, and Cranor}]{habib2022okay}
 Habib H, Li M, Young E, et~al (2022) ``okay, whatever'': An evaluation of
