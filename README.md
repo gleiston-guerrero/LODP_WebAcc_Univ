@@ -30,6 +30,7 @@ Cuando una cifra cambie, cambia primero en el depósito y después aquí, nunca 
 | `fig_cookies.pdf`, `fig_countries.pdf`, `fig_forest.pdf`, `fig_timeline.pdf`, `fig_vantage.pdf`, `fig_wcag_levels.pdf` | Las seis figuras, generadas por `code/analysis/figures_uais.py` y `fig_vantage.py` del depósito |
 | `sn-jnl.cls`, `sn-basic.bst` | Plantilla y estilo bibliográfico de Springer Nature |
 | `privacidad_UAIS_en.pdf`, `privacidad_UAIS_es.pdf` | PDF compilados de ambas versiones |
+| `envio_revista/UAIS_submission_LaTeX.zip` | Paquete LaTeX que se envía a la revista: versión en inglés, `.bib`, `.bbl`, plantilla y figuras en una sola carpeta, con `README.txt` de compilación |
 | `informe_revision_UAIS_dos_barreras.tex` | Informe de revisión por pares del manuscrito, en español; no forma parte de la compilación |
 
 ## Compilación
