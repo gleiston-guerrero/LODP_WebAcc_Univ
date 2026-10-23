@@ -1,11 +1,9 @@
 % =============================================================================
-%  Two barriers to equitable access - version EN para
-%  Universal Access in the Information Society (Springer)
-%  Plantilla: sn-jnl.cls con estilo de referencias sn-basic, numeradas.
-%  Las Submission Guidelines de UAIS recomiendan expresamente la plantilla de
-%  Springer Nature con la opcion [iicol] (dos columnas); se aplica aqui.
-%  Las tablas y figuras anchas usan los entornos table* y figure*; los
-%  apendices se componen a una columna porque longtable no admite dos.
+%  Two barriers to equitable access: WCAG conformance and pre-consent tracking
+%  on Ecuadorian and top-ranked university websites
+%  Submitted to Universal Access in the Information Society (Springer Nature).
+%  Template: sn-jnl.cls, option [iicol], reference style sn-basic (numbered).
+%  Build: pdflatex, bibtex, pdflatex, pdflatex (see README.txt).
 % =============================================================================
 \documentclass[pdflatex,sn-basic,Numbered,iicol]{sn-jnl}
 
@@ -167,7 +165,7 @@ Because the six institutions were selected purposively rather than at random, tw
 Each of the 126 sites was visited once, in August 2026, from a residential connection in Ecuador, with a read-only script. The full configuration is given here so that the measurement can be repeated.
 
 \begin{itemize}
-	\item \emph{Browser and driver.} Chromium driven by Playwright \citep{playwright2026}, launched headless with the flags \verb|--no-sandbox| and \verb|--disable-dev-shm-usage|. A fresh browser context was created per site, so no state carried over between sites.
+	\item \emph{Browser and driver.} Chromium driven by Playwright 1.62.1 \citep{playwright2026} under Node.js v24.18.1, launched headless with the flags \verb|--no-sandbox| and \verb|--disable-dev-shm-usage|. A fresh browser context was created per site, so no state carried over between sites.
 	\item \emph{Viewport and user agent.} Playwright's default desktop viewport of $1280 \times 720$ CSS pixels was used, with the user-agent string of Chrome 128 on Windows 10 (64-bit). The viewport is reported because it determines the outcome of the contrast, reflow and target-size criteria.
 	\item \emph{Navigation.} \verb|page.goto| with \verb|waitUntil: 'domcontentloaded'|, a 45\,s timeout and one retry on failure, followed by a fixed 4\,s wait to allow deferred scripts and consent platforms to load. The context was created with \verb|ignoreHTTPSErrors: true| so that sites with certificate problems could still be audited.\footnote{This is why the five Ecuadorian sites recorded as lacking a valid certificate chain in Section~\ref{sec:results-declared} nonetheless appear in every accessibility and cookie figure: the audit browser reached them, and only the separate connection test of Section~\ref{sec:methods-codebook} records the deficiency.} No scrolling and no interaction with any banner were performed at any point.
 	\item \emph{Cookie state.} The full cookie jar of the context was read before any interaction. A cookie was classified as \emph{tracking} when its name matched a declared allow-list of analytics, advertising and session-replay families. Two versions of that list exist and the distinction matters for reading the figures, so both are reproduced in full in Appendix~\ref{ap:codebook}, where the patterns belonging only to the second are marked. The list applied at collection covered Google Analytics and Google Ads, the YouTube and DoubleClick families, Meta, TikTok, Microsoft Clarity and UET, X, Hotjar, Siteimprove, Matomo, PixelYourSite, Pinterest, Adobe, Tealium, Baidu, Quantcast and LiveIntent. It was extended after collection, once the observed cookie names had been inspected; the families added at that point, the reason for adding them and the effect of the extension on every reported figure are given in Section~\ref{sec:methods-vantage}. \emph{Every figure in this article is computed with the extended list}, obtained by reclassifying the stored cookie names, so no measurement was repeated. Cookies not matching the list, including first-party session and language cookies, were counted in the total but not as tracking.
@@ -208,7 +206,7 @@ Proportions are reported with 95\% Wilson score intervals. Group differences are
 
 For the indicator on which no difference was found, an equivalence test was performed rather than an argument from a non-significant $p$ value. Two one-sided tests (TOST) were run at margins of 10, 15 and 20 percentage points. The margins were not pre-specified, which is stated openly, and the result is reported as a bound on what the design can establish rather than as a demonstration of equivalence.
 
-Vantage points are compared with the exact McNemar test, which is the appropriate test when the same site is observed under two conditions, and with Cochran's $Q$ for the four-way comparison; discordant-pair counts and exact $p$ values are reported alongside every such comparison. Multiplicity is handled in two separate families, each declared before the analysis it governs: the twelve indicators of the group comparison, and the six pairwise comparisons between vantage points. The Holm--Bonferroni procedure is applied within each family, the adjusted value governs every claim of difference made in this article, and no claim is made across families. The association between accessibility and pre-consent tracking is analysed within each group separately as well as pooled, because pooling two populations with different marginal distributions on both variables invites Simpson's paradox. Percentages of failing nodes by conformance level are rounded to the nearest integer, which is why the benchmark distribution sums to 101 rather than 100. All analyses were carried out in Python 3 with SciPy; the analysis script is released with the data.
+Vantage points are compared with the exact McNemar test, which is the appropriate test when the same site is observed under two conditions, and with Cochran's $Q$ for the four-way comparison; discordant-pair counts and exact $p$ values are reported alongside every such comparison. Multiplicity is handled in two separate families, each declared before the analysis it governs: the twelve indicators of the group comparison, and the six pairwise comparisons between vantage points. The Holm--Bonferroni procedure is applied within each family, the adjusted value governs every claim of difference made in this article, and no claim is made across families. The association between accessibility and pre-consent tracking is analysed within each group separately as well as pooled, because pooling two populations with different marginal distributions on both variables invites Simpson's paradox. Percentages of failing nodes by conformance level are rounded to the nearest integer, which is why the benchmark distribution sums to 101 rather than 100. All analyses were carried out in Python 3.10.3 with NumPy 2.2.6, SciPy 1.15.3 and Matplotlib 3.10.9; the analysis scripts are released with the data.
 
 \subsection{Ethical considerations}\label{sec:methods-ethics}
 
@@ -555,9 +553,6 @@ Four further items follow from the threats stated in Section~\ref{sec:threats}: 
 \bmhead{Supplementary information}
 The audit script, its configuration, the raw per-site JavaScript Object Notation (JSON) output of the twelve multi-vantage passes together with the location-verification records, the complete cookie inventory with its classification under both taxonomies, the documentary matrix, the codebook and the analysis scripts are deposited in a public repository \citep{deposito2026}. Every figure reported in Section~\ref{sec:results-vantage}, including the vendor-level attribution, is reproducible from those files with the analysis scripts released alongside them.
 
-\bmhead{Acknowledgements}
-The authors thank the reviewers whose comments on successive versions of this article prompted the multi-vantage replication reported in Section~\ref{sec:results-vantage}.
-
 \section*{Statements and Declarations}
 
 \bmhead{Funding}
@@ -576,7 +571,10 @@ The datasets generated and analysed during the current study are openly availabl
 The audit scripts and the analysis scripts are available in the same repository \citep{deposito2026}, under the MIT licence. The group comparisons of Table~\ref{tab:comp} use standard routines (Fisher exact test, Newcombe and Woolf intervals, Holm adjustment) applied to the per-site counts in the deposited matrix.
 
 \bmhead{Ethics approval and consent to participate}
-Not applicable. The study analysed publicly accessible web pages and involved no human participants, no animals and no personal data.
+Not applicable. The study analysed publicly accessible web pages and involved no human participants and no animals. No personal data were collected beyond the professional contact details that some institutions publish for their privacy officers, which are reproduced in the deposit as observed because they are the evidence for the privacy-contact indicator.
+
+\bmhead{Consent for publication}
+Not applicable.
 
 \bmhead{Use of generative artificial intelligence}
 Every decision reported in this article was taken by the authors, who operated every instrument and ran every analysis themselves and are accountable for the final version of the text. A generative artificial intelligence assistant was used as a tool under that accountability: to review and correct prose and auxiliary analysis scripts of the manuscript and the deposit, and to draft some of those passages and scripts, reviewed afterwards by the first author; and to recompute reported quantities from the deposited data as a check on the manuscript. It was not used to collect data, to operate the audit instrument, to select or interpret observations, or to decide what the study concludes, and it generated no measurement, table or figure; the instrument and the software versions are those given in Sections~\ref{sec:methods-audit}, \ref{sec:methods-manual} and \ref{sec:methods-stats}. It does not satisfy the authorship criteria of this journal and is not credited as an author.
