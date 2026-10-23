@@ -1,4 +1,4 @@
-# Two barriers to equitable access — manuscrito
+# Two barriers to equitable access: manuscrito
 
 Manuscrito *Two barriers to equitable access: WCAG conformance and pre-consent tracking on Ecuadorian and top-ranked university websites*, en revisión en *Universal Access in the Information Society* (Springer Nature).
 
@@ -53,4 +53,4 @@ pdflatex privacidad_UAIS_en.tex
 
 Para la versión en español, sustituya `privacidad_UAIS_en` por `privacidad_UAIS_es`.
 
-Resultado esperado: `privacidad_UAIS_en.pdf` de 39 páginas y `privacidad_UAIS_es.pdf` de 42 páginas, ambos en tamaño A4, sin citas ni referencias sin resolver. Las advertencias de sustitución de tamaño de fuente que aparecen en el registro provienen de la plantilla y no afectan al resultado.
+Resultado esperado: `privacidad_UAIS_en.pdf` de 39 páginas y `privacidad_UAIS_es.pdf` de 43 páginas, ambos en tamaño A4, sin citas ni referencias sin resolver. Las advertencias de sustitución de tamaño de fuente que aparecen en el registro provienen de la plantilla y no afectan al resultado.
