@@ -36,7 +36,7 @@ Cuando una cifra cambie, cambia primero en el depósito y después aquí, nunca 
 | `envio_BIT/privacidad_BIT_anonymised.tex` | Versión anónima para la revisión doble anónima; solo activa `\anonversion` y carga `privacidad_BIT.tex`, así que el texto es idéntico |
 | `envio_BIT/privacidad_mundo_BIT.bib` | Bibliografía de la versión para Taylor & Francis (mismas referencias, mayúsculas protegidas para el estilo APA) |
 | `envio_BIT/interact.cls`, `envio_BIT/tfapastyle.sty`, `envio_BIT/tfapacite.bst` | Plantilla y estilo bibliográfico de Taylor & Francis |
-| `envio_BIT/privacidad_BIT.pdf`, `envio_BIT/privacidad_BIT_anonymised.pdf` | PDF compilados (46 y 45 páginas, A4) |
+| `envio_BIT/privacidad_BIT.pdf`, `envio_BIT/privacidad_BIT_anonymised.pdf` | PDF compilados (48 y 47 páginas, A4) |
 | `envio_BIT/BIT_submission_LaTeX.zip` | Paquete LaTeX autocontenido para subir a la revista, con su `README.txt` |
 | `informe_revision_UAIS_dos_barreras.tex` | Informe de revisión por pares del manuscrito, en español; no forma parte de la compilación |
 
@@ -52,7 +52,7 @@ pdflatex privacidad_BIT_anonymised.tex
 pdflatex privacidad_BIT_anonymised.tex
 ```
 
-Para la versión completa, sustituya `privacidad_BIT_anonymised` por `privacidad_BIT`. Resultado esperado: 45 y 46 páginas en A4, sin citas ni referencias sin resolver. BibTeX muestra avisos de pila del estilo `tfapacite.bst` que no alteran la lista de referencias (detalle en `envio_BIT/README.txt`).
+Para la versión completa, sustituya `privacidad_BIT_anonymised` por `privacidad_BIT`. Resultado esperado: 47 y 48 páginas en A4, sin citas ni referencias sin resolver. BibTeX muestra avisos de pila del estilo `tfapacite.bst` que no alteran la lista de referencias (detalle en `envio_BIT/README.txt`).
 
 ## Compilación de la versión para UAIS (archivada)
 

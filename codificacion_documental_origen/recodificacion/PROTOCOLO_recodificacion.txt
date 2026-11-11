@@ -1,0 +1,9 @@
+Doble codificación documental independiente (30 instituciones)
+
+1. Dos personas (A y B) codifican las mismas 30 instituciones de su hoja, cada una por separado.
+2. Ninguna ve la hoja de la otra ni la matriz del artículo, y ninguna usa herramientas de IA.
+3. Para cada institución se abre la página de inicio y el aviso de privacidad enlazado desde ella o un clic por debajo, y se codifica según el Apéndice A del artículo.
+4. Valores admitidos en cada indicador: si, no, parcial, nv (no verificable).
+5. En url_aviso_consultado se pega la URL exacta del aviso leído, y en fecha_hora el momento de la consulta.
+6. Las dos hojas se entregan sin modificar; con ellas se calcula el kappa de Cohen por indicador y se registran las discrepancias.
+7. Las diferencias se discuten después y la decisión se anota aparte; las hojas originales se conservan tal como se entregaron.

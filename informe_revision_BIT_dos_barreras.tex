@@ -1,0 +1,226 @@
+% !TeX program = pdflatex
+% ============================================================================
+%  Informe de revision por pares
+%  Manuscrito: "Two barriers to equitable access: WCAG conformance and
+%               pre-consent tracking on Ecuadorian and top-ranked
+%               university websites"
+%  Revista: Behaviour & Information Technology (Taylor & Francis)
+%  Lectura independiente de la version anonima. Fecha: 11 de noviembre de 2026
+% ============================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.6cm,right=2.6cm]{geometry}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fancyvrb}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+
+\hypersetup{
+	pdftitle	= {Informe de revision por pares. Manuscrito BIT sobre conformidad WCAG y rastreo previo al consentimiento},
+	pdfauthor	= {Revisor},
+	pdfsubject	= {Behaviour and Information Technology (Taylor and Francis)}
+}
+
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.6em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Informe de revisi\'on por pares --- Behaviour \& Information Technology}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlist[itemize]{leftmargin=1.5em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.8em,itemsep=3pt,topsep=3pt}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% Cita textual del manuscrito, en ingles
+\newcommand{\cita}[1]{``\textit{#1}''}
+
+% Sin patrones de particion silabica del espanol: se desactiva la division de
+% palabras y se compensa con tolerancia y estiramiento de emergencia.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\tolerance=9999
+\emergencystretch=3.5em
+\hbadness=10000
+
+\title{\textbf{Informe de revisi\'on por pares}\\[4pt]
+	\large Manuscrito: \emph{Two barriers to equitable access: WCAG conformance and pre-consent tracking on Ecuadorian and top-ranked university websites}\\[4pt]
+	\normalsize Revista: \emph{Behaviour \& Information Technology} (Taylor \& Francis)}
+\author{}
+\date{Lectura independiente de la versi\'on anonimizada --- 11 de noviembre de 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\noindent Este informe recoge una lectura completa e independiente de la versi\'on anonimizada del manuscrito (45 p\'aginas, plantilla Interact con referencias APA~7). Se verific\'o la aritm\'etica de las tablas principales, la coherencia entre el texto, las tablas, las figuras y los ap\'endices, y el ajuste del env\'io a la revista. Las citas del manuscrito se reproducen en ingl\'es, tal como aparecen en el original.
+
+% ============================================================================
+\section{Veredicto}
+% ============================================================================
+
+Recomendaci\'on: \textbf{revisi\'on mayor}. El trabajo es riguroso en lo estad\'istico, honesto con sus resultados nulos y contiene un hallazgo original: la r\'eplica desde cuatro puntos de observaci\'on muestra que la protecci\'on que recibe un visitante depende de d\'onde est\'a. Sin embargo, tal como est\'a, el manuscrito no est\'a listo para \emph{Behaviour \& Information Technology} por tres razones de distinta naturaleza.
+
+\begin{enumerate}
+	\item \textbf{Ajuste a la revista.} El art\'iculo est\'a escrito para la comunidad de acceso universal y de medici\'on de privacidad, no para la de comportamiento humano frente a la tecnolog\'ia. No estudia usuarios, no cita ning\'un trabajo publicado en la revista y su formato (resumen estructurado de 370 palabras, siete palabras clave, unas 18\,000 palabras con ap\'endices) excede lo habitual. Un editor podr\'ia rechazarlo sin enviarlo a revisi\'on (rechazo de escritorio, o \emph{desk rejection}) solo por esto.
+	\item \textbf{La afirmaci\'on central no est\'a probada en la capa que el texto le atribuye.} El manuscrito concluye que la supresi\'on de cookies la ejecutan los proveedores publicitarios y no las instituciones, pero solo observa cookies, no las peticiones de red que las originan. Con ese dato no puede descartarse que sea la plataforma de consentimiento del propio sitio la que bloquea la etiqueta del proveedor seg\'un el pa\'is.
+	\item \textbf{Contradicciones internas verificables.} Hay al menos cinco afirmaciones que el propio texto desmiente en otra secci\'on (apartado~\ref{sec:incoherencias}), y varias frases que dejan ver un historial de revisiones previas, lo que es delicado en una revisi\'on doble anonimizada.
+\end{enumerate}
+
+Ninguno de estos problemas exige nuevos datos de campo salvo el segundo, y para ese existe una soluci\'on acotada (apartado~\ref{sec:capa}). Con las correcciones, el art\'iculo tendr\'ia una contribuci\'on clara para la revista.
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption{Respuestas al formulario del revisor.}
+	\begin{tabular}{@{}L{9.6cm}L{4.4cm}@{}}
+		\toprule
+		\textbf{Pregunta} & \textbf{Respuesta} \\
+		\midrule
+		¿El tema est\'a dentro del alcance de la revista? & Parcialmente; requiere reorientaci\'on \\
+		¿El trabajo es original? & S\'i, en la r\'eplica multipunto \\
+		¿Los m\'etodos son adecuados y est\'an bien descritos? & S\'i, con una carencia importante (apartado~\ref{sec:capa}) \\
+		¿Las conclusiones se siguen de los resultados? & En parte; hay generalizaciones no sustentadas \\
+		¿El an\'alisis estad\'istico es correcto? & S\'i; aritm\'etica verificada \\
+		¿Las referencias son adecuadas? & Para el tema s\'i; para la revista no \\
+		¿La presentaci\'on y la extensi\'on son adecuadas? & No; excede formato y extensi\'on \\
+		Recomendaci\'on & Revisi\'on mayor \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+% ============================================================================
+\section{Lo que el manuscrito hace bien}
+% ============================================================================
+
+\begin{itemize}
+	\item \textbf{Aritm\'etica coherente.} Recalcul\'e los n\'umeros de la Tabla~1 (por ejemplo, la raz\'on de probabilidades, u \emph{odds ratio}, del marco legal citado: $47\cdot32/(16\cdot31)=3{,}03$), los m\'argenes impl\'icitos en la Tabla~6 (82, 79, 76 y 73 sitios), las pruebas de McNemar exactas y su ajuste de Holm (0{,}0039 $\times$ 6 = 0{,}023; 0{,}070 $\times$ 4 = 0{,}281), las celdas de la Tabla~5 (2, 3, 20, 38 en Ecuador, coherentes con 5 y 41 sitios) y los 25 casilleros en negrita de la Tabla~4. Todo cuadra.
+	\item \textbf{Trato honesto del resultado nulo.} En vez de concluir que los dos grupos rastrean igual, el texto lo comprueba con una prueba de equivalencia (dos pruebas unilaterales, o TOST) y dice expresamente que el dise\~no no tiene potencia para afirmarlo: \cita{the study found no evidence of a difference in pre-consent tracking, and had no power to establish that the groups are equivalent}.
+	\item \textbf{Controles bien pensados en la r\'eplica.} El n\'umero de violaciones WCAG por sitio sirve de control de que la p\'agina se dibuj\'o igual en los cuatro pa\'ises (diferencia m\'axima de 1{,}1\,\%), y uno de los pases alemanes comparte red (sistema aut\'onomo AS46475) con el de Estados Unidos.
+	\item \textbf{Reproducibilidad.} Se documentan versiones de software, configuraci\'on del navegador, taxonom\'ia completa de cookies y dep\'osito p\'ublico de datos y c\'odigo.
+	\item \textbf{Validaci\'on manual frente a la herramienta autom\'atica.} El hallazgo de que en 25 de 41 fallos (61\,\%) la herramienta autom\'atica no avis\'o es \'util para la pr\'actica.
+\end{itemize}
+
+% ============================================================================
+\section{Problemas mayores}
+% ============================================================================
+
+\subsection{Ajuste al alcance y al formato de la revista}\label{sec:ajuste}
+
+\emph{Behaviour \& Information Technology} publica investigaci\'on sobre c\'omo las personas usan la tecnolog\'ia y c\'omo esta afecta a su conducta. El manuscrito mide propiedades de p\'aginas web; las personas aparecen solo como poblaci\'on afectada, no como objeto de estudio. Su marco te\'orico (dise\~no universal y acceso universal) y once de sus referencias acad\'emicas proceden de la revista a la que el art\'iculo se dirig\'ia antes, y no cita ning\'un art\'iculo publicado en \emph{Behaviour \& Information Technology}.
+
+Pido a los autores:
+\begin{enumerate}
+	\item Reformular la contribuci\'on en t\'erminos de la revista: qu\'e consecuencias tiene para el usuario, en concreto para el aspirante internacional, que su exposici\'on dependa del pa\'is desde el que navega, y qu\'e implica para la alfabetizaci\'on en privacidad (\emph{privacy literacy}) y la brecha digital. Esto se logra sobre todo en la introducci\'on y en la discusi\'on, sin tocar los resultados.
+	\item Dialogar con la literatura de la revista. Dos trabajos verificados encajan directamente: Meier y Kr\"amer (2025), que muestran que las diferencias en el acceso a la informaci\'on sobre privacidad explican en parte las desigualdades en alfabetizaci\'on y autoeficacia en privacidad, y sostienen el argumento distributivo del apartado~5.2; y Cao y Loiacono (2022), sobre c\'omo perciben las pautas de accesibilidad quienes desarrollan sitios web, que ayuda a explicar por qu\'e los fallos de nivel~A persisten. Las entradas completas est\'an en el Anexo~\ref{sec:bib}.
+	\item Ajustar el formato a las instrucciones para autores. Seg\'un una ficha de la plantilla de la revista (fuente secundaria, no la p\'agina oficial, que no pude consultar), el resumen debe ser no estructurado y de unas 200 palabras, con entre tres y seis palabras clave. El manuscrito tiene un resumen estructurado de 370 palabras (Purpose, Methods, Results, Conclusion) y siete palabras clave. Conviene confirmar estos l\'imites y el de extensi\'on total en la p\'agina oficial antes del env\'io.
+	\item Reducir la extensi\'on. El cuerpo tiene unas 15\,600 palabras y los ap\'endices unas 2\,600. Candidatos para pasar a material suplementario: la Tabla~4 completa, el detalle del an\'alisis de sensibilidad de la r\'eplica (tres reglas de inclusi\'on) y los ap\'endices C y D (matrices documentales), que ya est\'an en el dep\'osito.
+\end{enumerate}
+
+\subsection{La atribuci\'on al proveedor no est\'a demostrada en la capa correcta}\label{sec:capa}
+
+El argumento central del apartado~5.2 es que la diferencia por pa\'is la ejecuta el proveedor publicitario y no la instituci\'on: \cita{The behaviour therefore belongs to the vendor, not to the institution or to the law that binds it}. La evidencia que se presenta es que las cookies de Microsoft, TapAd y StackAdapt no aparecen desde Alemania ni Reino Unido.
+
+Esa observaci\'on es compatible con dos mecanismos distintos. En el primero, el sitio carga la etiqueta del proveedor en los cuatro pa\'ises y es el servidor del proveedor el que decide no instalar la cookie. En el segundo, la plataforma de consentimiento del sitio detecta que el visitante est\'a en Europa y no carga la etiqueta. Los dos producen el mismo patr\'on de cookies. Solo el primero sostiene la conclusi\'on jur\'idica del art\'iculo, y el texto no los distingue porque el instrumento registra el estado de las cookies, no las peticiones de red.
+
+El texto ofrece un argumento indirecto: de los 14 sitios con cookies de Microsoft, solo uno es europeo, y es poco probable que universidades de Ecuador, Estados Unidos o Australia tengan plataformas de consentimiento configuradas por pa\'is. Es razonable, pero el manuscrito no informa en cu\'antos de esos 14 sitios se detect\'o una plataforma de consentimiento (CMP).
+
+Pido a los autores, en orden de preferencia:
+\begin{enumerate}
+	\item Registrar las peticiones de red de los sitios afectados (al menos los 14 de Microsoft y los 4 de TapAd) desde dos puntos, uno dentro y otro fuera del per\'imetro. Si la petici\'on al dominio del proveedor se produce en ambos y solo fuera del per\'imetro la respuesta incluye la cabecera \texttt{Set-Cookie}, la atribuci\'on queda demostrada. Es una medici\'on peque\~na, de un solo d\'ia.
+	\item Si no es posible medir de nuevo, informar para esos sitios si se detect\'o plataforma de consentimiento y rebajar la redacci\'on de \cita{belongs to the vendor} a una conclusi\'on condicionada.
+\end{enumerate}
+
+\subsection{Una generalizaci\'on que los datos no sostienen}
+
+En la discusi\'on se lee: \cita{An Ecuadorian applicant browsing a German university's admission pages is tracked; a German applicant browsing an Ecuadorian university's pages is not.} La frase falla dos veces. Primero, las p\'aginas de admisi\'on no se midieron: \cita{Only the home page was audited}. Segundo, el texto informa que de los 14 sitios con cookies de Microsoft \cita{only one is European, the University of Manchester}, que es brit\'anica, no alemana. El manuscrito no presenta ning\'un dato sobre qu\'e hacen las universidades alemanas con un visitante ecuatoriano. La frase debe reescribirse con lo que s\'i se midi\'o (p\'aginas de inicio y los proveedores observados) o respaldarse con los datos por sitio de las tres universidades alemanas.
+
+El mismo exceso aparece en el resumen, cuando afirma que la poblaci\'on fuera del per\'imetro \cita{is the international applicant pool of Latin America, Africa and much of Asia}. Solo se midi\'o desde Ecuador; la extensi\'on a \'Africa y Asia es una inferencia y debe presentarse como tal.
+
+\subsection{Los indicadores documentales, que sostienen las mayores diferencias, los codific\'o una sola persona}
+
+Las brechas m\'as grandes del estudio (aviso de privacidad, contacto de privacidad, declaraci\'on de accesibilidad) dependen de la codificaci\'on documental, y el texto reconoce: \cita{The study does not report an inter-coder reliability coefficient, because double coding was not performed}. La verificaci\'on de 24 celdas encontr\'o dos errores, y el propio texto admite que no es una estimaci\'on de error.
+
+En esta revista se espera una medida de acuerdo entre codificadores (por ejemplo, el coeficiente kappa de Cohen, que mide cu\'anto coinciden dos evaluadores m\'as all\'a del azar). En la pr\'actica, basta con que una segunda persona codifique de forma independiente una muestra aleatoria de al menos el 20--30\,\% de los sitios, se calcule kappa por indicador y se informen las discrepancias. Si eso no es posible, el resumen y las conclusiones deber\'ian indicar expl\'icitamente que los indicadores documentales proceden de un solo codificador.
+
+\subsection{La validaci\'on ``manual'' del criterio 1.1.1 se hizo en su mayor\'ia con ayuda de IA}
+
+El apartado~4.5 se titula \cita{What exhaustive manual coding finds, and the automated audit does not}, pero la declaraci\'on de uso de IA indica que \cita{of the 349 image elements that rule qt1vmo refers to human judgement, 345 were resolved with its assistance}. Es decir, casi todos los juicios sobre si un texto alternativo es equivalente a la imagen los resolvi\'o un sistema de IA generativa con revisi\'on del primer autor. Los autores lo declaran con transparencia y lo excluyen del c\'alculo de fiabilidad, pero el lector del apartado~4.5 no lo sabe. El criterio 1.1.1 aporta 11 de los 25 casilleros en que la herramienta autom\'atica no avis\'o, as\'i que pesa en el hallazgo del 61\,\%.
+
+Pido que el m\'etodo (apartado~3.6) y el resultado (apartado~4.5) digan expl\'icitamente que la codificaci\'on de 1.1.1 fue asistida por IA, y que se informe el porcentaje del 61\,\% tambi\'en sin el criterio 1.1.1 (14 de 27 casilleros, 52\,\%, seg\'un la Tabla~4), para que el lector vea que el hallazgo se mantiene.
+
+\subsection{La taxonom\'ia de cookies se ampli\'o despu\'es de ver los datos}
+
+Los autores lo declaran: la lista se ampli\'o \cita{after inspection of the cookie names observed}. A nivel de sitio el efecto es m\'inimo (un sitio), pero a nivel de proveedor es grande: la ca\'ida de cookies de proveedor en Europa pasa de 33{,}4\,\% a 43{,}6\,\%. Como la atribuci\'on por proveedor es el n\'ucleo del art\'iculo, pido que el apartado~4.7 informe tambi\'en la cifra con la lista original y que se explique con qu\'e criterio se a\~nadi\'o cada familia (por ejemplo, documentaci\'on p\'ublica del proveedor), para descartar que la lista se ajustara al resultado.
+
+% ============================================================================
+\section{Contradicciones internas y problemas menores}\label{sec:incoherencias}
+% ============================================================================
+
+\begin{enumerate}
+	\item \textbf{Se nombran instituciones que fallan, aunque se dice que no.} En consideraciones \'eticas: \cita{First, no institution is named in the body of the article as failing an indicator; institution-level results appear only in the appendices}. Sin embargo, la Tabla~4 est\'a en el cuerpo y nombra 15 sitios con sus fallos, y el texto dice \cita{Manchester fails all three criteria examined}. El apartado~4.7 nombra tambi\'en los cinco sitios que no respondieron. Hay que corregir la declaraci\'on \'etica o anonimizar esas menciones.
+	\item \textbf{Datos personales.} En m\'etodos: \cita{The study involves no human participants and no personal data}. En la declaraci\'on de \'etica: \cita{No personal data were collected beyond the professional contact details that some institutions publish for their privacy officers, which are reproduced in the deposit}. La segunda es la correcta; la primera debe alinearse.
+	\item \textbf{Proveedor como responsable o como encargado.} El apartado~5.2 argumenta que el proveedor \cita{is not acting on documented instructions from the university: it is determining purposes and means}, es decir, que es responsable del tratamiento (\emph{controller}). El apartado~5.4 lo llama encargado (\emph{processor}): \cita{delivered de facto by a processor's geolocation logic}. Son figuras jur\'idicas distintas con obligaciones distintas; debe usarse la misma en todo el texto.
+	\item \textbf{Remisi\'on equivocada.} La declaraci\'on de IA dice que \cita{Section 4.4 therefore reports the SC 1.1.1 figure as agreement rather than as reliability}. Ese dato est\'a en el apartado~3.6, no en el~4.4.
+	\item \textbf{Frases que revelan revisiones anteriores.} \cita{Two independent codings of this round are deposited}; \cita{without access to the first coding, to the earlier rounds or to the draft of this article}; \cita{The inter-coder estimate this round supports is thus the first one alone}; y en el apartado~3.1, \cita{No cell of the matrix changes under this clarification: the coding already followed this rule}. Para un revisor, estas frases suenan a respuesta a una evaluaci\'on previa y pueden comprometer el anonimato. Deben reescribirse sin referencia a rondas ni aclaraciones.
+	\item \textbf{Cambio de tama\~no de muestra sin explicar.} La medici\'on de estabilidad de septiembre usa 125 sitios (\cita{two of 125 sites discordant}), no 126. Debe indicarse qu\'e sitio falta y por qu\'e.
+	\item \textbf{Indicadores ``documentales'' no comparables.} El resumen habla de \cita{Six documentary indicators}, pero uno (pol\'itica de cookies) solo se codific\'o en el grupo de referencia y otro (transparencia LOTAIP) solo en Ecuador. Conviene decir que se comparan cuatro.
+	\item \textbf{Fechas.} El protocolo dice \cita{in August 2026}; la Tabla~4 precisa el 14 de agosto. Conviene dar la fecha exacta tambi\'en en el apartado~3.5.
+	\item \textbf{Ap\'endice B.} La Uni\'on Europea aparece como una sola jurisdicci\'on, aunque el grupo de referencia incluye Alemania, Francia, Suecia, Pa\'ises Bajos y B\'elgica, cuyas transposiciones del art\'iculo~5(3) difieren. Basta con una nota.
+\end{enumerate}
+
+% ============================================================================
+\section{Comentarios confidenciales para el editor}
+% ============================================================================
+
+El trabajo es s\'olido en su n\'ucleo emp\'irico y la r\'eplica multipunto es una contribuci\'on poco com\'un. Mi preocupaci\'on principal no es la calidad sino el encaje: tal como est\'a redactado, encaja mejor en una revista de acceso universal o de medici\'on de privacidad. Si el editor considera que el tema est\'a dentro del alcance, recomiendo revisi\'on mayor; las correcciones de los apartados~\ref{sec:capa} y \ref{sec:incoherencias} son imprescindibles antes de una segunda ronda. No detect\'e indicios de fabricaci\'on de datos: las cifras son internamente coherentes y los autores declaran sus limitaciones con detalle poco habitual.
+
+% ============================================================================
+\appendix
+\section{Referencias sugeridas (verificadas en Crossref)}\label{sec:bib}
+% ============================================================================
+
+Ambas entradas se verificaron campo por campo en Crossref el 11 de noviembre de 2026. Las dos se publicaron primero en l\'inea (2024 y 2021) y se asignaron despu\'es a un n\'umero (2025 y 2022); en APA~7 se cita el a\~no del n\'umero.
+
+\begin{small}
+\begin{Verbatim}[tabsize=4]
+@article{meier2025differences,
+	author  = {Meier, Yannic and Kr{\"a}mer, Nicole C.},
+	title   = {Differences in Access to Privacy Information Can Partly Explain
+	           Digital Inequalities in Privacy Literacy and Self-Efficacy},
+	journal = {Behaviour \& Information Technology},
+	year    = {2025},
+	volume  = {44},
+	number  = {6},
+	pages   = {1183--1198},
+	doi     = {10.1080/0144929X.2024.2349183}
+}
+
+@article{cao2022perceptions,
+	author  = {Cao, Shiya and Loiacono, Eleanor},
+	title   = {Perceptions of Web Accessibility Guidelines by Student Website
+	           and App Developers},
+	journal = {Behaviour \& Information Technology},
+	year    = {2022},
+	volume  = {41},
+	number  = {12},
+	pages   = {2616--2634},
+	doi     = {10.1080/0144929X.2021.1940278}
+}
+\end{Verbatim}
+\end{small}
+
+\end{document}

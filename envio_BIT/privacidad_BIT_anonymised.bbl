@@ -275,6 +275,37 @@ Campoverde-Molina, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cao%
+\ \BBA {} Loiacono%
+}{%
+Cao%
+\ \BBA {} Loiacono%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+cao2022perceptions}
+\APACinsertmetastar {%
+cao2022perceptions}%
+\begin{APACrefauthors}%
+Cao, S.%
+\BCBT {}\ \BBA {} Loiacono, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perceptions of Web Accessibility Guidelines by Student
+  Website and App Developers} {Perceptions of web accessibility guidelines by
+  student website and app developers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information
+  Technology}{41}{12}{2616--2634}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2021.1940278}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Carrillo%
 \ \BBA {} Jackson%
 }{%
@@ -487,6 +518,37 @@ Englehardt, S.%
 \APACaddressPublisher{New York, NY, USA}{Association for Computing Machinery}.
 \newblock
 \begin{APACrefDOI} https://doi.org/{10.1145/2976749.2978313} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Epstein%
+\ \BBA {} Quinn%
+}{%
+Epstein%
+\ \BBA {} Quinn%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+epstein2025dimensionalised}
+\APACinsertmetastar {%
+epstein2025dimensionalised}%
+\begin{APACrefauthors}%
+Epstein, D.%
+\BCBT {}\ \BBA {} Quinn, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Dimensionalised Privacy Behaviour Model: An Empirical
+  Test of a Conceptual Proposition} {A dimensionalised privacy behaviour model:
+  An empirical test of a conceptual proposition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information
+  Technology}{44}{15}{3621--3641}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2024.2443523}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1161,6 +1223,36 @@ pdpo_hk}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+li2022cultural}
+\APACinsertmetastar {%
+li2022cultural}%
+\begin{APACrefauthors}%
+Li, Y.%
+, Rho, E\BPBI H\BPBI R.%
+\BCBL {}\ \BBA {} Kobsa, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cultural Differences in the Effects of Contextual
+  Factors and Privacy Concerns on Users' Privacy Decision on Social Networking
+  Sites} {Cultural differences in the effects of contextual factors and privacy
+  concerns on users' privacy decision on social networking sites}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information Technology}{41}{3}{655--677}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2020.1831608}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Libert%
 }{%
 Libert%
@@ -1186,6 +1278,36 @@ Libert, T.%
 \newblock
 \begin{APACrefURL} \url{https://ijoc.org/index.php/ijoc/article/view/3646}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lindegren%
+\ \protect \BOthers {.}}{%
+Lindegren%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+lindegren2021evaluation}
+\APACinsertmetastar {%
+lindegren2021evaluation}%
+\begin{APACrefauthors}%
+Lindegren, D.%
+, Karegar, F.%
+, Kane, B.%
+\BCBL {}\ \BBA {} Pettersson, J\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An Evaluation of Three Designs to Engage Users When
+  Providing Their Consent on Smartphones} {An evaluation of three designs to
+  engage users when providing their consent on smartphones}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information Technology}{40}{4}{398--414}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2019.1697898}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1216,6 +1338,38 @@ Liu, Q.%
   Technology}{54}{6}{1715--1747}.
 \newblock
 \begin{APACrefDOI} https://doi.org/{10.1111/bjet.13388} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Magrizos%
+\ \protect \BOthers {.}}{%
+Magrizos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+magrizos2026transparency}
+\APACinsertmetastar {%
+magrizos2026transparency}%
+\begin{APACrefauthors}%
+Magrizos, S.%
+, Campora, M.%
+, Lamprinakos, G.%
+, Giovanis, A.%
+\BCBL {}\ \BBA {} Christofi, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Transparency by Design: The Effect of Privacy Policies
+  Visualisation on Brand Trust and Perceived Intrusion} {Transparency by
+  design: The effect of privacy policies visualisation on brand trust and
+  perceived intrusion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information Technology}{45}{3}{450--462}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2025.2520594}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1280,6 +1434,38 @@ Matte, C.%
 \APACaddressPublisher{}{{IEEE}}.
 \newblock
 \begin{APACrefDOI} https://doi.org/{10.1109/SP40000.2020.00076}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meier%
+\ \BBA {} Kr{\"a}mer%
+}{%
+Meier%
+\ \BBA {} Kr{\"a}mer%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+meier2025differences}
+\APACinsertmetastar {%
+meier2025differences}%
+\begin{APACrefauthors}%
+Meier, Y.%
+\BCBT {}\ \BBA {} Kr{\"a}mer, N\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Differences in Access to Privacy Information Can Partly
+  Explain Digital Inequalities in Privacy Literacy and Self-Efficacy}
+  {Differences in access to privacy information can partly explain digital
+  inequalities in privacy literacy and self-efficacy}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information
+  Technology}{44}{6}{1183--1198}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2024.2349183}
   \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1747,6 +1933,36 @@ arwu2025}%
 \APAChowpublished {\url{https://www.shanghairanking.com/rankings/arwu/2025}}.
 \newblock
 \APACrefnote{Accessed 11 August 2026}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Spyridonis%
+\ \BBA {} Daylamani-Zad%
+}{%
+Spyridonis%
+\ \BBA {} Daylamani-Zad%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+spyridonis2021serious}
+\APACinsertmetastar {%
+spyridonis2021serious}%
+\begin{APACrefauthors}%
+Spyridonis, F.%
+\BCBT {}\ \BBA {} Daylamani-Zad, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Serious Game to Improve Engagement with Web
+  Accessibility Guidelines} {A serious game to improve engagement with web
+  accessibility guidelines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour \& Information Technology}{40}{6}{578--596}.
+\newblock
+\begin{APACrefDOI} https://doi.org/{10.1080/0144929X.2019.1711453}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

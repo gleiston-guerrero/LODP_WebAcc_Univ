@@ -31,8 +31,8 @@ CONTENTS
   fig_cookies.pdf       Figure 2
   fig_wcag_levels.pdf   Figure 3
   fig_vantage.pdf       Figure 4
-  fig_countries.pdf     Figure D1 (Appendix D)
-  fig_timeline.pdf      Figure D2 (Appendix D)
+  fig_countries.pdf     Figure E1 (Appendix E)
+  fig_timeline.pdf      Figure E2 (Appendix E)
 
 All files are in a single folder, with no subfolders and no external inputs.
 
@@ -49,8 +49,8 @@ COMPILATION
 
   (same sequence with privacidad_BIT for the full version)
 
-Expected output: A4, single column; privacidad_BIT_anonymised.pdf 45 pages,
-privacidad_BIT.pdf 46 pages; no undefined citations or references.
+Expected output: A4, single column; privacidad_BIT_anonymised.pdf 47 pages,
+privacidad_BIT.pdf 48 pages; no undefined citations or references.
 
 Note on tfapacite.bst: the distributed file calls the function
 format.author.names before defining it. In this copy the definition of
