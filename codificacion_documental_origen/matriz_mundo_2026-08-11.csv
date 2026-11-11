@@ -1,0 +1,64 @@
+﻿#,Sigla,P,QS,THE,ARWU,Pol.,Marco,Der.,DPO,Cook.,Acc.
+1,MIT,US,1,2,3,si,si,si,si,no,si
+2,Stanford,US,3,5,2,si,si,si,si,si,si
+3,Harvard,US,5,5,1,si,si,no,no,no,si
+4,Oxford,UK,4,1,6,si,si,si,si,si,si
+5,Cambridge,UK,6,3,4,no,parcial,no,no,si,si
+6,Caltech,US,10,7,9,si,si,no,si,no,si
+7,UC Berkeley,US,17,9,5,si,si,no,si,no,si
+8,Princeton,US,25,3,7,si,si,si,si,no,si
+9,Imperial,UK,2,8,26,si,si,parcial,no,si,si
+10,U Chicago,US,13,15,10,si,parcial,si,si,no,no
+11,ETH Zurich,CH,7,11,22,si,si,si,si,no,si
+12,Yale,US,21,10,11,si,si,parcial,si,no,si
+13,UPenn,US,15,14,14,si,parcial,si,si,no,si
+14,UCL,UK,9,22,14,si,parcial,si,si,si,si
+15,Cornell,US,16,18,12,si,parcial,si,si,no,si
+16,Tsinghua,CN,17,12,18,si,si,si,si,no,no
+17,Peking,CN,14,13,23,parcial,parcial,no,no,no,no
+18,Johns Hopkins,US,24,16,19,si,si,si,si,no,si
+19,Columbia,US,38,20,8,si,si,si,si,si,si
+20,Toronto,CA,29,21,25,si,si,si,si,no,si
+21,UCLA,US,46,18,16,si,si,si,si,no,si
+22,NUS,SG,8,17,56,si,si,si,si,no,no
+23,U Tokyo,JP,36,26,31,si,si,si,no,no,no
+24,TUM,DE,22,27,45,si,si,si,si,no,no
+25,Melbourne,AU,19,37,38,si,si,si,si,no,no
+26,Edinburgh,UK,34,29,37,si,si,si,si,no,si
+27,EPFL,CH,22,35,44,si,si,si,si,no,si
+28,Michigan,US,45,23,33,si,no,no,si,no,no
+29,Northwestern,US,42,30,31,si,parcial,si,si,si,si
+30,Fudan,CN,30,36,41,no,no,no,no,no,no
+31,PSL,FR,28,48,34,si,si,si,si,no,no
+32,HKU,HK,11,33,67,si,si,si,si,no,si
+33,Zhejiang,CN,49,39,24,si,parcial,si,si,no,no
+34,NYU,US,55,31,28,si,si,si,si,no,si
+35,SJTU,CN,47,40,30,no,no,no,no,no,no
+36,KCL,UK,31,38,61,si,parcial,si,si,si,si
+37,UCSD,US,66,47,20,si,si,si,si,no,si
+38,LMU,DE,58,34,42,si,si,si,si,no,si
+39,Duke,US,62,28,46,si,si,si,si,no,si
+40,Manchester,UK,35,56,46,si,si,parcial,si,no,si
+41,UBC,CA,40,45,53,si,si,parcial,si,no,si
+42,Sydney,AU,25,53,72,si,si,si,si,no,si
+43,Paris-Saclay,FR,70,68,13,si,si,si,si,si,si
+44,Kyoto,JP,57,61,46,si,parcial,si,si,no,no
+45,Illinois,US,70,41,53,si,si,si,si,no,si
+46,UT Austin,US,68,50,49,si,si,si,si,no,si
+47,UW,US,--,25,17,si,si,si,si,no,si
+48,NTU,SG,12,31,--,si,si,si,si,no,no
+49,McGill,CA,27,41,--,si,si,si,si,si,si
+50,CUHK,HK,32,41,--,si,si,si,no,no,si
+51,CMU,US,52,24,--,si,si,si,si,no,si
+52,Wisconsin,US,--,53,36,si,si,no,si,si,si
+53,USTC,CN,--,51,40,parcial,si,si,si,no,no
+54,WUSTL,US,--,67,26,si,no,no,si,no,si
+55,Monash,AU,36,58,--,si,si,no,no,no,si
+56,SNU,KR,38,58,--,si,si,si,si,no,no
+57,Heidelberg,DE,--,49,51,si,si,si,si,no,si
+58,HKUST,HK,44,58,--,si,si,si,si,no,si
+59,Karolinska,SE,--,53,50,si,parcial,si,si,si,si
+60,TU Delft,NL,47,57,--,si,si,si,si,si,si
+61,ANU,AU,32,73,--,si,si,parcial,si,no,si
+62,KU Leuven,BE,60,46,--,si,si,si,si,si,si
+63,Queensland,AU,42,--,65,si,si,si,si,no,si

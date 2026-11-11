@@ -1,0 +1,223 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{pifont}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage[round,authoryear]{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\captionsetup{font=small,labelfont=bf}
+\definecolor{gris}{gray}{0.35}
+
+% ---- Marcadores de estado usados en las tablas ----
+\newcommand{\si}{\ding{51}}                 % cumple
+\newcommand{\no}{\textcolor{gris}{\textbf{--}}} % no cumple / ausente
+\newcommand{\pc}{\textbf{P}}                 % parcial (ambito acotado)
+\newcommand{\nv}{\textsl{\footnotesize n/v}}% no verificable por el metodo
+\newcommand{\nd}{\textsl{\footnotesize n/d}}% no detectable (contenido dinamico)
+
+\title{\vspace{-1.2cm}\Large\textbf{An\'alisis de la privacidad de datos personales en los sitios web de las universidades del Ecuador registradas en la SENESCYT y el CES}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-1.5cm}
+
+\section{Introducci\'on y marco normativo}
+La entrada en vigor de la Ley Org\'anica de Protecci\'on de Datos Personales (LOPDP) del Ecuador, publicada en el Registro Oficial Suplemento No.~459 del 26 de mayo de 2021, y de su Reglamento General, expedido mediante Decreto Ejecutivo No.~904 en noviembre de 2023, situ\'o al pa\'is dentro de la ola regional de leyes de protecci\'on de datos inspiradas en el Reglamento General de Protecci\'on de Datos de la Uni\'on Europea \citep{gdpr2016,lopdp2021,reglamentolopdp2023}, un proceso de convergencia normativa que la literatura comparada ha documentado tanto en sus alcances como en sus l\'imites de implementaci\'on efectiva \citep{carrillo2022follow,chavarriamora2025lack}.
+Las universidades y escuelas polit\'ecnicas son, en este marco, responsables del tratamiento de datos personales de decenas de miles de aspirantes, estudiantes, docentes y personal administrativo, incluidas categor\'ias de datos sensibles; su presencia en l\'inea constituye con frecuencia el primer punto de recolecci\'on de esos datos, ya sea mediante formularios de admisi\'on, campus virtuales o tecnolog\'ias de rastreo como las \emph{cookies}.
+La investigaci\'on reciente ha mostrado que el sector de la educaci\'on superior enfrenta desaf\'ios espec\'ificos de privacidad, desde la anal\'itica del aprendizaje hasta los sistemas de supervisi\'on remota de ex\'amenes \citep{liu2023understanding,mutimukwe2025privacy}, y que la adecuaci\'on de las pol\'iticas de privacidad universitarias al nuevo marco legal es, en muchos casos, m\'as formal que sustantiva \citep{munot2025compliance}.
+Este cap\'itulo examina en qu\'e medida los sitios web de las instituciones de educaci\'on superior (IES) del Ecuador reconocidas por la Secretar\'ia de Educaci\'on Superior, Ciencia, Tecnolog\'ia e Innovaci\'on (SENESCYT) y el Consejo de Educaci\'on Superior (CES) informan y garantizan la privacidad de los datos personales, tomando como ejes el uso de \emph{cookies}, el aviso sobre el tratamiento de datos, la acci\'on afirmativa e inclusi\'on, y la seguridad y transparencia.
+
+\section{Metodolog\'ia}
+Se realiz\'o un censo de las universidades y escuelas polit\'ecnicas del Ecuador a partir de los listados oficiales del CES (instituciones p\'ublicas, particulares cofinanciadas y particulares autofinanciadas) y del Consejo de Aseguramiento de la Calidad de la Educaci\'on Superior (CACES), lo que arroj\'o un total de 63 IES: 35 p\'ublicas, 8 particulares cofinanciadas y 20 particulares autofinanciadas.
+Para cada instituci\'on se inspeccion\'o el sitio web oficial durante agosto de 2026, evaluando cinco dimensiones: (i) uso de \emph{cookies} (existencia de aviso o banner de consentimiento y de una pol\'itica de \emph{cookies}); (ii) aviso sobre el tratamiento de datos, entendido como la publicaci\'on de una pol\'itica de privacidad o de protecci\'on de datos, la menci\'on expresa a la LOPDP, la enumeraci\'on de los derechos del titular y la designaci\'on de un delegado de protecci\'on de datos (DPO) o de un canal de contacto espec\'ifico; (iii) acci\'on afirmativa e inclusi\'on, aproximada mediante la presencia de declaraciones o herramientas de accesibilidad web y de mecanismos de atenci\'on a grupos prioritarios; (iv) seguridad y transparencia, valorada por el uso de HTTPS con certificado v\'alido y por la existencia de la secci\'on de transparencia (LOTAIP); y (v) el cumplimiento general de la LOPDP como s\'intesis de las anteriores.
+El procedimiento combin\'o la recuperaci\'on de la p\'agina de inicio, la revisi\'on de los enlaces del pie de p\'agina, la exploraci\'on de rutas can\'onicas (por ejemplo, \texttt{/politica-de-privacidad}, \texttt{/proteccion-de-datos}, \texttt{/politica-de-cookies}, \texttt{/transparencia}) y b\'usquedas acotadas al dominio, siguiendo el esp\'iritu de los estudios que analizan de forma sistem\'atica las pol\'iticas de privacidad y los avisos de consentimiento en la web \citep{fabian2017largescale,belcheva2023understanding,nouwens2020dark,habib2022okay}.
+El m\'etodo tiene tres limitaciones que deben tenerse presentes al interpretar los resultados: primero, la herramienta de recuperaci\'on convierte el c\'odigo HTML a texto y no ejecuta JavaScript, por lo que los banners de \emph{cookies} inyectados din\'amicamente pueden no detectarse y su prevalencia real es mayor que la aqu\'i reportada; segundo, algunos sitios bloquean el acceso autom\'atico (mediante \texttt{robots.txt} o cortafuegos de aplicaci\'on) o publican sus pol\'iticas en documentos de imagen no legibles por m\'aquina, casos que se marcan como \emph{no verificables} y que no equivalen a la inexistencia del instrumento; y tercero, el an\'alisis se limita a lo publicado en el sitio web y no juzga las pr\'acticas internas de tratamiento.
+
+\section{Resultados}
+El Cuadro~\ref{tab:resumen} sintetiza la prevalencia de cada indicador en el conjunto de las 63 IES y su desglose por tipo de financiamiento; el detalle instituci\'on por instituci\'on se ofrece en el Ap\'endice~\ref{ap:matriz}.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Prevalencia de los indicadores de privacidad por tipo de instituci\'on (n\'umero de IES que cumplen sobre el total de su grupo).}
+	\label{tab:resumen}
+	\small
+	\begin{tabular}{@{}p{6.6cm}cccc r@{}}
+		\toprule
+		\textbf{Indicador} & \textbf{P\'ublica} & \textbf{Cofin.} & \textbf{Autofin.} & \textbf{Total} & \textbf{\%} \\
+		\midrule
+	Pol\'itica de privacidad / aviso de tratamiento & 17/35 & 6/8 & 16/20 & 39/63 & 61.9\% \\
+	Menci\'on expresa a la LOPDP & 16/35 & 5/8 & 10/20 & 31/63 & 49.2\% \\
+	Enumeraci\'on de derechos del titular & 16/35 & 5/8 & 14/20 & 35/63 & 55.6\% \\
+	Delegado (DPO) o contacto de datos & 10/35 & 4/8 & 10/20 & 24/63 & 38.1\% \\
+	Banner de cookies (confirmado) & 2/35 & 1/8 & 3/20 & 6/63 & 9.5\% \\
+	Acci\'on afirmativa / accesibilidad & 4/35 & 2/8 & 1/20 & 7/63 & 11.1\% \\
+	Transparencia / LOTAIP & 34/35 & 6/8 & 7/20 & 47/63 & 74.6\% \\
+	Certificado TLS v\'alido & 31/35 & 8/8 & 19/20 & 58/63 & 92.1\% \\
+		\bottomrule
+	\end{tabular}
+	\par\vspace{2pt}
+	\footnotesize\RaggedRight\textit{Nota:} P\'ublica $n=35$; cofinanciada $n=8$; autofinanciada $n=20$. El banner de \emph{cookies} confirmado subestima su prevalencia real por la limitaci\'on metodol\'ogica descrita.
+\end{table}
+
+\subsection{Uso de \emph{cookies}}
+El tratamiento del consentimiento de \emph{cookies} es la dimensi\'on m\'as d\'ebil del conjunto: solo se confirm\'o un banner de consentimiento en 6 de las 63 IES (9,5\,\%) --- Universidad de Cuenca, IAEN, Universidad Cat\'olica de Santiago de Guayaquil, Universidad de los Hemisferios, ECOTEC y Universidad Bolivariana del Ecuador --- y \'unicamente 15 sitios (23,8\,\%) publican una pol\'itica de \emph{cookies} diferenciada o embebida.
+Este resultado debe leerse con cautela por la limitaci\'on metodol\'ogica ya se\~nalada, pero incluso as\'i contrasta con la madurez de los mecanismos de consentimiento observada tras la aplicaci\'on del RGPD europeo y con la evidencia de que su mera presencia no garantiza un consentimiento v\'alido, pues abundan los patrones de dise\~no que inducen la aceptaci\'on \citep{nouwens2020dark,gray2021dark,habib2022okay}.
+En los pocos casos ecuatorianos con consentimiento granular (ECOTEC y la Universidad Bolivariana del Ecuador, que distinguen categor\'ias de \emph{cookies} funcionales, de preferencias, anal\'iticas y de marketing) el dise\~no se aproxima a las buenas pr\'acticas internacionales.
+
+\subsection{Aviso sobre el tratamiento de datos y cumplimiento de la LOPDP}
+Algo m\'as de la mitad de las IES publica un aviso de tratamiento o pol\'itica de privacidad (39 de 63; 61,9\,\%), pero la calidad sustantiva decae en cada nivel de exigencia: 31 sitios (49,2\,\%) mencionan expresamente la LOPDP, 35 (55,6\,\%) enumeran los derechos del titular y solo 24 (38,1\,\%) designan un delegado de protecci\'on de datos o un canal de contacto espec\'ifico.
+Esta gradaci\'on descendente ---de la existencia formal del documento a la garant\'ia efectiva de derechos--- coincide con el diagn\'ostico de que buena parte de la adecuaci\'on universitaria a la normativa de protecci\'on de datos es un cumplimiento ``por dise\~no o por disfraz'', en el que la forma antecede a la sustancia \citep{munot2025compliance}, y con los estudios que muestran que las pol\'iticas de privacidad publicadas suelen ser gen\'ericas y de baja legibilidad \citep{fabian2017largescale,singh2011usercentric,belcheva2023understanding}.
+Se detectaron adem\'as tres patrones problem\'aticos recurrentes.
+El primero es el uso de bases legales err\'oneas u obsoletas: algunas instituciones sustentan su pol\'itica en la Ley de Comercio Electr\'onico o en la Ley del Sistema Nacional de Registro de Datos P\'ublicos, anteriores a la LOPDP (Universidad UTE, UNIANDES, Universidad Tecnol\'ogica Indoam\'erica), mientras que la Universidad Iberoamericana del Ecuador ampara su pol\'itica en el RGPD europeo y en la CCPA de California sin referencia alguna a la ley ecuatoriana.
+El segundo es el alcance acotado del instrumento, publicado \'unicamente para una aplicaci\'on m\'ovil, el sistema de admisi\'on o el instituto de posgrado, y no como aviso general del portal (Universidad T\'ecnica del Norte, Universidad T\'ecnica Estatal de Quevedo, Universidad Estatal Pen\'insula de Santa Elena).
+El tercero es la ausencia total de instrumentos de privacidad en el sitio oficial de varias instituciones, incluidas universidades p\'ublicas de gran tama\~no (Universidad Nacional de Loja, Universidad Agraria del Ecuador, Universidad T\'ecnica de Manab\'i, Universidad Nacional de Educaci\'on) y particulares (Universidad Laica Vicente Rocafuerte, Universidad del Azuay, Universidad del R\'io).
+Frente a estos casos, un grupo de IES exhibe un marco maduro y verificable, resumido en el Cuadro~\ref{tab:buenas}, con menci\'on articulada de la LOPDP, cat\'alogo completo de derechos, delegado con correo dedicado y, en ocasiones, formulario para el ejercicio de derechos.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Instituciones de referencia con marcos de protecci\'on de datos m\'as completos y verificables.}
+	\label{tab:buenas}
+	\small
+	\begin{tabular}{@{}p{5.3cm}p{2.1cm}p{6.4cm}@{}}
+		\toprule
+		\textbf{Instituci\'on} & \textbf{Tipo} & \textbf{Rasgo distintivo} \\
+		\midrule
+		U. Nacional de Chimborazo (UNACH) & P\'ublica & LOPDP con articulado, derechos completos, DPO y controles de accesibilidad. \\
+		U. de las Fuerzas Armadas ESPE & P\'ublica & Formulario de derechos y accesibilidad para grupos prioritarios. \\
+		U. Andina Sim\'on Bol\'ivar (UASB) & P\'ublica & DPO dedicado (\texttt{dpo@uasb.edu.ec}) y documento de \emph{cookies} separado. \\
+		Esc.\ Polit.\ del Litoral (ESPOL) & P\'ublica & P\'agina de protecci\'on de datos con delegado y correo espec\'ifico. \\
+		U. Cat\'olica de Cuenca (UCACUE) & Cofinanciada & DPO nominado con contacto y herramienta de accesibilidad. \\
+		U. Cat\'olica de Santiago de Guayaquil & Cofinanciada & Banner de \emph{cookies} por categor\'ias y pol\'itica LOPDP completa. \\
+		U. Internacional del Ecuador (UIDE) & Autofinanciada & Cita LOPDP y su Reglamento; DPO y secci\'on de transparencia. \\
+		U. Tecnol\'ogica ECOTEC & Autofinanciada & Consentimiento granular de \emph{cookies} y manual interno de datos. \\
+		U. Bolivariana del Ecuador (UBE) & Autofinanciada & Banner por categor\'ias, pol\'iticas separadas y men\'u de accesibilidad. \\
+		U. de los Hemisferios & Autofinanciada & Pol\'itica con articulado LOPDP y formulario de ejercicio de derechos. \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Acci\'on afirmativa e inclusi\'on}
+La dimensi\'on de acci\'on afirmativa e inclusi\'on, aproximada por la presencia de declaraciones o herramientas de accesibilidad web, es la segunda m\'as d\'ebil: solo 7 de 63 sitios (11,1\,\%) ofrecen alg\'un mecanismo visible ---barras de contraste y tama\~no de fuente, men\'us de accesibilidad o planes de igualdad--- entre ellos la ESPE, UNACH, la Universidad Estatal de Bol\'ivar, la Universidad Cat\'olica de Cuenca, el IAEN y la Universidad Bolivariana del Ecuador.
+Esta baja proporci\'on es coherente con los estudios que, evaluando sistem\'aticamente la accesibilidad de los sitios web universitarios en el mundo y en Am\'erica Latina, encuentran incumplimientos generalizados de las pautas WCAG \citep{campoverdemolina2023accessibility,acostavargas2020dataset,acostavargas2020improve}, y sugiere que la inclusi\'on digital sigue siendo una asignatura pendiente para la educaci\'on superior ecuatoriana, tambi\'en en su dimensi\'on f\'isica \citep{maldonadogarces2025physical}.
+Conviene subrayar que la accesibilidad web no es un a\~nadido cosm\'etico sino una condici\'on de la protecci\'on efectiva de datos: un aviso de tratamiento o un mecanismo de consentimiento que no resulta perceptible ni operable para personas con discapacidad no puede sustentar un consentimiento informado y libre.
+
+\subsection{Seguridad y transparencia}
+En el plano de la seguridad de transporte, la cobertura es alta pero no universal: 58 de 63 sitios (92,1\,\%) presentan HTTPS con certificado v\'alido, mientras que cinco instituciones muestran certificados con cadena incompleta, autofirmados o no confiables (ESPAM MFL, Universidad T\'ecnica de Ambato, Yachay Tech, Universidad de Otavalo y, parcialmente, la Universidad T\'ecnica de Babahoyo por su subdominio \texttt{www}), lo que degrada la confidencialidad de los formularios que recogen datos personales.
+La transparencia activa, en cambio, es el indicador mejor cubierto por el sector p\'ublico: 47 de 63 IES (74,6\,\%) publican la secci\'on de transparencia conforme a la Ley Org\'anica de Transparencia y Acceso a la Informaci\'on P\'ublica (LOTAIP), con 34 de las 35 universidades p\'ublicas cumpliendo este punto frente a solo 7 de las 20 particulares autofinanciadas.
+Este contraste refleja una asimetr\'ia esperable ---la LOTAIP obliga primordialmente al sector p\'ublico--- pero tambi\'en revela que la cultura de publicidad institucional no se ha trasladado a\'un a la publicidad de las pr\'acticas de tratamiento de datos personales, que la LOPDP exige a todos los responsables con independencia de su naturaleza p\'ublica o privada.
+
+\section{Discusi\'on}
+Le\'idos en conjunto, los resultados dibujan una brecha de cumplimiento con forma de embudo: la mayor\'ia de las IES ha dado el primer paso de publicar alg\'un aviso de tratamiento (61,9\,\%), pero la proporci\'on se reduce a medida que se exige mayor sustancia jur\'idica ---menci\'on expresa de la LOPDP (49,2\,\%), derechos del titular (55,6\,\%) y, sobre todo, un delegado o canal de datos operativo (38,1\,\%)--- y se desploma en los mecanismos orientados al usuario, como el consentimiento de \emph{cookies} (9,5\,\%) y la accesibilidad (11,1\,\%).
+El patr\'on es consistente con el fen\'omeno de ``cumplimiento por dise\~no o por disfraz'' descrito para universidades europeas tras el RGPD \citep{munot2025compliance} y con la brecha, ampliamente documentada en la regi\'on, entre la aprobaci\'on formal de leyes de protecci\'on de datos y su implementaci\'on efectiva \citep{carrillo2022follow,chavarriamora2025lack}.
+No se observaron diferencias marcadas y sistem\'aticas por tipo de financiamiento en la calidad de las pol\'iticas de datos: hay ejemplos s\'olidos y deficientes tanto en el sector p\'ublico (UNACH y ESPE frente a la Universidad Nacional de Loja o Yachay Tech) como en el privado (UIDE, ECOTEC y UBE frente a la Universidad del R\'io o la Universidad de Especialidades Tur\'isticas), lo que sugiere que el factor decisivo no es la naturaleza jur\'idica de la instituci\'on sino la existencia de una gobernanza interna de datos que traduzca la ley en pr\'acticas verificables.
+Para el usuario, el hallazgo m\'as preocupante es la persistencia de bases legales err\'oneas y de pol\'iticas importadas de otros ordenamientos (RGPD y CCPA), que generan una apariencia de cumplimiento sin anclarla en los derechos que la LOPDP reconoce a los titulares ecuatorianos.
+
+\section{Conclusiones}
+El an\'alisis de los sitios web de las 63 universidades y escuelas polit\'ecnicas del Ecuador reconocidas por la SENESCYT y el CES revela que, a m\'as de cuatro a\~nos de la vigencia de la LOPDP y con su Reglamento ya expedido, la protecci\'on de datos personales en la ventana p\'ublica de la educaci\'on superior es todav\'ia incipiente y desigual.
+La transparencia de origen p\'ublico est\'a bien asentada, pero la informaci\'on sobre el tratamiento de datos, el consentimiento de \emph{cookies}, la figura del delegado de protecci\'on de datos y la accesibilidad inclusiva presentan brechas amplias que conviene cerrar de forma prioritaria.
+Sobre esta evidencia se recomienda que las IES publiquen una pol\'itica de protecci\'on de datos anclada expresamente en la LOPDP y su Reglamento, con enumeraci\'on de los derechos del titular y un canal de contacto o delegado operativo; que incorporen mecanismos de consentimiento de \emph{cookies} con opciones reales de aceptaci\'on y rechazo; que garanticen la accesibilidad web conforme a las pautas WCAG como condici\'on de un consentimiento informado; y que corrijan los certificados de seguridad deficientes en los portales que recogen datos personales.
+El seguimiento peri\'odico de estos indicadores, con el instrumento y la matriz que acompa\~nan a este cap\'itulo, permitir\'a medir el avance del sector hacia un cumplimiento sustantivo y no meramente formal.
+
+\appendix
+\section{Matriz completa de resultados por instituci\'on}
+\label{ap:matriz}
+La leyenda de los marcadores es la siguiente: \si~cumple; \no~ausente o no cumple; \textbf{P}~parcial (\'ambito acotado, por ejemplo, solo posgrado, admisi\'on o aplicaci\'on m\'ovil); \nv~no verificable por el m\'etodo (sitio bloqueado o documento no legible por m\'aquina); \nd~no detectable (contenido din\'amico no ejecutado). La columna Tipo indica P (p\'ublica), C (cofinanciada) y A (autofinanciada).
+
+\small
+\begin{longtable}{@{}r l c c c c c c c c@{}}
+	\caption{Matriz de privacidad de datos por instituci\'on (63 IES).}\label{tab:matriz}\\
+	\toprule
+	\textbf{\#} & \textbf{Sigla} & \textbf{Tipo} & \textbf{Pol.} & \textbf{LOPDP} & \textbf{Der.} & \textbf{DPO} & \textbf{Cook.} & \textbf{Incl.} & \textbf{Transp.} \\
+	\midrule
+	\endfirsthead
+	\multicolumn{10}{c}{\textit{(Cuadro~\ref{tab:matriz}, continuaci\'on)}}\\
+	\toprule
+	\textbf{\#} & \textbf{Sigla} & \textbf{Tipo} & \textbf{Pol.} & \textbf{LOPDP} & \textbf{Der.} & \textbf{DPO} & \textbf{Cook.} & \textbf{Incl.} & \textbf{Transp.} \\
+	\midrule
+	\endhead
+	\midrule
+	\multicolumn{10}{r}{\textit{Contin\'ua en la siguiente p\'agina}}\\
+	\endfoot
+	\bottomrule
+	\endlastfoot
+	1 & EPN & P & \si & \si & \si & \no & \nd & \no & \si \\
+	2 & ESPOL & P & \si & \si & \si & \si & \nd & \no & \si \\
+	3 & ESPOCH & P & \no & \no & \no & \no & \nd & \no & \si \\
+	4 & ESPAM MFL & P & \no & \no & \no & \no & \nd & \no & \si \\
+	5 & ESPE & P & \si & \si & \si & \si & \nd & \si & \si \\
+	6 & UCE & P & \nv & \no & \no & \no & \nd & \no & \si \\
+	7 & UCuenca & P & \si & \si & \si & \no & \si & \no & \si \\
+	8 & UG & P & \si & \si & \si & \si & \nd & \no & \si \\
+	9 & UNL & P & \no & \no & \no & \no & \nd & \no & \si \\
+	10 & UAE & P & \no & \no & \no & \no & \nd & \no & \si \\
+	11 & UTA & P & \si & \nv & \nv & \nv & \nd & \nv & \si \\
+	12 & UTB & P & \si & \si & \si & \si & \nd & \no & \si \\
+	13 & UTC & P & \si & \no & \no & \no & \nd & \no & \nd \\
+	14 & UTMACH & P & \si & \si & \si & \si & \nd & \no & \si \\
+	15 & UTM & P & \no & \no & \no & \no & \nd & \no & \si \\
+	16 & UTN & P & \pc & \si & \si & \no & \nd & \no & \si \\
+	17 & UTEQ & P & \pc & \si & \no & \no & \nd & \no & \si \\
+	18 & UTELVT & P & \no & \no & \no & \no & \nd & \no & \si \\
+	19 & UEB & P & \si & \nv & \nv & \nv & \nd & \si & \si \\
+	20 & UNESUM & P & \pc & \nv & \no & \no & \nd & \no & \si \\
+	21 & UNEMI & P & \si & \si & \si & \no & \nd & \no & \si \\
+	22 & UEA & P & \si & \no & \si & \no & \nd & \no & \si \\
+	23 & UPSE & P & \pc & \si & \si & \si & \nd & \pc & \si \\
+	24 & ULEAM & P & \no & \no & \no & \no & \nd & \no & \si \\
+	25 & UNACH & P & \si & \si & \si & \si & \nd & \si & \si \\
+	26 & UNAE & P & \no & \no & \no & \no & \nd & \no & \si \\
+	27 & UPEC & P & \no & \pc & \no & \no & \nd & \no & \si \\
+	28 & Yachay Tech & P & \no & \no & \no & \no & \nd & \no & \si \\
+	29 & Ikiam & P & \si & \si & \si & \si & \nd & \no & \si \\
+	30 & UArtes & P & \si & \si & \si & \si & \nd & \no & \si \\
+	31 & Amawtay Wasi & P & \no & \no & \no & \no & \nd & \no & \si \\
+	32 & USECIPOL & P & \pc & \no & \no & \no & \nd & \no & \si \\
+	33 & IAEN & P & \si & \si & \si & \no & \si & \si & \si \\
+	34 & UASB & P & \si & \si & \si & \si & \nd & \no & \si \\
+	35 & FLACSO & P & \no & \no & \no & \no & \nd & \no & \si \\
+	36 & PUCE & C & \si & \si & \si & \si & \nd & \no & \si \\
+	37 & UCSG & C & \si & \si & \si & \si & \si & \no & \si \\
+	38 & UCACUE & C & \si & \si & \si & \si & \nd & \si & \si \\
+	39 & ULVR & C & \no & \no & \no & \no & \nd & \no & \si \\
+	40 & UTPL & C & \si & \si & \si & \si & \nd & \no & \nd \\
+	41 & UTE & C & \si & \no & \no & \no & \nd & \si & \nd \\
+	42 & UDA & C & \no & \no & \no & \no & \nd & \no & \si \\
+	43 & UPS & C & \si & \si & \si & \no & \nd & \no & \si \\
+	44 & UISEK & A & \si & \no & \si & \no & \nd & \no & \no \\
+	45 & UEES & A & \si & \si & \si & \si & \nd & \no & \no \\
+	46 & USFQ & A & \si & \si & \si & \si & \nd & \no & \no \\
+	47 & UDLA & A & \si & \si & \si & \si & \nd & \no & \no \\
+	48 & UIDE & A & \si & \si & \si & \si & \nd & \no & \si \\
+	49 & UNIANDES & A & \si & \no & \si & \no & \nd & \no & \no \\
+	50 & UPACÍFICO & A & \nv & \no & \no & \no & \nd & \no & \no \\
+	51 & UTI & A & \si & \no & \si & \no & \nd & \no & \si \\
+	52 & Casa Grande & A & \si & \si & \si & \si & \nd & \no & \no \\
+	53 & UTEG & A & \si & \si & \si & \si & \nd & \no & \si \\
+	54 & UISRAEL & A & \si & \nv & \nv & \nv & \nd & \nv & \nv \\
+	55 & UDET & A & \no & \no & \no & \no & \nd & \no & \no \\
+	56 & UMET & A & \si & \nv & \nv & \nv & \nd & \no & \si \\
+	57 & U. Otavalo & A & \nv & \nv & \no & \no & \nd & \no & \nv \\
+	58 & USGP & A & \si & \si & \si & \si & \nd & \no & \si \\
+	59 & U. Hemisferios & A & \si & \si & \si & \si & \si & \no & \si \\
+	60 & UNIB.E & A & \si & \no & \si & \no & \nd & \no & \no \\
+	61 & ECOTEC & A & \si & \si & \si & \si & \si & \no & \si \\
+	62 & UDR & A & \no & \no & \no & \no & \nd & \no & \no \\
+	63 & UBE & A & \si & \si & \si & \si & \si & \si & \no \\
+\end{longtable}
+\normalsize
+
+\bibliographystyle{apalike}
+\bibliography{privacidad_ies}
+
+\end{document}

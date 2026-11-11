@@ -1,0 +1,64 @@
+﻿#,Sigla,Tipo,Pol.,LOPDP,Der.,DPO,Cook.,Incl.,Transp.
+1,EPN,P,si,si,si,no,nd,no,si
+2,ESPOL,P,si,si,si,si,nd,no,si
+3,ESPOCH,P,no,no,no,no,nd,no,si
+4,ESPAM MFL,P,no,no,no,no,nd,no,si
+5,ESPE,P,si,si,si,si,nd,si,si
+6,UCE,P,nv,no,no,no,nd,no,si
+7,UCuenca,P,si,si,si,no,si,no,si
+8,UG,P,si,si,si,si,nd,no,si
+9,UNL,P,no,no,no,no,nd,no,si
+10,UAE,P,no,no,no,no,nd,no,si
+11,UTA,P,si,nv,nv,nv,nd,nv,si
+12,UTB,P,si,si,si,si,nd,no,si
+13,UTC,P,si,no,no,no,nd,no,nd
+14,UTMACH,P,si,si,si,si,nd,no,si
+15,UTM,P,no,no,no,no,nd,no,si
+16,UTN,P,parcial,si,si,no,nd,no,si
+17,UTEQ,P,parcial,si,no,no,nd,no,si
+18,UTELVT,P,no,no,no,no,nd,no,si
+19,UEB,P,si,nv,nv,nv,nd,si,si
+20,UNESUM,P,parcial,nv,no,no,nd,no,si
+21,UNEMI,P,si,si,si,no,nd,no,si
+22,UEA,P,si,no,si,no,nd,no,si
+23,UPSE,P,parcial,si,si,si,nd,parcial,si
+24,ULEAM,P,no,no,no,no,nd,no,si
+25,UNACH,P,si,si,si,si,nd,si,si
+26,UNAE,P,no,no,no,no,nd,no,si
+27,UPEC,P,no,parcial,no,no,nd,no,si
+28,Yachay Tech,P,no,no,no,no,nd,no,si
+29,Ikiam,P,si,si,si,si,nd,no,si
+30,UArtes,P,si,si,si,si,nd,no,si
+31,Amawtay Wasi,P,no,no,no,no,nd,no,si
+32,USECIPOL,P,parcial,no,no,no,nd,no,si
+33,IAEN,P,si,si,si,no,si,si,si
+34,UASB,P,si,si,si,si,nd,no,si
+35,FLACSO,P,no,no,no,no,nd,no,si
+36,PUCE,C,si,si,si,si,nd,no,si
+37,UCSG,C,si,si,si,si,si,no,si
+38,UCACUE,C,si,si,si,si,nd,si,si
+39,ULVR,C,no,no,no,no,nd,no,si
+40,UTPL,C,si,si,si,si,nd,no,nd
+41,UTE,C,si,no,no,no,nd,si,nd
+42,UDA,C,no,no,no,no,nd,no,si
+43,UPS,C,si,si,si,no,nd,no,si
+44,UISEK,A,si,no,si,no,nd,no,no
+45,UEES,A,si,si,si,si,nd,no,no
+46,USFQ,A,si,si,si,si,nd,no,no
+47,UDLA,A,si,si,si,si,nd,no,no
+48,UIDE,A,si,si,si,si,nd,no,si
+49,UNIANDES,A,si,no,si,no,nd,no,no
+50,UPACÍFICO,A,nv,no,no,no,nd,no,no
+51,UTI,A,si,no,si,no,nd,no,si
+52,Casa Grande,A,si,si,si,si,nd,no,no
+53,UTEG,A,si,si,si,si,nd,no,si
+54,UISRAEL,A,si,nv,nv,nv,nd,nv,nv
+55,UDET,A,no,no,no,no,nd,no,no
+56,UMET,A,si,nv,nv,nv,nd,no,si
+57,U. Otavalo,A,nv,nv,no,no,nd,no,nv
+58,USGP,A,si,si,si,si,nd,no,si
+59,U. Hemisferios,A,si,si,si,si,si,no,si
+60,UNIB.E,A,si,no,si,no,nd,no,no
+61,ECOTEC,A,si,si,si,si,si,no,si
+62,UDR,A,no,no,no,no,nd,no,no
+63,UBE,A,si,si,si,si,si,si,no

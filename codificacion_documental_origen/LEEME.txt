@@ -1,0 +1,24 @@
+Origen de la codificación documental (indicadores de privacidad y accesibilidad declarada)
+
+Archivos más antiguos que se conservan, del 11 de agosto de 2026:
+  privacidad_ies_2026-08-11.tex        capítulo Ecuador con la matriz de las 63 IES (Anexo A)
+  privacidad_mundo_2026-08-11.tex      comparativa con la matriz de las 63 universidades del mundo
+  hallazgos-privacidad-ies_2026-08-11.md      notas de método y resultados (Ecuador)
+  hallazgos-comparativa-mundo_2026-08-11.md   notas de método y resultados (mundo)
+  seleccion63-mundo_2026-08-11.json    selección del grupo de referencia por consenso de rankings
+
+Extraídos de esos .tex, sin modificar ningún valor:
+  matriz_ecuador_2026-08-11.csv
+  matriz_mundo_2026-08-11.csv
+
+Comparación con la codificación final (documentary_matrix.csv del depósito):
+  cambios_agosto11_a_final.csv   5 celdas distintas de 750 comparadas
+    - Harvard, marco legal: si -> no   (corrección tras la reverificación manual)
+    - Cambridge, aviso: no -> si       (corrección tras la reverificación manual)
+    - UTC, UTPL, UTE, transparencia: nd -> nv (cambio de notación)
+
+No se conservan: las hojas Excel privacidad_ies_ecuador.xlsx y
+privacidad_mundo_vs_ecuador.xlsx entregadas en el chat del 11 de agosto, ni
+ninguna codificación individual por persona ni registro de reconciliación.
+Según las notas, la matriz del 11 de agosto se obtuvo por recuperación
+automatizada de los sitios (WebFetch/WebSearch) en una sesión con Claude.

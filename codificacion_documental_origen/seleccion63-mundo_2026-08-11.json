@@ -1,0 +1,632 @@
+[
+ {
+  "consenso": 1,
+  "nombre": "MIT",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 1,
+  "the": 2,
+  "arwu": 3,
+  "avg": 2.0
+ },
+ {
+  "consenso": 2,
+  "nombre": "Stanford University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 3,
+  "the": 5,
+  "arwu": 2,
+  "avg": 3.3
+ },
+ {
+  "consenso": 3,
+  "nombre": "Harvard University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 5,
+  "the": 5,
+  "arwu": 1,
+  "avg": 3.7
+ },
+ {
+  "consenso": 4,
+  "nombre": "University of Oxford",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 4,
+  "the": 1,
+  "arwu": 6,
+  "avg": 3.7
+ },
+ {
+  "consenso": 5,
+  "nombre": "University of Cambridge",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 6,
+  "the": 3,
+  "arwu": 4,
+  "avg": 4.3
+ },
+ {
+  "consenso": 6,
+  "nombre": "Caltech",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 10,
+  "the": 7,
+  "arwu": 9,
+  "avg": 8.7
+ },
+ {
+  "consenso": 7,
+  "nombre": "UC Berkeley",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 17,
+  "the": 9,
+  "arwu": 5,
+  "avg": 10.3
+ },
+ {
+  "consenso": 8,
+  "nombre": "Princeton University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 25,
+  "the": 3,
+  "arwu": 7,
+  "avg": 11.7
+ },
+ {
+  "consenso": 9,
+  "nombre": "Imperial College London",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 2,
+  "the": 8,
+  "arwu": 26,
+  "avg": 12.0
+ },
+ {
+  "consenso": 10,
+  "nombre": "University of Chicago",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 13,
+  "the": 15,
+  "arwu": 10,
+  "avg": 12.7
+ },
+ {
+  "consenso": 11,
+  "nombre": "ETH Zurich",
+  "pais": "Suiza",
+  "present": 3,
+  "qs": 7,
+  "the": 11,
+  "arwu": 22,
+  "avg": 13.3
+ },
+ {
+  "consenso": 12,
+  "nombre": "Yale University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 21,
+  "the": 10,
+  "arwu": 11,
+  "avg": 14.0
+ },
+ {
+  "consenso": 13,
+  "nombre": "University of Pennsylvania",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 15,
+  "the": 14,
+  "arwu": 14,
+  "avg": 14.3
+ },
+ {
+  "consenso": 14,
+  "nombre": "University College London",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 9,
+  "the": 22,
+  "arwu": 14,
+  "avg": 15.0
+ },
+ {
+  "consenso": 15,
+  "nombre": "Cornell University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 16,
+  "the": 18,
+  "arwu": 12,
+  "avg": 15.3
+ },
+ {
+  "consenso": 16,
+  "nombre": "Tsinghua University",
+  "pais": "China",
+  "present": 3,
+  "qs": 17,
+  "the": 12,
+  "arwu": 18,
+  "avg": 15.7
+ },
+ {
+  "consenso": 17,
+  "nombre": "Peking University",
+  "pais": "China",
+  "present": 3,
+  "qs": 14,
+  "the": 13,
+  "arwu": 23,
+  "avg": 16.7
+ },
+ {
+  "consenso": 18,
+  "nombre": "Johns Hopkins University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 24,
+  "the": 16,
+  "arwu": 19,
+  "avg": 19.7
+ },
+ {
+  "consenso": 19,
+  "nombre": "Columbia University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 38,
+  "the": 20,
+  "arwu": 8,
+  "avg": 22.0
+ },
+ {
+  "consenso": 20,
+  "nombre": "University of Toronto",
+  "pais": "Canadá",
+  "present": 3,
+  "qs": 29,
+  "the": 21,
+  "arwu": 25,
+  "avg": 25.0
+ },
+ {
+  "consenso": 21,
+  "nombre": "UCLA",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 46,
+  "the": 18,
+  "arwu": 16,
+  "avg": 26.7
+ },
+ {
+  "consenso": 22,
+  "nombre": "National University of Singapore",
+  "pais": "Singapur",
+  "present": 3,
+  "qs": 8,
+  "the": 17,
+  "arwu": 56,
+  "avg": 27.0
+ },
+ {
+  "consenso": 23,
+  "nombre": "University of Tokyo",
+  "pais": "Japón",
+  "present": 3,
+  "qs": 36,
+  "the": 26,
+  "arwu": 31,
+  "avg": 31.0
+ },
+ {
+  "consenso": 24,
+  "nombre": "Technical University of Munich",
+  "pais": "Alemania",
+  "present": 3,
+  "qs": 22,
+  "the": 27,
+  "arwu": 45,
+  "avg": 31.3
+ },
+ {
+  "consenso": 25,
+  "nombre": "University of Melbourne",
+  "pais": "Australia",
+  "present": 3,
+  "qs": 19,
+  "the": 37,
+  "arwu": 38,
+  "avg": 31.3
+ },
+ {
+  "consenso": 26,
+  "nombre": "University of Edinburgh",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 34,
+  "the": 29,
+  "arwu": 37,
+  "avg": 33.3
+ },
+ {
+  "consenso": 27,
+  "nombre": "EPFL",
+  "pais": "Suiza",
+  "present": 3,
+  "qs": 22,
+  "the": 35,
+  "arwu": 44,
+  "avg": 33.7
+ },
+ {
+  "consenso": 28,
+  "nombre": "University of Michigan",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 45,
+  "the": 23,
+  "arwu": 33,
+  "avg": 33.7
+ },
+ {
+  "consenso": 29,
+  "nombre": "Northwestern University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 42,
+  "the": 30,
+  "arwu": 31,
+  "avg": 34.3
+ },
+ {
+  "consenso": 30,
+  "nombre": "Fudan University",
+  "pais": "China",
+  "present": 3,
+  "qs": 30,
+  "the": 36,
+  "arwu": 41,
+  "avg": 35.7
+ },
+ {
+  "consenso": 31,
+  "nombre": "PSL University",
+  "pais": "Francia",
+  "present": 3,
+  "qs": 28,
+  "the": 48,
+  "arwu": 34,
+  "avg": 36.7
+ },
+ {
+  "consenso": 32,
+  "nombre": "University of Hong Kong",
+  "pais": "Hong Kong",
+  "present": 3,
+  "qs": 11,
+  "the": 33,
+  "arwu": 67,
+  "avg": 37.0
+ },
+ {
+  "consenso": 33,
+  "nombre": "Zhejiang University",
+  "pais": "China",
+  "present": 3,
+  "qs": 49,
+  "the": 39,
+  "arwu": 24,
+  "avg": 37.3
+ },
+ {
+  "consenso": 34,
+  "nombre": "New York University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 55,
+  "the": 31,
+  "arwu": 28,
+  "avg": 38.0
+ },
+ {
+  "consenso": 35,
+  "nombre": "Shanghai Jiao Tong University",
+  "pais": "China",
+  "present": 3,
+  "qs": 47,
+  "the": 40,
+  "arwu": 30,
+  "avg": 39.0
+ },
+ {
+  "consenso": 36,
+  "nombre": "King's College London",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 31,
+  "the": 38,
+  "arwu": 61,
+  "avg": 43.3
+ },
+ {
+  "consenso": 37,
+  "nombre": "UC San Diego",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 66,
+  "the": 47,
+  "arwu": 20,
+  "avg": 44.3
+ },
+ {
+  "consenso": 38,
+  "nombre": "LMU Munich",
+  "pais": "Alemania",
+  "present": 3,
+  "qs": 58,
+  "the": 34,
+  "arwu": 42,
+  "avg": 44.7
+ },
+ {
+  "consenso": 39,
+  "nombre": "Duke University",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 62,
+  "the": 28,
+  "arwu": 46,
+  "avg": 45.3
+ },
+ {
+  "consenso": 40,
+  "nombre": "University of Manchester",
+  "pais": "Reino Unido",
+  "present": 3,
+  "qs": 35,
+  "the": 56,
+  "arwu": 46,
+  "avg": 45.7
+ },
+ {
+  "consenso": 41,
+  "nombre": "University of British Columbia",
+  "pais": "Canadá",
+  "present": 3,
+  "qs": 40,
+  "the": 45,
+  "arwu": 53,
+  "avg": 46.0
+ },
+ {
+  "consenso": 42,
+  "nombre": "University of Sydney",
+  "pais": "Australia",
+  "present": 3,
+  "qs": 25,
+  "the": 53,
+  "arwu": 72,
+  "avg": 50.0
+ },
+ {
+  "consenso": 43,
+  "nombre": "Paris-Saclay University",
+  "pais": "Francia",
+  "present": 3,
+  "qs": 70,
+  "the": 68,
+  "arwu": 13,
+  "avg": 50.3
+ },
+ {
+  "consenso": 44,
+  "nombre": "Kyoto University",
+  "pais": "Japón",
+  "present": 3,
+  "qs": 57,
+  "the": 61,
+  "arwu": 46,
+  "avg": 54.7
+ },
+ {
+  "consenso": 45,
+  "nombre": "University of Illinois Urbana-Champaign",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 70,
+  "the": 41,
+  "arwu": 53,
+  "avg": 54.7
+ },
+ {
+  "consenso": 46,
+  "nombre": "UT Austin",
+  "pais": "EE.UU.",
+  "present": 3,
+  "qs": 68,
+  "the": 50,
+  "arwu": 49,
+  "avg": 55.7
+ },
+ {
+  "consenso": 47,
+  "nombre": "University of Washington",
+  "pais": "EE.UU.",
+  "present": 2,
+  "qs": null,
+  "the": 25,
+  "arwu": 17,
+  "avg": 39.3
+ },
+ {
+  "consenso": 48,
+  "nombre": "Nanyang Technological University",
+  "pais": "Singapur",
+  "present": 2,
+  "qs": 12,
+  "the": 31,
+  "arwu": null,
+  "avg": 39.7
+ },
+ {
+  "consenso": 49,
+  "nombre": "McGill University",
+  "pais": "Canadá",
+  "present": 2,
+  "qs": 27,
+  "the": 41,
+  "arwu": null,
+  "avg": 48.0
+ },
+ {
+  "consenso": 50,
+  "nombre": "Chinese University of Hong Kong",
+  "pais": "Hong Kong",
+  "present": 2,
+  "qs": 32,
+  "the": 41,
+  "arwu": null,
+  "avg": 49.7
+ },
+ {
+  "consenso": 51,
+  "nombre": "Carnegie Mellon University",
+  "pais": "EE.UU.",
+  "present": 2,
+  "qs": 52,
+  "the": 24,
+  "arwu": null,
+  "avg": 50.7
+ },
+ {
+  "consenso": 52,
+  "nombre": "University of Wisconsin-Madison",
+  "pais": "EE.UU.",
+  "present": 2,
+  "qs": null,
+  "the": 53,
+  "arwu": 36,
+  "avg": 55.0
+ },
+ {
+  "consenso": 53,
+  "nombre": "USTC",
+  "pais": "China",
+  "present": 2,
+  "qs": null,
+  "the": 51,
+  "arwu": 40,
+  "avg": 55.7
+ },
+ {
+  "consenso": 54,
+  "nombre": "Washington University in St. Louis",
+  "pais": "EE.UU.",
+  "present": 2,
+  "qs": null,
+  "the": 67,
+  "arwu": 26,
+  "avg": 56.3
+ },
+ {
+  "consenso": 55,
+  "nombre": "Monash University",
+  "pais": "Australia",
+  "present": 2,
+  "qs": 36,
+  "the": 58,
+  "arwu": null,
+  "avg": 56.7
+ },
+ {
+  "consenso": 56,
+  "nombre": "Seoul National University",
+  "pais": "Corea del Sur",
+  "present": 2,
+  "qs": 38,
+  "the": 58,
+  "arwu": null,
+  "avg": 57.3
+ },
+ {
+  "consenso": 57,
+  "nombre": "Heidelberg University",
+  "pais": "Alemania",
+  "present": 2,
+  "qs": null,
+  "the": 49,
+  "arwu": 51,
+  "avg": 58.7
+ },
+ {
+  "consenso": 58,
+  "nombre": "HKUST",
+  "pais": "Hong Kong",
+  "present": 2,
+  "qs": 44,
+  "the": 58,
+  "arwu": null,
+  "avg": 59.3
+ },
+ {
+  "consenso": 59,
+  "nombre": "Karolinska Institutet",
+  "pais": "Suecia",
+  "present": 2,
+  "qs": null,
+  "the": 53,
+  "arwu": 50,
+  "avg": 59.7
+ },
+ {
+  "consenso": 60,
+  "nombre": "Delft University of Technology",
+  "pais": "Países Bajos",
+  "present": 2,
+  "qs": 47,
+  "the": 57,
+  "arwu": null,
+  "avg": 60.0
+ },
+ {
+  "consenso": 61,
+  "nombre": "Australian National University",
+  "pais": "Australia",
+  "present": 2,
+  "qs": 32,
+  "the": 73,
+  "arwu": null,
+  "avg": 60.3
+ },
+ {
+  "consenso": 62,
+  "nombre": "KU Leuven",
+  "pais": "Bélgica",
+  "present": 2,
+  "qs": 60,
+  "the": 46,
+  "arwu": null,
+  "avg": 60.7
+ },
+ {
+  "consenso": 63,
+  "nombre": "University of Queensland",
+  "pais": "Australia",
+  "present": 2,
+  "qs": 42,
+  "the": null,
+  "arwu": 65,
+  "avg": 61.0
+ }
+]
