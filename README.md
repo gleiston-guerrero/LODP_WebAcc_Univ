@@ -31,14 +31,17 @@ Cuando una cifra cambie, cambia primero en el depósito y después aquí, nunca 
 | `sn-jnl.cls`, `sn-basic.bst` | Plantilla y estilo bibliográfico de Springer Nature |
 | `privacidad_UAIS_en.pdf`, `privacidad_UAIS_es.pdf` | PDF compilados de ambas versiones |
 | `envio_revista/cover_letter_UAIS.tex`, `envio_revista/cover_letter_UAIS.pdf` | Carta de presentación para el envío |
-| `envio_revista/UAIS_submission_LaTeX.zip` | Paquete LaTeX que se envía a la revista: versión en inglés, `.bib`, `.bbl`, plantilla y figuras en una sola carpeta, con `README.txt` de compilación |
+| `envio_revista/manuscript_uais_privacy.zip` | Paquete LaTeX que se envía a la revista: versión en inglés, `.bib`, `.bbl`, plantilla y figuras en una sola carpeta, con `README.txt` de compilación |
 | `envio_BIT/privacidad_BIT.tex` | **Versión vigente** para *Behaviour & Information Technology*: plantilla Interact de Taylor & Francis con referencias APA 7, autores y todas las declaraciones |
 | `envio_BIT/privacidad_BIT_anonymised.tex` | Versión anónima para la revisión doble anónima; solo activa `\anonversion` y carga `privacidad_BIT.tex`, así que el texto es idéntico |
-| `envio_BIT/privacidad_mundo_BIT.bib` | Bibliografía de la versión para Taylor & Francis (mismas referencias, mayúsculas protegidas para el estilo APA) |
+| `envio_BIT/privacidad_mundo_BIT.bib` | Bibliografía de la versión para Taylor & Francis: las referencias de la versión UAIS más siete artículos de *Behaviour & Information Technology* verificados en Crossref, con mayúsculas protegidas para el estilo APA |
 | `envio_BIT/interact.cls`, `envio_BIT/tfapastyle.sty`, `envio_BIT/tfapacite.bst` | Plantilla y estilo bibliográfico de Taylor & Francis |
 | `envio_BIT/privacidad_BIT.pdf`, `envio_BIT/privacidad_BIT_anonymised.pdf` | PDF compilados (48 y 47 páginas, A4) |
 | `envio_BIT/BIT_submission_LaTeX.zip` | Paquete LaTeX autocontenido para subir a la revista, con su `README.txt` |
 | `informe_revision_UAIS_dos_barreras.tex` | Informe de revisión por pares del manuscrito, en español; no forma parte de la compilación |
+| `informe_revision_BIT_dos_barreras.tex`, `informe_revision_BIT_dos_barreras.pdf` | Informe de revisión por pares de la versión para *Behaviour & Information Technology* (11 de noviembre de 2026), en español; no forma parte de la compilación |
+| `codificacion_documental_origen/` | Fuentes más antiguas de la codificación documental (11 de agosto de 2026), sus matrices en CSV y la comparación con la codificación final; ver su `LEEME.txt` |
+| `codificacion_documental_origen/recodificacion/` | Muestra aleatoria de 30 instituciones, hojas en blanco para dos codificadores y protocolo para una doble codificación independiente sin IA |
 
 ## Compilación de la versión vigente (Behaviour & Information Technology)
 

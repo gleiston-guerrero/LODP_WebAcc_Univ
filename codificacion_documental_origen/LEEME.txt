@@ -17,8 +17,15 @@ Comparación con la codificación final (documentary_matrix.csv del depósito):
     - Cambridge, aviso: no -> si       (corrección tras la reverificación manual)
     - UTC, UTPL, UTE, transparencia: nd -> nv (cambio de notación)
 
+Cómo se obtuvo: la matriz del 11 de agosto se compiló con ayuda de IA
+(recuperación automatizada de los sitios con WebFetch/WebSearch en una sesión
+con Claude, sin ejecutar JavaScript). En la codificación y revisión posteriores
+participaron los tres autores y una persona colaboradora externa. Se reverificaron a mano seis
+instituciones (24 celdas) y se corrigieron dos.
+
 No se conservan: las hojas Excel privacidad_ies_ecuador.xlsx y
 privacidad_mundo_vs_ecuador.xlsx entregadas en el chat del 11 de agosto, ni
-ninguna codificación individual por persona ni registro de reconciliación.
-Según las notas, la matriz del 11 de agosto se obtuvo por recuperación
-automatizada de los sitios (WebFetch/WebSearch) en una sesión con Claude.
+las codificaciones individuales de cada persona, ni un registro de la
+reconciliación. Por eso el artículo no informa un coeficiente de acuerdo para
+los indicadores documentales; la carpeta recodificacion/ prepara una doble
+codificación independiente de 30 instituciones para obtenerlo.
