@@ -1,0 +1,127 @@
+﻿grupo,\#,Abbr.,C,QS,THE,ARWU,Not.,Frm.,Rts.,DPO,Ckp.,Acc.,Type,Notice,LOPDP,Rights,Transp.,nueva_2024
+mundo,1,MIT,US,1,2,3,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,2,Stanford,US,3,5,2,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,3,Harvard,US,5,5,1,si,no*,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,4,Oxford,GB,4,1,6,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,5,Cambridge,GB,6,3,4,si*,parcial,no,no,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,6,Caltech,US,10,7,9,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,7,UC Berkeley,US,17,9,5,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,8,Princeton,US,25,3,7,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,9,Imperial,GB,2,8,26,si,si,parcial,no,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,10,U Chicago,US,13,15,10,si,parcial,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,11,ETH Zurich,CH,7,11,22,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,12,Yale,US,21,10,11,si,si,parcial,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,13,UPenn,US,15,14,14,si,parcial,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,14,UCL,GB,9,22,14,si,parcial,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,15,Cornell,US,16,18,12,si,parcial,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,16,Tsinghua,CN,17,12,18,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,17,Peking,CN,14,13,23,parcial,parcial,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,18,Johns Hopkins,US,24,16,19,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,19,Columbia,US,38,20,8,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,20,Toronto,CA,29,21,25,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,21,UCLA,US,46,18,16,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,22,NUS,SG,8,17,56,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,23,U Tokyo,JP,36,26,31,si,si,si,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,24,TUM,DE,22,27,45,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,25,Melbourne,AU,19,37,38,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,26,Edinburgh,GB,34,29,37,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,27,EPFL,CH,22,35,44,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,28,Michigan,US,45,23,33,si,no,no,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,29,Northwestern,US,42,30,31,si,parcial,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,30,Fudan,CN,30,36,41,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,31,PSL,FR,28,48,34,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,32,HKU,HK,11,33,67,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,33,Zhejiang,CN,49,39,24,si,parcial,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,34,NYU,US,55,31,28,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,35,SJTU,CN,47,40,30,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,36,KCL,GB,31,38,61,si,parcial,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,37,UCSD,US,66,47,20,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,38,LMU,DE,58,34,42,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,39,Duke,US,62,28,46,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,40,Manchester,GB,35,56,46,si,si,parcial,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,41,UBC,CA,40,45,53,si,si,parcial,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,42,Sydney,AU,25,53,72,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,43,Paris-Saclay,FR,70,68,13,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,44,Kyoto,JP,57,61,46,si,parcial,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,45,Illinois,US,70,41,53,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,46,UT Austin,US,68,50,49,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,47,UW,US,--,25,17,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,48,NTU,SG,12,31,--,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,49,McGill,CA,27,41,--,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,50,CUHK,HK,32,41,--,si,si,si,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,51,CMU,US,52,24,--,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,52,Wisconsin,US,--,53,36,si,si,no,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,53,USTC,CN,--,51,40,parcial,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,54,WUSTL,US,--,67,26,si,no,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,55,Monash,AU,36,58,--,si,si,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,56,SNU,KR,38,58,--,si,si,si,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,57,Heidelberg,DE,--,49,51,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,58,HKUST,HK,44,58,--,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,59,Karolinska,SE,--,53,50,si,parcial,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,60,TU Delft,NL,47,57,--,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,61,ANU,AU,32,73,--,si,si,parcial,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,62,KU Leuven,BE,60,46,--,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+mundo,63,Queensland,AU,42,--,65,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no
+ecuador,1,EPN,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,si,si,si,si,no
+ecuador,2,ESPOL,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,3,ESPOCH,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,4,ESPAM MFL,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,5,ESPE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,si,P,si,si,si,si,no
+ecuador,6,UCE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,nv,no,no,si,no
+ecuador,7,UCuenca,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,si,si,si,si,no
+ecuador,8,UG,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,9,UNL,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,10,UAE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,11,UTA,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,P,si,nv,nv,si,no
+ecuador,12,UTB,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,13,UTC,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,si,no,no,nv,no
+ecuador,14,UTMACH,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,15,UTM,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,16,UTN,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,parcial,si,si,si,no
+ecuador,17,UTEQ,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,parcial,si,no,si,no
+ecuador,18,UTELVT,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,19,UEB,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,nv,no_aplica,si,P,si,nv,nv,si,no
+ecuador,20,UNESUM,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,parcial,nv,no,si,no
+ecuador,21,UNEMI,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,si,si,si,si,no
+ecuador,22,UEA,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,si,no,si,si,no
+ecuador,23,UPSE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,parcial,P,parcial,si,si,si,no
+ecuador,24,ULEAM,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,25,UNACH,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,si,P,si,si,si,si,no
+ecuador,26,UNAE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,27,UPEC,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,parcial,no,si,no
+ecuador,28,Yachay Tech,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,29,Ikiam,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,30,UArtes,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,31,Amawtay Wasi,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,32,USECIPOL,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,parcial,no,no,si,si
+ecuador,33,IAEN,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,si,P,si,si,si,si,no
+ecuador,34,UASB,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,P,si,si,si,si,no
+ecuador,35,FLACSO,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,P,no,no,no,si,no
+ecuador,36,PUCE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,C,si,si,si,si,no
+ecuador,37,UCSG,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,C,si,si,si,si,no
+ecuador,38,UCACUE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,si,C,si,si,si,si,no
+ecuador,39,ULVR,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,C,no,no,no,si,no
+ecuador,40,UTPL,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,C,si,si,si,nv,no
+ecuador,41,UTE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,si,C,si,no,no,nv,no
+ecuador,42,UDA,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,C,no,no,no,si,no
+ecuador,43,UPS,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,C,si,si,si,si,no
+ecuador,44,UISEK,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,si,no,si,no,no
+ecuador,45,UEES,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,no,no
+ecuador,46,USFQ,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,no,no
+ecuador,47,UDLA,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,no,no
+ecuador,48,UIDE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,si,no
+ecuador,49,UNIANDES,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,si,no,si,no,no
+ecuador,50,UPACIFICO,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,nv,no,no,no,no
+ecuador,51,UTI,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,si,no,si,si,no
+ecuador,52,Casa Grande,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,no,no
+ecuador,53,UTEG,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,si,no
+ecuador,54,UISRAEL,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,A,si,nv,nv,nv,no
+ecuador,55,UDET,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,no,no,no,no,no
+ecuador,56,UMET,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,nv,no_aplica,no,A,si,nv,nv,si,no
+ecuador,57,U. Otavalo,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,nv,nv,no,nv,no
+ecuador,58,USGP,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,si,no
+ecuador,59,U. Hemisferios,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,si,no
+ecuador,60,UNIB.E,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,si,no,si,no,no
+ecuador,61,ECOTEC,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,no,A,si,si,si,si,no
+ecuador,62,UDR,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no,no_aplica,no,A,no,no,no,no,no
+ecuador,63,UBE,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,no_aplica,si,no_aplica,si,A,si,si,si,no,no

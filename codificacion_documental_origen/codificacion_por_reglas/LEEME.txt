@@ -1,0 +1,52 @@
+Codificación documental por reglas fijas (verificación posterior, noviembre de 2026)
+
+QUÉ ES
+  codificar_documental.py  Codifica los indicadores documentales de cada institución con
+                           reglas explícitas (expresiones regulares), sin IA y sin JavaScript,
+                           siguiendo la regla de profundidad uno del estudio.
+  compilar_matriz.py       Reúne los resultados por sitio en una matriz con el formato de
+                           documentary_matrix.csv y calcula el acuerdo con la matriz publicada
+                           (acuerdo observado y kappa de Cohen, con IC 95 % por bootstrap).
+  entrada/                 Censo de 126 sitios (universities.json) y matriz publicada v1.1.0.
+
+QUÉ NO ES
+  No es el procedimiento con que se compiló la matriz del 11 de agosto de 2026 ni la
+  reemplaza. Es un instrumento distinto, escrito y ejecutado en noviembre de 2026, para
+  medir cuánto coincide la matriz publicada con un procedimiento reproducible. Así debe
+  declararse en el manuscrito, con la fecha real de ejecución.
+
+ANTES DE EJECUTAR (una sola vez)
+  1. Revisar las reglas del bloque 2 de codificar_documental.py (marco jurídico por
+     jurisdicción) contra el Apéndice C del manuscrito. Fijarlas y hacer commit ANTES de
+     la corrida. No ajustarlas después de ver los resultados: si se cambian, se declara
+     y se publica la versión anterior y su resultado.
+  2. py -m pip install requests beautifulsoup4 pypdf
+
+EJECUCIÓN (PowerShell, en esta carpeta)
+  # a) Instantáneas archivadas lo más cercanas al 11 de agosto de 2026 (reduce el efecto
+  #    de los cambios de los sitios desde entonces). Recomendado como corrida principal.
+  py codificar_documental.py --wayback 20260811
+  py compilar_matriz.py --resultados salida_wayback_20260811
+
+  # b) Sitios en vivo, hoy (complementaria)
+  py codificar_documental.py
+  py compilar_matriz.py --resultados salida_vivo
+
+  La corrida dura aproximadamente 15-30 minutos. Si se interrumpe, al volver a ejecutarla
+  continúa con los sitios pendientes (--rehacer para recodificar todo).
+
+QUÉ ENTREGAR PARA ACTUALIZAR EL MANUSCRITO Y EL DEPÓSITO
+  La carpeta salida_<modo>/ completa: sitios/*.json (códigos y evidencia, con URL, fecha,
+  estado HTTP y huella SHA-256 de cada página), crudo/ (páginas descargadas),
+  matriz_reglas.csv, acuerdo_por_indicador.csv, discrepancias.csv, informe_acuerdo.md.
+
+INTERPRETACIÓN
+  Un desacuerdo puede deberse a (i) un error de la matriz, (ii) una limitación de las reglas
+  (por ejemplo, un aviso redactado sin las palabras previstas) o (iii) un cambio del sitio.
+  discrepancias.csv trae columnas vacías codigo_conciliado y nota_conciliacion para que
+  una persona revise cada caso contra la página guardada y registre su decisión.
+
+PRIVACIDAD
+  No se guardan direcciones de correo en los resultados: el indicador de contacto solo
+  registra si existe un rol o un buzón dedicado a privacidad. Las páginas de crudo/ son
+  públicas, pero conviene revisarlas antes de depositarlas.
