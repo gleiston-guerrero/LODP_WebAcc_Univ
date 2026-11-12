@@ -38,7 +38,12 @@ from urllib.parse import urljoin, urlparse, urldefrag
 import requests
 from bs4 import BeautifulSoup
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
+# 1.1.0 (11-nov-2026): solo cambia la DESCARGA, no las reglas de codificación.
+#   Un error transitorio (HTTP 429/5xx, tiempo agotado, conexión cortada) ya no se
+#   codifica como «nv»: se reintenta con espera creciente y, si persiste, el sitio
+#   queda pendiente sin resultado. Pausa mínima de 5 s con --wayback (límite de
+#   web.archive.org). Se registra la fecha de la instantánea archivada usada.
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36 "
       "LODP-WebAcc-Univ-documentary-check/" + VERSION)
@@ -162,6 +167,14 @@ ESTADOS_UE = {"DE", "FR", "NL", "BE", "SE"}
 # --------------------------------------------------------------------------
 # Utilidades de descarga
 # --------------------------------------------------------------------------
+ESTADOS_TRANSITORIOS = {429, 500, 502, 503, 504, 520, 522, 524}
+ESPERAS = [30, 60, 120, 240, 480]   # segundos entre reintentos
+
+
+class ErrorTransitorio(Exception):
+    """La descarga falló por una causa pasajera; el sitio no se codifica en esta corrida."""
+
+
 class Descargador:
     def __init__(self, wayback=None, pausa=1.0):
         self.wayback = wayback
@@ -175,26 +188,44 @@ class Descargador:
         return url
 
     def get(self, url):
-        """Devuelve dict con status, contenido, tipo, url_final, tls_ok, error."""
-        time.sleep(self.pausa)
+        """Devuelve dict con status, contenido, tipo, url_final, tls_ok, error.
+        Lanza ErrorTransitorio si tras los reintentos la causa sigue siendo pasajera."""
         u = self.url_efectiva(url)
-        r = {"url_solicitada": url, "url_consultada": u, "status": None, "tls_ok": None,
-             "contenido": b"", "tipo": "", "url_final": None, "error": None,
-             "fecha_hora_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-        for verificar in (True, False):
-            try:
-                resp = self.s.get(u, timeout=TIMEOUT, verify=verificar, allow_redirects=True)
-                r.update(status=resp.status_code, contenido=resp.content,
-                         tipo=resp.headers.get("Content-Type", ""), url_final=resp.url,
-                         tls_ok=verificar)
+        for intento, espera in enumerate([0] + ESPERAS):
+            if espera:
+                print(f"      reintento {intento} en {espera} s ({url})", flush=True)
+                time.sleep(espera)
+            time.sleep(self.pausa)
+            r = {"url_solicitada": url, "url_consultada": u, "status": None, "tls_ok": None,
+                 "contenido": b"", "tipo": "", "url_final": None, "error": None, "instantanea": None,
+                 "fecha_hora_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+            transitorio = False
+            for verificar in (True, False):
+                try:
+                    resp = self.s.get(u, timeout=TIMEOUT, verify=verificar, allow_redirects=True)
+                    r.update(status=resp.status_code, contenido=resp.content,
+                             tipo=resp.headers.get("Content-Type", ""), url_final=resp.url,
+                             tls_ok=verificar)
+                    transitorio = resp.status_code in ESTADOS_TRANSITORIOS
+                    if transitorio and resp.headers.get("Retry-After", "").isdigit():
+                        time.sleep(min(int(resp.headers["Retry-After"]), 600))
+                    break
+                except requests.exceptions.SSLError as e:
+                    r["error"] = "SSL: " + str(e)[:200]
+                    continue
+                except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                    r["error"] = type(e).__name__ + ": " + str(e)[:200]
+                    # sin conexión con el archivo es transitorio; con el sitio, se reintenta igual
+                    transitorio = True
+                    break
+                except Exception as e:
+                    r["error"] = type(e).__name__ + ": " + str(e)[:200]
+                    break
+            if not transitorio:
+                m = re.search(r"/web/(\d{8,14})", r["url_final"] or "")
+                r["instantanea"] = m.group(1) if (self.wayback and m) else None
                 return r
-            except requests.exceptions.SSLError as e:
-                r["error"] = "SSL: " + str(e)[:200]
-                continue
-            except Exception as e:
-                r["error"] = type(e).__name__ + ": " + str(e)[:200]
-                return r
-        return r
+        raise ErrorTransitorio(f"{url}: estado {r['status']} {r['error'] or ''}".strip())
 
 
 def url_original(u):
@@ -254,13 +285,15 @@ def codificar(sitio, d, dir_crudo):
 
     portada = d.get(sitio["url"])
     ev["descargas"].append({k: portada[k] for k in ("url_consultada", "status", "tls_ok", "url_final",
-                                                     "fecha_hora_utc", "error")} |
+                                                     "fecha_hora_utc", "error", "instantanea")} |
                            {"sha256": sha(portada["contenido"])})
     if portada["status"] != 200 or not portada["contenido"]:
         indicadores = ["privacy_notice", "legal_framework", "data_subject_rights", "dpo_contact",
                        "accessibility_statement"] + \
                       (["cookie_policy"] if grupo == "mundo" else ["lotaip_transparency"])
-        return {k: "nv" for k in indicadores}, ev | {"motivo_nv": "portada no recuperable"}
+        motivo = ("sin instantánea archivada" if d.wayback and portada["status"] == 404
+                  else "portada no recuperable")
+        return {k: "nv" for k in indicadores}, ev | {"motivo_nv": motivo}
 
     (dir_crudo / "portada.html").write_bytes(portada["contenido"])
     base = url_original(portada["url_final"] or sitio["url"])
@@ -302,7 +335,7 @@ def codificar(sitio, d, dir_crudo):
     for l in candidatos[:3]:
         r = d.get(l["url"])
         ev["descargas"].append({k: r[k] for k in ("url_consultada", "status", "tls_ok", "url_final",
-                                                   "fecha_hora_utc", "error")} | {"sha256": sha(r["contenido"])})
+                                                   "fecha_hora_utc", "error", "instantanea")} | {"sha256": sha(r["contenido"])})
         if r["status"] != 200 or not r["contenido"]:
             intentos_fallidos += 1
             continue
@@ -395,7 +428,8 @@ def main():
     ap.add_argument("--censo", default="entrada/universities.json")
     ap.add_argument("--wayback", help="fecha AAAAMMDD de la instantánea de web.archive.org")
     ap.add_argument("--ids", nargs="*", type=int)
-    ap.add_argument("--pausa", type=float, default=1.0, help="segundos entre solicitudes")
+    ap.add_argument("--pausa", type=float, default=1.0,
+                    help="segundos entre solicitudes (mínimo 5 con --wayback)")
     ap.add_argument("--salida")
     ap.add_argument("--rehacer", action="store_true", help="recodificar aunque ya exista el JSON")
     a = ap.parse_args()
@@ -407,7 +441,8 @@ def main():
     out = Path(a.salida or f"salida_{modo}")
     (out / "sitios").mkdir(parents=True, exist_ok=True)
     reglas_sha = sha(Path(__file__).read_bytes())
-    d = Descargador(a.wayback, a.pausa)
+    d = Descargador(a.wayback, max(a.pausa, 5.0) if a.wayback else a.pausa)
+    pendientes, seguidos = [], 0
 
     for i, s in enumerate(censo, 1):
         destino = out / "sitios" / f"{s['id']:03d}.json"
@@ -417,6 +452,16 @@ def main():
         dir_crudo.mkdir(parents=True, exist_ok=True)
         try:
             cod, ev = codificar(s, d, dir_crudo)
+            seguidos = 0
+        except ErrorTransitorio as e:
+            pendientes.append(s["sigla"]); seguidos += 1
+            print(f"[{i:3d}/{len(censo)}] {s['sigla']:<14} PENDIENTE (error transitorio: {e})", flush=True)
+            if seguidos >= 3:
+                print("\nTres sitios seguidos con error transitorio: el servidor está limitando las "
+                      "solicitudes o no hay conexión.\nSe detiene la corrida. Espere al menos 1 hora y "
+                      "vuelva a ejecutar el mismo comando: continúa con los sitios pendientes.")
+                return 2
+            continue
         except Exception as e:  # un fallo de un sitio no detiene la corrida
             cod, ev = {}, {"error_script": f"{type(e).__name__}: {e}"}
         reg = {"id": s["id"], "grupo": s["grupo"], "sigla": s["sigla"], "pais": s["pais"],
@@ -427,6 +472,10 @@ def main():
         print(f"[{i:3d}/{len(censo)}] {s['sigla']:<14} " +
               " ".join(f"{k[:6]}={v}" for k, v in cod.items()), flush=True)
     print(f"\nListo. Resultados en {out / 'sitios'}")
+    if pendientes:
+        print(f"Pendientes por error transitorio ({len(pendientes)}): {', '.join(pendientes)}. "
+              "Vuelva a ejecutar el mismo comando más tarde.")
+        return 1
 
 
 if __name__ == "__main__":

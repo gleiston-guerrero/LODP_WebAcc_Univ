@@ -1,0 +1,35 @@
+{
+ "id": 14,
+ "grupo": "mundo",
+ "sigla": "UCL",
+ "pais": "GB",
+ "url": "https://www.ucl.ac.uk",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ucl.ac.uk",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.ucl.ac.uk/",
+    "fecha_hora_utc": "2026-11-12T04:04:15+00:00",
+    "error": null,
+    "sha256": "0813922a4ed164c10b18696998fa17942c7ae2b7bee17438419b5310d975d430"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:15+00:00"
+}

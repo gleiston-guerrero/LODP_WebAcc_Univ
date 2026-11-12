@@ -1,0 +1,39 @@
+{
+ "id": 30,
+ "grupo": "mundo",
+ "sigla": "Fudan",
+ "pais": "CN",
+ "url": "https://www.fudan.edu.cn/en/",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.fudan.edu.cn/en/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.fudan.edu.cn/en/",
+    "fecha_hora_utc": "2026-11-12T04:05:13+00:00",
+    "error": null,
+    "sha256": "64245b23422e5712602dde9ae48d78984f3b827889a1eb21b80c5481f2f9df2c"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "cookies": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:16+00:00"
+}

@@ -1,0 +1,42 @@
+{
+ "id": 48,
+ "grupo": "mundo",
+ "sigla": "NTU",
+ "pais": "SG",
+ "url": "https://www.ntu.edu.sg",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ntu.edu.sg",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ntu.edu.sg/",
+    "fecha_hora_utc": "2026-11-12T04:06:16+00:00",
+    "error": null,
+    "sha256": "f1edc81c38d629a007a998adb1d60678d9571b98600e46dfae60ec2c6c32781b"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessible Education Support",
+    "url": "https://www.ntu.edu.sg/education/accessible-education"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:17+00:00"
+}

@@ -1,0 +1,70 @@
+{
+ "id": 75,
+ "grupo": "ecuador",
+ "sigla": "UTB",
+ "pais": "EC",
+ "url": "https://utb.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://utb.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://utb.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:07:54+00:00",
+    "error": null,
+    "sha256": "4546a414319e25290dbfa661e2337b65a9d7cefac11a389bb0e149b8d3a4cfbf"
+   },
+   {
+    "url_consultada": "https://utb.edu.ec/politica-de-privacidad",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://utb.edu.ec/politica-de-privacidad",
+    "fecha_hora_utc": "2026-11-12T04:07:56+00:00",
+    "error": null,
+    "sha256": "eb2a16b7511b4f6cdb618aaaefabcb9898e296f476941fdbadf54c0edc7a0253"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Transparencia",
+    "url": "https://utb.edu.ec/transparencia"
+   },
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "oposicion",
+    "portabilidad",
+    "rectificacion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Delegado de Protección de Datos",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de Privacidad y Protección de Datos Personales",
+    "url": "https://utb.edu.ec/politica-de-privacidad"
+   }
+  ],
+  "aviso_url": "https://utb.edu.ec/politica-de-privacidad",
+  "aviso_palabras": 431,
+  "aviso_sha256_texto": "215a046bc5f9f063336e1bebe61481cf9e5a2261856a59bbc8eddeba88a39f75"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:56+00:00"
+}

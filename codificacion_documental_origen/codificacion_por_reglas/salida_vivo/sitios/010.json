@@ -1,0 +1,56 @@
+{
+ "id": 10,
+ "grupo": "mundo",
+ "sigla": "U Chicago",
+ "pais": "US",
+ "url": "https://www.uchicago.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uchicago.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uchicago.edu/",
+    "fecha_hora_utc": "2026-11-12T04:03:55+00:00",
+    "error": null,
+    "sha256": "5f0729e8a04740b4b1d21a7c8ad4c2ae131233091eb3270bc48269216f9adfa6"
+   },
+   {
+    "url_consultada": "https://privacy.uchicago.edu/privacy-policy/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://intranet.uchicago.edu/tools-and-resources/it-services/services/privacy-office",
+    "fecha_hora_utc": "2026-11-12T04:03:57+00:00",
+    "error": null,
+    "sha256": "fa72c9da8d97cf8faa21aeb1a1310fa7580ca718345d74609a47eddfa94cb995"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://accessibility.uchicago.edu/"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy",
+    "url": "https://privacy.uchicago.edu/privacy-policy/"
+   }
+  ],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:00+00:00"
+}

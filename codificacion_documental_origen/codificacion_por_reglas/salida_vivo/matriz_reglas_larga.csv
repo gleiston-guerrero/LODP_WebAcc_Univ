@@ -1,0 +1,757 @@
+﻿id,grupo,abbr,indicador,columna,valor_reglas,valor_publicado
+1,mundo,MIT,privacy_notice,Not.,si,si
+1,mundo,MIT,legal_framework,Frm.,si,si
+1,mundo,MIT,data_subject_rights,Rts.,no,si
+1,mundo,MIT,dpo_contact,DPO,si,si
+1,mundo,MIT,cookie_policy,Ckp.,no,no
+1,mundo,MIT,accessibility_statement,Acc.,si,si
+2,mundo,Stanford,privacy_notice,Not.,si,si
+2,mundo,Stanford,legal_framework,Frm.,no,si
+2,mundo,Stanford,data_subject_rights,Rts.,si,si
+2,mundo,Stanford,dpo_contact,DPO,si,si
+2,mundo,Stanford,cookie_policy,Ckp.,si,si
+2,mundo,Stanford,accessibility_statement,Acc.,si,si
+3,mundo,Harvard,privacy_notice,Not.,nv,si
+3,mundo,Harvard,legal_framework,Frm.,nv,no
+3,mundo,Harvard,data_subject_rights,Rts.,nv,no
+3,mundo,Harvard,dpo_contact,DPO,nv,no
+3,mundo,Harvard,cookie_policy,Ckp.,no,no
+3,mundo,Harvard,accessibility_statement,Acc.,si,si
+4,mundo,Oxford,privacy_notice,Not.,nv,si
+4,mundo,Oxford,legal_framework,Frm.,nv,si
+4,mundo,Oxford,data_subject_rights,Rts.,nv,si
+4,mundo,Oxford,dpo_contact,DPO,nv,si
+4,mundo,Oxford,cookie_policy,Ckp.,nv,si
+4,mundo,Oxford,accessibility_statement,Acc.,nv,si
+5,mundo,Cambridge,privacy_notice,Not.,si,si
+5,mundo,Cambridge,legal_framework,Frm.,no,parcial
+5,mundo,Cambridge,data_subject_rights,Rts.,no,no
+5,mundo,Cambridge,dpo_contact,DPO,no,no
+5,mundo,Cambridge,cookie_policy,Ckp.,si,si
+5,mundo,Cambridge,accessibility_statement,Acc.,si,si
+6,mundo,Caltech,privacy_notice,Not.,si,si
+6,mundo,Caltech,legal_framework,Frm.,si,si
+6,mundo,Caltech,data_subject_rights,Rts.,si,no
+6,mundo,Caltech,dpo_contact,DPO,si,si
+6,mundo,Caltech,cookie_policy,Ckp.,no,no
+6,mundo,Caltech,accessibility_statement,Acc.,si,si
+7,mundo,UC Berkeley,privacy_notice,Not.,si,si
+7,mundo,UC Berkeley,legal_framework,Frm.,no,si
+7,mundo,UC Berkeley,data_subject_rights,Rts.,no,no
+7,mundo,UC Berkeley,dpo_contact,DPO,no,si
+7,mundo,UC Berkeley,cookie_policy,Ckp.,no,no
+7,mundo,UC Berkeley,accessibility_statement,Acc.,si,si
+8,mundo,Princeton,privacy_notice,Not.,nv,si
+8,mundo,Princeton,legal_framework,Frm.,nv,si
+8,mundo,Princeton,data_subject_rights,Rts.,nv,si
+8,mundo,Princeton,dpo_contact,DPO,nv,si
+8,mundo,Princeton,cookie_policy,Ckp.,nv,no
+8,mundo,Princeton,accessibility_statement,Acc.,nv,si
+9,mundo,Imperial,privacy_notice,Not.,si,si
+9,mundo,Imperial,legal_framework,Frm.,no,si
+9,mundo,Imperial,data_subject_rights,Rts.,no,parcial
+9,mundo,Imperial,dpo_contact,DPO,no,no
+9,mundo,Imperial,cookie_policy,Ckp.,si,si
+9,mundo,Imperial,accessibility_statement,Acc.,si,si
+10,mundo,U Chicago,privacy_notice,Not.,nv,si
+10,mundo,U Chicago,legal_framework,Frm.,nv,parcial
+10,mundo,U Chicago,data_subject_rights,Rts.,nv,si
+10,mundo,U Chicago,dpo_contact,DPO,nv,si
+10,mundo,U Chicago,cookie_policy,Ckp.,no,no
+10,mundo,U Chicago,accessibility_statement,Acc.,si,no
+11,mundo,ETH Zurich,privacy_notice,Not.,si,si
+11,mundo,ETH Zurich,legal_framework,Frm.,no,si
+11,mundo,ETH Zurich,data_subject_rights,Rts.,si,si
+11,mundo,ETH Zurich,dpo_contact,DPO,no,si
+11,mundo,ETH Zurich,cookie_policy,Ckp.,no,no
+11,mundo,ETH Zurich,accessibility_statement,Acc.,si,si
+12,mundo,Yale,privacy_notice,Not.,si,si
+12,mundo,Yale,legal_framework,Frm.,si,si
+12,mundo,Yale,data_subject_rights,Rts.,no,parcial
+12,mundo,Yale,dpo_contact,DPO,si,si
+12,mundo,Yale,cookie_policy,Ckp.,no,no
+12,mundo,Yale,accessibility_statement,Acc.,si,si
+13,mundo,UPenn,privacy_notice,Not.,nv,si
+13,mundo,UPenn,legal_framework,Frm.,nv,parcial
+13,mundo,UPenn,data_subject_rights,Rts.,nv,si
+13,mundo,UPenn,dpo_contact,DPO,nv,si
+13,mundo,UPenn,cookie_policy,Ckp.,nv,no
+13,mundo,UPenn,accessibility_statement,Acc.,nv,si
+14,mundo,UCL,privacy_notice,Not.,nv,si
+14,mundo,UCL,legal_framework,Frm.,nv,parcial
+14,mundo,UCL,data_subject_rights,Rts.,nv,si
+14,mundo,UCL,dpo_contact,DPO,nv,si
+14,mundo,UCL,cookie_policy,Ckp.,nv,si
+14,mundo,UCL,accessibility_statement,Acc.,nv,si
+15,mundo,Cornell,privacy_notice,Not.,nv,si
+15,mundo,Cornell,legal_framework,Frm.,nv,parcial
+15,mundo,Cornell,data_subject_rights,Rts.,nv,si
+15,mundo,Cornell,dpo_contact,DPO,nv,si
+15,mundo,Cornell,cookie_policy,Ckp.,no,no
+15,mundo,Cornell,accessibility_statement,Acc.,si,si
+16,mundo,Tsinghua,privacy_notice,Not.,no,si
+16,mundo,Tsinghua,legal_framework,Frm.,no,si
+16,mundo,Tsinghua,data_subject_rights,Rts.,no,si
+16,mundo,Tsinghua,dpo_contact,DPO,no,si
+16,mundo,Tsinghua,cookie_policy,Ckp.,no,no
+16,mundo,Tsinghua,accessibility_statement,Acc.,no,no
+17,mundo,Peking,privacy_notice,Not.,no,parcial
+17,mundo,Peking,legal_framework,Frm.,no,parcial
+17,mundo,Peking,data_subject_rights,Rts.,no,no
+17,mundo,Peking,dpo_contact,DPO,no,no
+17,mundo,Peking,cookie_policy,Ckp.,no,no
+17,mundo,Peking,accessibility_statement,Acc.,no,no
+18,mundo,Johns Hopkins,privacy_notice,Not.,nv,si
+18,mundo,Johns Hopkins,legal_framework,Frm.,nv,si
+18,mundo,Johns Hopkins,data_subject_rights,Rts.,nv,si
+18,mundo,Johns Hopkins,dpo_contact,DPO,nv,si
+18,mundo,Johns Hopkins,cookie_policy,Ckp.,nv,no
+18,mundo,Johns Hopkins,accessibility_statement,Acc.,nv,si
+19,mundo,Columbia,privacy_notice,Not.,nv,si
+19,mundo,Columbia,legal_framework,Frm.,nv,si
+19,mundo,Columbia,data_subject_rights,Rts.,nv,si
+19,mundo,Columbia,dpo_contact,DPO,nv,si
+19,mundo,Columbia,cookie_policy,Ckp.,nv,si
+19,mundo,Columbia,accessibility_statement,Acc.,nv,si
+20,mundo,Toronto,privacy_notice,Not.,si,si
+20,mundo,Toronto,legal_framework,Frm.,si,si
+20,mundo,Toronto,data_subject_rights,Rts.,no,si
+20,mundo,Toronto,dpo_contact,DPO,si,si
+20,mundo,Toronto,cookie_policy,Ckp.,no,no
+20,mundo,Toronto,accessibility_statement,Acc.,si,si
+21,mundo,UCLA,privacy_notice,Not.,si,si
+21,mundo,UCLA,legal_framework,Frm.,si,si
+21,mundo,UCLA,data_subject_rights,Rts.,si,si
+21,mundo,UCLA,dpo_contact,DPO,si,si
+21,mundo,UCLA,cookie_policy,Ckp.,no,no
+21,mundo,UCLA,accessibility_statement,Acc.,si,si
+22,mundo,NUS,privacy_notice,Not.,no,si
+22,mundo,NUS,legal_framework,Frm.,no,si
+22,mundo,NUS,data_subject_rights,Rts.,no,si
+22,mundo,NUS,dpo_contact,DPO,no,si
+22,mundo,NUS,cookie_policy,Ckp.,no,no
+22,mundo,NUS,accessibility_statement,Acc.,no,no
+23,mundo,U Tokyo,privacy_notice,Not.,si,si
+23,mundo,U Tokyo,legal_framework,Frm.,parcial,si
+23,mundo,U Tokyo,data_subject_rights,Rts.,no,si
+23,mundo,U Tokyo,dpo_contact,DPO,no,no
+23,mundo,U Tokyo,cookie_policy,Ckp.,no,no
+23,mundo,U Tokyo,accessibility_statement,Acc.,no,no
+24,mundo,TUM,privacy_notice,Not.,si,si
+24,mundo,TUM,legal_framework,Frm.,si,si
+24,mundo,TUM,data_subject_rights,Rts.,si,si
+24,mundo,TUM,dpo_contact,DPO,si,si
+24,mundo,TUM,cookie_policy,Ckp.,si,no
+24,mundo,TUM,accessibility_statement,Acc.,si,no
+25,mundo,Melbourne,privacy_notice,Not.,nv,si
+25,mundo,Melbourne,legal_framework,Frm.,nv,si
+25,mundo,Melbourne,data_subject_rights,Rts.,nv,si
+25,mundo,Melbourne,dpo_contact,DPO,nv,si
+25,mundo,Melbourne,cookie_policy,Ckp.,nv,no
+25,mundo,Melbourne,accessibility_statement,Acc.,nv,no
+26,mundo,Edinburgh,privacy_notice,Not.,si,si
+26,mundo,Edinburgh,legal_framework,Frm.,no,si
+26,mundo,Edinburgh,data_subject_rights,Rts.,no,si
+26,mundo,Edinburgh,dpo_contact,DPO,no,si
+26,mundo,Edinburgh,cookie_policy,Ckp.,si,no
+26,mundo,Edinburgh,accessibility_statement,Acc.,si,si
+27,mundo,EPFL,privacy_notice,Not.,si,si
+27,mundo,EPFL,legal_framework,Frm.,si,si
+27,mundo,EPFL,data_subject_rights,Rts.,no,si
+27,mundo,EPFL,dpo_contact,DPO,si,si
+27,mundo,EPFL,cookie_policy,Ckp.,si,no
+27,mundo,EPFL,accessibility_statement,Acc.,si,si
+28,mundo,Michigan,privacy_notice,Not.,nv,si
+28,mundo,Michigan,legal_framework,Frm.,nv,no
+28,mundo,Michigan,data_subject_rights,Rts.,nv,no
+28,mundo,Michigan,dpo_contact,DPO,nv,si
+28,mundo,Michigan,cookie_policy,Ckp.,nv,no
+28,mundo,Michigan,accessibility_statement,Acc.,nv,no
+29,mundo,Northwestern,privacy_notice,Not.,si,si
+29,mundo,Northwestern,legal_framework,Frm.,no,parcial
+29,mundo,Northwestern,data_subject_rights,Rts.,si,si
+29,mundo,Northwestern,dpo_contact,DPO,si,si
+29,mundo,Northwestern,cookie_policy,Ckp.,si,si
+29,mundo,Northwestern,accessibility_statement,Acc.,si,si
+30,mundo,Fudan,privacy_notice,Not.,no,no
+30,mundo,Fudan,legal_framework,Frm.,no,no
+30,mundo,Fudan,data_subject_rights,Rts.,no,no
+30,mundo,Fudan,dpo_contact,DPO,no,no
+30,mundo,Fudan,cookie_policy,Ckp.,no,no
+30,mundo,Fudan,accessibility_statement,Acc.,no,no
+31,mundo,PSL,privacy_notice,Not.,no,si
+31,mundo,PSL,legal_framework,Frm.,no,si
+31,mundo,PSL,data_subject_rights,Rts.,no,si
+31,mundo,PSL,dpo_contact,DPO,no,si
+31,mundo,PSL,cookie_policy,Ckp.,no,no
+31,mundo,PSL,accessibility_statement,Acc.,no,no
+32,mundo,HKU,privacy_notice,Not.,si,si
+32,mundo,HKU,legal_framework,Frm.,si,si
+32,mundo,HKU,data_subject_rights,Rts.,no,si
+32,mundo,HKU,dpo_contact,DPO,si,si
+32,mundo,HKU,cookie_policy,Ckp.,no,no
+32,mundo,HKU,accessibility_statement,Acc.,si,si
+33,mundo,Zhejiang,privacy_notice,Not.,no,si
+33,mundo,Zhejiang,legal_framework,Frm.,no,parcial
+33,mundo,Zhejiang,data_subject_rights,Rts.,no,si
+33,mundo,Zhejiang,dpo_contact,DPO,no,si
+33,mundo,Zhejiang,cookie_policy,Ckp.,no,no
+33,mundo,Zhejiang,accessibility_statement,Acc.,no,no
+34,mundo,NYU,privacy_notice,Not.,nv,si
+34,mundo,NYU,legal_framework,Frm.,nv,si
+34,mundo,NYU,data_subject_rights,Rts.,nv,si
+34,mundo,NYU,dpo_contact,DPO,nv,si
+34,mundo,NYU,cookie_policy,Ckp.,no,no
+34,mundo,NYU,accessibility_statement,Acc.,si,si
+35,mundo,SJTU,privacy_notice,Not.,no,no
+35,mundo,SJTU,legal_framework,Frm.,no,no
+35,mundo,SJTU,data_subject_rights,Rts.,no,no
+35,mundo,SJTU,dpo_contact,DPO,no,no
+35,mundo,SJTU,cookie_policy,Ckp.,no,no
+35,mundo,SJTU,accessibility_statement,Acc.,no,no
+36,mundo,KCL,privacy_notice,Not.,si,si
+36,mundo,KCL,legal_framework,Frm.,no,parcial
+36,mundo,KCL,data_subject_rights,Rts.,no,si
+36,mundo,KCL,dpo_contact,DPO,si,si
+36,mundo,KCL,cookie_policy,Ckp.,si,si
+36,mundo,KCL,accessibility_statement,Acc.,si,si
+37,mundo,UCSD,privacy_notice,Not.,si,si
+37,mundo,UCSD,legal_framework,Frm.,si,si
+37,mundo,UCSD,data_subject_rights,Rts.,si,si
+37,mundo,UCSD,dpo_contact,DPO,si,si
+37,mundo,UCSD,cookie_policy,Ckp.,no,no
+37,mundo,UCSD,accessibility_statement,Acc.,si,si
+38,mundo,LMU,privacy_notice,Not.,si,si
+38,mundo,LMU,legal_framework,Frm.,si,si
+38,mundo,LMU,data_subject_rights,Rts.,si,si
+38,mundo,LMU,dpo_contact,DPO,si,si
+38,mundo,LMU,cookie_policy,Ckp.,si,no
+38,mundo,LMU,accessibility_statement,Acc.,si,si
+39,mundo,Duke,privacy_notice,Not.,si,si
+39,mundo,Duke,legal_framework,Frm.,si,si
+39,mundo,Duke,data_subject_rights,Rts.,si,si
+39,mundo,Duke,dpo_contact,DPO,si,si
+39,mundo,Duke,cookie_policy,Ckp.,no,no
+39,mundo,Duke,accessibility_statement,Acc.,si,si
+40,mundo,Manchester,privacy_notice,Not.,si,si
+40,mundo,Manchester,legal_framework,Frm.,no,si
+40,mundo,Manchester,data_subject_rights,Rts.,no,parcial
+40,mundo,Manchester,dpo_contact,DPO,no,si
+40,mundo,Manchester,cookie_policy,Ckp.,no,no
+40,mundo,Manchester,accessibility_statement,Acc.,si,si
+41,mundo,UBC,privacy_notice,Not.,no,si
+41,mundo,UBC,legal_framework,Frm.,no,si
+41,mundo,UBC,data_subject_rights,Rts.,no,parcial
+41,mundo,UBC,dpo_contact,DPO,no,si
+41,mundo,UBC,cookie_policy,Ckp.,no,no
+41,mundo,UBC,accessibility_statement,Acc.,si,si
+42,mundo,Sydney,privacy_notice,Not.,no,si
+42,mundo,Sydney,legal_framework,Frm.,no,si
+42,mundo,Sydney,data_subject_rights,Rts.,no,si
+42,mundo,Sydney,dpo_contact,DPO,no,si
+42,mundo,Sydney,cookie_policy,Ckp.,no,no
+42,mundo,Sydney,accessibility_statement,Acc.,no,si
+43,mundo,Paris-Saclay,privacy_notice,Not.,no,si
+43,mundo,Paris-Saclay,legal_framework,Frm.,no,si
+43,mundo,Paris-Saclay,data_subject_rights,Rts.,no,si
+43,mundo,Paris-Saclay,dpo_contact,DPO,no,si
+43,mundo,Paris-Saclay,cookie_policy,Ckp.,no,si
+43,mundo,Paris-Saclay,accessibility_statement,Acc.,si,si
+44,mundo,Kyoto,privacy_notice,Not.,si,si
+44,mundo,Kyoto,legal_framework,Frm.,no,parcial
+44,mundo,Kyoto,data_subject_rights,Rts.,no,si
+44,mundo,Kyoto,dpo_contact,DPO,no,si
+44,mundo,Kyoto,cookie_policy,Ckp.,no,no
+44,mundo,Kyoto,accessibility_statement,Acc.,no,no
+45,mundo,Illinois,privacy_notice,Not.,nv,si
+45,mundo,Illinois,legal_framework,Frm.,nv,si
+45,mundo,Illinois,data_subject_rights,Rts.,nv,si
+45,mundo,Illinois,dpo_contact,DPO,nv,si
+45,mundo,Illinois,cookie_policy,Ckp.,no,no
+45,mundo,Illinois,accessibility_statement,Acc.,si,si
+46,mundo,UT Austin,privacy_notice,Not.,nv,si
+46,mundo,UT Austin,legal_framework,Frm.,nv,si
+46,mundo,UT Austin,data_subject_rights,Rts.,nv,si
+46,mundo,UT Austin,dpo_contact,DPO,nv,si
+46,mundo,UT Austin,cookie_policy,Ckp.,no,no
+46,mundo,UT Austin,accessibility_statement,Acc.,si,si
+47,mundo,UW,privacy_notice,Not.,si,si
+47,mundo,UW,legal_framework,Frm.,si,si
+47,mundo,UW,data_subject_rights,Rts.,no,si
+47,mundo,UW,dpo_contact,DPO,si,si
+47,mundo,UW,cookie_policy,Ckp.,no,no
+47,mundo,UW,accessibility_statement,Acc.,si,si
+48,mundo,NTU,privacy_notice,Not.,no,si
+48,mundo,NTU,legal_framework,Frm.,no,si
+48,mundo,NTU,data_subject_rights,Rts.,no,si
+48,mundo,NTU,dpo_contact,DPO,no,si
+48,mundo,NTU,cookie_policy,Ckp.,no,no
+48,mundo,NTU,accessibility_statement,Acc.,si,no
+49,mundo,McGill,privacy_notice,Not.,si,si
+49,mundo,McGill,legal_framework,Frm.,si,si
+49,mundo,McGill,data_subject_rights,Rts.,no,si
+49,mundo,McGill,dpo_contact,DPO,si,si
+49,mundo,McGill,cookie_policy,Ckp.,si,si
+49,mundo,McGill,accessibility_statement,Acc.,si,si
+50,mundo,CUHK,privacy_notice,Not.,si,si
+50,mundo,CUHK,legal_framework,Frm.,no,si
+50,mundo,CUHK,data_subject_rights,Rts.,no,si
+50,mundo,CUHK,dpo_contact,DPO,no,no
+50,mundo,CUHK,cookie_policy,Ckp.,no,no
+50,mundo,CUHK,accessibility_statement,Acc.,si,si
+51,mundo,CMU,privacy_notice,Not.,si,si
+51,mundo,CMU,legal_framework,Frm.,si,si
+51,mundo,CMU,data_subject_rights,Rts.,si,si
+51,mundo,CMU,dpo_contact,DPO,si,si
+51,mundo,CMU,cookie_policy,Ckp.,no,no
+51,mundo,CMU,accessibility_statement,Acc.,si,si
+52,mundo,Wisconsin,privacy_notice,Not.,si,si
+52,mundo,Wisconsin,legal_framework,Frm.,si,si
+52,mundo,Wisconsin,data_subject_rights,Rts.,no,no
+52,mundo,Wisconsin,dpo_contact,DPO,si,si
+52,mundo,Wisconsin,cookie_policy,Ckp.,si,si
+52,mundo,Wisconsin,accessibility_statement,Acc.,si,si
+53,mundo,USTC,privacy_notice,Not.,no,parcial
+53,mundo,USTC,legal_framework,Frm.,no,si
+53,mundo,USTC,data_subject_rights,Rts.,no,si
+53,mundo,USTC,dpo_contact,DPO,no,si
+53,mundo,USTC,cookie_policy,Ckp.,no,no
+53,mundo,USTC,accessibility_statement,Acc.,no,no
+54,mundo,WUSTL,privacy_notice,Not.,si,si
+54,mundo,WUSTL,legal_framework,Frm.,no,no
+54,mundo,WUSTL,data_subject_rights,Rts.,no,no
+54,mundo,WUSTL,dpo_contact,DPO,no,si
+54,mundo,WUSTL,cookie_policy,Ckp.,no,no
+54,mundo,WUSTL,accessibility_statement,Acc.,si,si
+55,mundo,Monash,privacy_notice,Not.,nv,si
+55,mundo,Monash,legal_framework,Frm.,nv,si
+55,mundo,Monash,data_subject_rights,Rts.,nv,no
+55,mundo,Monash,dpo_contact,DPO,nv,no
+55,mundo,Monash,cookie_policy,Ckp.,nv,no
+55,mundo,Monash,accessibility_statement,Acc.,nv,si
+56,mundo,SNU,privacy_notice,Not.,si,si
+56,mundo,SNU,legal_framework,Frm.,si,si
+56,mundo,SNU,data_subject_rights,Rts.,no,si
+56,mundo,SNU,dpo_contact,DPO,si,si
+56,mundo,SNU,cookie_policy,Ckp.,no,no
+56,mundo,SNU,accessibility_statement,Acc.,no,no
+57,mundo,Heidelberg,privacy_notice,Not.,si,si
+57,mundo,Heidelberg,legal_framework,Frm.,si,si
+57,mundo,Heidelberg,data_subject_rights,Rts.,si,si
+57,mundo,Heidelberg,dpo_contact,DPO,si,si
+57,mundo,Heidelberg,cookie_policy,Ckp.,no,no
+57,mundo,Heidelberg,accessibility_statement,Acc.,si,si
+58,mundo,HKUST,privacy_notice,Not.,si,si
+58,mundo,HKUST,legal_framework,Frm.,si,si
+58,mundo,HKUST,data_subject_rights,Rts.,no,si
+58,mundo,HKUST,dpo_contact,DPO,si,si
+58,mundo,HKUST,cookie_policy,Ckp.,no,no
+58,mundo,HKUST,accessibility_statement,Acc.,si,si
+59,mundo,Karolinska,privacy_notice,Not.,no,si
+59,mundo,Karolinska,legal_framework,Frm.,no,parcial
+59,mundo,Karolinska,data_subject_rights,Rts.,no,si
+59,mundo,Karolinska,dpo_contact,DPO,no,si
+59,mundo,Karolinska,cookie_policy,Ckp.,no,si
+59,mundo,Karolinska,accessibility_statement,Acc.,si,si
+60,mundo,TU Delft,privacy_notice,Not.,si,si
+60,mundo,TU Delft,legal_framework,Frm.,no,si
+60,mundo,TU Delft,data_subject_rights,Rts.,no,si
+60,mundo,TU Delft,dpo_contact,DPO,no,si
+60,mundo,TU Delft,cookie_policy,Ckp.,no,si
+60,mundo,TU Delft,accessibility_statement,Acc.,si,si
+61,mundo,ANU,privacy_notice,Not.,no,si
+61,mundo,ANU,legal_framework,Frm.,no,si
+61,mundo,ANU,data_subject_rights,Rts.,no,parcial
+61,mundo,ANU,dpo_contact,DPO,no,si
+61,mundo,ANU,cookie_policy,Ckp.,no,no
+61,mundo,ANU,accessibility_statement,Acc.,si,si
+62,mundo,KU Leuven,privacy_notice,Not.,si,si
+62,mundo,KU Leuven,legal_framework,Frm.,si,si
+62,mundo,KU Leuven,data_subject_rights,Rts.,no,si
+62,mundo,KU Leuven,dpo_contact,DPO,si,si
+62,mundo,KU Leuven,cookie_policy,Ckp.,si,si
+62,mundo,KU Leuven,accessibility_statement,Acc.,no,si
+63,mundo,Queensland,privacy_notice,Not.,si,si
+63,mundo,Queensland,legal_framework,Frm.,si,si
+63,mundo,Queensland,data_subject_rights,Rts.,no,si
+63,mundo,Queensland,dpo_contact,DPO,si,si
+63,mundo,Queensland,cookie_policy,Ckp.,si,no
+63,mundo,Queensland,accessibility_statement,Acc.,si,si
+64,ecuador,EPN,privacy_notice,Notice,si,si
+64,ecuador,EPN,legal_framework,LOPDP,no,si
+64,ecuador,EPN,data_subject_rights,Rights,no,si
+64,ecuador,EPN,dpo_contact,DPO,no,no
+64,ecuador,EPN,accessibility_statement,Acc.,no,no
+64,ecuador,EPN,lotaip_transparency,Transp.,si,si
+65,ecuador,ESPOL,privacy_notice,Notice,si,si
+65,ecuador,ESPOL,legal_framework,LOPDP,si,si
+65,ecuador,ESPOL,data_subject_rights,Rights,si,si
+65,ecuador,ESPOL,dpo_contact,DPO,si,si
+65,ecuador,ESPOL,accessibility_statement,Acc.,no,no
+65,ecuador,ESPOL,lotaip_transparency,Transp.,si,si
+66,ecuador,ESPOCH,privacy_notice,Notice,no,no
+66,ecuador,ESPOCH,legal_framework,LOPDP,no,no
+66,ecuador,ESPOCH,data_subject_rights,Rights,no,no
+66,ecuador,ESPOCH,dpo_contact,DPO,no,no
+66,ecuador,ESPOCH,accessibility_statement,Acc.,no,no
+66,ecuador,ESPOCH,lotaip_transparency,Transp.,si,si
+67,ecuador,ESPAM MFL,privacy_notice,Notice,no,no
+67,ecuador,ESPAM MFL,legal_framework,LOPDP,no,no
+67,ecuador,ESPAM MFL,data_subject_rights,Rights,no,no
+67,ecuador,ESPAM MFL,dpo_contact,DPO,no,no
+67,ecuador,ESPAM MFL,accessibility_statement,Acc.,no,no
+67,ecuador,ESPAM MFL,lotaip_transparency,Transp.,si,si
+68,ecuador,ESPE,privacy_notice,Notice,si,si
+68,ecuador,ESPE,legal_framework,LOPDP,si,si
+68,ecuador,ESPE,data_subject_rights,Rights,no,si
+68,ecuador,ESPE,dpo_contact,DPO,si,si
+68,ecuador,ESPE,accessibility_statement,Acc.,no,si
+68,ecuador,ESPE,lotaip_transparency,Transp.,si,si
+69,ecuador,UCE,privacy_notice,Notice,no,nv
+69,ecuador,UCE,legal_framework,LOPDP,no,no
+69,ecuador,UCE,data_subject_rights,Rights,no,no
+69,ecuador,UCE,dpo_contact,DPO,no,no
+69,ecuador,UCE,accessibility_statement,Acc.,no,no
+69,ecuador,UCE,lotaip_transparency,Transp.,no,si
+70,ecuador,UCuenca,privacy_notice,Notice,si,si
+70,ecuador,UCuenca,legal_framework,LOPDP,si,si
+70,ecuador,UCuenca,data_subject_rights,Rights,no,si
+70,ecuador,UCuenca,dpo_contact,DPO,no,no
+70,ecuador,UCuenca,accessibility_statement,Acc.,si,no
+70,ecuador,UCuenca,lotaip_transparency,Transp.,si,si
+71,ecuador,UG,privacy_notice,Notice,si,si
+71,ecuador,UG,legal_framework,LOPDP,no,si
+71,ecuador,UG,data_subject_rights,Rights,no,si
+71,ecuador,UG,dpo_contact,DPO,no,si
+71,ecuador,UG,accessibility_statement,Acc.,no,no
+71,ecuador,UG,lotaip_transparency,Transp.,si,si
+72,ecuador,UNL,privacy_notice,Notice,no,no
+72,ecuador,UNL,legal_framework,LOPDP,no,no
+72,ecuador,UNL,data_subject_rights,Rights,no,no
+72,ecuador,UNL,dpo_contact,DPO,no,no
+72,ecuador,UNL,accessibility_statement,Acc.,no,no
+72,ecuador,UNL,lotaip_transparency,Transp.,si,si
+73,ecuador,UAE,privacy_notice,Notice,no,no
+73,ecuador,UAE,legal_framework,LOPDP,no,no
+73,ecuador,UAE,data_subject_rights,Rights,no,no
+73,ecuador,UAE,dpo_contact,DPO,no,no
+73,ecuador,UAE,accessibility_statement,Acc.,no,no
+73,ecuador,UAE,lotaip_transparency,Transp.,si,si
+74,ecuador,UTA,privacy_notice,Notice,no,si
+74,ecuador,UTA,legal_framework,LOPDP,no,nv
+74,ecuador,UTA,data_subject_rights,Rights,no,nv
+74,ecuador,UTA,dpo_contact,DPO,no,nv
+74,ecuador,UTA,accessibility_statement,Acc.,no,nv
+74,ecuador,UTA,lotaip_transparency,Transp.,si,si
+75,ecuador,UTB,privacy_notice,Notice,si,si
+75,ecuador,UTB,legal_framework,LOPDP,si,si
+75,ecuador,UTB,data_subject_rights,Rights,si,si
+75,ecuador,UTB,dpo_contact,DPO,si,si
+75,ecuador,UTB,accessibility_statement,Acc.,no,no
+75,ecuador,UTB,lotaip_transparency,Transp.,si,si
+76,ecuador,UTC,privacy_notice,Notice,si,si
+76,ecuador,UTC,legal_framework,LOPDP,no,no
+76,ecuador,UTC,data_subject_rights,Rights,no,no
+76,ecuador,UTC,dpo_contact,DPO,no,no
+76,ecuador,UTC,accessibility_statement,Acc.,no,no
+76,ecuador,UTC,lotaip_transparency,Transp.,si,nv
+77,ecuador,UTMACH,privacy_notice,Notice,no,si
+77,ecuador,UTMACH,legal_framework,LOPDP,no,si
+77,ecuador,UTMACH,data_subject_rights,Rights,no,si
+77,ecuador,UTMACH,dpo_contact,DPO,no,si
+77,ecuador,UTMACH,accessibility_statement,Acc.,no,no
+77,ecuador,UTMACH,lotaip_transparency,Transp.,no,si
+78,ecuador,UTM,privacy_notice,Notice,no,no
+78,ecuador,UTM,legal_framework,LOPDP,no,no
+78,ecuador,UTM,data_subject_rights,Rights,no,no
+78,ecuador,UTM,dpo_contact,DPO,no,no
+78,ecuador,UTM,accessibility_statement,Acc.,no,no
+78,ecuador,UTM,lotaip_transparency,Transp.,si,si
+79,ecuador,UTN,privacy_notice,Notice,no,parcial
+79,ecuador,UTN,legal_framework,LOPDP,no,si
+79,ecuador,UTN,data_subject_rights,Rights,no,si
+79,ecuador,UTN,dpo_contact,DPO,no,no
+79,ecuador,UTN,accessibility_statement,Acc.,no,no
+79,ecuador,UTN,lotaip_transparency,Transp.,si,si
+80,ecuador,UTEQ,privacy_notice,Notice,no,parcial
+80,ecuador,UTEQ,legal_framework,LOPDP,no,si
+80,ecuador,UTEQ,data_subject_rights,Rights,no,no
+80,ecuador,UTEQ,dpo_contact,DPO,no,no
+80,ecuador,UTEQ,accessibility_statement,Acc.,no,no
+80,ecuador,UTEQ,lotaip_transparency,Transp.,no,si
+81,ecuador,UTELVT,privacy_notice,Notice,no,no
+81,ecuador,UTELVT,legal_framework,LOPDP,no,no
+81,ecuador,UTELVT,data_subject_rights,Rights,no,no
+81,ecuador,UTELVT,dpo_contact,DPO,no,no
+81,ecuador,UTELVT,accessibility_statement,Acc.,no,no
+81,ecuador,UTELVT,lotaip_transparency,Transp.,si,si
+82,ecuador,UEB,privacy_notice,Notice,no,si
+82,ecuador,UEB,legal_framework,LOPDP,no,nv
+82,ecuador,UEB,data_subject_rights,Rights,no,nv
+82,ecuador,UEB,dpo_contact,DPO,no,nv
+82,ecuador,UEB,accessibility_statement,Acc.,no,si
+82,ecuador,UEB,lotaip_transparency,Transp.,no,si
+83,ecuador,UNESUM,privacy_notice,Notice,no,parcial
+83,ecuador,UNESUM,legal_framework,LOPDP,no,nv
+83,ecuador,UNESUM,data_subject_rights,Rights,no,no
+83,ecuador,UNESUM,dpo_contact,DPO,no,no
+83,ecuador,UNESUM,accessibility_statement,Acc.,no,no
+83,ecuador,UNESUM,lotaip_transparency,Transp.,si,si
+84,ecuador,UNEMI,privacy_notice,Notice,si,si
+84,ecuador,UNEMI,legal_framework,LOPDP,si,si
+84,ecuador,UNEMI,data_subject_rights,Rights,si,si
+84,ecuador,UNEMI,dpo_contact,DPO,no,no
+84,ecuador,UNEMI,accessibility_statement,Acc.,no,no
+84,ecuador,UNEMI,lotaip_transparency,Transp.,si,si
+85,ecuador,UEA,privacy_notice,Notice,no,si
+85,ecuador,UEA,legal_framework,LOPDP,no,no
+85,ecuador,UEA,data_subject_rights,Rights,no,si
+85,ecuador,UEA,dpo_contact,DPO,no,no
+85,ecuador,UEA,accessibility_statement,Acc.,no,no
+85,ecuador,UEA,lotaip_transparency,Transp.,no,si
+86,ecuador,UPSE,privacy_notice,Notice,no,parcial
+86,ecuador,UPSE,legal_framework,LOPDP,no,si
+86,ecuador,UPSE,data_subject_rights,Rights,no,si
+86,ecuador,UPSE,dpo_contact,DPO,no,si
+86,ecuador,UPSE,accessibility_statement,Acc.,no,parcial
+86,ecuador,UPSE,lotaip_transparency,Transp.,si,si
+87,ecuador,ULEAM,privacy_notice,Notice,nv,no
+87,ecuador,ULEAM,legal_framework,LOPDP,nv,no
+87,ecuador,ULEAM,data_subject_rights,Rights,nv,no
+87,ecuador,ULEAM,dpo_contact,DPO,nv,no
+87,ecuador,ULEAM,accessibility_statement,Acc.,nv,no
+87,ecuador,ULEAM,lotaip_transparency,Transp.,nv,si
+88,ecuador,UNACH,privacy_notice,Notice,si,si
+88,ecuador,UNACH,legal_framework,LOPDP,si,si
+88,ecuador,UNACH,data_subject_rights,Rights,si,si
+88,ecuador,UNACH,dpo_contact,DPO,si,si
+88,ecuador,UNACH,accessibility_statement,Acc.,si,si
+88,ecuador,UNACH,lotaip_transparency,Transp.,no,si
+89,ecuador,UNAE,privacy_notice,Notice,no,no
+89,ecuador,UNAE,legal_framework,LOPDP,no,no
+89,ecuador,UNAE,data_subject_rights,Rights,no,no
+89,ecuador,UNAE,dpo_contact,DPO,no,no
+89,ecuador,UNAE,accessibility_statement,Acc.,no,no
+89,ecuador,UNAE,lotaip_transparency,Transp.,si,si
+90,ecuador,UPEC,privacy_notice,Notice,no,no
+90,ecuador,UPEC,legal_framework,LOPDP,no,parcial
+90,ecuador,UPEC,data_subject_rights,Rights,no,no
+90,ecuador,UPEC,dpo_contact,DPO,no,no
+90,ecuador,UPEC,accessibility_statement,Acc.,no,no
+90,ecuador,UPEC,lotaip_transparency,Transp.,si,si
+91,ecuador,Yachay Tech,privacy_notice,Notice,no,no
+91,ecuador,Yachay Tech,legal_framework,LOPDP,no,no
+91,ecuador,Yachay Tech,data_subject_rights,Rights,no,no
+91,ecuador,Yachay Tech,dpo_contact,DPO,no,no
+91,ecuador,Yachay Tech,accessibility_statement,Acc.,no,no
+91,ecuador,Yachay Tech,lotaip_transparency,Transp.,si,si
+92,ecuador,Ikiam,privacy_notice,Notice,si,si
+92,ecuador,Ikiam,legal_framework,LOPDP,si,si
+92,ecuador,Ikiam,data_subject_rights,Rights,si,si
+92,ecuador,Ikiam,dpo_contact,DPO,no,si
+92,ecuador,Ikiam,accessibility_statement,Acc.,si,no
+92,ecuador,Ikiam,lotaip_transparency,Transp.,si,si
+93,ecuador,UArtes,privacy_notice,Notice,si,si
+93,ecuador,UArtes,legal_framework,LOPDP,si,si
+93,ecuador,UArtes,data_subject_rights,Rights,si,si
+93,ecuador,UArtes,dpo_contact,DPO,si,si
+93,ecuador,UArtes,accessibility_statement,Acc.,no,no
+93,ecuador,UArtes,lotaip_transparency,Transp.,si,si
+94,ecuador,Amawtay Wasi,privacy_notice,Notice,no,no
+94,ecuador,Amawtay Wasi,legal_framework,LOPDP,no,no
+94,ecuador,Amawtay Wasi,data_subject_rights,Rights,no,no
+94,ecuador,Amawtay Wasi,dpo_contact,DPO,no,no
+94,ecuador,Amawtay Wasi,accessibility_statement,Acc.,no,no
+94,ecuador,Amawtay Wasi,lotaip_transparency,Transp.,si,si
+95,ecuador,USECIPOL,privacy_notice,Notice,nv,parcial
+95,ecuador,USECIPOL,legal_framework,LOPDP,nv,no
+95,ecuador,USECIPOL,data_subject_rights,Rights,nv,no
+95,ecuador,USECIPOL,dpo_contact,DPO,nv,no
+95,ecuador,USECIPOL,accessibility_statement,Acc.,no,no
+95,ecuador,USECIPOL,lotaip_transparency,Transp.,si,si
+96,ecuador,IAEN,privacy_notice,Notice,parcial,si
+96,ecuador,IAEN,legal_framework,LOPDP,si,si
+96,ecuador,IAEN,data_subject_rights,Rights,si,si
+96,ecuador,IAEN,dpo_contact,DPO,no,no
+96,ecuador,IAEN,accessibility_statement,Acc.,no,si
+96,ecuador,IAEN,lotaip_transparency,Transp.,si,si
+97,ecuador,UASB,privacy_notice,Notice,si,si
+97,ecuador,UASB,legal_framework,LOPDP,si,si
+97,ecuador,UASB,data_subject_rights,Rights,si,si
+97,ecuador,UASB,dpo_contact,DPO,si,si
+97,ecuador,UASB,accessibility_statement,Acc.,no,no
+97,ecuador,UASB,lotaip_transparency,Transp.,si,si
+98,ecuador,FLACSO,privacy_notice,Notice,no,no
+98,ecuador,FLACSO,legal_framework,LOPDP,no,no
+98,ecuador,FLACSO,data_subject_rights,Rights,no,no
+98,ecuador,FLACSO,dpo_contact,DPO,no,no
+98,ecuador,FLACSO,accessibility_statement,Acc.,no,no
+98,ecuador,FLACSO,lotaip_transparency,Transp.,si,si
+99,ecuador,PUCE,privacy_notice,Notice,si,si
+99,ecuador,PUCE,legal_framework,LOPDP,si,si
+99,ecuador,PUCE,data_subject_rights,Rights,si,si
+99,ecuador,PUCE,dpo_contact,DPO,si,si
+99,ecuador,PUCE,accessibility_statement,Acc.,no,no
+99,ecuador,PUCE,lotaip_transparency,Transp.,no,si
+100,ecuador,UCSG,privacy_notice,Notice,si,si
+100,ecuador,UCSG,legal_framework,LOPDP,si,si
+100,ecuador,UCSG,data_subject_rights,Rights,si,si
+100,ecuador,UCSG,dpo_contact,DPO,si,si
+100,ecuador,UCSG,accessibility_statement,Acc.,si,no
+100,ecuador,UCSG,lotaip_transparency,Transp.,si,si
+101,ecuador,UCACUE,privacy_notice,Notice,si,si
+101,ecuador,UCACUE,legal_framework,LOPDP,si,si
+101,ecuador,UCACUE,data_subject_rights,Rights,si,si
+101,ecuador,UCACUE,dpo_contact,DPO,si,si
+101,ecuador,UCACUE,accessibility_statement,Acc.,si,si
+101,ecuador,UCACUE,lotaip_transparency,Transp.,si,si
+102,ecuador,ULVR,privacy_notice,Notice,no,no
+102,ecuador,ULVR,legal_framework,LOPDP,no,no
+102,ecuador,ULVR,data_subject_rights,Rights,no,no
+102,ecuador,ULVR,dpo_contact,DPO,no,no
+102,ecuador,ULVR,accessibility_statement,Acc.,no,no
+102,ecuador,ULVR,lotaip_transparency,Transp.,si,si
+103,ecuador,UTPL,privacy_notice,Notice,no,si
+103,ecuador,UTPL,legal_framework,LOPDP,no,si
+103,ecuador,UTPL,data_subject_rights,Rights,no,si
+103,ecuador,UTPL,dpo_contact,DPO,no,si
+103,ecuador,UTPL,accessibility_statement,Acc.,no,no
+103,ecuador,UTPL,lotaip_transparency,Transp.,no,nv
+104,ecuador,UTE,privacy_notice,Notice,si,si
+104,ecuador,UTE,legal_framework,LOPDP,no,no
+104,ecuador,UTE,data_subject_rights,Rights,no,no
+104,ecuador,UTE,dpo_contact,DPO,no,no
+104,ecuador,UTE,accessibility_statement,Acc.,si,si
+104,ecuador,UTE,lotaip_transparency,Transp.,si,nv
+105,ecuador,UDA,privacy_notice,Notice,no,no
+105,ecuador,UDA,legal_framework,LOPDP,no,no
+105,ecuador,UDA,data_subject_rights,Rights,no,no
+105,ecuador,UDA,dpo_contact,DPO,no,no
+105,ecuador,UDA,accessibility_statement,Acc.,no,no
+105,ecuador,UDA,lotaip_transparency,Transp.,si,si
+106,ecuador,UPS,privacy_notice,Notice,no,si
+106,ecuador,UPS,legal_framework,LOPDP,no,si
+106,ecuador,UPS,data_subject_rights,Rights,no,si
+106,ecuador,UPS,dpo_contact,DPO,no,no
+106,ecuador,UPS,accessibility_statement,Acc.,no,no
+106,ecuador,UPS,lotaip_transparency,Transp.,si,si
+107,ecuador,UISEK,privacy_notice,Notice,si,si
+107,ecuador,UISEK,legal_framework,LOPDP,no,no
+107,ecuador,UISEK,data_subject_rights,Rights,si,si
+107,ecuador,UISEK,dpo_contact,DPO,no,no
+107,ecuador,UISEK,accessibility_statement,Acc.,no,no
+107,ecuador,UISEK,lotaip_transparency,Transp.,no,no
+108,ecuador,UEES,privacy_notice,Notice,si,si
+108,ecuador,UEES,legal_framework,LOPDP,si,si
+108,ecuador,UEES,data_subject_rights,Rights,si,si
+108,ecuador,UEES,dpo_contact,DPO,si,si
+108,ecuador,UEES,accessibility_statement,Acc.,no,no
+108,ecuador,UEES,lotaip_transparency,Transp.,no,no
+109,ecuador,USFQ,privacy_notice,Notice,si,si
+109,ecuador,USFQ,legal_framework,LOPDP,si,si
+109,ecuador,USFQ,data_subject_rights,Rights,si,si
+109,ecuador,USFQ,dpo_contact,DPO,si,si
+109,ecuador,USFQ,accessibility_statement,Acc.,no,no
+109,ecuador,USFQ,lotaip_transparency,Transp.,no,no
+110,ecuador,UDLA,privacy_notice,Notice,nv,si
+110,ecuador,UDLA,legal_framework,LOPDP,nv,si
+110,ecuador,UDLA,data_subject_rights,Rights,nv,si
+110,ecuador,UDLA,dpo_contact,DPO,nv,si
+110,ecuador,UDLA,accessibility_statement,Acc.,no,no
+110,ecuador,UDLA,lotaip_transparency,Transp.,no,no
+111,ecuador,UIDE,privacy_notice,Notice,si,si
+111,ecuador,UIDE,legal_framework,LOPDP,si,si
+111,ecuador,UIDE,data_subject_rights,Rights,si,si
+111,ecuador,UIDE,dpo_contact,DPO,si,si
+111,ecuador,UIDE,accessibility_statement,Acc.,si,no
+111,ecuador,UIDE,lotaip_transparency,Transp.,si,si
+112,ecuador,UNIANDES,privacy_notice,Notice,si,si
+112,ecuador,UNIANDES,legal_framework,LOPDP,parcial,no
+112,ecuador,UNIANDES,data_subject_rights,Rights,no,si
+112,ecuador,UNIANDES,dpo_contact,DPO,no,no
+112,ecuador,UNIANDES,accessibility_statement,Acc.,si,no
+112,ecuador,UNIANDES,lotaip_transparency,Transp.,no,no
+113,ecuador,UPACIFICO,privacy_notice,Notice,no,nv
+113,ecuador,UPACIFICO,legal_framework,LOPDP,no,no
+113,ecuador,UPACIFICO,data_subject_rights,Rights,no,no
+113,ecuador,UPACIFICO,dpo_contact,DPO,no,no
+113,ecuador,UPACIFICO,accessibility_statement,Acc.,no,no
+113,ecuador,UPACIFICO,lotaip_transparency,Transp.,no,no
+114,ecuador,UTI,privacy_notice,Notice,si,si
+114,ecuador,UTI,legal_framework,LOPDP,no,no
+114,ecuador,UTI,data_subject_rights,Rights,no,si
+114,ecuador,UTI,dpo_contact,DPO,si,no
+114,ecuador,UTI,accessibility_statement,Acc.,no,no
+114,ecuador,UTI,lotaip_transparency,Transp.,si,si
+115,ecuador,Casa Grande,privacy_notice,Notice,si,si
+115,ecuador,Casa Grande,legal_framework,LOPDP,si,si
+115,ecuador,Casa Grande,data_subject_rights,Rights,no,si
+115,ecuador,Casa Grande,dpo_contact,DPO,no,si
+115,ecuador,Casa Grande,accessibility_statement,Acc.,no,no
+115,ecuador,Casa Grande,lotaip_transparency,Transp.,no,no
+116,ecuador,UTEG,privacy_notice,Notice,si,si
+116,ecuador,UTEG,legal_framework,LOPDP,si,si
+116,ecuador,UTEG,data_subject_rights,Rights,no,si
+116,ecuador,UTEG,dpo_contact,DPO,no,si
+116,ecuador,UTEG,accessibility_statement,Acc.,no,no
+116,ecuador,UTEG,lotaip_transparency,Transp.,si,si
+117,ecuador,UISRAEL,privacy_notice,Notice,si,si
+117,ecuador,UISRAEL,legal_framework,LOPDP,si,nv
+117,ecuador,UISRAEL,data_subject_rights,Rights,no,nv
+117,ecuador,UISRAEL,dpo_contact,DPO,si,nv
+117,ecuador,UISRAEL,accessibility_statement,Acc.,no,nv
+117,ecuador,UISRAEL,lotaip_transparency,Transp.,si,nv
+118,ecuador,UDET,privacy_notice,Notice,no,no
+118,ecuador,UDET,legal_framework,LOPDP,no,no
+118,ecuador,UDET,data_subject_rights,Rights,no,no
+118,ecuador,UDET,dpo_contact,DPO,no,no
+118,ecuador,UDET,accessibility_statement,Acc.,no,no
+118,ecuador,UDET,lotaip_transparency,Transp.,no,no
+119,ecuador,UMET,privacy_notice,Notice,si,si
+119,ecuador,UMET,legal_framework,LOPDP,no,nv
+119,ecuador,UMET,data_subject_rights,Rights,no,nv
+119,ecuador,UMET,dpo_contact,DPO,no,nv
+119,ecuador,UMET,accessibility_statement,Acc.,no,no
+119,ecuador,UMET,lotaip_transparency,Transp.,no,si
+120,ecuador,U. Otavalo,privacy_notice,Notice,si,nv
+120,ecuador,U. Otavalo,legal_framework,LOPDP,parcial,nv
+120,ecuador,U. Otavalo,data_subject_rights,Rights,no,no
+120,ecuador,U. Otavalo,dpo_contact,DPO,no,no
+120,ecuador,U. Otavalo,accessibility_statement,Acc.,no,no
+120,ecuador,U. Otavalo,lotaip_transparency,Transp.,no,nv
+121,ecuador,USGP,privacy_notice,Notice,si,si
+121,ecuador,USGP,legal_framework,LOPDP,si,si
+121,ecuador,USGP,data_subject_rights,Rights,si,si
+121,ecuador,USGP,dpo_contact,DPO,si,si
+121,ecuador,USGP,accessibility_statement,Acc.,no,no
+121,ecuador,USGP,lotaip_transparency,Transp.,no,si
+122,ecuador,U. Hemisferios,privacy_notice,Notice,si,si
+122,ecuador,U. Hemisferios,legal_framework,LOPDP,parcial,si
+122,ecuador,U. Hemisferios,data_subject_rights,Rights,no,si
+122,ecuador,U. Hemisferios,dpo_contact,DPO,no,si
+122,ecuador,U. Hemisferios,accessibility_statement,Acc.,no,no
+122,ecuador,U. Hemisferios,lotaip_transparency,Transp.,no,si
+123,ecuador,UNIB.E,privacy_notice,Notice,nv,si
+123,ecuador,UNIB.E,legal_framework,LOPDP,nv,no
+123,ecuador,UNIB.E,data_subject_rights,Rights,nv,si
+123,ecuador,UNIB.E,dpo_contact,DPO,nv,no
+123,ecuador,UNIB.E,accessibility_statement,Acc.,nv,no
+123,ecuador,UNIB.E,lotaip_transparency,Transp.,nv,no
+124,ecuador,ECOTEC,privacy_notice,Notice,si,si
+124,ecuador,ECOTEC,legal_framework,LOPDP,si,si
+124,ecuador,ECOTEC,data_subject_rights,Rights,si,si
+124,ecuador,ECOTEC,dpo_contact,DPO,si,si
+124,ecuador,ECOTEC,accessibility_statement,Acc.,no,no
+124,ecuador,ECOTEC,lotaip_transparency,Transp.,no,si
+125,ecuador,UDR,privacy_notice,Notice,no,no
+125,ecuador,UDR,legal_framework,LOPDP,no,no
+125,ecuador,UDR,data_subject_rights,Rights,no,no
+125,ecuador,UDR,dpo_contact,DPO,no,no
+125,ecuador,UDR,accessibility_statement,Acc.,no,no
+125,ecuador,UDR,lotaip_transparency,Transp.,no,no
+126,ecuador,UBE,privacy_notice,Notice,si,si
+126,ecuador,UBE,legal_framework,LOPDP,si,si
+126,ecuador,UBE,data_subject_rights,Rights,no,si
+126,ecuador,UBE,dpo_contact,DPO,no,si
+126,ecuador,UBE,accessibility_statement,Acc.,no,si
+126,ecuador,UBE,lotaip_transparency,Transp.,si,no

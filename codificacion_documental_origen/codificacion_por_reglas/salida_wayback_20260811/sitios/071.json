@@ -1,0 +1,35 @@
+{
+ "id": 71,
+ "grupo": "ecuador",
+ "sigla": "UG",
+ "pais": "EC",
+ "url": "https://www.ug.edu.ec",
+ "modo": "wayback_20260811",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "lotaip_transparency": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://web.archive.org/web/20260811id_/https://www.ug.edu.ec",
+    "status": 429,
+    "tls_ok": true,
+    "url_final": "https://web.archive.org/web/20260811id_/https://www.ug.edu.ec",
+    "fecha_hora_utc": "2026-11-12T04:14:13+00:00",
+    "error": null,
+    "sha256": "e859c18f0c0cc71ffed35c4e7ebc87cbb4f136116156f2de1588aeb71449533e"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:14:14+00:00"
+}

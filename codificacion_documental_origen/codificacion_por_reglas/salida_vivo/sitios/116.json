@@ -1,0 +1,72 @@
+{
+ "id": 116,
+ "grupo": "ecuador",
+ "sigla": "UTEG",
+ "pais": "EC",
+ "url": "https://www.uteg.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uteg.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uteg.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:10:12+00:00",
+    "error": null,
+    "sha256": "eff9755ae4dabd61b419a3726cb9c6b946131764a06bbe02bbb92c4b4d998bb3"
+   },
+   {
+    "url_consultada": "https://www.uteg.edu.ec/proteccion-de-datos-personales/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uteg.edu.ec/proteccion-de-datos-personales/",
+    "fecha_hora_utc": "2026-11-12T04:10:16+00:00",
+    "error": null,
+    "sha256": "af85c818cdaada796bcd2556c781594d2c5c8699d96c66412b519c9aad018b18"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Transparencia",
+    "url": "https://www.uteg.edu.ec/nosotros/"
+   },
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Protección de Datos Personales",
+    "url": "https://www.uteg.edu.ec/proteccion-de-datos-personales/"
+   },
+   {
+    "texto": "privacidad",
+    "url": "https://www.uteg.edu.ec/politica-lopd/"
+   }
+  ],
+  "aviso_url": "https://www.uteg.edu.ec/proteccion-de-datos-personales/",
+  "aviso_palabras": 1187,
+  "aviso_sha256_texto": "d082ce098c4ebc38a08695e2be4c1ecf3d8b97749bdc01088f3021f53cb7a289"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:10:19+00:00"
+}

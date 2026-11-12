@@ -1,0 +1,66 @@
+{
+ "id": 120,
+ "grupo": "ecuador",
+ "sigla": "U. Otavalo",
+ "pais": "EC",
+ "url": "https://www.uotavalo.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "parcial",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uotavalo.edu.ec",
+    "status": 200,
+    "tls_ok": false,
+    "url_final": "https://www.uotavalo.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:10:37+00:00",
+    "error": "SSL: HTTPSConnectionPool(host='www.uotavalo.edu.ec', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:",
+    "sha256": "fb70c45fe8133f0abe91f066de897ae9864971995b44ffb27fa59a031b22e0f6"
+   },
+   {
+    "url_consultada": "https://www.uotavalo.edu.ec/politica-de-privacidad/",
+    "status": 200,
+    "tls_ok": false,
+    "url_final": "https://www.uotavalo.edu.ec/politica-de-privacidad/",
+    "fecha_hora_utc": "2026-11-12T04:10:39+00:00",
+    "error": "SSL: HTTPSConnectionPool(host='www.uotavalo.edu.ec', port=443): Max retries exceeded with url: /politica-de-privacidad/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] cer",
+    "sha256": "d0639fd9f32775925021d5a51a2716edd15f1bf0cedf856a42b7d2b9a9ef12eb"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "Ley de Comercio Electrónico",
+   "derechos": [
+    "oposicion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de Privacidad",
+    "url": "https://www.uotavalo.edu.ec/politica-de-privacidad/"
+   }
+  ],
+  "aviso_url": "https://www.uotavalo.edu.ec/politica-de-privacidad/",
+  "aviso_palabras": 525,
+  "aviso_sha256_texto": "611410181a28dabac31fd1e558eedff5666ec128fd11c3d91f32d70b34bc9e0f"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:10:40+00:00"
+}

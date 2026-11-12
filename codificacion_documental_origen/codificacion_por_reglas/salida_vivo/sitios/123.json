@@ -1,0 +1,35 @@
+{
+ "id": 123,
+ "grupo": "ecuador",
+ "sigla": "UNIB.E",
+ "pais": "EC",
+ "url": "https://unibe.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "lotaip_transparency": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://unibe.edu.ec",
+    "status": null,
+    "tls_ok": null,
+    "url_final": null,
+    "fecha_hora_utc": "2026-11-12T04:10:50+00:00",
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='unibe.edu.ec', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000024997EE7530>, 'Connection to un",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:11:11+00:00"
+}

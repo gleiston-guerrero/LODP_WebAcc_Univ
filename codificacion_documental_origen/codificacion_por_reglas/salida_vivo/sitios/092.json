@@ -1,0 +1,73 @@
+{
+ "id": 92,
+ "grupo": "ecuador",
+ "sigla": "Ikiam",
+ "pais": "EC",
+ "url": "https://www.ikiam.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ikiam.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ikiam.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:08:36+00:00",
+    "error": null,
+    "sha256": "d1203f8003d2efcf195b800fd32d357e71a80b8e401f493c21eb9c9d8b03c257"
+   },
+   {
+    "url_consultada": "https://www.ikiam.edu.ec/index.php/ley-organica-de-proteccion-de-datos/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ikiam.edu.ec/index.php/ley-organica-de-proteccion-de-datos/",
+    "fecha_hora_utc": "2026-11-12T04:08:38+00:00",
+    "error": null,
+    "sha256": "af677f8eee4c4324004fac3dd4ad8be02027282477ea25517078dd382d434d7d"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "barra": "userway"
+   },
+   "transparencia": {
+    "texto": "LOTAIP",
+    "url": "https://www.ikiam.edu.ec/index.php/lotaip_ikiam/"
+   },
+   "alcance_parcial": null,
+   "marco": "LOPDP",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "LOPDP",
+    "url": "https://www.ikiam.edu.ec/index.php/ley-organica-de-proteccion-de-datos/"
+   }
+  ],
+  "aviso_url": "https://www.ikiam.edu.ec/index.php/ley-organica-de-proteccion-de-datos/",
+  "aviso_palabras": 524,
+  "aviso_sha256_texto": "697b74519755e2a3197f214d6f2080999ba00a4c77a84c09746246588092997d"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:39+00:00"
+}

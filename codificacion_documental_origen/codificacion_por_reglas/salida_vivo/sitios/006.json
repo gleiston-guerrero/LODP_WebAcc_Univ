@@ -1,0 +1,71 @@
+{
+ "id": 6,
+ "grupo": "mundo",
+ "sigla": "Caltech",
+ "pais": "US",
+ "url": "https://www.caltech.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.caltech.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.caltech.edu/",
+    "fecha_hora_utc": "2026-11-12T04:03:42+00:00",
+    "error": null,
+    "sha256": "3ef1398947e0192031eca673b78792538738d834eb6aa1b9b111c05885936795"
+   },
+   {
+    "url_consultada": "https://www.caltech.edu/privacy-notice",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.caltech.edu/privacy-notice",
+    "fecha_hora_utc": "2026-11-12T04:03:44+00:00",
+    "error": null,
+    "sha256": "9f34392f5becd6630a0d8b040f916ffbed209618a88995cb74bc7fdfd7fcfa19"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Digital Accessibility Digital Accessibility",
+    "url": "https://digitalaccessibility.caltech.edu/"
+   },
+   "alcance_parcial": null,
+   "marco": "Family Educational Rights and Privacy Act",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "privacy office",
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Notice Privacy Notice",
+    "url": "https://www.caltech.edu/privacy-notice"
+   }
+  ],
+  "aviso_url": "https://www.caltech.edu/privacy-notice",
+  "aviso_palabras": 3701,
+  "aviso_sha256_texto": "b166ca993eabd8422b8bee749772d19a95300eb75fa5f5adbeafced765a84b0d"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:45+00:00"
+}

@@ -1,0 +1,66 @@
+{
+ "id": 60,
+ "grupo": "mundo",
+ "sigla": "TU Delft",
+ "pais": "NL",
+ "url": "https://www.tudelft.nl/en/",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.tudelft.nl/en/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.tudelft.nl/en/",
+    "fecha_hora_utc": "2026-11-12T04:07:02+00:00",
+    "error": null,
+    "sha256": "6ccc4ef006f41f18f51d8cfc211b0008a19328a1921e7a6a93a6f9f40b9b6541"
+   },
+   {
+    "url_consultada": "https://www.tudelft.nl/en/privacy-and-security",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.tudelft.nl/en/privacy-and-security",
+    "fecha_hora_utc": "2026-11-12T04:07:05+00:00",
+    "error": null,
+    "sha256": "c1dd62e22706dd6f41d367766178676da2b4973bd56b91517a9b88221716b4eb"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Contact and accessibility Opens internal link in current window",
+    "url": "https://www.tudelft.nl/en/about-tu-delft/contact"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": false,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy & Security",
+    "url": "https://www.tudelft.nl/en/privacy-and-security"
+   }
+  ],
+  "aviso_url": "https://www.tudelft.nl/en/privacy-and-security",
+  "aviso_palabras": 283,
+  "aviso_sha256_texto": "2ff26c4bf31aac7037ceb41f868453235b5befd7a6e1d846383c572523a81eb5"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:05+00:00"
+}

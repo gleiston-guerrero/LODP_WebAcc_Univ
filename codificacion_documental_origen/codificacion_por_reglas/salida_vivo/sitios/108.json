@@ -1,0 +1,68 @@
+{
+ "id": 108,
+ "grupo": "ecuador",
+ "sigla": "UEES",
+ "pais": "EC",
+ "url": "https://uees.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://uees.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://uees.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:09:33+00:00",
+    "error": null,
+    "sha256": "21ae69d754adb3b4c8eec3333afb324306c06e64d7f10a4fbaf536f6e6308559"
+   },
+   {
+    "url_consultada": "https://uees.edu.ec/wp-content/uploads/2024/01/politica-de-tratamiento-de-datos-personales.pdf",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://uees.edu.ec/wp-content/uploads/2024/01/politica-de-tratamiento-de-datos-personales.pdf",
+    "fecha_hora_utc": "2026-11-12T04:09:35+00:00",
+    "error": null,
+    "sha256": "fdad398410e6f9b2fa87cb1a672ff6276102462e465b473bc9a78bc09374b152"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "DELEGADO DE PROTECCIÓN DE DATOS",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de Protección de Datos Personales",
+    "url": "https://uees.edu.ec/wp-content/uploads/2024/01/politica-de-tratamiento-de-datos-personales.pdf"
+   }
+  ],
+  "aviso_url": "https://uees.edu.ec/wp-content/uploads/2024/01/politica-de-tratamiento-de-datos-personales.pdf",
+  "aviso_palabras": 8021,
+  "aviso_sha256_texto": "78646e0e5efe3a9d97462f868a354072d012dbc51e10b41c2f0e0a7e8c2700f6"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:42+00:00"
+}

@@ -1,0 +1,69 @@
+{
+ "id": 52,
+ "grupo": "mundo",
+ "sigla": "Wisconsin",
+ "pais": "US",
+ "url": "https://www.wisc.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.wisc.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.wisc.edu/",
+    "fecha_hora_utc": "2026-11-12T04:06:30+00:00",
+    "error": null,
+    "sha256": "f0131d1b41d7e17620aeb936ca3a504c0a5177117777a88d1cc3a85bb56c1dad"
+   },
+   {
+    "url_consultada": "https://www.wisc.edu/privacy-notice/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.wisc.edu/privacy-notice/",
+    "fecha_hora_utc": "2026-11-12T04:06:32+00:00",
+    "error": null,
+    "sha256": "a5018bf777a2ea9d79e5f24163d4c41b8dc7cf95b43e7e48bfe9f5e93deb0ede"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://accessible.wisc.edu/"
+   },
+   "alcance_parcial": null,
+   "marco": "COPPA",
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": true
+   },
+   "cookies": {
+    "texto": "Cookies and Tracking on UW–Madison websites",
+    "url": "https://www.wisc.edu/privacy-notice/cookies-and-tracking/"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy notice",
+    "url": "https://www.wisc.edu/privacy-notice/"
+   }
+  ],
+  "aviso_url": "https://www.wisc.edu/privacy-notice/",
+  "aviso_palabras": 1778,
+  "aviso_sha256_texto": "3eaf6e644369175fba5fd201a326c157082966e26ef298ca6c97ff16d4bb1a3f"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:32+00:00"
+}

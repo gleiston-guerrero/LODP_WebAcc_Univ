@@ -1,0 +1,75 @@
+{
+ "id": 2,
+ "grupo": "mundo",
+ "sigla": "Stanford",
+ "pais": "US",
+ "url": "https://www.stanford.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.stanford.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.stanford.edu/",
+    "fecha_hora_utc": "2026-11-12T04:03:31+00:00",
+    "error": null,
+    "sha256": "6a24bdd0e5d2e319f7194b34a3fbec2bf61c468a90ff013cb1c194f5bcc9123f"
+   },
+   {
+    "url_consultada": "https://www.stanford.edu/privacy",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.stanford.edu/privacy",
+    "fecha_hora_utc": "2026-11-12T04:03:34+00:00",
+    "error": null,
+    "sha256": "3cb43ff2876c3b93d0afa10073154c5d720ddfe63e69bb452c01b2017f5cf913"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility Report web accessibility issues",
+    "url": "https://www.stanford.edu/accessibility"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "acceso",
+    "limitacion",
+    "oposicion",
+    "portabilidad",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": true
+   },
+   "cookies": {
+    "texto": "Cookies",
+    "url": "https://www.stanford.edu/cookies"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Privacy and cookie policy",
+    "url": "https://www.stanford.edu/privacy"
+   }
+  ],
+  "aviso_url": "https://www.stanford.edu/privacy",
+  "aviso_palabras": 4951,
+  "aviso_sha256_texto": "0af849b49d81a2afa12f73e1d5fa958be4116682306463211648efbceb83f597"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:34+00:00"
+}

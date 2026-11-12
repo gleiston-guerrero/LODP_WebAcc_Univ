@@ -1,0 +1,66 @@
+{
+ "id": 76,
+ "grupo": "ecuador",
+ "sigla": "UTC",
+ "pais": "EC",
+ "url": "https://www.utc.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.utc.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.utc.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:07:57+00:00",
+    "error": null,
+    "sha256": "e557ef90cea1cdc8e3f9eadba12df09d7283c00aebf2b698bb2f5272db17150e"
+   },
+   {
+    "url_consultada": "https://www.utc.edu.ec/Privacy",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.utc.edu.ec/Privacy",
+    "fecha_hora_utc": "2026-11-12T04:07:58+00:00",
+    "error": null,
+    "sha256": "776cbb7431ab2d446b7a817a8c31de23b4ce40dd1a2fe21563e1909b003b40ac"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "TRANSPARENCIA",
+    "url": "https://www.utc.edu.ec/UTC/SERVICIOS/TRANSPARENCIA"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de privacidad",
+    "url": "https://www.utc.edu.ec/Privacy"
+   }
+  ],
+  "aviso_url": "https://www.utc.edu.ec/Privacy",
+  "aviso_palabras": 1385,
+  "aviso_sha256_texto": "259f47a969c321a3c06f028bf872c45a16c0864f7382fbff093af47b6a66f88c"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:59+00:00"
+}

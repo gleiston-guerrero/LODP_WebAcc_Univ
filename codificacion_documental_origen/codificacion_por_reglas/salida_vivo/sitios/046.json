@@ -1,0 +1,56 @@
+{
+ "id": 46,
+ "grupo": "mundo",
+ "sigla": "UT Austin",
+ "pais": "US",
+ "url": "https://www.utexas.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.utexas.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.utexas.edu/",
+    "fecha_hora_utc": "2026-11-12T04:06:10+00:00",
+    "error": null,
+    "sha256": "8369e77fd4732cc281e267e2a9e1cfcd23990ade511cdd5ba7411afbf959f88b"
+   },
+   {
+    "url_consultada": "https://tech.utexas.edu/governance/campus-it-policies/web-privacy-policy",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://tech.utexas.edu/governance/campus-it-policies/web-privacy-policy",
+    "fecha_hora_utc": "2026-11-12T04:06:11+00:00",
+    "error": null,
+    "sha256": "e11ef3775f0a427586b835958e1366f2526127b2bcf47625f3e93b4e90cbeacb"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Digital Accessibility Policy",
+    "url": "https://compliance.utexas.edu/digital-accessibility"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Web Privacy Policy",
+    "url": "https://tech.utexas.edu/governance/campus-it-policies/web-privacy-policy"
+   }
+  ],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:11+00:00"
+}

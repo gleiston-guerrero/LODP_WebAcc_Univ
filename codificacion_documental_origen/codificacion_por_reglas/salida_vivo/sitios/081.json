@@ -1,0 +1,42 @@
+{
+ "id": 81,
+ "grupo": "ecuador",
+ "sigla": "UTELVT",
+ "pais": "EC",
+ "url": "https://www.utelvt.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.utelvt.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.utelvt.edu.ec/site/",
+    "fecha_hora_utc": "2026-11-12T04:08:08+00:00",
+    "error": null,
+    "sha256": "fc34d0aa88a3c4fd354a0ce4766550018dbebfd855b75fd2f24bf12e4f7a3e5d"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "AÑO 2021",
+    "url": "https://www.utelvt.edu.ec/site/transparencia/ano-2021/"
+   }
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:11+00:00"
+}

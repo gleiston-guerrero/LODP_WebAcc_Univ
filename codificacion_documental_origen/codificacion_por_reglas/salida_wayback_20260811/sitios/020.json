@@ -1,0 +1,35 @@
+{
+ "id": 20,
+ "grupo": "mundo",
+ "sigla": "Toronto",
+ "pais": "CA",
+ "url": "https://www.utoronto.ca",
+ "modo": "wayback_20260811",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://web.archive.org/web/20260811id_/https://www.utoronto.ca",
+    "status": 429,
+    "tls_ok": true,
+    "url_final": "https://web.archive.org/web/20260811id_/https://www.utoronto.ca",
+    "fecha_hora_utc": "2026-11-12T04:12:20+00:00",
+    "error": null,
+    "sha256": "e859c18f0c0cc71ffed35c4e7ebc87cbb4f136116156f2de1588aeb71449533e"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:12:21+00:00"
+}

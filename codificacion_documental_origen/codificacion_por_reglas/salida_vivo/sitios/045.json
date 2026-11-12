@@ -1,0 +1,56 @@
+{
+ "id": 45,
+ "grupo": "mundo",
+ "sigla": "Illinois",
+ "pais": "US",
+ "url": "https://illinois.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://illinois.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://illinois.edu/",
+    "fecha_hora_utc": "2026-11-12T04:06:06+00:00",
+    "error": null,
+    "sha256": "73f1f80381db1a39fdd2d4a8995c3f2e2fcb4e2d0587a626202e8d26331bb5c7"
+   },
+   {
+    "url_consultada": "https://www.vpaa.uillinois.edu/resources/web_privacy",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.vpaa.uillinois.edu/resources/web_privacy",
+    "fecha_hora_utc": "2026-11-12T04:06:08+00:00",
+    "error": null,
+    "sha256": "19c5bcae9460bbaf53b61c867bc618b30abef71d736dd32b86c61e53598b02e9"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://illinois.edu/about/accessibility/"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Policy",
+    "url": "https://www.vpaa.uillinois.edu/resources/web_privacy"
+   }
+  ],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:09+00:00"
+}

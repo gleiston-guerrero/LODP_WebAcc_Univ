@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAE - La Nueva Universidad Agraria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="uae.ico">
+    <!-- Tailwind CSS (Para el diseño y colores) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js (Para que el chat funcione y se abra/cierre) -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Font Awesome (Para los iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-53857905-1','auto');ga('send','pageview');</script>
+    <style type="text/css">html,body{max-width:100%;overflow-x:hidden;width:100%;margin:0;padding:0;box-sizing:border-box}body.agrarito-open{overflow:hidden!important;height:100vh}.carrera-item{text-decoration:none;color:#333;transition:color .3s ease;cursor:pointer}.carrera-item:hover{color:#f60}.carrera-link{display:block;text-decoration:none;color:#333;transition:color .3s ease;padding:6px 0;border-top:1px solid #e0e0e0;margin-top:6px}.carrera-link:hover{color:#f60}.floating-quick-access{position:fixed;top:50%;right:20px;transform:translateY(-50%) translateX(100%);display:flex;flex-direction:column;gap:12px;z-index:999;opacity:0;visibility:hidden;transition:transform .5s ease-in-out , opacity .5s ease-in-out}.floating-quick-access.visible{opacity:1;visibility:visible;transform:translateY(-50%) translateX(0)}.fq-item{position:relative;display:flex;justify-content:center;align-items:center;width:48px;height:48px;background-color:rgba(255,255,255,.85);color:#005a2e;font-size:22px;text-decoration:none;border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,.15);backdrop-filter:blur(4px);transition:all .3s ease}.fq-item:hover{background-color:#005a2e;color:#fff;transform:scale(1.15);box-shadow:0 6px 16px rgba(0,90,46,.3)}.fq-item span{position:absolute;top:50%;right:120%;transform:translateY(-50%);background-color:#333;color:#fff;padding:6px 12px;border-radius:6px;font-size:14px;font-weight:500;white-space:nowrap;opacity:0;visibility:hidden;transition:opacity .3s ease , visibility .3s ease}.fq-item:hover span{opacity:1;visibility:visible}.card-image-wrapper{position:relative;overflow:hidden}.faculty-tag{position:absolute;top:15px;left:15px;background-color:rgba(0,46,23,.75);backdrop-filter:blur(5px);color:#fff;padding:6px 12px;border-radius:6px;font-size:13px;font-weight:500;font-family:'Poppins',sans-serif;transition:all .3s ease;opacity:0;transform:translateY(10px);animation:fadeInTag .5s .5s ease forwards}@keyframes fadeInTag {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}.publication-card .card-link:hover .faculty-tag,.publication-card2 .card-link:hover .faculty-tag{background-color:rgba(255,102,0,.75);box-shadow:0 4px 10px rgba(255,102,0,.4);transform:translateY(-2px)}.modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.7);display:flex;justify-content:center;align-items:center;z-index:9999;padding:20px;opacity:0;visibility:hidden;transition:opacity .4s ease , visibility 0s .4s}.modal-overlay.visible{opacity:1;visibility:visible;transition:opacity .4s ease}.modal-content{background-color:#fff;padding:30px 35px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.2);width:100%;max-width:700px;text-align:center;position:relative;transform:scale(.9);transition:transform .4s cubic-bezier(.18,.89,.32,1.28)}.modal-overlay.visible .modal-content{transform:scale(1)}.modal-close-btn{position:absolute;top:10px;right:15px;padding-bottom:10px;background:none;border:none;font-size:28px;font-weight:300;color:#aaa;cursor:pointer;transition:color .3s ease , transform .3s ease}.modal-close-btn:hover{color:#333;transform:rotate(90deg)}.modal-icon{font-size:48px;color:#005a2e;margin-bottom:15px}.modal-content h2{font-family:'Poppins',sans-serif;font-weight:700;font-size:24px;color:#333;margin:0 0 10px}.modal-content p{font-family:'Poppins',sans-serif;font-size:16px;color:#555;line-height:1.6;margin:0 0 25px}.modal-button{display:inline-block;background-color:#f60;color:#fff;padding:12px 30px;border-radius:8px;text-decoration:none;font-family:'Poppins',sans-serif;font-weight:500;font-size:16px;border:none;cursor:pointer;transition:background-color .3s ease , transform .2s ease , box-shadow .3s ease}.modal-button:hover{background-color:#e65c00;transform:translateY(-3px);box-shadow:0 4px 15px rgba(255,102,0,.4)}@media (max-width:600px){.modal-content{padding:25px 20px}.modal-content h2{font-size:20px}.modal-content p{font-size:14px}.modal-button{padding:10px 25px;font-size:14px}}.modal-icon-svg{width:100px;height:100px}.modal-icon-svg-wrapper{width:120px;height:120px;margin-left:auto;margin-right:auto;margin-bottom:15px}.success-ring{stroke:#00c49a;stroke-width:3;transform-origin:center;animation:radiate-ring .5s cubic-bezier(.25,.46,.45,.94) forwards;animation-delay:.8s;opacity:0}.calendar-base{transform-origin:center;animation:slide-fade-in .5s cubic-bezier(.25,.46,.45,.94) forwards;opacity:0}.checkmark{stroke:#f60;stroke-width:25;stroke-linecap:round;transform-origin:center;stroke-dasharray:48;stroke-dashoffset:48;animation:morph-check .5s cubic-bezier(.65,0,.45,1) forwards;animation-delay:.4s}@keyframes slide-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}@keyframes morph-check {
+    /* Estado inicial (ya definido en la clase) */
+    0% {
+        stroke-width: 25;
+        stroke-dashoffset: 48;
+    }
+    /* A la mitad, el punto se "adelgaza" para convertirse en una línea */
+    50% {
+        stroke-width: 4; /* Vuelve a su grosor normal */
+        stroke-dashoffset: 48;
+    }
+    /* Al final, la línea se dibuja */
+    100% {
+        stroke-width: 4;
+        stroke-dashoffset: 0; /* Se dibuja completamente */
+    }
+}@keyframes radiate-ring {
+    from {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.2);
+        opacity: 0;
+        stroke-width: 0;
+    }
+}.graduate-container-burst{font-size:6rem;position:relative;display:inline-block;margin:20px auto;animation:zoom-in-focus .8s cubic-bezier(.16,1,.3,1) forwards}.graduate-container-burst .fa-user-graduate{color:#007bff;text-shadow:0 4px 10px rgba(0,0,0,.1)}.graduate-container-burst::before{content:'';position:absolute;top:50%;left:50%;width:5px;height:5px;opacity:0;animation:particle-burst-refined 1.5s ease-out forwards;animation-delay:.6s}@keyframes zoom-in-focus {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+        filter: blur(8px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+}@keyframes particle-burst-refined {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0.3);
+        /* 
+         Todas las partículas parten del centro. Usaremos 3 colores:
+         - #ff6600 (Naranja)
+         - #005a2e (Verde)
+         - #ffb400 (Dorado)
+        */
+        box-shadow: 
+            /* Grupo 1 (12 partículas) */
+            0 0 0 0 #ff6600, 0 0 0 0 #005a2e, 0 0 0 0 #ffb400, 0 0 0 0 #ff6600,
+            0 0 0 0 #005a2e, 0 0 0 0 #ffb400, 0 0 0 0 #ff6600, 0 0 0 0 #005a2e,
+            0 0 0 0 #ffb400, 0 0 0 0 #ff6600, 0 0 0 0 #005a2e, 0 0 0 0 #ffb400;
+    }
+    /* Añadimos un paso intermedio para controlar la opacidad */
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.2); /* Se expanden un poco más */
+        /*
+         Las partículas ahora están dispersas en un círculo, con un spread final de '2px' para ser pequeñas.
+         Añadimos más declaraciones para tener más partículas.
+        */
+        box-shadow: 
+            /* Eje Vertical y Horizontal */
+            0 -100px 0 2px rgba(255,102,0,0), 100px 0 0 2px rgba(0,90,46,0),
+            0 100px 0 2px rgba(255,180,0,0), -100px 0 0 2px rgba(255,102,0,0),
+            
+            /* Diagonales Principales */
+            71px -71px 0 2px rgba(0,90,46,0), -71px 71px 0 2px rgba(255,180,0,0),
+            -71px -71px 0 2px rgba(255,102,0,0), 71px 71px 0 2px rgba(0,90,46,0),
+            
+            /* Puntos Intermedios (más partículas) */
+            38px -92px 0 2px rgba(255,180,0,0), 92px 38px 0 2px rgba(255,102,0,0),
+            -38px 92px 0 2px rgba(0,90,46,0), -92px -38px 0 2px rgba(255,180,0,0);
+    }
+}.modal-divider{border:none;height:1px;background-color:#e0e0e0;margin:25px 0}.modal-content h3{font-family:'Poppins',sans-serif;font-size:18px;font-weight:600;color:#444;margin:0 0 20px}.featured-links-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:15px}.featured-link-item{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:25px 15px;background-color:#f8f9fa;border-radius:12px;text-decoration:none;border:1px solid #e9ecef;transition:all .3s ease-in-out;opacity:0;transform:translateY(15px);animation:fade-in-up .5s ease forwards}@keyframes fade-in-up {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}.featured-link-item:nth-child(1) {animation-delay:.1s}.featured-link-item:nth-child(2) {animation-delay:.2s}.featured-link-item:nth-child(3) {animation-delay:.3s}.featured-link-item:nth-child(4) {animation-delay:.4s}.featured-link-item:nth-child(5) {animation-delay:.5s}.featured-link-item:hover{transform:translateY(-8px);box-shadow:0 10px 30px rgba(0,0,0,.08);border-color:transparent}.featured-link-item i{font-size:2.5rem;color:#007bff;margin-bottom:15px;transition:transform .3s ease}.featured-link-item:hover i{transform:scale(1.1)}.featured-link-item span{font-size:.9rem;line-height:1.5;font-weight:700;color:#343a40;text-align:center}@media (max-width:600px){.modal-content{padding:25px 15px}.modal-content h2{font-size:1.25rem}.modal-content p{font-size:.875rem;margin-bottom:20px}.modal-button{padding:10px 25px;font-size:.9rem}.graduate-container-burst{font-size:3.5rem;margin:10px auto}.modal-content h3{font-size:.8rem}.modal-divider{margin:20px 0}.featured-links-grid{grid-template-columns:repeat(3,1fr);gap:10px;padding-top:20px}.featured-link-item{padding:15px 5px}.featured-link-item i{font-size:1.5rem;margin-bottom:8px}.featured-link-item span{font-size:.75rem;line-height:1.3}}.calendar-container-burst.animate{font-size:2.5rem;position:relative;display:inline-block;animation:drop-in-bounce .9s cubic-bezier(.175,.885,.32,1.275) forwards}.calendar-container-burst .fa-calendar-days{color:#007bff}.calendar-container-burst.animate::before{content:'';position:absolute;top:50%;left:50%;width:5px;height:5px;opacity:0;animation:particle-burst-calendar 1.5s ease-out forwards;animation-delay:.7s}@keyframes drop-in-bounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px) scale(0.8); /* Empieza arriba, pequeño y transparente */
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(10px) scale(1.05); /* Cae más allá de su posición final y se estira */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1); /* Rebota a su posición y tamaño final */
+    }
+}@keyframes particle-burst-calendar {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0.3);
+        /* 
+         Partículas con los colores institucionales que usaste en la otra animación.
+         Todas parten desde el centro.
+        */
+        box-shadow: 
+            0 0 0 0 #ff6600, 0 0 0 0 #005a2e, 0 0 0 0 #007bff, 0 0 0 0 #ff6600,
+            0 0 0 0 #005a2e, 0 0 0 0 #007bff, 0 0 0 0 #ff6600, 0 0 0 0 #005a2e,
+            0 0 0 0 #007bff, 0 0 0 0 #ff6600, 0 0 0 0 #005a2e, 0 0 0 0 #007bff;
+    }
+    60% {
+        opacity: 1; /* Mantenemos las partículas visibles durante la expansión */
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.3); /* Se expanden un poco más que en la otra animación */
+        /*
+         Las partículas se dispersan en un círculo, con un tamaño final de 2px (último valor).
+         Usamos rgba con canal alfa 0 para que desaparezcan suavemente.
+        */
+        box-shadow: 
+            /* Eje Vertical y Horizontal */
+            0 -80px 0 2px rgba(255,102,0,0), 80px 0 0 2px rgba(0,90,46,0),
+            0 80px 0 2px rgba(0,123,255,0), -80px 0 0 2px rgba(255,102,0,0),
+            
+            /* Diagonales Principales */
+            57px -57px 0 2px rgba(0,90,46,0), -57px 57px 0 2px rgba(0,123,255,0),
+            -57px -57px 0 2px rgba(255,102,0,0), 57px 57px 0 2px rgba(0,90,46,0),
+            
+            /* Puntos Intermedios para más densidad */
+            31px -74px 0 2px rgba(0,123,255,0), 74px 31px 0 2px rgba(255,102,0,0),
+            -31px 74px 0 2px rgba(0,90,46,0), -74px -31px 0 2px rgba(0,123,255,0);
+    }
+}#calendar-link-item{opacity:0;transform:none;animation:fade-in-only .5s ease forwards;animation-delay:.1s}@keyframes fade-in-only {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}#calendar-link-item .calendar-container-burst{opacity:0}.video-container-modal{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;width:100%;max-width:100%;margin-bottom:25px}.video-container-modal iframe{position:absolute;top:0;left:0;width:100%;height:100%}.image-container-modal{display:flex;justify-content:center;align-items:center;margin-bottom:25px}.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}@media (min-width:992px){.services-grid{grid-template-columns:repeat(4,1fr);gap:25px}}.quick-access-bar{display:flex;justify-content:center;align-items:center;gap:12px;margin:20px auto 40px auto;flex-wrap:wrap;max-width:1200px;padding:0 15px}.quick-pill{text-decoration:none;background-color:#fff;border:1px solid rgba(0,0,0,.08);border-radius:50px;padding:16px 26px;transition:all .3s ease;box-shadow:0 2px 8px rgba(0,0,0,.04);display:flex;align-items:center;justify-content:center;min-width:fit-content}.pill-content{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:8px}.pill-content i{color:#0061f2;font-size:1rem;margin-right:0;display:flex;align-items:center;justify-content:center}.pill-content span{color:#444;font-size:.85rem;font-weight:600;white-space:nowrap;line-height:1}.quick-pill:hover{transform:translateY(-3px);background-color:#0061f2;border-color:#0061f2}.quick-pill:hover span,.quick-pill:hover i{color:#fff}@media (max-width:768px){.quick-access-bar{padding:0 10px;margin:10px auto;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.quick-pill{width:100%!important;padding:10px 5px!important}.pill-content span{white-space:normal;font-size:.75rem;text-align:center}}.carousel-slide picture img{width:100%;height:auto;display:block}.promo-modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);backdrop-filter:blur(8px);display:none;justify-content:center;align-items:center;z-index:100000;opacity:0;transition:opacity .4s ease;padding:20px}.promo-modal-overlay.active{display:flex;opacity:1}.promo-modal-container{position:relative;max-width:550px;width:100%;max-height:90vh;display:flex;flex-direction:column;transform:scale(.8);transition:transform .5s cubic-bezier(.34,1.56,.64,1)}.promo-modal-overlay.active .promo-modal-container{transform:scale(1)}.promo-modal-container img{width:100%;height:auto;max-height:85vh;object-fit:contain;border-radius:12px;box-shadow:0 20px 50px rgba(0,0,0,.5);display:block}.promo-modal-close{position:absolute;top:-15px;right:-15px;background:#f60;color:#fff;border:2px solid #fff;width:40px;height:40px;border-radius:50%;font-size:24px;font-weight:bold;cursor:pointer;z-index:100005;display:flex;justify-content:center;align-items:center;box-shadow:0 5px 15px rgba(0,0,0,.3);transition:all .3s ease}.promo-modal-close:hover{background:#e65c00;transform:rotate(90deg) scale(1.1)}@media (max-width:600px){.promo-modal-container{max-width:95%}.promo-modal-close{top:-10px;right:-5px;width:35px;height:35px;font-size:20px}.promo-modal-container img{max-height:80vh}}.editorial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;width:100%;max-width:1000px;margin:0 auto}.editorial-card{background:rgba(255,255,255,.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);padding:40px 30px;border-radius:20px;text-decoration:none;color:#fff;transition:all .4s cubic-bezier(.165,.84,.44,1);display:flex;flex-direction:column;align-items:center;text-align:center;position:relative;overflow:hidden}.editorial-card:hover{transform:translateY(-10px);background:rgba(255,255,255,.15);box-shadow:0 20px 40px rgba(0,0,0,.3);border-color:#f90}.editorial-icon{font-size:3rem;color:#f90;margin-bottom:20px;transition:transform .3s ease}.editorial-card:hover .editorial-icon{transform:scale(1.1) rotate(5deg)}.editorial-card h3{font-family:'Poppins',sans-serif;font-size:1.4rem;font-weight:700;margin-bottom:15px;line-height:1.3}.editorial-card p{font-size:.95rem;color:#ddd;margin-bottom:25px;line-height:1.6}.editorial-link-text{font-weight:600;font-size:.9rem;color:#f90;display:flex;align-items:center;gap:8px;margin-top:auto}.editorial-card:hover .editorial-link-text{text-decoration:underline}@media (max-width:768px){.editorial-grid{grid-template-columns:1fr;padding:0 20px}.editorial-card{padding:30px 20px}}#youtubeVideoModal{z-index:100001}.banner-link{display:block;width:100%;height:100%;text-decoration:none;color:inherit}.banner-link picture,.banner-link img{display:block;width:100%}.hamburger-menu{display:none;flex-direction:column;justify-content:space-between;width:30px;height:21px;background:transparent;border:none;cursor:pointer;z-index:20000;padding:0;transition:all .3s ease}.hamburger-menu span{width:100%;height:3px;background-color:#333;border-radius:5px;display:block;transition:all .3s ease-in-out}.hamburger-menu.active span:nth-child(1) {transform:translateY(9px) rotate(45deg);background-color:#f60}.hamburger-menu.active span:nth-child(2) {opacity:0;transform:translateX(-20px)}.hamburger-menu.active span:nth-child(3) {transform:translateY(-9px) rotate(-45deg);background-color:#f60}@media (max-width:992px){.hamburger-menu{display:flex}}body.no-scroll{overflow:hidden!important;position:fixed;width:100%;height:100%}@media (max-width:992px){.main-nav-links{display:flex!important;position:fixed;top:0;right:0;left:auto;width:85%;max-width:400px;height:100vh;background-color:#fff;box-shadow:-5px 0 25px rgba(0,0,0,.15);z-index:15000;flex-direction:column;padding:80px 25px 40px 25px;transform:translateX(100%);transition:transform .4s cubic-bezier(.25,1,.5,1);overflow-y:auto!important;scrollbar-width:thin;scrollbar-color:#ccc transparent}.main-nav-links.active{transform:translateX(0)}.main-nav-links::-webkit-scrollbar{width:5px}.main-nav-links::-webkit-scrollbar-track{background:transparent}.main-nav-links::-webkit-scrollbar-thumb{background:#ddd;border-radius:10px}.main-nav-links::-webkit-scrollbar-thumb:hover{background:#f60}.nav-item .submenu{max-height:0;overflow:hidden;opacity:0;margin:0!important;padding:0!important;background-color:#f9f9f9;border:1px solid transparent;border-radius:8px;transition:all .3s ease;display:block!important}.nav-item.open .submenu{max-height:1000px;opacity:1;margin:10px 0 15px 10px!important;padding:10px 0 10px 15px!important;border:1px solid #e0e0e0;box-shadow:0 2px 5px rgba(0,0,0,.05)}.main-nav-links a,.nav-item a{-webkit-tap-highlight-color:transparent!important}.main-nav-links a:active{color:#f60!important}}#header{position:relative;z-index:1000}</style>
+</head>
+<body>
+   
+
+ <!-- ======== NUEVO BOTÓN SOCIAL FLOTANTE CON EXPANSIÓN (FLY-OUT) ======== -->
+    <div class="social-flyout-container">
+        <!-- Este es el panel con los iconos que se expandirá -->
+        <div class="social-flyout-links">
+            <a href="https://www.facebook.com/uae.agraria" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/uae_agraria" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/uae.agraria/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/universidad-agraria-del-ecuador/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@UniversidadAgrariadelEcuador" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@uae.agraria" target="_blank" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <!-- Este es el botón principal que siempre está visible -->
+        <div class="social-flyout-trigger">
+            <i class="fa-solid fa-share-alt"></i>
+        </div>
+    </div>
+
+    <!-- ======== CABECERA CON DOBLE MENÚ ======== -->
+    <header id="header">
+       <div class="top-bar">
+            <div class="top-bar-links">    
+            <a href="sit.php" class="elemento"><i class="fa-solid fa-laptop"></i> Servicios TIC</a>
+            <a href="index.php#noticias" class="elemento"><i class="fa-solid fa-newspaper"></i> Noticias</a>
+            <!-- <a href="index.php#publicaciones" class="elemento"><i class="fa-solid fa-graduation-cap"></i> Carreras</a> -->
+            <a href="https://www.uagraria.edu.ec/saladeprensa.php" class="elemento"><i class="fa-solid fa-tv"></i> Sala de Prensa</a>
+            <!-- <a href="index.php#servicios-en-linea" class="elemento"><i class="fa-solid fa-square-up-right"></i> Accesos Destacados</a> -->
+            <a href="https://www.uagraria.edu.ec/buzon/contacto.html" class="elemento"><i class="fa-solid fa-envelope"></i> Buzón de contacto</a>
+            <a href="transparencia.php" class="elemento"><i class="fa-solid fa-file-archive"></i> Transparencia</a>
+            </div>
+            
+        </div>
+        <nav class="main-nav" id="main-nav">
+            <a href="index.php" class="logo">
+                <img src="img/logo-uae-2025-600.png" alt="Logo UAE">
+            </a>
+            
+            <!-- Contenedor de enlaces de navegación -->
+            <div class="main-nav-links" id="main-nav-links">
+                <!-- Elemento con submenú -->
+                <div class="nav-item">
+                    <a href="#">La UAE ▾</a>
+                    <ul class="submenu">
+                        <li><a href="rectorado.php">Rectorado</a></li>
+                        <li><a href="autoridades.php">Autoridades</a></li>
+                        <li><a href="estatutos.php">Estatutos y Reglamentos</a></li>
+                        <li><a href="mision-vision.php">Misión y Visión</a></li>
+                        <li><a href="principios_institucionales.php">Principios Institucionales</a></li>
+                        <li><a href="objetivos_estrategicos.php">Objetivos Estratégicos</a></li>
+                        <li><a href="autoevaluacion.php">Planes de Autoevaluación</a></li>
+                        <li><a href="planes-institucionales.php">Planes Institucionales</a></li>
+                        <li><a href="informes.php">Informes Institucionales</a></li>
+                        <li><a href="organigrama.php">Organigrama</a></li>
+                        <li><a href="sedes-extensiones.php">Sedes y Extensiones</a></li>
+                    </ul>
+                </div>
+                <a href="https://admision.uagraria.edu.ec/">Admisión</a>
+                <!-- Elemento con submenú -->
+                <div class="nav-item">
+                    <a href="#">Grado ▾</a>
+                    <ul class="submenu">
+                        <li><a href="carreras-presencial.php">Carreras Presenciales</a></li>
+                        <li><a href="carreras-en-linea.php">Carreras en Línea</a></li>
+                    </ul>
+                </div>
+                <!-- Elemento con submenú -->
+                <div class="nav-item">
+                    <a href="#">Posgrado ▾</a>
+                     <ul class="submenu">
+                        <li><a href="https://www.posgrado.uagraria.edu.ec/#noticias" target="_blank">Maestrías</a></li>
+                    </ul>
+                </div>
+                <!-- Elemento con submenú -->
+                <div class="nav-item">
+                    <a href="#">Institucionales ▾</a>
+                     <ul class="submenu">
+                       <!-- <li><a href="OPEC-UAE.php">OPEC UAE</a></li>-->
+                        <li><a href="relaciones-interinstitucionales.php">Relaciones Interinstitucionales</a></li>
+                        <li><a href="bienestar-universitario.php">Bienestar Universitario</a></li>
+                        <li><a href="calendario-academico.php">Calendario Académico</a></li>
+                        <li><a href="publicaciones.php">Publicaciones</a></li>
+                        <li><a href="https://academico.uagraria.edu.ec/permiso/">Talento Humano</a></li>
+                        <li><a href="https://www.uagraria.edu.ec/marcacion_uae/">Marcación en Línea</a></li>
+                        <li><a href="https://www.vinculacion.uagraria.edu.ec/">Vinculación</a></li>
+                        <li><a href="recursos.php">Recursos</a></li>
+                        <li><a href="https://uagraria.edu.ec/rc/">Rendición de Cuentas</a></li>
+                        <li><a href="https://www.uagraria.edu.ec/CS5/estadistica/EstadisticaFullUser.php">Estadísticas Biblioteca Virtual</a></li>
+                    </ul>
+                </div>
+                <!-- Elemento con submenú -->
+                <div class="nav-item">
+                    <a href="#">Investigación ▾</a>
+                     <ul class="submenu">
+                         <li><a href="https://investigacion.uagraria.edu.ec/" target="_blank">Instituto de Investigación</a></li>
+                         <li><a href="becas.php" target="_blank">Becas y Ayudas Económicas</a></li>
+                        <li><a href="https://agro-research-club.vercel.app/" target="_blank">Club</a></li>
+                        <li><a href="https://pure.uagraria.edu.ec/" target="_blank">Plataforma PURE</a></li>
+                        <!-- <li><a href="https://investigacion.uagraria.edu.ec/investigacion_guia.html" target="_blank">Guía Interactiva para Publicar y Patentar</a></li> -->
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <div class="nav-right">
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>    </header>
+
+    <!-- Contenido del carrusel y resto de la página (sin cambios) -->
+    <!-- ======== CARRUSEL DE BANNERS ======== -->
+    <main class="carousel-container">
+       <!--<div class="carousel-slide">
+            <picture>
+                <source media="(max-width: 768px)" srcset="noticias/2026/CONVOCATORIA-DOCENTE-01.jpg">
+                <img src="noticias/2026/CONVOCATORIA-DOCENTE-02.jpg" alt="CONVOCATORIA DOCENTE">
+            </picture>
+             <div class="banner-text">
+                 <button class="button-38" role="button">
+                  <a href="https://www.uagraria.edu.ec/app/postulacion_docente/"  target="_blank">Ir a Formulario
+                  <i class="fa-solid fa-chalkboard-user"></i>
+                  </a>
+                </button> 
+            </div>
+        </div> 
+       <div class="carousel-slide">
+            <picture>
+                <source media="(max-width: 768px)" srcset="noticias/2026/CEVIS02.jpg">
+                <img src="noticias/2026/CEVIS01.jpg" alt="Pre-Inscripción">
+            </picture>
+             <div class="banner-text">
+                <button class="button-38" role="button">
+                  <a href="https://uagraria.edu.ec/congresos/cives/"  target="_blank">Ir al Micrositio 
+                  <i class="fa-solid fa-users-line"></i>
+                  </a>
+                </button>
+            </div>
+        </div>  -->
+       <!-- <div class="carousel-slide">
+            <picture>
+                <source media="(max-width: 768px)" srcset="noticias/2026/CONGRESO-WEBM-02.jpg">
+                <img src="noticias/2026/CONGRESO-WEBMM-01.jpg" alt="Pre-Inscripción">
+            </picture>
+             <div class="banner-text">
+                <button class="button-38" role="button">
+                  <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=TOblwnUrUkSb5las44BbHMXEKO0qI1ZNgHzqmeW-nj5UQ0hSS0M3SFpRWFlWVVI5UVlaUzY4WDdSUC4u&origin=QRCode"  target="_blank">Ir a Pre-Inscripción
+                  <i class="fa-solid fa-users-line"></i>
+                  </a>
+                </button>
+            </div>
+        </div>  -->
+       <div class="carousel-slide">
+            <picture>
+                <source media="(max-width: 768px)" srcset="noticias/2026/CURSO-NIVELACION2.jpg">
+                <img src="noticias/2026/Cronograma-academico-2026.jpg" alt="CRONOGRAMA">
+            </picture>
+             <div class="banner-text">
+                <button class="button-38" role="button">
+                  <a href="noticias/2026/Cronograma-Academico-2026-2027-v03.pdf" target="_blank">Ver cronograma
+                  <i class="fa-solid fa-users-line"></i>
+                  </a>
+                </button>
+            </div>
+        </div> 
+        
+        <div class="carousel-slide">
+            <picture>
+                <!-- Si el ancho de pantalla es de 768px o menos (móviles/tablets), carga esta: -->
+                <source media="(max-width: 768px)" srcset="noticias/2026/catalogo-de-oportunidades-web-04.jpg">
+                <!-- Por defecto o pantallas grandes (PC), carga esta: -->
+                <img src="noticias/2026/catalogo-de-oportunidades-web-02.jpg" alt="Admisiones">
+            </picture>
+            <div class="banner-text">
+                <!-- <h2>Cronograma</h2> -->
+                <button class="button-38" role="button">
+                  <a href="https://www.uagraria.edu.ec/noticias/2026/Catalogo-de-oportuinidades-UAE-2026-2.pdf" target="_blank">Ver catálogo 
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </button>
+            </div>
+        </div>
+
+       
+        <!-- Banner  >-->
+        <div class="carousel-slide">
+            <picture>
+                <!-- Si el ancho de pantalla es de 768px o menos (móviles/tablets), carga esta: -->
+                <source media="(max-width: 768px)" srcset="noticias/2026/Cronograma-Admisiones-web-04.jpg">
+                <!-- Por defecto o pantallas grandes (PC), carga esta: -->
+                <img src="noticias/2026/Cronograma-Admisiones-web-02.jpg" alt="Admisiones">
+            </picture>
+            <div class="banner-text">
+                <button class="button-38" role="button">
+                  <a href="noticias/2026/Cronograma-admisiones.pdf" target="_blank">Ver detalles 
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </button>
+            </div>
+        </div>
+        
+        
+        <!-- Banner  >-->
+        <div class="carousel-slide">
+            <img src="noticias/2026/xPLAN-SEGURIDAD.jpg.pagespeed.ic.Cf7PdcI6tu.jpg" alt="PLAN-SEGURIDAD">
+             <div class="banner-text">
+                <h2>Seguridad Integral</h2>
+                <button class="button-38" role="button">
+                  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=TOblwnUrUkSb5las44BbHEoyJv21HN9OpAI-kNJp9F1UMUs1WEYxRTI4RlM3MDA3V0tNSFlHNUdHQS4u" target="_blank">Ir a formulario 
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </button>
+            </div>
+        </div>
+        
+       
+        
+
+        <button class="carousel-arrow prev">❮</button>
+        <button class="carousel-arrow next">❯</button>
+    </main>
+
+    <!-- ======== LIGHTBOX PARA AMPLIAR IMAGEN ======== -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">×</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <section class="online-services-section" id="servicios-en-linea">
+        <div class="section-container">
+            <h2 class="section-title">Accesos Destacados</h2>
+            <p class="section-subtitle">Accede directamente a nuestros sistemas y plataformas digitales.</p>
+
+            <!-- NUEVA SECCIÓN DE CÁPSULAS DE ACCESO RÁPIDO -->
+        <div class="quick-access-bar">
+            <a href="https://www.uagraria.edu.ec/app/academico_estudiante/" target="_blank" class="quick-pill" target="_blank">
+            <!-- <a href="https://academico.uagraria.edu.ec/" target="_blank" class="quick-pill" target="_blank">  -->
+                <div class="pill-content"> <!-- El contenedor de animación y texto juntos -->
+                    <div class="calendar-container-burst">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+                    <span>Portal Estudiantil</span>
+                </div>
+            </a>
+
+            <a href="https://uaevirtual.uagraria.edu.ec/" target="_blank" class="quick-pill" target="_blank">
+                <div class="pill-content">
+                    <div class="calendar-container-burst">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <span> Aula Virtual Carreras en Línea</span>
+                </div>
+            </a>
+            
+            <a href="https://www.uagraria.edu.ec/biblioteca-virtual.php" target="_blank" class="quick-pill" target="_blank">
+                <div class="pill-content">
+                    <div class="calendar-container-burst">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <span> Biblioteca Virtual</span>
+                </div>
+            </a>
+            <a href="https://www.uagraria.edu.ec/app/academico_docente/" target="_blank" class="quick-pill" target="_blank">
+                <div class="pill-content">
+                    <div class="calendar-container-burst">
+                    <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <span> Portal Docente</span>
+                </div>    
+            </a>
+            <a href="https://www.uagraria.edu.ec/marcacion_uae/" target="_blank" class="quick-pill" target="_blank">
+                <div class="pill-content">
+                    <div class="calendar-container-burst">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    </div>
+                    <span> Marcación en línea</span>
+                </div>    
+            </a>
+            
+
+        </div>
+
+        
+            <div class="services-grid">
+                <!-- Servicio 1: Portal Estudiantil -->
+                <a href="sit.php" class="service-link">
+                    <article class="service-card">
+                        <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+                          <img src="img/xLOGO-SIT-SOLO.png.pagespeed.ic.09miLPpchb.png" alt="" width="40%" height="40%">
+                        </div>
+                        <h4>Sistema Integrado de TIC</h4>
+                        <p><strong> Portal Estudiantil, Portal Docente,</strong> Académico, Administrativos</p>
+                    </article>
+                </a>
+
+                <!-- Servicio 2: Aulas Virtuales -->
+                <a href="sit.php#aulavirtual" target="_blank" class="service-link">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h4>Aulas Virtuales</h4>
+                        <p><strong>Carrera en Línea,</strong> Nivelación, Presencial, Posgrado</p>
+                    </article>
+                </a>
+                <!-- Servicio 3: Aulas Virtuales -->
+                <a href="sit.php#servicios-en-linea" target="_blank" class="service-link">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <h4>Servicios en Línea</h4>
+                        <p><strong>Biblioteca Virtual,</strong> Correo Institucional,<strong> Turnitin,</strong> Quipux, CIA, Evaluación Docente</p>
+                    </article>
+                </a>
+                <!-- Servicio 3: Aulas Virtuales -->
+                <a href="https://www.uagraria.edu.ec/buzon/denuncias/index.html" target="_blank" class="service-link">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h4>Buzón de Denuncias</h4>
+                        <p>Un canal seguro y confidencial para reportar irregularidades.</p>
+                    </article>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="news-section" id="noticias">
+    <div class="section-container">
+        <h2 class="section-title">Noticias del Campus</h2>
+        <p class="section-subtitle">Historias sobre personas, investigación e innovación en nuestra universidad.</p>
+
+        <div class="news-grid">
+                            <article class="news-card card-large">
+                    <a href="ampliar-noticias.php?id=447" class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="uploads/6af4d4c8ae1cc_901942104_1666774035092801_2063603823195291974_n.jfif" alt="Estudiantes de Agronomía fortalecen sus conocimientos en Biología Vegetal mediante prácticas de laboratorio">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">MÁS RECIENTE</span>
+                            <h3>Estudiantes de Agronomía fortalecen sus conocimientos en Biología Vegetal mediante prácticas de laboratorio</h3>
+                            <!-- <p style="color: #eee; font-size: 0.9rem;"> --></p>
+                        </div>
+                    </a>
+                </article>
+                            <article class="news-card card-small">
+                    <a href="ampliar-noticias.php?id=446" class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="uploads/6af374d110138_903439283_1503437198294498_3385900695397481915_n.jfif" alt="Universidad Agraria del Ecuador y Universidad Técnica de Cotopaxi fortalecen la cooperación académica interinstitucional">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">INSTITUCIONAL</span>
+                            <h4>Universidad Agraria del Ecuador y Universidad Técnica de Cotopaxi fortalecen la cooperación académica interinstitucional</h4>
+                            <p style="color: #fff; font-size: 0.8rem;"><i class="fa-solid fa-square-up-right"></i> Ver detalles</p>
+                        </div>
+                    </a>
+                </article>
+                            <article class="news-card card-small">
+                    <a href="ampliar-noticias.php?id=445" class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="uploads/6af373c94a5ae_901040513_1649091566682715_2027174303121442873_n.jfif" alt="Estudiantes de Ingeniería Ambiental elaboran indicadores naturales de pH mediante el uso de col morada">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">INSTITUCIONAL</span>
+                            <h4>Estudiantes de Ingeniería Ambiental elaboran indicadores naturales de pH mediante el uso de col morada</h4>
+                            <p style="color: #fff; font-size: 0.8rem;"><i class="fa-solid fa-square-up-right"></i> Ver detalles</p>
+                        </div>
+                    </a>
+                </article>
+                            <article class="news-card card-small">
+                    <a href="ampliar-noticias.php?id=444" class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="uploads/6af227e182e31_900980812_4710865815899786_4056587262760041251_n.jfif" alt="La teoría se comprueba en el campo: estudiantes fortalecen sus conocimientos en el cultivo de musáceas">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">INSTITUCIONAL</span>
+                            <h4>La teoría se comprueba en el campo: estudiantes fortalecen sus conocimientos en el cultivo de musáceas</h4>
+                            <p style="color: #fff; font-size: 0.8rem;"><i class="fa-solid fa-square-up-right"></i> Ver detalles</p>
+                        </div>
+                    </a>
+                </article>
+                            <article class="news-card card-small">
+                    <a href="ampliar-noticias.php?id=441" class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="uploads/noticias/principal-6aee386d594ca-890670800_3036509536686758_7234161904051421612_n.jfif" alt="Universidad Agraria del Ecuador fortalece la preparación docente para la nueva fase del proceso de Nivelación">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">INSTITUCIONAL</span>
+                            <h4>Universidad Agraria del Ecuador fortalece la preparación docente para la nueva fase del proceso de Nivelación</h4>
+                            <p style="color: #fff; font-size: 0.8rem;"><i class="fa-solid fa-square-up-right"></i> Ver detalles</p>
+                        </div>
+                    </a>
+                </article>
+                    </div>
+        
+        <!-- Botón opcional para ir a la sala de prensa completa -->
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="saladeprensa.php" class="modal-button">Ver todas las noticias</a>
+        </div>
+    </div>
+</section>
+
+    <!-- ======== NUEVA SECCIÓN DE PUBLICACIONES ======== -->
+    <section class="publications-section" id="publicaciones">
+        <div class="section-container">
+            <h2 class="section-title">Carreras de Grado</h2>
+            <p class="section-subtitle">Elige tu camino profesional con nuestras carreras orientadas a transformar el agro, la tecnología y la sociedad.<br> ¡Tu futuro comienza aquí!</p>
+            <div class="publications-grid">
+
+                
+                <!-- Publicación 1 -->
+                <article class="publication-card">
+                    <a class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="img/agro.jpg" alt="Libro abierto">
+                            <!-- ETIQUETA FLOTANTE AÑADIDA AQUÍ -->
+                            <div class="faculty-tag">Facultad de Ciencias Agrarias</div>
+                        </div>
+                        <div class="card-content">
+                            <span class="category">Presencial</span>
+                            <h4>Ciencia, Tecnología y Futuro Sostenible</h4>
+                            <div>
+                                <a href="carrera_agronomia.php" class="carrera-link">
+                                  <i class="fa-brands fa-pagelines"></i><span> Agronomía</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="carrera_agroindustrial.php" class="carrera-link">
+                                  <i class="fa-solid fa-industry"></i><span> Agroindustrial</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="carrera_ambiental.php" class="carrera-link">
+                                  <i class="fa-solid fa-tree"></i><span> Ambiental</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="carrera_ciencias_de_la_computacion.php" class="carrera-link">
+                                  <i class="fa-solid fa-laptop"></i><span> Ciencias de la Computación</span>
+                                </a>
+                            </div>
+                            <span class="category" style="border-top: 1px solid #e0e0e0; margin-top: 6px; padding: 12px 0;"><i class="fa-solid fa-globe"></i> Modalidad en Línea</span>
+                            <div>
+                                <a href="carrera_gestion_ambiental_en_linea.php" class="carrera-link">
+                                  <i class="fa-solid fa-tree"></i><span> Gestión Ambiental</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="carrera_ciencias_de_la_computacion_en_linea.php" class="carrera-link">
+                                  <i class="fa-solid fa-laptop"></i><span> Ciencias de la Computación</span>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <!-- Publicación 2 -->
+                <article class="publication-card2">
+                    <a class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="img/adm.jpg" alt="Libro abierto">
+                            <!-- ETIQUETA FLOTANTE AÑADIDA AQUÍ -->
+                            <div class="faculty-tag">Facultad de Economía Agrícola</div>
+                        </div>
+                        <div class="card-content">
+                            <span class="category">Presencial</span>
+                            <h4>Emprendimiento, Negocios y Economía</h4>
+                            <div>
+                                <a href="carrera_economia.php" class="carrera-link">
+                                  <i class="fa-solid fa-chart-simple"></i><span> Economía</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="carrera_economia_agricola.php" class="carrera-link">
+                                  <i class="fa-solid fa-chart-pie"></i><span> Economía Agrícola</span>
+                                </a>
+                            </div>
+                            <span class="category" style="border-top: 1px solid #e0e0e0; margin-top: 6px; padding: 12px 0;"><i class="fa-solid fa-globe"></i> Modalidad en Línea</span>
+                            <div>
+                                <a href="carrera_administracion_de_empresas.php" class="carrera-link">
+                                  <i class="fa-solid fa-chart-bar"></i><span> Administración de Empresas</span>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                
+                <!-- Publicación 3 -->
+                
+                <article class="publication-card2">
+                    <a class="card-link">
+                        <div class="card-image-wrapper">
+                            <img src="img/vet.jpg" alt="Libro abierto">
+                            <!-- ETIQUETA FLOTANTE AÑADIDA AQUÍ -->
+                            <div class="faculty-tag">Facultad de Medicina Veterinaria y Zootecnia</div>
+                        </div>
+                        <div class="card-content">
+                            <span class="category">Presencial</span>
+                            <h4>Ciencia y Compromiso con la Salud Animal</h4>
+                            <div>
+                                <a href="carrera_medicina_veterinaria.php" class="carrera-link">
+                                  <i class="fa-solid fa-paw"></i><span> Medicina Veterinaria</span>
+                                </a>
+                            </div>
+                           
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    
+
+<!-- ======== SECCIÓN EDITORIAL UNIVERSITARIA ======== -->
+<section class="parallax-section">
+    <div class="parallax-overlay"></div>
+    <div class="section-container parallax-content">
+        <h2 class="section-title" style="color: #fff; margin-bottom: 40px;">Editorial Universitaria</h2>
+        
+        <div class="editorial-grid">
+            <!-- Tarjeta 1: El Misionero -->
+            <a href="https://elmisionerodelagro.com.ec/index.php/ema" class="editorial-card">
+                <div class="editorial-icon">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                </div>
+                <h3>Repositorio de la Revista El Misionero</h3>
+                <p>Acceso a publicaciones y contenidos de El Misionero del Agro.</p>
+                <span class="editorial-link-text">Explorar contenidos <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+
+            <!-- Tarjeta 2: Land, Crops & Environment -->
+            <a href="https://academicpress-uae.org/index.php/lce/es/index" class="editorial-card">
+                <div class="editorial-icon">
+                    <i class="fa-solid fa-microscope"></i>
+                </div>
+                <h3>Revista científica Land, Crops & Environment</h3>
+                <p>Acceso al portal editorial de la revista Land, Crops & Environment.</p>
+                <span class="editorial-link-text">Ir al portal editorial <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ======== FOOTER DEL SITIO ======== -->
+    <footer class="site-footer" id="contacto">
+       <div class="footer-container">
+            <div class="footer-grid">
+
+                <!-- Columna 1: Logo y Redes Sociales -->
+                <div class="footer-col about" style="text-align: center;">
+                    <img src="img/LOGO-UAE-BLANCO02.png.pagespeed.ce.g3WKDshtWM.png" alt="Logo UAE Blanco" class="footer-logo">
+                    <p class="footer-tagline">Redes Sociales</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/uae.agraria" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/uae_agraria" aria-label="X" style="color: white;">
+                          <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/uae.agraria/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/school/universidad-agraria-del-ecuador/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/@UniversidadAgrariadelEcuador" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@uae.agraria" aria-label="YouTube"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.threads.net/@uae.agraria" aria-label="Threads" style="color: white;">
+                          <i class="fa-brands fa-threads"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Enlaces Rápidos -->
+                <div class="footer-col links">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="https://www.uagraria.edu.ec/rectorado.php">Rectorado</a></li>
+                        <li><a href="https://admision.uagraria.edu.ec/">Admisión</a></li>
+                        <li><a href="https://www.uagraria.edu.ec/carreras-presencial.php">Carreras Presenciales</a></li>
+                        <li><a href="https://www.posgrado.uagraria.edu.ec/#noticias">Programas de Posgrado</a></li>
+                        <li><a href="https://www.uagraria.edu.ec/index.php#noticias">Noticias y Eventos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Contacto -->
+                <div class="footer-col contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> <span>Av. 25 de Julio y Pío Jaramillo, Guayaquil, Ecuador</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>(04) 2439995 - 2439394</span></li>
+                        <li><a href="https://www.uagraria.edu.ec/buzon/contacto.html" class="elemento"><i class="fa-solid fa-envelope"></i> <span>Buzón de contacto</span></a></li>
+                        <li><i class="fa-solid fa-clock"></i> <span>Lunes - Viernes: 8:00 - 16:30</span></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Mapa de Ubicación -->
+                <div class="footer-col map">
+                    <h4>Ubicación</h4>
+                    <!-- Reemplaza este iframe con el código de Google Maps de tu ubicación -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2370.547770527875!2d-79.89503535366877!3d-2.2397605061573325!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sus!4v1751383873582!5m2!1ses!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+
+                </div>
+
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Universidad Agraria del Ecuador.</p>
+            </div>
+        </div> 
+    </footer>
+<!-- Modal Promocional UAE Solidaria -->
+<div id="solidariaModal" class="promo-modal-overlay">
+    <div class="promo-modal-container">
+        <button type="button" class="promo-modal-close" id="closeSolidariaModal">&times;</button>
+        <a href="https://www.uagraria.edu.ec/noticias/2026/UAE_Solidaria_LISTADO.png" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.uagraria.edu.ec/noticias/2026/UAE_Solidaria_post.jpg" alt="UAE Solidaria">
+        </a>
+    </div>
+</div>
+
+<script src="script.js.pagespeed.ce.9LQw3o2wYO.js"></script>
+<script type="text/javascript">
+        // Espera a que todo el contenido de la página se cargue
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Selecciona el menú flotante que acabamos de crear
+            const floatingMenu = document.querySelector('.floating-quick-access');
+
+            // Selecciona la sección que actuará como disparador para mostrar el menú
+            const triggerSection = document.querySelector('#noticias');
+
+            // Si no encuentra el menú o la sección, no hace nada para evitar errores
+            if (!floatingMenu || !triggerSection) {
+                return;
+            }
+
+            // Función que se ejecuta cada vez que el usuario hace scroll
+            const handleScroll = () => {
+                // Calcula la posición donde queremos que aparezca el menú
+                // En este caso, cuando el borde superior de la sección "noticias" esté a 300px de la parte superior de la ventana
+                const triggerPoint = triggerSection.offsetTop - 300;
+
+                // Comprueba si la posición actual del scroll ha superado el punto de activación
+                if (window.scrollY > triggerPoint) {
+                    // Si es así, añade la clase 'visible' para mostrar el menú
+                    floatingMenu.classList.add('visible');
+                } else {
+                    // Si no, quita la clase 'visible' para ocultarlo
+                    floatingMenu.classList.remove('visible');
+                }
+            };
+
+            // Añade un "escuchador de eventos" que llama a la función handleScroll cada vez que se hace scroll
+            window.addEventListener('scroll', handleScroll);
+
+        });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Seleccionar los elementos del DOM
+    const modalOverlay = document.getElementById('evaluationModalOverlay');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    
+    // --- ELIMINADO: Ya no necesitamos controlar el video ---
+
+    // Función para mostrar el modal
+    const showModal = () => {
+        if (modalOverlay) {
+            modalOverlay.classList.add('visible');
+        }
+    };
+
+    // Función para ocultar el modal
+    const hideModal = () => {
+        if (modalOverlay) {
+            modalOverlay.classList.remove('visible');
+        }
+    };
+
+    // Mostrar el modal 0.5 segundos después de que la página cargue
+    // setTimeout(showModal, 500);
+
+    // Evento para cerrar el modal con el botón de cierre (X)
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', hideModal);
+    }
+
+    // Evento para cerrar el modal al hacer clic en el fondo oscuro
+    if (modalOverlay) {
+        modalOverlay.addEventListener('click', (event) => {
+            // Si el clic fue directamente sobre el overlay (fondo), se cierra
+            if (event.target === modalOverlay) {
+                hideModal();
+            }
+        });
+    }
+});
+
+// EL OBSERVADOR
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Seleccionamos la sección de Destacados
+    const sectionDestacados = document.querySelector('#servicios-en-linea');
+    
+    // 2. Seleccionamos todos los iconos que tienen la animación
+    const animatedIcons = document.querySelectorAll('.calendar-container-burst');
+
+    // 3. Configuramos el observador
+    const observerOptions = {
+        root: null, // usa el viewport
+        threshold: 0.3 // se activa cuando el 30% de la sección es visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Si la sección entra en pantalla, añadimos la clase de animación a cada icono
+                animatedIcons.forEach(icon => {
+                    icon.classList.add('animate');
+                });
+            } else {
+                // IMPORTANTE: Si salimos de la sección, quitamos la clase 
+                // para que se pueda volver a activar al regresar
+                animatedIcons.forEach(icon => {
+                    icon.classList.remove('animate');
+                });
+            }
+        });
+    }, observerOptions);
+
+    // 4. Empezamos a observar la sección
+    if (sectionDestacados) {
+        observer.observe(sectionDestacados);
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const videoModal = document.getElementById('youtubeVideoModal');
+    const videoBtnClose = document.getElementById('closeYoutubeBtn');
+    const iframe = document.getElementById('youtubeIframe');
+
+    // Función para mostrar el modal con el video
+    const openVideoModal = () => {
+        if(videoModal) {
+            videoModal.style.display = 'flex';
+            setTimeout(() => {
+                videoModal.classList.add('active');
+            }, 100);
+        }
+    };
+
+    // Función para cerrar y DETENER el video
+    const closeVideoModal = () => {
+        if(videoModal) {
+            videoModal.classList.remove('active');
+            // Esto resetea el src para que el video deje de sonar al cerrar
+            const currentSrc = iframe.src;
+            iframe.src = ""; 
+            iframe.src = currentSrc;
+            
+            setTimeout(() => {
+                videoModal.style.display = 'none';
+            }, 400);
+        }
+    };
+
+    // Lanzar el video 1.5 segundos después de cargar
+    setTimeout(openVideoModal, 1500);
+
+    // Eventos de cierre
+    if (videoBtnClose) videoBtnClose.addEventListener('click', closeVideoModal);
+    
+    // Cerrar si hace clic fuera del cuadro de video
+    videoModal.addEventListener('click', (e) => {
+        if (e.target === videoModal) closeVideoModal();
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const solidariaModal = document.getElementById('solidariaModal');
+    const closeBtn = document.getElementById('closeSolidariaModal');
+
+    // Abre el modal tras 1 segundo
+    setTimeout(() => {
+        if (solidariaModal) {
+            solidariaModal.classList.add('active');
+        }
+    }, 1000);
+
+    // Cerrar al pulsar la 'X'
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            solidariaModal.classList.remove('active');
+        });
+    }
+
+    // Cerrar al hacer clic fuera de la imagen
+    if (solidariaModal) {
+        solidariaModal.addEventListener('click', (e) => {
+            if (e.target === solidariaModal) {
+                solidariaModal.classList.remove('active');
+            }
+        });
+    }
+});
+</script>
+
+<script>window.agraritoCapsules=[{id:'biblioteca',label:'📚 Bibliotea Virtual',color:'amber'},{id:'inicio_clases',label:'🔔 Inicio de Clases',color:'blue'},{id:'cupos',label:'🐥 Cupos',color:'green'},{id:'recuperar',label:'🔑 ¿Recuperar Contraseña?',color:'green'},{id:'calendario',label:'📅 Calendario Académico',color:'amber'},{id:'soporte_conecta',label:'🛠️ Ayuda Técnica',color:'green'}];window.agraritoKnowledge={'biblioteca, biblioteca_virtual, libros':{txt:"📚 **BIBLIOTECA VIRTUAL**\n📖 Accede a bases de datos científicas, libros digitales y repositorios académicos. 💻🔍",img:'vistas/agri_inicio.jpg',link:'https://www.uagraria.edu.ec/biblioteca-virtual.php',linkTxt:'Acceder a la Biblioteca Virtual'},'inicio_clases':{txt:"**SEGUNDO PERIODO ACADÉMICO ORDINARIO**\n 🔔 **Inicio de Clases:** 12 de oct de 2026 📝",img:'vistas/agri_inicio.jpg',link:'https://www.uagraria.edu.ec/app/academico_estudiante/',linkTxt:'Ir al Nuevo Portal Estudiantil'},'cupos':{txt:"¡Qué excelente noticia que quieras ser parte de la **UAE**!\n 🐥 Para obtener información detallada sobre el proceso de Admisión, disponibilidad de cupos y requisitos para nuevos estudiantes, puedes comunicarte directamente con nuestro equipo de **Admisiones a través de WhatsApp**.\n 📲✨¡Están listos para guiarte!",img:'vistas/AGRARITO01.jpg',link:'https://api.whatsapp.com/send/?phone=593999695466&text=Estoy+pidiendo+informaci%C3%B3n+acerca+del+proceso+de+Admisi%C3%B3n+..&type=phone_number&app_absent=0',linkTxt:'Chatear con Admisiones por WhatsApp 💬'},'soporte_conecta, error, no funciona':{txt:"🛠️ ¿Tienes problemas técnicos? No te preocupes. Envía un correo a soportealumno@uagraria.edu.ec con tu cédula y una captura de pantalla del error para ayudarte de inmediato.",img:'vistas/agri_warning.jpg'},'recuperar, olvide, contraseña, password':{txt:"🔑 ¿Olvidaste tu clave?\n 🧑🏻‍🎓 Si eres estudiante, recupérala usando tu:\n 🪪 **Número de cédula**\n 📧 Confirma si es tu correo institucional.\n 👈 Enviar Link de Recuperación",img:'vistas/agri_warning.jpg',link:'https://academico.uagraria.edu.ec/recuperacionci.php',linkTxt:'Ir a Recuperar Contraseña'},'calendario, fechas, semestre':{txt:"📅 Mantente al tanto de las fechas importantes (**exámenes, matriculación, inicio de clases**) revisando el calendario académico oficial.",img:'vistas/agri_idea.jpg',link:'https://www.uagraria.edu.ec/calendario-academico.php',linkTxt:'Ver Calendario Académico'}};</script>
+    <style>[x-cloak]{display:none!important}.assistant-bubble{width:75px;height:75px;border-radius:50%;cursor:pointer;transition:transform .2s ease;position:relative;z-index:100;-webkit-tap-highlight-color:transparent}.assistant-bubble:active{transform:scale(.9)}.robot-container{width:100%;height:100%;border-radius:50%;border:3px solid #10b981;background:#fff;overflow:hidden;box-shadow:0 10px 25px rgba(16,185,129,.3)}.robot-container img{width:100%;height:100%;object-fit:cover}.robot-latido{animation:robotLatido 2s infinite}@keyframes robotLatido {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
+        70% { box-shadow: 0 0 0 15px rgba(16, 185, 129, 0); }
+    }.agrarito-scroll-area{max-height:220px;overflow-y:auto;overflow-x:hidden;padding-right:10px;margin-bottom:10px;scrollbar-width:thin;scrollbar-color:#10b981 #f1f5f9}.agrarito-scroll-area::-webkit-scrollbar{width:5px}.agrarito-scroll-area::-webkit-scrollbar-thumb{background:#10b981;border-radius:10px}.capsule-item{background:#fff;padding:12px 20px;border-radius:1.5rem;font-size:12px;font-weight:800;box-shadow:0 10px 15px -3px rgba(0,0,0,.1);border:2px solid transparent;cursor:pointer;width:240px;text-align:center;margin-bottom:8px;transition:all .3s cubic-bezier(.4,0,.2,1);animation:capsuleIn .4s cubic-bezier(.34,1.56,.64,1) forwards;opacity:0}.capsule-item:hover{transform:translateX(-10px);border-color:#10b981;color:#047857;background:#f0fff4}@keyframes capsuleIn {
+        from { opacity: 0; transform: translateX(30px) scale(0.9); }
+        to { opacity: 1; transform: translateX(0) scale(1); }
+    }.ia-input-container{background:#f0f4f9;border-radius:2rem;border:1px solid transparent;padding:8px 16px;transition:all .3s cubic-bezier(.4,0,.2,1);display:flex;align-items:center;gap:8px;margin-top:15px}.ia-input-container:focus-within{background:#fff;border-color:#10b981;box-shadow:0 4px 20px rgba(16,185,129,.15)}.ia-input-container input{font-size:16px!important;background:transparent;border:none;outline:none;color:#1f1f1f;width:100%;padding:8px 0}.agrarito-window{width:92vw;max-width:360px;box-sizing:border-box}.btn-send-ia{background:#10b981;color:#fff;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all .2s ease;border:none;flex-shrink:0}.btn-send-ia:hover{background:#059669;transform:scale(1.1)}.btn-send-ia:active{transform:scale(.9)}.mini-chip-container{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px 0;scrollbar-width:none}.mini-chip-container::-webkit-scrollbar{display:none}.mini-chip{background:#fff;border:1px solid #e2e8f0;padding:6px 14px;border-radius:1rem;font-size:11px;font-weight:600;color:#475569;white-space:nowrap;cursor:pointer;transition:all .2s ease}.mini-chip:hover{border-color:#10b981;color:#10b981;background:#f0fff4}.agrarito-profile-frame{width:90px;height:90px;background:#fff;border-radius:1.5rem;overflow:hidden;border:2px solid #ecfdf5;box-shadow:0 10px 15px -3px rgba(0,0,0,.05);flex-shrink:0}.agrarito-profile-frame img{width:100%;height:100%;object-fit:cover}.robot-hablando{animation:agraritoPulse 1.5s infinite ease-in-out}@keyframes agraritoPulse {
+    0%, 100% { transform: scale(1); border-color: #10b981; }
+    50% { transform: scale(1.03); border-color: #34d399; box-shadow: 0 0 15px rgba(16, 185, 129, 0.2); }
+}.chat-text-main{font-size:14px;font-weight:600;color:#1e293b;line-height:1.6;white-space:pre-line;word-wrap:break-word}.mini-capsule{background:#f1f5f9;border:1px solid #e2e8f0;padding:6px 12px;border-radius:12px;font-size:10px;font-weight:700;color:#475569;cursor:pointer;transition:all .2s ease;white-space:nowrap}.mini-capsule:hover{background:#ecfdf5;border-color:#10b981;color:#047857;transform:translateY(-2px)}@keyframes miniCapsuleIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(8px); /* Menos movimiento para que sea más elegante */
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}.mini-capsule-animated{opacity:0;animation:miniCapsuleIn .5s cubic-bezier(.16,1,.3,1) forwards}.lucide{width:1rem;height:1rem}</style>
+
+<div class="fixed bottom-6 right-6 z-[9999] flex flex-col items-end" x-data="agraritoComponent()" @agrarito-tip.window="lanzarTip($event.detail)">
+    
+    <!-- Menú de Cápsulas -->
+    <!-- Se cierra al hacer clic fuera del contenedor -->
+    <div class="relative w-full flex flex-col items-end" x-show="isMinimized && showCapsules" @click.outside="showCapsules = false" x-cloak>
+        <div class="mb-4 flex flex-col items-end">
+            <template x-for="(cap, index) in capsules" :key="index">
+                <div @click="lanzarTip(cap.id)" class="capsule-item" :class="cap.color === 'green' ? 'text-emerald-700' : 'text-amber-700'" :style="'animation-delay: ' + (index * 0.1) + 's'">
+                    <span x-text="cap.label"></span>
+                </div>
+            </template>
+            <div @click="prepararIA()" class="capsule-item !bg-emerald-600 !text-white border-none shadow-lg" style="animation-delay: 0.5s">
+                ✨ Pregúntale a Agrarito
+            </div>
+        </div>
+    </div>
+
+    <!-- VENTANA DEL CHAT -->
+    <div x-show="!isMinimized" x-cloak @click.outside="isMinimized = true" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-12 scale-90" x-transition:enter-end="opacity-100 translate-y-0 scale-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 scale-100" x-transition:leave-end="opacity-0 translate-y-12 scale-90" class="bg-white rounded-[2rem] shadow-2xl p-4 sm:p-6 border border-emerald-50 mb-4 w-full max-w-[380px] max-h-[75vh] sm:max-h-[85vh] flex flex-col origin-bottom-right relative overflow-hidden pointer-events-auto">
+
+        
+
+        <!-- CABECERA: Robot + Info Compacta -->
+        <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
+            <div class="flex items-center gap-3">
+                <!-- MARCO DEL ROBOT -->
+                <div class="agrarito-profile-frame w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex-shrink-0" :class="isTyping ? 'robot-hablando' : ''">
+                    <img :src="robotImg" alt="Agrarito" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- INFO -->
+                <div class="flex flex-col">
+                    <h5 class="font-black text-emerald-900 text-sm tracking-tight leading-tight">AGRARITO</h5>
+                    
+                    <!-- Píldora de estado con el punto palpitante -->
+                    <div class="flex items-center gap-1.5 mt-1">
+                        <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+                        <span class="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Asistente en línea</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón cerrar superior -->
+            <button @click="isMinimized = true" class="text-slate-300 hover:text-red-500 transition-colors p-2 -mr-2">
+                <i class="fas fa-times text-lg"></i>
+            </button>
+        </div>
+        <!-- CUERPO DEL MENSAJE -->
+        <div class="flex-1 flex flex-col min-h-0"> 
+            <div class="agrarito-scroll-area">
+                <!-- ICONO Y ESTADO: AGRARITO ESTÁ BUSCANDO -->
+                <div x-show="loading" class="flex items-center space-x-2 text-gray-400 text-xs py-2 bg-white/60 backdrop-blur-xs px-4 py-3 rounded-2xl border border-gray-100 max-w-xs mb-3 shadow-sm">
+                    <i data-lucide="sparkles" class="w-4 h-4 text-emerald-500 animate-spin"></i>
+                    <span class="font-medium text-gray-600">Agrarito está buscando...</span>
+                </div>
+
+                <!-- RESPUESTA CON EFECTO FADE-IN (Sin Typewriter) -->
+                <div x-show="!loading" x-transition:enter="transition ease-out duration-500" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0">
+                    <p class="chat-text-main text-xs sm:text-sm" x-html="formatText(fullText)"></p>
+                    <!-- IMAGEN ADICIONAL -->
+                    <template x-if="welcomeImage && !currentLink">
+                        <img :src="welcomeImage" class="mt-3 rounded-xl w-full shadow-sm" alt="Bienvenida">
+                    </template>
+                </div>
+            </div>
+            
+            <!-- Botón de acción principal (Ver Más) -->
+            <template x-if="!loading && currentLink">
+                <div class="mt-2 mb-2" x-transition:enter="transition ease-out duration-300">
+                    <a :href="currentLink" :target="currentLink.startsWith('http') ? '_blank' : '_self'" class="flex items-center justify-center gap-2 bg-emerald-600 text-white px-4 py-3 rounded-xl text-[10px] sm:text-[11px] font-black uppercase tracking-widest hover:bg-emerald-700 transition-all shadow-md active:scale-95">
+                        <i class="fas fa-external-link-alt"></i> <span x-text="linkText"></span>
+                    </a>
+                </div>
+            </template>
+
+            <!-- TARJETAS DE BIENVENIDA (Presencial / En Línea) 
+            <div class="grid grid-cols-2 gap-2 my-3">
+                <div @click="abrirPasosMatriculacion('presencial')" class="bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 p-3 rounded-2xl cursor-pointer text-center transition-all transform hover:scale-105">
+                    <div class="text-emerald-600 mb-1"><i class="fas id-card text-xl">🙋‍♂️</i></div>
+                    <span class="text-[11px] font-black text-emerald-900 block">Matriculación Presencial</span>
+                    <span class="text-[9px] text-emerald-600">Ver 3 pasos</span>
+                </div>
+
+                <div @click="abrirPasosMatriculacion('en-linea')" class="bg-blue-50 hover:bg-blue-100 border border-blue-200 p-3 rounded-2xl cursor-pointer text-center transition-all transform hover:scale-105">
+                    <div class="text-blue-600 mb-1">💻</div>
+                    <span class="text-[11px] font-black text-blue-900 block">Matriculación En Línea</span>
+                    <span class="text-[9px] text-blue-600">Ver 3 pasos</span>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-100 p-3 rounded-2xl text-[11px] text-slate-600 space-y-1.5 mt-2">
+                    <p>📌 <strong class="text-emerald-800 font-bold">Abril 2026 (2do y 4to sem.):</strong> Deben venir a clases directamente.</p>
+                    <p>📌 <strong class="text-emerald-800 font-bold">Tercer Semestre (2do Año):</strong> Debe realizar el Paso 2 y 3.</p>
+                </div>
+            </div>-->
+            <!-- CONTENEDOR GENERAL DE BIENVENIDA -->
+
+
+            <!-- TARJETAS DE BIENVENIDA (Presencial / En Línea) en 2 columnas -->
+            <div class="my-2 space-y-2">
+                
+                <!-- <div class="grid grid-cols-2 gap-2">
+                    <div @click="abrirPasosMatriculacion('presencial')" class="bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 p-3 rounded-2xl cursor-pointer text-center transition-all transform hover:scale-105 flex flex-col justify-center items-center">
+                        <div class="text-emerald-600 mb-1 text-xl">🙋‍♂️</div>
+                        <span class="text-[11px] font-black text-emerald-900 block leading-tight">Matriculación Presencial</span>
+                        <span class="text-[9px] text-emerald-600 mt-0.5">Ver 3 pasos</span>
+                    </div>
+
+                    <div @click="abrirPasosMatriculacion('en-linea')" class="bg-blue-50 hover:bg-blue-100 border border-blue-200 p-3 rounded-2xl cursor-pointer text-center transition-all transform hover:scale-105 flex flex-col justify-center items-center">
+                        <div class="text-blue-600 mb-1 text-xl">💻</div>
+                        <span class="text-[11px] font-black text-blue-900 block leading-tight">Matriculación En Línea</span>
+                        <span class="text-[9px] text-blue-600 mt-0.5">Ver 3 pasos</span>
+                    </div>
+                </div> -->
+                <!-- Botón nuevo: Día 1 Agrarito -->
+                <div @click="$dispatch('abrir-comic')" class="relative w-full bg-yellow-50 hover:bg-yellow-100 border border-yellow-200 p-3 rounded-2xl cursor-pointer text-center transition-all transform hover:scale-105 flex flex-col justify-center items-center mt-3">
+                    
+                    <!-- Badge de Nuevo con estrella -->
+                    <span class="absolute -top-2.5 right-3 bg-amber-500 text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-sm flex items-center gap-1 tracking-wide uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 fill-current text-yellow-200" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        Nuevo
+                    </span>
+
+                    <span class="text-[11px] font-black text-yellow-900 block leading-tight">
+                        📖 Ver Comic Día 5: Mantenimiento y seguridad de la página web
+                    </span>
+                </div>
+                <!-- <div class="bg-slate-50 border border-slate-100 p-3 rounded-2xl text-[11px] text-slate-600 space-y-1.5">
+                    <p>📌 <strong class="text-emerald-800 font-bold">Los Matriculados en Abril 2026 (2do y 4to sem.):</strong> Deben venir a clases directamente.</p>
+                    <p>📌 <strong class="text-emerald-800 font-bold">Tercer Semestre (2do Año):</strong> Debe realizar el Paso 2 y 3.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+        <!-- SECCIÓN DE ENTRADA PROMPT (ESTILO GEMINI) -->
+        <div class="mt-auto pt-2 border-t border-slate-50">
+            
+            <!-- Sugerencias minimalistas -->
+            <div class="mini-chip-container" x-show="showOptions" x-transition>
+                <template x-for="cap in capsules.slice(0, 4)" :key="cap.id">
+                    <div @click="lanzarTip(cap.id)" class="mini-chip">
+                        <span x-text="cap.label"></span>
+                    </div>
+                </template>
+            </div>
+
+            <!-- El Input -->
+            <div class="ia-input-container">
+                <input type="text" x-model="searchQuery" @keydown.enter="consultarIA()" x-ref="iaInput" :placeholder="placeholderActual" class="placeholder:text-slate-400">
+                
+                <button @click="consultarIA()" class="btn-send-ia">
+                    <i class="fas fa-arrow-up text-sm"></i>
+                </button>
+            </div>
+            
+            <div class="flex items-center justify-between mt-2">
+                <p class="text-[8px] text-slate-400 font-medium uppercase tracking-widest">
+                    Agrarito IA puede cometer errores.
+                </p>
+                
+                <!-- 🌟 NUEVO BOTÓN INFERIOR PARA MINIMIZAR (Ideal para celulares) -->
+                <button @click="isMinimized = true" class="sm:hidden bg-slate-100 hover:bg-red-50 text-slate-600 hover:text-red-600 px-3 py-1 rounded-full text-[10px] font-bold transition-all flex items-center gap-1">
+                    <i class="fas fa-chevron-down"></i> Minimizar
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Globo de texto flotante corregido (en una sola línea) -->
+    <div x-show="isMinimized && showTipMovil" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-2" x-cloak class="absolute bottom-3 right-24 bg-white px-4 py-2.5 rounded-2xl shadow-lg border border-emerald-100 pointer-events-none sm:hidden z-50 flex items-center gap-2 whitespace-nowrap">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+        <span class="text-xs font-bold text-slate-700">¡Hola, soy Agrarito! 👋</span>
+    </div>
+    <!-- Burbuja Flotante -->
+    <div x-show="isMinimized" @click="isMinimized = false;" class="assistant-bubble">
+        <div class="robot-container robot-latido">
+            <img src="vistas/AGRARITO01.jpg" onerror="this.src='https://ui-avatars.com/api/?name=AI&background=10b981&color=fff'">
+        </div>
+    </div>
+</div>
+
+<script>
+function agraritoComponent() {
+    return {
+        isMinimized: true,
+        showCapsules: false,
+        loading: false,
+        fullText: '',
+        robotImg: 'vistas/AGRARITO01.jpg',
+        searchQuery: '',
+        currentLink: '',
+        linkText: '',
+        showOptions: false, // NUEVA VARIABLE
+        showTipMovil: true,
+
+        capsules: window.agraritoCapsules || [],
+        knowledge: window.agraritoKnowledge || {},
+
+        searchQuery: '',
+        placeholderActual: 'Pregunta algo...',
+        sugerencias: [
+            'Equiparación',
+            'Centro de idiomas',
+            'Orden de matrícula',
+            'Decanos',
+            'Mis Notas',
+            '¿Cuándo es el inicio de clases?',
+            '¿Cómo cambio mi contraseña?',
+            'Requisitos matrícula ordinaria'
+        ],
+        indiceSugerencia: 0,
+
+        init() {
+            this.rotarPlaceholders();
+
+            // SALUDO INICIAL CON LAS TARJETAS DE MATRICULACIÓN
+            this.fullText = "¡Bienvenido a Clases 2026! 👋\n🚀 **Inicio: 12 de Octubre**";
+            this.robotImg = 'vistas/agri_inicio.jpg';
+            // AGREGA ESTA LÍNEA (la imagen que quieres mostrar al inicio)
+            //this.welcomeImage = 'vistas/INICIO-UAE-CLASES-2026-C.jpg'; 
+
+            this.currentLink = '';
+            
+            // Generamos las tarjetas interactivas directamente en el texto o mediante un flag
+            this.loading = false;
+            this.showOptions = true; // Ocultamos chips normales para dar paso a las tarjetas de bienvenida
+
+            // Lógica móvil inicial...
+            const esDispositivoMovil = window.innerWidth < 768;
+            if (esDispositivoMovil) {
+                this.isMinimized = true;
+                setTimeout(() => { this.showTipMovil = false; }, 5000);
+            } else {
+                setTimeout(() => { this.isMinimized = false; }, 1500);
+            }
+        },
+
+        // NUEVA FUNCIÓN PARA ABRIR EL MODAL EXTERNO DE PASOS
+        abrirPasosMatriculacion(tipo) {
+            // 1. Minimizar a Agrarito
+            this.isMinimized = true;
+            this.showCapsules = false;
+
+            // 2. Disparar un evento global que escuchará el modal externo
+            window.dispatchEvent(new CustomEvent('abrir-modal-pasos', { 
+                detail: { modalidad: tipo } // 'presencial' o 'en-linea'
+            }));
+        },
+
+        rotarPlaceholders() {
+            setInterval(() => {
+                this.indiceSugerencia = (this.indiceSugerencia + 1) % this.sugerencias.length;
+                this.placeholderActual = this.sugerencias[this.indiceSugerencia];
+            }, 3000); // Cambia cada 3 segundos
+        },
+
+        
+        // REEMPLAZA SOLO LA FUNCIÓN lanzarTip(id) DENTRO DE agraritoComponent()
+        lanzarTip(id) {
+            this.showOptions = false;
+            this.showCapsules = false;
+            let foundData = null;
+
+            // 1. Busca la información en el objeto knowledge
+            for (let key in this.knowledge) {
+                if (key.split(',').map(s => s.trim()).includes(id)) {
+                    foundData = this.knowledge[key];
+                    break;
+                }
+            }
+
+            if (foundData) {
+                // A. Activar estado de "Buscando..." e iniciar con el chat abierto
+                this.loading = true;
+                this.isMinimized = false; 
+                this.currentLink = ''; // Limpiamos enlaces viejos mientras busca
+
+                // B. Simulamos un pequeño retraso de búsqueda (ej. 400ms) para que se luzca el icono de "buscando..." y luego haga el FadeIn
+                setTimeout(() => {
+                    this.fullText = foundData.txt;
+                    this.robotImg = foundData.img || 'vistas/AGRARITO01.jpg';
+                    this.currentLink = foundData.link || '';
+                    this.linkText = foundData.linkTxt || 'Ver más';
+                    
+                    // Apagamos loading para que active el FadeIn de la respuesta
+                    this.loading = false;
+                    this.showOptions = true; // Mostrar sugerencias de nuevo si aplica
+                }, 900);
+
+                // C. Lógica de Brillo en los campos (Iluminación - tu timeout original adaptado)
+                setTimeout(() => {
+                    let targetElements = [];
+                    if (id === 'acceso_sga') {
+                        targetElements = [document.getElementById('login_user'), document.getElementById('login_pass')];
+                    } else if (id === 'registro_empresa') {
+                        targetElements = [document.getElementById('btn_reg_empresa')];
+                    }
+
+                    targetElements.forEach(el => { if(el) el.classList.add('campo-destacado'); });
+                    setTimeout(() => {
+                        targetElements.forEach(el => { if(el) el.classList.remove('campo-destacado'); });
+                    }, 5000);
+                }, 1200); // 800ms para que ocurra después de que aparezca la respuesta
+            }
+        },
+
+        prepararIA() {
+            this.showCapsules = false;
+            this.isMinimized = false;
+            // RESET DE IMAGEN: Volver al robot original
+            this.robotImg = 'vistas/AGRARITO01.jpg';
+            this.fullText = "¡Claro! Pregúntame lo que necesites y con gusto te ayudaré. 😊";
+            this.currentLink = '';
+            this.loading = false; // Asegura que esté apagado para mostrar el texto directo
+            this.showOptions = true;
+            
+            // Esto hace que el teclado se abra automáticamente en celulares
+            setTimeout(() => this.$refs.iaInput.focus(), 800);
+        },
+        consultarIA() {
+            if (!this.searchQuery) return;
+            
+            this.loading = true;
+            this.showOptions = false;
+            this.currentLink = '';
+
+            fetch(`consultar_agrarito.php?q=${encodeURIComponent(this.searchQuery)}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Damos un respiro artificial de 600ms para que se luzca el "buscando..."
+                    setTimeout(() => {
+                        this.fullText = data.txt;
+                        this.robotImg = (data.img && data.img !== '') ? data.img : 'vistas/AGRARITO01.jpg';
+                        this.currentLink = data.link || '';
+                        this.linkText = data.linkTxt || 'Ver más información';
+                        
+                        this.loading = false; 
+                        this.showOptions = true;
+                        this.searchQuery = ''; 
+                        
+                        // FUERZA LA CREACIÓN DEL ICONO LUCIDE
+                        this.$nextTick(() => { if (typeof lucide !== 'undefined') lucide.createIcons(); });
+                    }, 600);
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    this.fullText = "Lo siento, tuve un problema al conectarme con mi cerebro.\n🧠 Intenta de nuevo en unos segundos.";
+                    this.loading = false;
+                    this.showOptions = true;
+                });
+        },
+        formatText(text) {
+            if (!text) return '';
+            
+            return text
+                // 1. Convierte **texto** en negritas
+                .replace(/\*\*(.*?)\*\*/g, '<strong class="text-emerald-900 font-black">$1</strong>')
+                
+                // 2. Convierte el texto literal "\n" en saltos de línea reales <br>
+                // Usamos doble barra \\ porque el JSON lo escapa así
+                .replace(/\\n/g, '<br>');
+        }
+    }
+}
+</script>
+<script>lucide.createIcons();</script>    <style type="text/css">.scrollbar-hide::-webkit-scrollbar{display:none}.scrollbar-hide{-ms-overflow-style:none;scrollbar-width:none}</style>
+<!-- MODAL EXTERNO DE PASOS DE MATRICULACIÓN -->
+<div x-data="modalPasosMatricula()" @abrir-modal-pasos.window="abrirModal($event.detail.modalidad)" x-show="isOpen" x-cloak class="fixed inset-0 z-[99999] flex items-center justify-center bg-black/75 backdrop-blur-md p-3 sm:p-6">
+
+    <!-- Ventana del Modal (Ampliamos max-w-xl a max-w-2xl para más espacio horizontal) -->
+    <div @click.outside="cerrarModal()" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 scale-95 translate-y-4" x-transition:enter-end="opacity-100 scale-100 translate-y-0" class="bg-white w-full max-w-xl sm:max-w-2xl rounded-[2rem] shadow-2xl overflow-hidden flex flex-col relative max-h-[95vh]">
+
+        <!-- CABECERA -->
+        <div class="px-6 py-4 bg-slate-50 border-b border-slate-100 flex items-center justify-between flex-shrink-0">
+            <div>
+                
+                <h3 class="text-base font-black text-slate-800" x-text="tituloModal"></h3>
+            </div>
+            <!-- Botón Cerrar -->
+            <button @click="cerrarModal()" class="w-9 h-9 rounded-full bg-slate-200/70 hover:bg-red-100 hover:text-red-600 flex items-center justify-center transition-all text-slate-600">
+                <i class="fas fa-times text-sm"></i>
+            </button>
+        </div>
+
+        <!-- CUERPO DEL VISOR -->
+        <div class="p-4 sm:p-6 flex flex-col items-center relative overflow-y-auto" @touchstart="touchStartX = $event.changedTouches[0].screenX" @touchend="touchEndX = $event.changedTouches[0].screenX; handleSwipe()">
+
+            <!-- Contenedor de Imagen (Más alto: h-[450px] sm:h-[540px]) -->
+            <div class="w-full h-[450px] sm:h-[540px] bg-slate-900/5 rounded-2xl overflow-hidden flex items-center justify-center relative shadow-sm border border-slate-100">
+                <template x-for="(img, index) in imagenesActuales" :key="index">
+                    <img :src="img" x-show="currentIndex === index" x-transition:enter="transition opacity-300 ease-out" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" class="absolute inset-0 w-full h-full object-contain p-1" alt="Paso de matriculación">
+                </template>
+            </div>
+
+
+            <!-- Flecha Izquierda -->
+            <button @click="prevImage()" class="absolute left-6 top-[50%] -translate-y-1/2 bg-white/90 hover:bg-white text-slate-700 hover:text-emerald-600 w-11 h-11 rounded-full shadow-lg flex items-center justify-center backdrop-blur-xs transition-all border border-slate-100 active:scale-95 z-10">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <!-- Flecha Derecha -->
+            <button @click="nextImage()" class="absolute right-6 top-[50%] -translate-y-1/2 bg-white/90 hover:bg-white text-slate-700 hover:text-emerald-600 w-11 h-11 rounded-full shadow-lg flex items-center justify-center backdrop-blur-xs transition-all border border-slate-100 active:scale-95 z-10">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+           
+            <!-- PIE DEL MODAL: PUNTOS E INDICADOR -->
+            <div class="flex flex-col items-center gap-2 mt-4 w-full flex-shrink-0">
+                <!-- Indicadores de Puntos (Dots) -->
+                <div class="flex items-center gap-2">
+                    <template x-for="(img, index) in imagenesActuales" :key="index">
+                        <button @click="currentIndex = index" :class="currentIndex === index ? 'w-8 bg-emerald-600' : 'w-2.5 bg-slate-200 hover:bg-slate-300'" class="h-2.5 rounded-full transition-all duration-300">
+                        </button>
+                    </template>
+                </div>
+                
+                <p class="text-xs text-slate-400 font-semibold tracking-wide">
+                    Paso <span x-text="currentIndex + 1" class="text-slate-700 font-bold"></span> de 3 
+                    <span class="text-[10px] text-slate-400 font-normal ml-1">(Desliza o usa las flechas)</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL EXCLUSIVO PARA EL COMIC -->
+<div x-data="{ 
+            isOpenComic: false, 
+            agradecimiento: false, 
+            modalAlerta: false,
+            msg: '', 
+            diaActual: 5,
+            reacciones: { like: 0, love: 0, cool: 0, funny: 0, sad: 0 },
+            comics: [
+                { id: 1, img: 'vistas/dia1-mcm.jpg', bloqueado: false, titulo: 'Bienvenido a clases' },
+                { id: 2, img: 'vistas/DIA-2---Zadi-y-Agrarito-en-el-CIA-Aprende-y-Crece.jpg', bloqueado: false, titulo: 'Visitando el CIA' },
+                { id: 3, img: 'vistas/DIA-3---Luvias-Clases-en-Linea.jpg', bloqueado: false, titulo: 'Lluvia y Clases en Línea' },
+                { id: 4, img: 'vistas/DIA-4---Medicina-Veterinaria.jpg', bloqueado: false, titulo: 'Carrera Medicina Veterinaria' },
+                { id: 5, img: 'vistas/DIA-5---Mantenimiento-web-seguro-con-Agrarito.jpg', bloqueado: false, titulo: 'Mantenimiento y seguridad de la página web' }
+            ],
+
+            init() {
+                const urlParams = new URLSearchParams(window.location.search);
+                
+                if (urlParams.has('comic')) {
+                    const diaDetectado = parseInt(urlParams.get('comic'));
+                    
+                    // Si el día existe en la lista de cómics, selecciónalo y abre el modal de inmediato
+                    if (this.comics.some(c => c.id === diaDetectado)) {
+                        this.diaActual = diaDetectado;
+                    }
+                    
+                    // 🌟 Abre el modal automáticamente sin tocar nada
+                    this.isOpenComic = true; 
+                    fetch('registrar_visita.php?seccion=comic_dia' + this.diaActual);
+                }
+
+                // 2. Carga los contadores del día seleccionado
+                this.cargarReacciones(this.diaActual);
+            },
+
+            cargarReacciones(dia) {
+                fetch(`obtener_interacciones.php?comic_id=${dia}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        this.reacciones = data;
+                    })
+                    .catch(() => {});
+            },
+
+            votar(tipo, mensaje) {
+                this.reacciones[tipo]++; // Efecto instantáneo en la pantalla
+                this.msg = mensaje;
+                this.agradecimiento = true;
+                
+                fetch(`registrar_interaccion.php?tipo=${tipo}&comic_id=${this.diaActual}`)
+                    .catch(() => {});
+            },
+
+            compartirComic() {
+                const comicActual = this.comics.find(c => c.id === this.diaActual);
+                const titulo = 'Cómic Agrarito: Día ' + this.diaActual + ' - ' + comicActual.titulo;
+                
+                // 🌟 Crea la URL directa con el día actual (ej: https://tusitio.edu.ec/?comic=5)
+                const urlDirecta = window.location.origin + window.location.pathname + '?comic=' + this.diaActual;
+
+                if (navigator.share) {
+                    navigator.share({
+                        title: titulo,
+                        text: '¡Mira el ' + titulo + ' con Agrarito UAE! 🤖📖',
+                        url: urlDirecta
+                    }).catch(() => {});
+                } else {
+                    navigator.clipboard.writeText(urlDirecta).then(() => {
+                        this.msg = '¡Enlace directo copiado! 📋 Al abrirlo, irá directo a este cómic.';
+                        this.agradecimiento = true;
+                    }).catch(() => {});
+                }
+            },
+
+            cambiarDia(comic) {
+                if (comic.bloqueado) {
+                    this.modalAlerta = true;
+                } else {
+                    this.diaActual = comic.id;
+                    this.cargarReacciones(comic.id);
+                }
+            }
+        }" @abrir-comic.window="
+            isOpenComic = true; 
+            cargarReacciones(diaActual);
+            fetch('registrar_visita.php?seccion=comic_dia' + diaActual);
+        " x-show="isOpenComic" x-cloak class="fixed inset-0 z-[99999] flex items-center justify-center bg-black/75 backdrop-blur-md p-3 sm:p-6">
+    
+    <div @click.outside="isOpenComic = false" x-transition class="bg-white w-full max-w-2xl rounded-[2rem] shadow-2xl overflow-hidden flex flex-col relative max-h-[95vh]">
+        
+        <!-- CABECERA -->
+        <div class="px-6 py-4 bg-slate-50 border-b border-slate-100 flex items-start justify-between gap-4">
+            <div class="flex flex-col flex-1 min-w-0">
+                <div class="flex items-center gap-2 mb-1.5">
+                    <span class="flex items-center gap-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        En vivo:
+                    </span>
+                    <div class="flex items-center">
+                        <script id="_wauh3f">var _wau=_wau||[];_wau.push(["small","wlm0jwy6ax","h3f"]);</script><script async src="//waust.at/s.js"></script>
+                    </div>
+                </div>
+
+                <h3 class="text-base sm:text-lg font-black text-slate-800 leading-snug" x-text="'Cómic Agrarito: Día ' + diaActual + ' - ' + comics.find(c => c.id === diaActual).titulo">
+                </h3>
+            </div>
+
+            <button @click="isOpenComic = false" class="w-9 h-9 shrink-0 rounded-full bg-slate-200 hover:bg-red-100 hover:text-red-600 flex items-center justify-center transition-all">
+                <i class="fas fa-times text-slate-600"></i>
+            </button>
+        </div>
+
+        <!-- CONTENEDOR PRINCIPAL -->
+        <div class="p-3 sm:p-4 flex flex-col items-center overflow-y-auto w-full">
+            
+            <!-- Imagen dinámica -->
+            <div class="w-full max-w-lg transition-all duration-500">
+                <img :src="comics.find(c => c.id === diaActual).img" class="w-full rounded-2xl shadow-xl border border-slate-100" alt="Comic Agrarito">
+            </div>
+
+            <!-- FRANJA DE REACCIONES CON CONTADORES INTEGRADOS -->
+            <div class="flex items-center justify-center gap-2 w-full max-w-lg mt-3 py-2 px-3 bg-slate-50 rounded-2xl border border-slate-100 flex-wrap">
+                <!-- Botón Like 👍 -->
+                <button @click="votar('like', '¡Gracias por tu me gusta!')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-200 transition-all active:scale-95 shadow-xs">
+                    <span class="text-base">👍</span>
+                    <span class="text-xs font-bold text-slate-600" x-text="reacciones.like"></span>
+                </button>
+                <!-- Botón Love -->
+                <button @click="votar('love', '¡Gracias por tu amor!')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white hover:bg-red-50 border border-slate-200 hover:border-red-200 transition-all active:scale-95 shadow-xs">
+                    <span class="text-base">❤️</span>
+                    <span class="text-xs font-bold text-slate-600" x-text="reacciones.love"></span>
+                </button>
+                
+                <!-- Botón Cool -->
+                <button @click="votar('cool', '¡Qué buena onda!')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white hover:bg-amber-50 border border-slate-200 hover:border-amber-200 transition-all active:scale-95 shadow-xs">
+                    <span class="text-base">😎</span>
+                    <span class="text-xs font-bold text-slate-600" x-text="reacciones.cool"></span>
+                </button>
+                
+                <!-- Botón Funny -->
+                <button @click="votar('funny', '¡Me alegra que te divirtiera!')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white hover:bg-emerald-50 border border-slate-200 hover:border-emerald-200 transition-all active:scale-95 shadow-xs">
+                    <span class="text-base">😂</span>
+                    <span class="text-xs font-bold text-slate-600" x-text="reacciones.funny"></span>
+                </button>
+                
+                <!-- Botón Sad -->
+                <button @click="votar('sad', 'Tomaremos en cuenta tu opinión.')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-200 transition-all active:scale-95 shadow-xs">
+                    <span class="text-base">😢</span>
+                    <span class="text-xs font-bold text-slate-600" x-text="reacciones.sad"></span>
+                </button>
+
+                <!-- Divisor -->
+                <div class="w-px h-6 bg-slate-200 mx-1"></div>
+
+                <!-- Botón de Descarga -->
+                <a :href="comics.find(c => c.id === diaActual).img" download title="Descargar imagen" class="flex items-center justify-center w-8 h-8 rounded-full bg-white hover:bg-emerald-50 border border-slate-200 hover:border-emerald-300 text-slate-500 hover:text-emerald-600 transition-all active:scale-95 shadow-xs">
+                   <i class="fas fa-download text-xs"></i>
+                </a>
+
+                <!-- 🌟 BOTÓN COMPARTIR NUEVO -->
+                <button @click="compartirComic()" title="Compartir cómic" class="flex items-center justify-center w-8 h-8 rounded-full bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 text-slate-500 hover:text-blue-600 transition-all active:scale-95 shadow-xs">
+                   <i class="fas fa-share-alt text-xs"></i>
+                </button>
+
+            </div>
+            
+            <!-- CÁPSULA DE NAVEGACIÓN DÍAS -->
+            <div class="flex items-center gap-2 mt-4 p-1 bg-slate-100 rounded-full overflow-x-auto w-full max-w-lg scrollbar-hide">
+                <template x-for="comic in comics" :key="comic.id">
+                    <button @click="cambiarDia(comic)" :class="diaActual === comic.id ? 'bg-emerald-600 text-white shadow-md' : 'bg-white text-slate-600'" class="flex-shrink-0 px-4 py-1.5 rounded-full text-[10px] font-bold transition-all flex items-center gap-1">
+                        <span x-text="comic.bloqueado ? '🔒' : '📖'"></span>
+                        <span x-text="'Día ' + comic.id"></span>
+                    </button>
+                </template>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DE AGRADECIMIENTO -->
+    <div x-show="agradecimiento" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100" class="fixed inset-0 z-[999999] flex items-center justify-center p-4">
+
+        <div class="absolute inset-0 bg-black/20 backdrop-blur-sm" @click="agradecimiento = false"></div>
+
+        <div class="relative bg-white w-full max-w-[280px] p-6 rounded-[2rem] shadow-2xl text-center">
+            <div class="text-4xl mb-3">✨</div>
+            <h4 class="font-black text-slate-800 text-sm">¡Muchas gracias!</h4>
+            <p class="text-[11px] text-slate-500 mb-5 leading-tight" x-text="msg"></p>
+            <button @click="agradecimiento = false" class="w-full py-2 bg-emerald-600 text-white text-[11px] font-bold rounded-full hover:bg-emerald-700 transition-all">
+                Cerrar
+            </button>
+        </div>
+    </div>
+
+    <!-- MODAL DE ALERTA -->
+    <div x-show="modalAlerta" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100" class="fixed inset-0 z-[999999] flex items-center justify-center p-4">
+
+        <div class="absolute inset-0 bg-black/20 backdrop-blur-sm" @click="modalAlerta = false"></div>
+
+        <div class="relative bg-white w-full max-w-[280px] p-6 rounded-[2rem] shadow-2xl text-center">
+            <div class="text-4xl mb-3">🔒</div>
+            <h4 class="font-black text-slate-800 text-sm">¡Aún no disponible!</h4>
+            <p class="text-[10px] text-slate-500 mb-5 leading-tight">Este día estará disponible muy pronto.</p>
+            <button @click="modalAlerta = false" class="w-full py-2 bg-slate-800 text-white text-[11px] font-bold rounded-full hover:bg-slate-900 transition-all">
+                Entendido
+            </button>
+        </div>
+    </div>
+</div>
+<script>
+function modalPasosMatricula() {
+    return {
+        isOpen: false,
+        currentIndex: 0,
+        tituloModal: '',
+        touchStartX: 0,
+        touchEndX: 0,
+        
+        imgsPresencial: [
+            'vistas/PASO1-EXTRA.jpg',
+            'vistas/PASO2.jpg',
+            'vistas/PASO3.jpg'
+        ],
+        imgsEnLinea: [
+            'vistas/PASO1-ENLINEA-EXTRA.jpg',
+            'vistas/PASO2-ENLINEA.jpeg',
+            'vistas/PASO3-ENLINEA.jpeg'
+        ],
+        imagenesActuales: [],
+
+        abrirModal(modalidad) {
+            this.currentIndex = 0;
+            if (modalidad === 'presencial') {
+                this.tituloModal = 'Matriculación Presencial';
+                this.imagenesActuales = this.imgsPresencial;
+            } else {
+                this.tituloModal = 'Matriculación En Línea';
+                this.imagenesActuales = this.imgsEnLinea;
+            }
+            this.isOpen = true;
+        },
+
+        cerrarModal() {
+            this.isOpen = false;
+        },
+
+        nextImage() {
+            this.currentIndex = (this.currentIndex + 1) % this.imagenesActuales.length;
+        },
+
+        prevImage() {
+            this.currentIndex = (this.currentIndex - 1 + this.imagenesActuales.length) % this.imagenesActuales.length;
+        },
+
+        handleSwipe() {
+            if (this.touchEndX < this.touchStartX - 50) {
+                this.nextImage(); 
+            }
+            if (this.touchEndX > this.touchStartX + 50) {
+                this.prevImage(); 
+            }
+        }
+    }
+}
+</script></body>
+</html>

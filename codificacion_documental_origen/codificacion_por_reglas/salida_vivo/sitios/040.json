@@ -1,0 +1,80 @@
+{
+ "id": 40,
+ "grupo": "mundo",
+ "sigla": "Manchester",
+ "pais": "GB",
+ "url": "https://www.manchester.ac.uk",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.manchester.ac.uk",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.manchester.ac.uk/",
+    "fecha_hora_utc": "2026-11-12T04:05:52+00:00",
+    "error": null,
+    "sha256": "ee060ad02ad99155507ee559f7e2f8226c3d84d648b39e33aee6f5f7af9cd35d"
+   },
+   {
+    "url_consultada": "https://www.manchester.ac.uk/about/privacy-information/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.manchester.ac.uk/about/privacy-information/",
+    "fecha_hora_utc": "2026-11-12T04:05:54+00:00",
+    "error": null,
+    "sha256": "00decbd0561a5ea73795df2c6c6a3d26fa857a7c0aa426279ddae7d52c134935"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Web accessibility",
+    "url": "https://www.manchester.ac.uk/web-accessibility/"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "acceso"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy information",
+    "url": "https://www.manchester.ac.uk/about/privacy-information/"
+   },
+   {
+    "texto": "Data Protection",
+    "url": "https://www.manchester.ac.uk/about/privacy-information/data-protection/"
+   },
+   {
+    "texto": "Call recording policy",
+    "url": "https://www.manchester.ac.uk/about/privacy-information/data-protection/privacy-notices/"
+   },
+   {
+    "texto": "Freedom of information",
+    "url": "https://www.manchester.ac.uk/about/privacy-information/freedom-information/"
+   }
+  ],
+  "aviso_url": "https://www.manchester.ac.uk/about/privacy-information/",
+  "aviso_palabras": 634,
+  "aviso_sha256_texto": "81a9bd9eeb28e9f36f19788f193d3e4c2d57df7915190c90e77a41ee1bb43a82"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:55+00:00"
+}

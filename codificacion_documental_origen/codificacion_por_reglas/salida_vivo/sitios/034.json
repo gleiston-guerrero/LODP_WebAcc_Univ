@@ -1,0 +1,56 @@
+{
+ "id": 34,
+ "grupo": "mundo",
+ "sigla": "NYU",
+ "pais": "US",
+ "url": "https://www.nyu.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.nyu.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.nyu.edu/",
+    "fecha_hora_utc": "2026-11-12T04:05:27+00:00",
+    "error": null,
+    "sha256": "2ce76dd7192f6ab5fd80467ac5470785919182fa28a3bbfb027ebed9cf183bd2"
+   },
+   {
+    "url_consultada": "https://www.nyu.edu/footer/privacy.html",
+    "status": 202,
+    "tls_ok": true,
+    "url_final": "https://www.nyu.edu/footer/privacy.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1",
+    "fecha_hora_utc": "2026-11-12T04:05:29+00:00",
+    "error": null,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://www.nyu.edu/footer/accessibility.html"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy",
+    "url": "https://www.nyu.edu/footer/privacy.html"
+   }
+  ],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:29+00:00"
+}

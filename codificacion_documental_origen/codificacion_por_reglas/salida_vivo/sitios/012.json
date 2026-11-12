@@ -1,0 +1,69 @@
+{
+ "id": 12,
+ "grupo": "mundo",
+ "sigla": "Yale",
+ "pais": "US",
+ "url": "https://www.yale.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.yale.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.yale.edu/",
+    "fecha_hora_utc": "2026-11-12T04:04:10+00:00",
+    "error": null,
+    "sha256": "e37ba563a19290af33fa733b1b83b21e48c80a0125082fa5613229c62c1d30c5"
+   },
+   {
+    "url_consultada": "https://privacy.yale.edu/resources/privacy-statement",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://privacy.yale.edu/resources/privacy-statement",
+    "fecha_hora_utc": "2026-11-12T04:04:12+00:00",
+    "error": null,
+    "sha256": "86ec73ccc2e8bae678b23f00c1033a3c6c102c3e8860cc4494286aea15041e42"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility at Yale",
+    "url": "https://usability.yale.edu/web-accessibility/accessibility-yale"
+   },
+   "alcance_parcial": null,
+   "marco": "Family Educational Rights and Privacy Act",
+   "derechos": [
+    "acceso",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": true
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Policy",
+    "url": "https://privacy.yale.edu/resources/privacy-statement"
+   }
+  ],
+  "aviso_url": "https://privacy.yale.edu/resources/privacy-statement",
+  "aviso_palabras": 3085,
+  "aviso_sha256_texto": "419f321af9320ed4046b26bf86607ea2b7dbb79403aed492b4710de8bc0e1391"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:13+00:00"
+}

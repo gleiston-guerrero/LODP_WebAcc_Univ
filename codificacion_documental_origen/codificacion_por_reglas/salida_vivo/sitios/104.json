@@ -1,0 +1,71 @@
+{
+ "id": 104,
+ "grupo": "ecuador",
+ "sigla": "UTE",
+ "pais": "EC",
+ "url": "https://ute.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://ute.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://ute.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:09:20+00:00",
+    "error": null,
+    "sha256": "3f12aed5361620b287ae37bf86ff01b5b7af1f5f4541aec7bd0f63b6070679b7"
+   },
+   {
+    "url_consultada": "https://ute.edu.ec/politica-de-privacidad/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://ute.edu.ec/politica-de-privacidad/",
+    "fecha_hora_utc": "2026-11-12T04:09:23+00:00",
+    "error": null,
+    "sha256": "4f429f4a95194e048dfbeee3e952ccca216a2b5d6f0f72c3db900b5bfc9bf9e9"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accesibilidad",
+    "url": "https://ute.edu.ec/infraestructura/otros-espacios/accesibilidad/"
+   },
+   "transparencia": {
+    "texto": "Laboratorio de Transparencia y Anticorrupción",
+    "url": "https://ute.edu.ec/laboratorio-de-transparencia-y-anticorrupcion/"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "oposicion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de Privacidad",
+    "url": "https://ute.edu.ec/politica-de-privacidad/"
+   }
+  ],
+  "aviso_url": "https://ute.edu.ec/politica-de-privacidad/",
+  "aviso_palabras": 4545,
+  "aviso_sha256_texto": "a5849bf3091a0a6103a747bd0bfa6bbf31338def7aab4e7a65a371863cb0efe3"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:24+00:00"
+}

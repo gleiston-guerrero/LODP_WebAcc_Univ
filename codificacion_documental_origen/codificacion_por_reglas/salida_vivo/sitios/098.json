@@ -1,0 +1,42 @@
+{
+ "id": 98,
+ "grupo": "ecuador",
+ "sigla": "FLACSO",
+ "pais": "EC",
+ "url": "https://www.flacso.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.flacso.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.flacso.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:08:55+00:00",
+    "error": null,
+    "sha256": "91817f932a66aa130b3049ce5a84b9c76a83eae9ccf170e62efcbefa551ecbe0"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Ficha 6: Transparencia y explicabilidad de modelos IA",
+    "url": "https://www.flacso.edu.ec/sites/default/files/2026-03/Uso_responsable_IA_Ficha%206.pdf"
+   }
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:55+00:00"
+}

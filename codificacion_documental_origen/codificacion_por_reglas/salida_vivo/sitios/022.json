@@ -1,0 +1,39 @@
+{
+ "id": 22,
+ "grupo": "mundo",
+ "sigla": "NUS",
+ "pais": "SG",
+ "url": "https://nus.edu.sg",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://nus.edu.sg",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://nus.edu.sg/",
+    "fecha_hora_utc": "2026-11-12T04:04:37+00:00",
+    "error": null,
+    "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "cookies": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:38+00:00"
+}

@@ -1,0 +1,65 @@
+{
+ "id": 23,
+ "grupo": "mundo",
+ "sigla": "U Tokyo",
+ "pais": "JP",
+ "url": "https://www.u-tokyo.ac.jp/en/",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "privacy_notice": "si",
+  "legal_framework": "parcial",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.u-tokyo.ac.jp/en/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.u-tokyo.ac.jp/en/",
+    "fecha_hora_utc": "2026-11-12T04:04:39+00:00",
+    "error": null,
+    "sha256": "672199ac01749ace1699ecc2a281ad2b13844268dd266cc9aee9308c94564e50"
+   },
+   {
+    "url_consultada": "https://www.u-tokyo.ac.jp/en/general/privacy_policy.html",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.u-tokyo.ac.jp/en/general/privacy_policy.html",
+    "fecha_hora_utc": "2026-11-12T04:04:49+00:00",
+    "error": null,
+    "sha256": "7ffab899300a34d3266b2800b7fa2ec3a26830a751778f1c04305e770d7adbf8"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "alcance_parcial": null,
+   "marco": "General Data Protection Regulation",
+   "derechos": [
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy policy",
+    "url": "https://www.u-tokyo.ac.jp/en/general/privacy_policy.html"
+   }
+  ],
+  "aviso_url": "https://www.u-tokyo.ac.jp/en/general/privacy_policy.html",
+  "aviso_palabras": 815,
+  "aviso_sha256_texto": "14a2ab9de67ff98f9d94e70f9fb85289a5f2b3ed5cb80fafacd185ea626cfc06"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:50+00:00"
+}

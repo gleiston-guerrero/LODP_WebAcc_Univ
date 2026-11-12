@@ -1,0 +1,73 @@
+{
+ "id": 57,
+ "grupo": "mundo",
+ "sigla": "Heidelberg",
+ "pais": "DE",
+ "url": "https://www.uni-heidelberg.de/en",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uni-heidelberg.de/en",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uni-heidelberg.de/en",
+    "fecha_hora_utc": "2026-11-12T04:06:50+00:00",
+    "error": null,
+    "sha256": "ec3b2ab915e71c28c276272885583394008eea6a595d81de0e83eac548418f8b"
+   },
+   {
+    "url_consultada": "https://www.uni-heidelberg.de/en/privacy-statement",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uni-heidelberg.de/en/privacy-statement",
+    "fecha_hora_utc": "2026-11-12T04:06:52+00:00",
+    "error": null,
+    "sha256": "edfaa2cef98548a30393613f2185c38601ddb8d37cfd74a1328517d64d8a7dff"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://www.uni-heidelberg.de/en/statement-on-accessibility"
+   },
+   "alcance_parcial": null,
+   "marco": "GDPR",
+   "derechos": [
+    "acceso",
+    "limitacion",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "data protection officer",
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Statement",
+    "url": "https://www.uni-heidelberg.de/en/privacy-statement"
+   }
+  ],
+  "aviso_url": "https://www.uni-heidelberg.de/en/privacy-statement",
+  "aviso_palabras": 3705,
+  "aviso_sha256_texto": "74e4ab7928306c7e8e34b65dae083770ec9f9748d2be186a273fdca7ce8836e5"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:52+00:00"
+}

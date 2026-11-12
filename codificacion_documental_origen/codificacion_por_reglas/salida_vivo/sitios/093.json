@@ -1,0 +1,72 @@
+{
+ "id": 93,
+ "grupo": "ecuador",
+ "sigla": "UArtes",
+ "pais": "EC",
+ "url": "https://www.uartes.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uartes.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uartes.edu.ec/sitio/",
+    "fecha_hora_utc": "2026-11-12T04:08:40+00:00",
+    "error": null,
+    "sha256": "6c4ccd4af7b6984c0195d69f21ee8e5c5f3b939a5c82128047b6fad5b7e9325c"
+   },
+   {
+    "url_consultada": "https://www.uartes.edu.ec/sitio/proteccion-de-datos",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uartes.edu.ec/sitio/proteccion-de-datos",
+    "fecha_hora_utc": "2026-11-12T04:08:42+00:00",
+    "error": null,
+    "sha256": "83a505770715bffcbf30f97d1df422f44b61edb56415f8211b4ed8020b11db48"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Transparencia",
+    "url": "https://www.uartes.edu.ec/sitio/la-universidad/institucional/transparencia/"
+   },
+   "alcance_parcial": null,
+   "marco": "LOPDP",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Delegado de protección de datos",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Protección de Datos Personales",
+    "url": "https://www.uartes.edu.ec/sitio/proteccion-de-datos"
+   }
+  ],
+  "aviso_url": "https://www.uartes.edu.ec/sitio/proteccion-de-datos",
+  "aviso_palabras": 1047,
+  "aviso_sha256_texto": "1d65a999dc9476bfa4f0139e17215df41f0888688e1fbacceab75fd3921bfea8"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:43+00:00"
+}

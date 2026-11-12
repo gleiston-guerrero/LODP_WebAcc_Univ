@@ -1,0 +1,66 @@
+{
+ "id": 68,
+ "grupo": "ecuador",
+ "sigla": "ESPE",
+ "pais": "EC",
+ "url": "https://www.espe.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.espe.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.espe.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:07:30+00:00",
+    "error": null,
+    "sha256": "8b1b4feb1c2ddb0368d59e3cdb67c05d8e099588bfd82c9a2ab5064ad4e47062"
+   },
+   {
+    "url_consultada": "https://www.espe.edu.ec/proteccion-de-datos-personales/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.espe.edu.ec/proteccion-de-datos-personales/",
+    "fecha_hora_utc": "2026-11-12T04:07:32+00:00",
+    "error": null,
+    "sha256": "8e2419856bc72a584546c830c3dcba3b40c010caedde03315170e96448154144"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Transparencia Institucional",
+    "url": "https://documental.espe.edu.ec/"
+   },
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Delegado de Protección de Datos",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Protección de datos",
+    "url": "https://www.espe.edu.ec/proteccion-de-datos-personales/"
+   }
+  ],
+  "aviso_url": "https://www.espe.edu.ec/proteccion-de-datos-personales/",
+  "aviso_palabras": 5228,
+  "aviso_sha256_texto": "c3e8a61af186f690f93053a83e075ee9e26607b4c52741641fc8cf568d4c5548"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:33+00:00"
+}

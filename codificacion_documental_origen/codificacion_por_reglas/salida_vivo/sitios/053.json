@@ -1,0 +1,39 @@
+{
+ "id": 53,
+ "grupo": "mundo",
+ "sigla": "USTC",
+ "pais": "CN",
+ "url": "https://en.ustc.edu.cn",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://en.ustc.edu.cn",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://en.ustc.edu.cn/",
+    "fecha_hora_utc": "2026-11-12T04:06:33+00:00",
+    "error": null,
+    "sha256": "e512920ede01b8921395fc57024e2628ea54bc9d60630aeb895ed2055132700c"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "cookies": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:35+00:00"
+}

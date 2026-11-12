@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html class="no-js" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["rum_v2"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"edc4967dfd",applicationID:"70828766",browserID:"70830173"};;/*! For license information please see nr-loader-rum-1.324.1.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i=1e6,a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,i,"KC",0,a,"qh",0,"SESSION_ERROR","zd",0,5e5])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.324.1"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.324.1.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.324.1.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zuv39xzZ8AH/HwpVrtkixvcBuOFo2ydcFzMtXjx+3Iwr5g++inX+6YDH7J/8fOCAtBetz8aDyaYCRkGy2nnG/w=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.324.1.PROD"]=self["webpackChunk:NRBA-1.324.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Yale University</title>
+
+
+    <!-- Favions / Touch Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-57x57.png">
+
+    <!-- Favions / Touch Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/sites/all/themes/yale_blue/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/sites/all/themes/yale_blue/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/sites/all/themes/yale_blue/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/sites/all/themes/yale_blue/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/sites/all/themes/yale_blue/images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#00356b">
+    <meta name="msapplication-TileImage" content="/sites/all/themes/yale_blue/images/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="/sites/all/themes/yale_blue/images/favicons/favicon.ico">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="_globalsign-domain-verification" content="wkpgXqnxKdVz7GZbXbNUpAeBFDRTeve6uffKnIz_aA" />
+<link rel="shortcut icon" href="https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta name="description" content="Since its founding in 1701, Yale University has been dedicated to expanding and sharing knowledge, inspiring innovation, and preserving cultural and scientific information for future generations." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.yale.edu/" />
+<link rel="shortlink" href="https://www.yale.edu/" />
+<meta property="og:site_name" content="Yale University" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.yale.edu/" />
+<meta property="og:title" content="Yale University" />
+<meta property="og:description" content="Since its founding in 1701, Yale University has been dedicated to expanding and sharing knowledge, inspiring innovation, and preserving cultural and scientific information for future generations." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.yale.edu/" />
+<meta name="twitter:title" content="Yale University" />
+    <link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css/css_RuHKBBm6OYqkjSeQK2mF9fQpeWuco3DyDng1XVpC1Ww.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css/css_wTttUvLLkpbnKFb8mVr2FiTMc9bXV18KTC7HphY8NV4.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#back-top{right:40px;}#back-top span#button{background-color:#CCCCCC;}#back-top span#button:hover{opacity:1;filter:alpha(opacity = 1);background-color:#777777;}span#link{display :none;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css/css_GokYvum1WD4rmNWBuxVsmJ6gm9uM5yZerdDiGIkzgDA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css/css_LJcGPs70sA8Q5YJ2kbPV0zbY7KswHxdAVZ_9Ic2EzuI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css/css_8R_0pUYRsUgcn_DqYThF9sN84SOtqZb5hkODYP6qLV8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css_injector/css_injector_25.css?tocrsl" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css_injector/css_injector_26.css?tocrsl" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css_injector/css_injector_28.css?tocrsl" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.yale.edu/sites/default/files/css_injector/css_injector_34.css?tocrsl" media="all" />
+
+    <!-- Compiled CSS -->
+    <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="/sites/all/themes/yale_blue/css/site.css?t=202611102327">
+    <!--<![endif]-->
+    <!--[if IE 8]>
+      <link rel="stylesheet" href="/sites/all/themes/yale_blue/css/site-ie8.css?t=202611102327">
+    <![endif]-->
+      <!--[if IE 9]>
+      <link rel="stylesheet" href="/sites/all/themes/yale_blue/css/site-ie9.css?t=202611102327">
+    <![endif]-->
+
+    <!-- Compiled JS -->
+    <!--[if IE 8]>
+      <script>var IE8 = true;</script>
+      <script src="/sites/all/themes/yale_blue/js/site-ie8.js?t=202611102327"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+      <script>var IE9 = true;</script>
+      <script src="/sites/all/themes/yale_blue/js/site-ie9.js?t=202611102327"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="https://www.yale.edu/sites/default/files/js/js_rpAwC7cddiEuKQzuro46QwxuNJ50C48xsD6vgW-SmVY.js"></script>
+<script type="text/javascript" src="https://www.yale.edu/sites/all/libraries/respondjs/respond.min.js?tocrsl"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.cookie = 'adaptive_image=' + Math.max(screen.width, screen.height) + '; path=/';
+//--><!]]>
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.yale.edu/sites/default/files/js/js_Hfha9RCTNm8mqMDLXriIsKGMaghzs4ZaqJPLj2esi7s.js"></script>
+<script type="text/javascript" src="https://www.yale.edu/sites/default/files/js/js_zDrhTCYsC_8pVOJuGALtlm88oNEaqvyfjVoe0JtAAwI.js"></script>
+<script type="text/javascript" src="https://www.yale.edu/sites/default/files/js/js_FYATdFXXG8iE134WJAo5pnkuy35VF3FgHUCZ4uW5qXc.js"></script>
+<script type="text/javascript" src="https://www.yale.edu/sites/default/files/js/js_HR7LuITZhSc9MfBClZ7kkiN4YCNnhrdkopJ8rv16Q14.js"></script>
+<script type="text/javascript" src="https://www.yale.edu/sites/default/files/googleanalytics/js?tocrsl"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-991898-23", {"groups":"default","cookie_domain":"www.yale.edu","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.yale.edu/sites/default/files/js/js_Xp42x4IeuhdbL6uORzJ6WS2Q7LigXFqtOWo49t50sgc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"yale_blue","theme_token":"B0Z8GKwDcRuqR4twfoCiK_IlbroTWqKoCc7s4m-xrJQ","jquery_version":"1.10","js":{"0":1,"https:\/\/www.yale.edu\/sites\/default\/files\/google_tag\/primary\/google_tag.script.js":1,"sites\/all\/libraries\/respondjs\/respond.min.js":1,"1":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"2":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"misc\/form-single-submit.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/entityreference\/js\/entityreference.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/jscrollpane\/js\/jquery.jscrollpane.min.js":1,"sites\/all\/modules\/contrib\/jscrollpane\/js\/jquery.mousewheel.js":1,"sites\/all\/modules\/contrib\/jscrollpane\/js\/script.js":1,"sites\/all\/modules\/contrib\/scroll_to_top\/scroll_to_top.js":1,"sites\/all\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.yale.edu\/sites\/default\/files\/googleanalytics\/js?tocrsl":1,"3":1,"sites\/all\/themes\/yale_blue\/js\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/scroll_to_top\/scroll_to_top.css":1,"sites\/all\/modules\/contrib\/adaptive_image\/css\/adaptive-image.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/colorbox\/example4\/colorbox.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/jscrollpane\/css\/jquery.jscrollpane.css":1,"0":1,"sites\/all\/modules\/contrib\/typogrify\/typogrify.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/yale_blue\/css\/a11y.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"\/sites\/all\/libraries\/fontyourface\/YaleDesign-italic-bold\/stylesheet.css":1,"\/sites\/all\/libraries\/fontyourface\/YaleDesign-italic-normal\/stylesheet.css":1,"\/sites\/all\/libraries\/fontyourface\/YaleDesign-normal-bold\/stylesheet.css":1,"\/sites\/all\/libraries\/fontyourface\/YaleDesign-normal-normal\/stylesheet.css":1,"public:\/\/css_injector\/css_injector_25.css":1,"public:\/\/css_injector\/css_injector_26.css":1,"public:\/\/css_injector\/css_injector_28.css":1,"public:\/\/css_injector\/css_injector_34.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"googleCSE":{"cx":"018347764319155434748:jsn72bd6xkq","language":"","resultsWidth":0,"domain":"www.google.com","showWaterMark":true},"jScrollPane":{"class":".scroll-pane"},"scroll_to_top":{"label":"Back to top"},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/":true,"\/views\/ajax":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:53bf708ba799efe6c31eed29ff20db89":{"view_name":"explore_yale","view_display_id":"block","view_args":"","view_path":"node\/52","view_base_path":null,"view_dom_id":"53bf708ba799efe6c31eed29ff20db89","pager_element":0}}},"googleanalytics":{"account":["UA-991898-23"],"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1}});
+//--><!]]>
+</script>
+
+  </head>
+  <body id="top" class="fs-grid html front not-logged-in no-sidebars page-node page-node- page-node-52 node-type-home-page home-page"  tabindex="-1">
+    <span role="navigation" aria-labelledby="skip_to_content"><a href="#page" id="skip_to_content">Skip to Main Content</a></span>
+
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCLMJ9V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Body Wrapper -->
+<div class="body_wrapper ">
+  <section class="site_message bg_dusty color_black" aria-hidden="true">
+	<div class="site_message_row">
+		<div class="site_message_cell">
+			<div class="site_message_description heading_4">
+				<p>It looks like you're trying to zoom in on this page. For best results: use the most recent version of your browser, disable your browser's 'zoom text only' setting, and use your browser's default font size settings.</p>
+				<p>To zoom in, use [Ctrl] + [+] in Windows, and [Cmd] + [+] on a Mac. To zoom out, use the keyboard shortcut [Ctrl] + [-] in Windows and [Cmd] + [-] on a Mac.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+  <!-- Header -->
+  <header id="header" class="header js-toggle">
+
+    <!-- Header Row -->
+    <div class="header_row">
+
+      <!-- Header Cell -->
+      <div class="header_cell">
+
+        <!-- Site Logo -->
+        <a href="/" class="logo_main icon_only" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+          <h1 class="offscreen" itemprop="name">Yale University</h1>
+          <img src="/sites/all/themes/yale_blue/images/logo-print.png" class="print" alt="">
+        </a>
+        <!-- END: Site Logo -->
+
+        <!-- Search, Gateway, Secondary Nav -->
+          <div class="region region-header">
+	<div class="deskHeader">
+		<nav class="secondary_nav" aria-labelledby="secondary_nav_label">
+  <h2 class="visually_hidden" id="secondary_nav_label">Secondary Navigation</h2>
+  <div class="secondary_nav_list menu-block-wrapper menu-block-2 menu-name-menu-secondary-navigation parent-mlid-0 menu-level-1">
+    <a class="secondary_nav_link" href="/calendars"><span class="secondary_nav_text">Calendars</span></a><a class="secondary_nav_link" href="https://forhumanity.yale.edu"><span class="secondary_nav_text">Give</span></a><a class="secondary_nav_link" href="https://news.yale.edu/"><span class="secondary_nav_text">News</span></a><a class="secondary_nav_link" href="/directories"><span class="secondary_nav_text">Directories</span></a>  </div>
+</nav>
+<!-- Site Search --><a class="btn_site_seach js-toggle_handle" href="/search" role="button" aria-expanded="false"><span class="btn_site_seach_text">Search</span> </a> <!-- END: Site Search --><button class="mobile_nav_handle">Navigation</button><form class="gateway_form" action="" method="post">
+  <label class="visually_hidden" for="gateway_select">Info for...</label>
+  <select class="js-dropdown" id="gateway_select" data-dropdown-options='{"label":"Info for...","customClass":"dropdown_base dropdown_midnight gateway_select"}'>
+    <option value="https://secretary.yale.edu/student-life">Students</option><option value="/faculty">Faculty</option><option value="https://your.yale.edu/">Staff</option><option value="https://alumni.yale.edu">Alumni</option><option value="https://onha.yale.edu/">New Haven Community</option>  </select>
+  <button class="info_for_submit button_solid_charcoal color_white" type="submit">Go</button>
+</form>
+	</div>
+  </div>
+        <!-- END: Search, Gateway, Secondary Nav -->
+
+        <!-- Main Nav -->
+          <div class="region region-navbar">
+    <nav class="main_nav" aria-labelledby="main_nav_label">
+  <h2 class="visually_hidden" id="main_nav_label">Main Navigation</h2>
+  <div class="main_nav_list  menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+    <div class="main_nav_item"><a class="main_nav_link" href="/about-yale">About Yale</a><div class="main_nav_child"><a class="main_nav_child_link" href="/about-yale/leadership-organization">Leadership & Organization</a><a class="main_nav_child_link" href="/about-yale/yale-facts">Yale Facts</a><a class="main_nav_child_link" href="/about-yale/traditions-history">Traditions & History</a><a class="main_nav_child_link" href="/about-yale/centers-institutes">Centers & Institutes</a><a class="main_nav_child_link" href="/about-yale/yales-impact-america">Yale’s Impact on America</a><a class="main_nav_child_link" href="/about-yale/yales-impact-america/impact-state">Impact by State</a><a class="main_nav_child_link" href="http://world.yale.edu">Yale & the World</a><a class="main_nav_child_link" href="/about-yale/visiting">Visiting</a></div></div><div class="main_nav_item"><a class="main_nav_link" href="/academics">Academics</a><div class="main_nav_child"><a class="main_nav_child_link" href="/academics/undergraduate-study">Undergraduate Study</a><a class="main_nav_child_link" href="/academics/graduate-professional-study">Graduate & Professional Study</a><a class="main_nav_child_link" href="/academics/departments-programs">Departments & Programs</a><a class="main_nav_child_link" href="https://world.yale.edu/academics-research/centers-initiatives">Global Education</a><a class="main_nav_child_link" href="https://summer.yale.edu/">Summer Session</a><a class="main_nav_child_link" href="/academics/non-degree-offerings">Non-Degree Offerings</a><a class="main_nav_child_link" href="https://online.yale.edu/">Online Learning</a></div></div><div class="main_nav_item"><a class="main_nav_link" href="/admissions">Admissions</a><div class="main_nav_child"><a class="main_nav_child_link" href="https://admissions.yale.edu/">Undergraduate</a><a class="main_nav_child_link" href="/admissions/graduate-professional-schools">Graduate & Professional Schools</a><a class="main_nav_child_link" href="/admissions/financial-aid">Financial Aid</a><a class="main_nav_child_link" href="https://world.yale.edu/coming-to-yale/admissions-for-international-students">International Students</a><a class="main_nav_child_link" href="https://summer.yale.edu/apply">Summer Session</a><a class="main_nav_child_link" href="/admissions/non-degree-seeking-students">Non-Degree Seeking Students</a><a class="main_nav_child_link" href="https://worldfellows.yale.edu/the-program/application/">World Fellows Program</a></div></div><div class="main_nav_item"><a class="main_nav_link" href="https://research.yale.edu/">Research</a></div><div class="main_nav_item"><a class="main_nav_link" href="/collections">Collections</a><div class="main_nav_child"><a class="main_nav_child_link" href="https://lux.collections.yale.edu">LUX: Yale Collections Discovery</a><a class="main_nav_child_link" href="/collections/museums-and-libraries">Museums and Libraries</a></div></div><div class="main_nav_item"><a class="main_nav_link" href="/life-yale">Life at Yale</a><div class="main_nav_child"><a class="main_nav_child_link" href="/life-yale/arts-culture">Arts & Culture</a><a class="main_nav_child_link" href="/life-yale/athletics-recreation">Athletics & Recreation</a><a class="main_nav_child_link" href="/life-yale/health-wellness">Health & Wellness</a><a class="main_nav_child_link" href="/life-yale/new-haven">New Haven</a><a class="main_nav_child_link" href="https://housing.yale.edu/">Residential Life</a><a class="main_nav_child_link" href="/life-yale/service">Service</a><a class="main_nav_child_link" href="https://secretary.yale.edu/student-life/student-groups-and-activities">Student Groups & Activities</a><a class="main_nav_child_link" href="/life-yale/virtual-yale">Virtual Yale</a></div></div>  </div>
+</nav>
+  </div>
+        <!-- END: Main Nav -->
+
+      </div>
+      <!-- END: Header Cell -->
+
+
+    </div>
+    <!-- END: Header Row -->
+
+    <!-- Site Search -->
+    <form action="#" method="GET" class="site_search" role="search" aria-label="Search Site">
+      <div class="site_search_row">
+        <div class="site_search_cell">
+          <div class="site_search_fieldset border_dusty">
+            <input aria-label="search" class="site_search_input" type="text" name="query" placeholder="Search..." value="">
+            <button class="site_search_button" type="submit">
+              <span class="visually_hidden">Search</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- END: Site Search -->
+
+  </header>
+  <!-- END: Header -->
+
+  <!-- Main Content -->
+  <main id="page" class="page" tabindex="-1">
+
+
+    <!-- Page Feature -->
+    <div class="page_feature">
+
+      <div class="page_divider visually_hidden">
+        <div class="page_divider_cell"></div>
+      </div>
+
+      
+            </div>
+    <!-- END: Page Feature -->
+
+
+            <!-- Page Row -->
+        <div class="page_row">
+
+
+          <!-- Page Header -->
+          <div class="page_header">
+          
+                                          <div class="tabs"></div>
+                    
+          </div>
+          <!-- END: Page Header -->
+
+          <!-- Page Container -->
+          <div class="page_container">
+
+          <!-- Sidebar -->
+                    <!-- END: Sidebar -->
+
+
+          </div>
+          <!-- END: Page Container -->
+
+
+
+
+        </div>
+        <!-- END: Page Row -->
+
+                  <aside class="page_callouts">
+            <!-- Main Content -->
+              <div class="region region-content">
+    <div class="ds-1col node node-home-page node-promoted node-even view-mode-full clearfix">
+
+  
+    <!-- Single Image Flexible Feature -->
+<section class="single_flex_callout single_flex_feature">
+
+  <!-- Single Image Flexible Callout Row -->
+  <div class="single_flex_callout_row single_flex_feature_row">
+
+    <!-- Single Image Flexible Callout Cell -->
+    <div class="single_flex_callout_cell single_flex_feature_cell">
+
+      <!-- Single Image Flexible Callout Media -->
+      <div class="single_flex_callout_media single_flex_feature_media">
+
+        <figure class="single_flex_callout_figure single_flex_feature_figure  responsive_image bg_black">
+          <picture class="single_flex_callout_picture   single_flex_feature_picture">
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/homepage_feature_840x590/public/yn-2026_10_16_13-04-56_ianchristmann261015-877189a_copy.jpg?itok=aPtd_Wyj">
+                        <source media="(min-width: 740px)" srcset="https://www.yale.edu/sites/default/files/styles/homepage_feature_980x688/public/yn-2026_10_16_13-04-56_ianchristmann261015-877189a_copy.jpg?itok=JvHZswWg">
+            <source media="(min-width: 500px)" srcset="https://www.yale.edu/sites/default/files/styles/homepage_feature_740x417/public/yn-2026_10_16_13-04-56_ianchristmann261015-877189a_copy.jpg?itok=qlBRXaG9">
+            <source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/homepage_feature_500x282/public/yn-2026_10_16_13-04-56_ianchristmann261015-877189a_copy.jpg?itok=wG7MdLgd">
+            <!--[if IE 9]></video><![endif]-->
+            <img class="single_flex_callout_image single_flex_feature_image " src="https://www.yale.edu/sites/default/files/styles/homepage_feature_500x282/public/yn-2026_10_16_13-04-56_ianchristmann261015-877189a_copy.jpg?itok=wG7MdLgd" alt="Audience standing outside Vlock Building Project home">
+          </picture>
+        </figure>
+
+        <a class="button_solid_greige button_icon_right_arrow color_white single_flex_archive single_flex_archive_xl" href="/feature-archive">The Feature Archive</a>
+
+      </div>
+      <!-- END: Single Image Flexible Callout Media -->
+
+      <!-- Single Image Flexible Callout Content -->
+      <article class="single_flex_callout_content single_flex_feature_content   bg_gray_light">  <!--  remove single_flex_large_type_content if description -->
+
+        <div class="single_flex_callout_content_inner single_flex_feature_content_inner">
+          <div class="single_flex_callout_content_header single_flex_feature_content_header">
+            <h2 class="single_flex_callout_title single_flex_feature_title  color_midnight" id="single_flex_feature_title15697">An affordable home for local teachers, a hands-on lesson for Yale students</h2>
+            <h3 class="single_flex_callout_category single_flex_feature_category heading_5 text_divide context">SCHOOL OF ARCHITECTURE</h3>
+          </div>
+                    <div class="single_flex_callout_description single_flex_feature_description body_text">
+            <p>As part of the annual Vlock Building Project, Yale architecture students designed and built this home to provide rent-free housing for two early childhood educators in New Haven.</p>
+          </div>
+                    <footer class="single_flex_callout_footer single_flex_feature_footer">
+            <a class="single_flex_callout_button single_flex_feature_button button_bordered_dusty button_icon_right_arrow color_black" aria-label="CLOSE TO HOME An affordable home for local teachers, a hands-on lesson for Yale students" href="https://news.yale.edu/2026/10/20/affordable-home-local-teachers-hands-lesson-yale-architecture-students">CLOSE TO HOME</a>
+            <a class="button_solid_greige button_icon_right_arrow color_white single_flex_archive single_flex_archive_sm" href="/feature-archive">The Feature Archive</a>
+          </footer>
+
+        </div>
+
+      </article>
+      <!-- END: Single Image Flexible Callout Content -->
+
+    </div>
+    <!-- END: Single Image Flexible Callout Cell -->
+
+  </div>
+  <!-- END: Single Image Flexible Callout Row -->
+
+  <a class="button_solid_greige button_icon_right_arrow color_white single_flex_archive single_flex_archive_lg" href="/feature-archive">The Feature Archive</a>
+
+
+</section>
+<!-- END: Single Image Flexible Feature -->
+<!-- Content Card Carousel -->
+<div class="card_carousel_wrapper">
+
+  <div class="card_carousel_row">
+
+    <div class="card_carousel_cell">
+
+      <div class="card_carousel_panel">
+
+        <div class="card_carousel_context bg_midnight heading_5 context color_white">
+          YALE IN THE COMMUNITY        </div>
+
+        <div class="card_carousel_controls">
+          <button type="button" class="card_carousel_control card_carousel_control_previous">
+            <span class="visually_hidden">Previous</span>
+          </button>
+          <button type="button" class="card_carousel_control card_carousel_control_next">
+            <span class="visually_hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="carousel_wide_controls">
+        <button type="button" class="carousel_wide_control carousel_wide_controls_previous js-carousel_external_prev">
+          <span class="visually_hidden">Previous</span>
+        </button>
+        <button type="button" class="carousel_wide_control carousel_wide_controls_next js-carousel_external_next">
+          <span class="visually_hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="card_carousel js-carousel js-carousel-overflow" data-carousel-options='{"contained": false, "minWidth": "740px", "controls":{"next":".js-carousel_external_next", "previous":".js-carousel_external_prev"}, "show":{"1350px":2}}'>
+        <!-- Carousel Card - Background Image -->
+<article class="content_card carousel_card content_card_with_image bg_black">
+
+  <figure class="content_card_figure carousel_card_figure responsive_image">
+    <picture class="content_card_picture carousel_card_picture">
+      <!--[if IE 9]><video style="display: none;"><![endif]-->
+      <source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/carousel_image_575x404/public/accesstolaw2026_058.jpg?itok=vLf6Wv3c">
+      <source media="(min-width: 740px)" srcset="https://www.yale.edu/sites/default/files/styles/carousel_image_563x395/public/accesstolaw2026_058.jpg?itok=9R6TKYDC">
+      <!--[if IE 9]></video><![endif]-->
+      <img class="content_card_image carousel_card_image" src="https://www.yale.edu/sites/default/files/styles/carousel_image_575x404/public/accesstolaw2026_058.jpg?itok=vLf6Wv3c" alt="Three participants conversing in Yale Law School classroom">
+    </picture>
+  </figure>
+
+  <span class="overlay_bg"></span>
+
+  <div class="content_card_content carousel_card_content text_shadow">
+
+    <a class="content_card_link carousel_card_link color_white" href="https://law.yale.edu/yls-today/news/tapping-community">
+
+      <header class="content_card_header carousel_card_header">
+        <h2 class="content_card_title carousel_card_title heading_3">Tapping into community</h2>
+        <h3 class="content_card_subtitle carousel_card_subtitle heading_5 context text_divide">YALE LAW SCHOOL</h3>
+      </header>
+
+      <!-- Description is optional -->
+      <div class="content_card_description carousel_card_description body_text color_white">
+        <p>For Professor James Forman, connecting law students with the New Haven community &mdash; and local residents with YLS &mdash; is a critical component of this program.</p>
+      </div>
+      <!-- END: Description is optional -->
+
+      <span class="content_card_link_icon carousel_card_link_icon"></span>
+
+    </a>
+
+  </div>
+
+</article>
+<!-- END: Content Card - Background Image -->
+<!-- Content Card - Text -->
+<article class="content_card carousel_card content_card_with_text bg_marine">
+
+  <div class="content_card_content carousel_card_content">
+
+    <a class="content_card_link carousel_card_link color_white" href="https://ism.yale.edu/posts/2026-09-24-the-ism-launches-pilot-program-for-after-school-visual-arts-studio">
+
+      <header class="content_card_header carousel_card_header">
+        <h2 class="content_card_title carousel_card_title heading_4">Did you hear about this new visual arts pilot program for New Haven students to develop their creative skills and ideas through making?</h2>
+        <h3 class="content_card_subtitle carousel_card_subtitle heading_5 context text_divide">INSTITUTE OF SACRED MUSIC</h3>
+      </header>
+
+      <span class="content_card_link_icon carousel_card_link_icon"></span>
+
+    </a>
+
+  </div>
+
+</article>
+<!-- END: Content Card - Text -->
+<!-- Carousel Card - Background Image -->
+<article class="content_card carousel_card content_card_with_image bg_black">
+
+  <figure class="content_card_figure carousel_card_figure responsive_image">
+    <picture class="content_card_picture carousel_card_picture">
+      <!--[if IE 9]><video style="display: none;"><![endif]-->
+      <source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/carousel_image_575x404/public/2026_10_14_r5a_8109_copy.jpg?itok=oGEa2o__">
+      <source media="(min-width: 740px)" srcset="https://www.yale.edu/sites/default/files/styles/carousel_image_563x395/public/2026_10_14_r5a_8109_copy.jpg?itok=QnSXLdkW">
+      <!--[if IE 9]></video><![endif]-->
+      <img class="content_card_image carousel_card_image" src="https://www.yale.edu/sites/default/files/styles/carousel_image_575x404/public/2026_10_14_r5a_8109_copy.jpg?itok=oGEa2o__" alt="Honoree receiving award">
+    </picture>
+  </figure>
+
+  <span class="overlay_bg"></span>
+
+  <div class="content_card_content carousel_card_content text_shadow">
+
+    <a class="content_card_link carousel_card_link color_white" href="https://news.yale.edu/2026/10/16/yale-club-new-haven-honors-48-local-high-school-seniors">
+
+      <header class="content_card_header carousel_card_header">
+        <h2 class="content_card_title carousel_card_title heading_3">Honoring local high school seniors</h2>
+        <h3 class="content_card_subtitle carousel_card_subtitle heading_5 context text_divide">YALE CLUB OF NEW HAVEN</h3>
+      </header>
+
+      <!-- Description is optional -->
+      <div class="content_card_description carousel_card_description body_text color_white">
+        <p>Outstanding students were recognized recently for their commitment to education &ndash; and urged to continue this &ldquo;investment in themselves.&rdquo;&nbsp;</p>
+      </div>
+      <!-- END: Description is optional -->
+
+      <span class="content_card_link_icon carousel_card_link_icon"></span>
+
+    </a>
+
+  </div>
+
+</article>
+<!-- END: Content Card - Background Image -->
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- END: Content Card Carousel -->
+  <!-- News Explore -->
+<section class="news_explore margined_lg">
+
+  <div class="news_explore_row">
+
+    <header class="news_explore_header">
+      <h2 class="news_explore_title color_midnight">The latest from Yale News</h2>
+    </header>
+
+
+    <div class="news_explore_feature">
+
+      <article class="news_explore_article news_explore_article_full">
+        <figure class="news_explore_figure_full responsive_image bg_black">
+          <picture class="news_explore_picture_full">
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_news_575x384/public/yn-kilauea_iki_fountain_and_puu_puai_1959.jpg?itok=1Szl1xKy">
+            <source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_news_460x308/public/yn-kilauea_iki_fountain_and_puu_puai_1959.jpg?itok=UgU6kGjL">
+            <source media="(min-width: 740px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_news_345x230/public/yn-kilauea_iki_fountain_and_puu_puai_1959.jpg?itok=AA2n7DWa">
+            <source media="(min-width: 500px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_news_470x314/public/yn-kilauea_iki_fountain_and_puu_puai_1959.jpg?itok=LfH_IiHu">
+            <source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_news_295x198/public/yn-kilauea_iki_fountain_and_puu_puai_1959.jpg?itok=mmPqlevk">
+            <!--[if IE 9]></video><![endif]-->
+            <img class="news_explore_image_full" src="https://www.yale.edu/sites/default/files/styles/explore_news_295x198/public/yn-kilauea_iki_fountain_and_puu_puai_1959.jpg?itok=mmPqlevk" alt="Lava fountain and the growing Puʻu Puaʻi cinder cone during the eruption of Kīlauea Iki in 1959.">
+          </picture>
+        </figure>
+        <h3 class="news_explore_article_title news_explore_article_title_full color_black">
+          <a class="news_explore_article_link news_explore_article_link_full" href="https://news.yale.edu/2026/11/09/earths-core-carbon-may-have-come-far-reaches-solar-system">Earth’s ‘core carbon’ may have come from the far reaches of the solar system</a>
+        </h3>
+        <time class="news_explore_article_date news_explore_article_date_full label color_charcoal text_divide" datetime="2026-11-09">November 9, 2026</time>
+      </article>
+
+    </div>
+
+
+    <div class="news_explore_supporting">
+
+      <form class="news_explore_form" action="https://news.yale.edu" method="get">
+        <label class="news_explore_dropdown_label heading_5 color_greige" for="news_explore_dropdown">Explore More News</label>
+        <select class="news_explore_select js-dropdown" id="news_explore_dropdown" data-dropdown-options='{"label":"All News", "customClass":"dropdown_base dropdown_dusty news_explore_dropdown"}'>
+          <option value="topics/alumni">Alumni</option>
+          <option value="topics/arts-humanities">Arts &amp; Humanities</option>
+          <option value="topics/business">Business</option>
+          <option value="topics/campus-community">Campus &amp; Community</option>
+          <option value="topics/environment">Environment</option>
+          <option value="topics/health-medicine">Health &amp; Medicine</option>
+          <option value="topics/international">International</option>
+          <option value="topics/law">Law</option>
+          <option value="topics/science-technology">Science &amp; Technology</option>
+          <option value="topics/social-sciences">Social Sciences</option>
+          <option value="in-focus">In Focus</option>
+        </select>
+        <button class="news_explore_submit button_solid_midnight color_white" type="submit">Go</button>
+      </form>
+
+
+      <div class="news_explore_article_list">
+                                                                                      <article class="news_explore_article news_explore_article_compact">
+              <h3 class="news_explore_article_title news_explore_article_title_compact">
+                <a class="news_explore_article_link news_explore_article_link_compact" href="https://isps.yale.edu/news/2026-11-04-beyond-polarization-how-social-media-shapes-politics-trust-and-belonging">Exploring social media’s impact on politics and belonging</a>
+              </h3>
+              <time class="news_explore_article_date news_explore_article_date_compact label color_charcoal text_divide" datetime="2026-11-04">November 4, 2026</time>
+            </article>
+                                                                                                <article class="news_explore_article news_explore_article_compact">
+              <h3 class="news_explore_article_title news_explore_article_title_compact">
+                <a class="news_explore_article_link news_explore_article_link_compact" href="https://news.yale.edu/2026/11/02/yale-alums-put-endangered-snake-and-its-ecosystem-spotlight">Yale alums put an endangered snake — and its ecosystem — in the spotlight</a>
+              </h3>
+              <time class="news_explore_article_date news_explore_article_date_compact label color_charcoal text_divide" datetime="2026-11-02">November 2, 2026</time>
+            </article>
+                                                                                                <article class="news_explore_article news_explore_article_compact">
+              <h3 class="news_explore_article_title news_explore_article_title_compact">
+                <a class="news_explore_article_link news_explore_article_link_compact" href="https://ysph.yale.edu/news-article/global-health-connected-a-career-connecting-people-around-malaria/">Global health connected: A career connecting people around malaria</a>
+              </h3>
+              <time class="news_explore_article_date news_explore_article_date_compact label color_charcoal text_divide" datetime="2026-10-30">October 30, 2026</time>
+            </article>
+                                                                                                <article class="news_explore_article news_explore_article_compact">
+              <h3 class="news_explore_article_title news_explore_article_title_compact">
+                <a class="news_explore_article_link news_explore_article_link_compact" href="https://insights.som.yale.edu/insights/flying-national-airline-through-bankruptcy">Flying a national airline through bankruptcy</a>
+              </h3>
+              <time class="news_explore_article_date news_explore_article_date_compact label color_charcoal text_divide" datetime="2026-10-22">October 22, 2026</time>
+            </article>
+                        </div>
+
+    </div>
+
+
+  </div>
+
+
+</section>
+<!-- END: News Explore -->
+  
+<!-- Single Image Flexible Callout -->
+<section class="single_flex_callout margined_lg">
+
+	<!-- Single Image Flexible Callout Row -->
+	<div class="single_flex_callout_row">
+
+		<!-- Single Image Flexible Callout Cell -->
+		<div class="single_flex_callout_cell">
+
+			<!-- Single Image Flexible Callout Media -->
+			<div class="single_flex_callout_media">
+
+				<div class="single_flex_callout_header color_white">
+									</div>
+
+				<figure class="single_flex_callout_figure responsive_image bg_black">
+					<picture class="single_flex_callout_picture">
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/single_image_callout_870x611/public/2011_07_12_01-07-06_dsc_0311_1_1.jpg?itok=qwNFv4H_">
+						<source media="(min-width: 740px)" srcset="https://www.yale.edu/sites/default/files/styles/single_image_callout_805x565/public/2011_07_12_01-07-06_dsc_0311_1_1.jpg?itok=qxvbpDyK">
+						<source media="(min-width: 500px)" srcset="https://www.yale.edu/sites/default/files/styles/single_image_callout_470x330/public/2011_07_12_01-07-06_dsc_0311_1_1.jpg?itok=cPdCBEw5">
+						<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/single_image_callout_295x208/public/2011_07_12_01-07-06_dsc_0311_1_1.jpg?itok=RPU0i95y">
+						<!--[if IE 9]></video><![endif]-->
+						<img class="single_flex_callout_image" src="https://www.yale.edu/sites/default/files/styles/single_image_callout_295x208/public/2011_07_12_01-07-06_dsc_0311_1_1.jpg?itok=RPU0i95y" alt="U.S. flag at mast with Yale campus skyline in the background">
+					</picture>
+				</figure>
+
+			</div>
+			<!-- END: Single Image Flexible Callout Media -->
+
+			<!-- Single Image Flexible Callout Content -->
+			<article class="single_flex_callout_content bg_gray_light">
+
+				<div class="single_flex_callout_content_inner">
+
+					<div class="single_flex_callout_content_header">
+						<h2 class="single_flex_callout_title color_midnight" id="single_flex_callout_title15537">Making a difference for America</h2>
+												<h3 class="single_flex_callout_category heading_5 text_divide context">YALE IN YOUR BACKYARD</h3>
+											</div>
+					<div class="single_flex_callout_description body_text">
+						<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Here in New Haven and throughout the United States, Yale proudly invests in the people, programs, and research that deliver real and lasting impact in communities across the country.</div></div></div>					</div>
+
+					<footer class="single_flex_callout_footer">
+						<a class="single_flex_callout_button button_bordered_dusty button_icon_right_arrow color_black mobile_centered_button" aria-label="EXPLORE YOUR HOME STATE Making a difference for America" href="https://www.yale.edu/about-yale/yales-impact-america/impact-state">EXPLORE YOUR HOME STATE</a>
+											</footer>
+
+				</div>
+
+			</article>
+			<!-- END: Single Image Flexible Callout Content -->
+
+		</div>
+		<!-- END: Single Image Flexible Callout Cell -->
+
+	</div>
+	<!-- END: Single Image Flexible Callout Row -->
+
+</section>
+<!-- END: Single Image Flexible Callout -->
+</div>
+
+  </div>
+            <!-- END: Main Content -->
+              <div class="region region-content-bottom">
+    	<!-- Explore Grid -->
+	<section class="explore_section explore_grided">
+
+		<!-- Explore Header -->
+		<div class="explore_header">
+
+			<div class="explore_header_row">
+
+				<div class="explore_header_cell">
+
+					<h2 class="explore_context heading_5 color_marine">The Parts That Make Yale Whole</h2>
+
+					<h3 class="explore_title heading_2 color_midnight">A closer look for the curious</h3>
+
+				</div>
+
+			</div>
+
+		</div>
+		<!-- END: Explore Header -->
+
+  	<!-- Explore Controls -->
+  	<div class="explore_controls_wrapper">
+
+  		<div class="explore_controls bg_marine explore_lg_pos_1_1">
+
+  			<div class="explore_controls_row">
+
+  				<div class="explore_controls_cell">
+
+  					<form class="explore_topics" action="/" id="views-exposed-form-explore-yale-block-1">
+  						<div class="explore_topics_label visually_hidden">Explore by topic</div>
+  						<select class="explore_topics_select js-dropdown" id="edit-field-topic-tid1" aria-label="Explore by Topic" name="field_topic_tid" data-dropdown-options='{"label":"Explore by Topic", "customClass":"dropdown_base dropdown_white explore_topics_dropdown"}'>
+  							<option value="All">Everything</option><option value="2">Academics</option><option value="3">Collections</option><option value="4">Discoveries</option><option value="5">Experiences</option><option value="6">Places</option>  						</select>
+						<span class="sr-only" id="carouselPagerMsg">Select a value to change the carousel content.</span>
+              <input type="submit" class="visually_hidden" />
+  					</form>
+
+  					<div class="explore_topics_divider color_white">or</div>
+
+  				</div>
+
+  				<div class="explore_controls_cell">
+  					<button class="button button_bordered_white_trans button_full color_white icon_before shuffle explore_shuffle_button explore_shuffle_button1" aria-describedby="carouselRandomMsg">Shuffle</button>
+					<span class="sr-only" id="carouselRandomMsg">Activate to randomize the carousel content.</span>
+  				</div>
+
+  			</div>
+
+  		</div>
+
+  	</div>
+  	<!-- END: Explore Controls -->
+
+  
+  		<!-- Explore Grid -->
+  		<div class="explore_grid bg_midnight">
+
+  			<div class="explore_grid_row">
+
+  				<div class="explore_grid_cell">
+
+  					<div class="explore_grid_wrapper explore_grid_active explore_grid_visible">
+
+  						<div class="explore_controls bg_marine explore_lg_pos_1_1">
+
+  							<div class="explore_controls_row">
+
+  								<div class="explore_controls_cell">
+
+  									<form class="explore_topics" action="/" id="views-exposed-form-explore-yale-block-2">
+  										<div class="explore_topics_label visually_hidden">Explore by topic</div>
+  										<select class="explore_topics_select js-dropdown" id="edit-field-topic-tid2" aria-label="Explore by Topic" name="field_topic_tid" data-dropdown-options='{"label":"Explore by Topic", "customClass":"dropdown_base dropdown_white explore_topics_dropdown"}'>
+  											<option value="All">Everything</option><option value="2">Academics</option><option value="3">Collections</option><option value="4">Discoveries</option><option value="5">Experiences</option><option value="6">Places</option>  										</select>
+  									</form>
+
+  									<div class="explore_topics_divider color_white">or</div>
+
+  								</div>
+
+  								<div class="explore_controls_cell">
+  									<button class="button button_bordered_white_trans button_full color_white icon_before shuffle explore_shuffle_button explore_shuffle_button2">Shuffle</button>
+  								</div>
+
+  							</div>
+
+  						</div>
+
+  						<!-- Explore Carousel -->
+  						<div class="explore_carousel js-carousel js-carousel-overflow" data-carousel-options='{"maxWidth": "739px", "controls": false, "show":{"500px":2}}'>
+
+
+  							<div class="explore_carousel_item">
+
+  								<article class="explore_story explore_md_pos_1_1 explore_lg_pos_2_1 bg_black">
+	<a data-title="Bulldog Days" aria-label="Bulldog Days" class="explore_story_link" href="https://admissions.yale.edu/bulldogdays">
+		<div class="explore_overlay explore_overlay_black_light">
+			<figure class="explore_story_figure responsive_image">
+				<picture class="explore_story_picture">
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_294/public/bulldog_days.jpg?itok=x4juwFI1">
+					<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/bulldog_days.jpg?itok=0lp_SybO">
+					<!--[if IE 9]></video><![endif]-->
+					<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/bulldog_days.jpg?itok=0lp_SybO" alt="">
+				</picture>
+			</figure>
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Bulldog Days</h4>
+				<p class="heading_5 explore_story_explore explore_story_explore_sm">Learn more</p>
+			</div>
+			<span class="overlay_bg"></span>
+		</div>
+	</a>
+</article>
+<article class="explore_story explore_md_pos_3_3 explore_lg_pos_2_2 bg_black">
+	<a data-title="Vaccine offers new hope for dogs with cancer" aria-label="Vaccine offers new hope for dogs with cancer" class="explore_story_link" href="https://news.yale.edu/2024/03/05/novel-cancer-vaccine-offers-new-hope-dogs-and-those-who-love-them">
+		<div class="explore_overlay explore_overlay_green">
+			<figure class="explore_story_figure responsive_image">
+				<picture class="explore_story_picture">
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_294/public/ynews-2023_11_28_mark_mamula_2_copy.jpg?itok=LSWpypvv">
+					<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/ynews-2023_11_28_mark_mamula_2_copy.jpg?itok=nrZ7mR2T">
+					<!--[if IE 9]></video><![endif]-->
+					<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/ynews-2023_11_28_mark_mamula_2_copy.jpg?itok=nrZ7mR2T" alt="Mark Mamula on beach with two golden retrievers">
+				</picture>
+			</figure>
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Vaccine offers new hope for dogs with cancer</h4>
+				<p class="heading_5 explore_story_explore explore_story_explore_sm">LEARN MORE</p>
+			</div>
+			<span class="overlay_bg"></span>
+		</div>
+	</a>
+</article>
+
+
+  							</div>
+
+  							<div class="explore_carousel_item">
+	  							<article class="explore_story explore_md_pos_2_1 explore_lg_pos_1_3 explore_md_size_lg explore_lg_size_lg bg_black">
+	<div class="explore_overlay explore_overlay_orange">
+		<figure class="explore_story_figure responsive_image">
+			<picture class="explore_story_picture">
+				<!--[if IE 9]><video style="display: none;"><![endif]-->
+				<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_588/public/david_evans_in_the_field-yn_copy.jpg?itok=hkD1lkDT">
+				<source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_470/public/david_evans_in_the_field-yn_copy.jpg?itok=PY59SY4K">
+				<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/david_evans_in_the_field-yn_copy.jpg?itok=9BR2U9rS">
+				<!--[if IE 9]></video><![endif]-->
+				<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/david_evans_in_the_field-yn_copy.jpg?itok=9BR2U9rS" alt="">
+			</picture>
+		</figure>
+		<div class="explore_story_content explore_story_content_lg">
+			<div class="heading_5 context text_divide explore_story_context">DISCOVERIES</div>
+			<h4 class="explore_story_title explore_story_title_lg">Mapping the ancient history of Earth’s surface</h4>
+			<p class="body_text explore_story_description">This research team may have solved a magnetic field mystery contained in 565-million-year-old rocks.</p>
+			<div class="explore_story_buttons">
+				<a data-title="Mapping the ancient history of Earth’s surface - LEARN MORE" aria-label="Mapping the ancient history of Earth’s surface - LEARN MORE" class="button color_white button_icon_right_arrow explore_story_button_explore explore_story_button_explore_white" href="https://news.yale.edu/2025/10/13/new-analysis-could-map-ancient-history-earths-surface">LEARN MORE</a>
+				<!-- Optional Button - defaults to arrow icon but can be photo or video -->
+								<!-- Optional Button -->
+			</div>
+		</div>
+		<a data-title="Mapping the ancient history of Earth’s surface" aria-label="Mapping the ancient history of Earth’s surface" class="explore_story_link explore_story_link_lg" href="https://news.yale.edu/2025/10/13/new-analysis-could-map-ancient-history-earths-surface">
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Mapping the ancient history of Earth’s surface</h4>
+				<p class="heading_5 explore_story_explore explore_story_explore_sm">LEARN MORE</p>
+			</div>
+		</a>
+		<span class="overlay_bg"></span>
+	</div>
+</article>
+<article class="bg_midnight explore_story explore_md_pos_1_2 explore_lg_pos_1_2">
+	<a data-title="Yale Repertory Theatre" aria-label="Yale Repertory Theatre" class="explore_story_link" href="https://yalerep.org/">
+		<div class="explore_overlay ">
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Yale Repertory Theatre</h4>
+				<p class="color_malibu heading_5 explore_story_explore explore_story_explore_sm">LEARN MORE</p>
+			</div>
+		</div>
+	</a>
+</article>
+
+
+  							</div>
+
+  							<div class="explore_carousel_item">
+
+  							<article class="explore_story explore_md_pos_1_3 explore_lg_pos_4_4 bg_black">
+	<a data-title="Davenport College" aria-label="Davenport College" class="explore_story_link" href="https://davenport.yalecollege.yale.edu/">
+		<div class="explore_overlay explore_overlay_greige">
+			<figure class="explore_story_figure responsive_image">
+				<picture class="explore_story_picture">
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_294/public/davenport_college_0.jpg?itok=0x-3lHT3">
+					<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/davenport_college_0.jpg?itok=m7XQpAz9">
+					<!--[if IE 9]></video><![endif]-->
+					<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/davenport_college_0.jpg?itok=m7XQpAz9" alt="">
+				</picture>
+			</figure>
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Davenport College</h4>
+				<p class="heading_5 explore_story_explore explore_story_explore_sm">Explore the college</p>
+			</div>
+			<span class="overlay_bg"></span>
+		</div>
+	</a>
+</article>
+<article class="explore_story explore_md_pos_2_3 explore_lg_pos_4_3 bg_black">
+	<a data-title="Sterling Memorial Library" aria-label="Sterling Memorial Library" class="explore_story_link" href="https://web.library.yale.edu/building/sterling-memorial-library">
+		<div class="explore_overlay explore_overlay_black_light">
+			<figure class="explore_story_figure responsive_image">
+				<picture class="explore_story_picture">
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_294/public/sterling_memorial_library.jpg?itok=vILFVhxH">
+					<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/sterling_memorial_library.jpg?itok=uIorc4P8">
+					<!--[if IE 9]></video><![endif]-->
+					<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/sterling_memorial_library.jpg?itok=uIorc4P8" alt="">
+				</picture>
+			</figure>
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Sterling Memorial Library</h4>
+				<p class="heading_5 explore_story_explore explore_story_explore_sm">Explore the library</p>
+			</div>
+			<span class="overlay_bg"></span>
+		</div>
+	</a>
+</article>
+
+  							</div>
+
+  						</div>
+  						<!-- END: Explore Carousel -->
+
+  						<div class="explore_grid_large_content">
+
+  						<article class="explore_story explore_lg_pos_3_4 bg_black">
+	<a data-title="Ezra Stiles College" aria-label="Ezra Stiles College" class="explore_story_link" href="https://ezrastiles.yale.edu/">
+		<div class="explore_overlay explore_overlay_black_light">
+			<figure class="explore_story_figure responsive_image">
+				<picture class="explore_story_picture">
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_294/public/ezra_stiles_college.jpg?itok=vkrrjNN2">
+					<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/ezra_stiles_college.jpg?itok=uUESh-aT">
+					<!--[if IE 9]></video><![endif]-->
+					<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/ezra_stiles_college.jpg?itok=uUESh-aT" alt="">
+				</picture>
+			</figure>
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Ezra Stiles College</h4>
+				<p class="heading_5 explore_story_explore explore_story_explore_sm">Explore the college</p>
+			</div>
+			<span class="overlay_bg"></span>
+		</div>
+	</a>
+</article>
+<article class="bg_midnight explore_story explore_lg_pos_3_3">
+	<a data-title="Native American Cultural Center" aria-label="Native American Cultural Center" class="explore_story_link" href="https://nacc.yale.edu/">
+		<div class="explore_overlay ">
+			<div class="explore_story_content explore_story_content_sm">
+				<h4 class="explore_story_title explore_story_title_sm">Native American Cultural Center</h4>
+				<p class="color_malibu heading_5 explore_story_explore explore_story_explore_sm">Explore the Center</p>
+			</div>
+		</div>
+	</a>
+</article>
+<article class="explore_story  explore_lg_pos_3_1 explore_lg_size_xl explore_lg_pull bg_black">
+	<div class="explore_overlay explore_overlay_black_dark">
+		<figure class="explore_story_figure responsive_image">
+			<picture class="explore_story_picture">
+				<!--[if IE 9]><video style="display: none;"><![endif]-->
+				<source media="(min-width: 1220px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_882/public/20250324-2025_03_20_r5a_1273-enhanced-nr_copy.jpg?itok=XnQJcMgl">
+				<source media="(min-width: 980px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_705/public/20250324-2025_03_20_r5a_1273-enhanced-nr_copy.jpg?itok=f9mEl1S2">
+				<source media="(min-width: 740px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_470/public/20250324-2025_03_20_r5a_1273-enhanced-nr_copy.jpg?itok=59LbZAXO">
+				<source media="(min-width: 0px)" srcset="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/20250324-2025_03_20_r5a_1273-enhanced-nr_copy.jpg?itok=b-1HuTj7">
+				<!--[if IE 9]></video><![endif]-->
+				<img class="explore_story_image" src="https://www.yale.edu/sites/default/files/styles/explore_yale_235/public/20250324-2025_03_20_r5a_1273-enhanced-nr_copy.jpg?itok=b-1HuTj7" alt="">
+			</picture>
+		</figure>
+		<div class="explore_story_content explore_story_content_xl">
+			<div class="heading_5 context text_divide explore_story_context">PLACES</div>
+			<h4 class="explore_story_title explore_story_title_lg">Yale Center for British Art</h4>
+			<p class="body_text explore_story_description">Reopened in 2025, the Yale Center for British Art features a reimagined display of the world's largest collection of British art outside the U.K. Admission is always free.</p>
+			<div class="explore_story_buttons">
+				<a data-title="Yale Center for British Art - VISIT" aria-label="Yale Center for British Art - VISIT" class="button color_white button_icon_right_arrow explore_story_button_explore explore_story_button_explore_trans" href="https://britishart.yale.edu/">VISIT</a>
+							</div>
+		</div>
+		<span class="overlay_bg"></span>
+	</div>
+</article>
+
+  						</div>
+
+
+  					</div>
+
+  				</div>
+
+  			</div>
+
+  		</div>
+  		<!-- END: Explore Grid -->
+
+  	</section>
+  	<!-- END: Explore Grid -->
+    </div>
+          </aside>
+        
+
+      </main>
+      <!-- END: Main Content -->
+
+
+
+      <!-- Footer -->
+      <footer id="footer" class="footer">
+
+        <!-- Footer Row -->
+        <div class="footer_row">
+
+          <!-- Footer Cell -->
+          <div class="footer_cell">
+
+
+            <!-- Footer Nav Section -->
+            <div class="footer_nav_section">
+
+                                  <div class="region region-footer">
+    <form class="visitor_form">
+  <label class="visually_hidden" for="visitor_select">Info for Visiting Yale</label>
+  <select class="js-dropdown" id="visitor_select" data-dropdown-options='{"label":"Info for Visiting Yale","links":true,"customClass":"dropdown_base dropdown_charcoal_trans visitor_select"}'>
+    <option value="https://visitorcenter.yale.edu/tours">Campus Tours</option><option value="/about-yale/visiting">Maps & Directions</option><option value="https://visitorcenter.yale.edu/">Yale Visitor Center</option><option value="/collections/museums-and-libraries">Museums & Libraries</option><option value="/life-yale/new-haven">New Haven</option><option value="/about-yale/visiting">More Visit Resources</option>  </select>
+</form>
+<nav class="footer_nav help_nav" aria-labelledby="help_nav_label">
+  <h2 class="footer_nav_label help_nav_label" id="help_nav_label">Helpful Links</h2>
+  <div class="footer_nav_list help_nav_list  menu-block-wrapper menu-block-3 menu-name-menu-helpful-links parent-mlid-0 menu-level-1">
+    <a class="footer_nav_link help_nav_link" href="/contact-us">Contact Us</a><a class="footer_nav_link help_nav_link" href="https://your.yale.edu/work-yale/careers">Careers</a><a class="footer_nav_link help_nav_link" href="https://emergency.yale.edu/">Emergency Info</a><a class="footer_nav_link help_nav_link" href="https://privacy.yale.edu/resources/privacy-statement">Privacy Policy</a><a class="footer_nav_link help_nav_link" href="https://your.yale.edu/campus-essentials/community-safety">Public Safety</a><a class="footer_nav_link help_nav_link" href="https://usability.yale.edu/web-accessibility/accessibility-yale">Accessibility at Yale</a><a class="footer_nav_link help_nav_link" href="https://westcampus.yale.edu/">Yale West Campus</a><a class="footer_nav_link help_nav_link" href="https://statusboard.apps.yale.edu/">Yale Status Board</a>  </div>
+</nav>
+<nav class="footer_nav visitor_nav" aria-labelledby="visitor_nav_label">
+  <h2 class="footer_nav_label visitor_nav_label" id="visitor_nav_label">Visiting Yale</h2>
+  <div class="footer_nav_list visitor_nav_list">
+    <a class="footer_nav_link visitor_nav_link" href="https://visitorcenter.yale.edu/tours">Campus Tours</a><a class="footer_nav_link visitor_nav_link" href="/about-yale/visiting">Maps & Directions</a><a class="footer_nav_link visitor_nav_link" href="https://visitorcenter.yale.edu/">Yale Visitor Center</a><a class="footer_nav_link visitor_nav_link" href="/collections/museums-and-libraries">Museums & Libraries</a><a class="footer_nav_link visitor_nav_link" href="/life-yale/new-haven">New Haven</a><a class="footer_nav_link visitor_nav_link" href="/about-yale/visiting">More Visit Resources</a>  </div>
+</nav>
+<p class="eo-text"><strong>Equal Opportunity and Nondiscrimination at Yale University: </strong>The university is committed to basing judgments concerning the admission, education, and employment of individuals upon their qualifications and abilities and seeks to attract to its faculty, staff, and student body qualified persons from a broad range of backgrounds and perspectives. Additionally, in accordance with this Policy and as delineated by federal and Connecticut law, Yale does not discriminate in admissions, educational programs, or employment against any individual on account of that individual’s sex; sexual orientation; gender identity or expression; pregnancy, childbirth or related conditions; race; color; national or ethnic origin; religion; age; disability; protected veteran status, or other protected classes as set forth in federal and Connecticut law. Title IX of the Education Amendments of 1972 protects people from sex discrimination in educational programs and activities at institutions that receive federal financial assistance. See Yale’s full <a href="/eo-nondiscriminationstatement">Equal Opportunity &amp; Nondiscrimination Statement</a>.</p>
+  </div>
+              
+            </div>
+            <!-- END: Footer Nav Section -->
+
+
+            <hr class="footer_divider footer_divider_md" />
+
+
+            <!-- Instagram Teaser -->
+                              <div class="region region-footer-ig">
+    <!-- Instagram Teaser -->
+<a class="instagram_teaser" href="//instagram.com/yale/" target="_blank">
+
+  <figure class="instagram_teaser_figure responsive_image">
+
+    <span class="instagram_teaser_image"><img alt="A large tree with autumn foliage stands in front of a historic stone building with arched windows, on the campus of Yale University. The building has a steep, slate roof and the scene suggests a calm, overcast day." src="/sites/default/files/images/IG-Oct.jpg" />
+</span>
+
+    <figcaption class="instagram_teaser_caption button_text">Yale on Instagram</figcaption>
+
+  </figure>
+
+  <span class="overlay_bg"></span>
+
+</a>
+<!-- END: Instagram Teaser -->
+  </div>
+                        <!-- END: Instagram Teaser -->
+
+
+            <hr class="footer_divider footer_divider_lg" />
+
+
+            <!-- Social Properties -->
+                          <div class="social_properties">
+                  <div class="region region-footer-social">
+    <!-- Social Nav -->
+<nav class="social_nav" aria-labelledby="social_nav_label">
+  <h2 class="visually_hidden" id="social_nav_label">Social Links</h2>
+  <div class="social_nav_list">
+    <a class="social_nav_link facebook" href="https://www.facebook.com/YaleUniversity" target="_blank"><span class="social_nav_link_icon"></span><span class="social_nav_link_text">Facebook</span></a><a class="social_nav_link youtube" href="http://www.youtube.com/yale" target="_blank"><span class="social_nav_link_icon"></span><span class="social_nav_link_text">YouTube</span></a><a class="social_nav_link weibo" href="http://weibo.com/yaleuniversity" target="_blank"><span class="social_nav_link_icon"></span><span class="social_nav_link_text">Sina Weibo</span></a>  </div>
+</nav>
+<!-- END: Social Nav -->
+
+
+<a class="social_all_link button_text button_icon_right_arrow" href="/social-media">All Social Media</a>
+  </div>
+              </div>
+                        <!-- END: Social Properties -->
+
+
+            <!-- Legal -->
+            <small class="footer_legal block">
+              <span class="footer_legal_copy">Copyright &copy; 2026 Yale University</span>
+              <span class="footer_legal_rights">All Rights Reserved</span>
+              <a class="footer_legal_contact" href="/contact-us/contact-web-editor">Contact Web Editor</a>
+            </small>
+            <!-- END: Legal -->
+
+
+            <!-- Back to Top -->
+            <div class="footer_to_top">
+              <a class="js-scroll_to button_full button_bordered_charcoal button_icon_up_arrow" href="#top">Back to top</a>
+            </div>
+            <!-- END: Back to Top -->
+
+
+          </div>
+          <!-- END: Footer Cell -->
+
+        </div>
+        <!-- END: Footer Row -->
+
+      </footer>
+      <!-- END: Footer -->
+
+
+
+      <!-- Mobile Sidebar -->
+      <aside role="dialog" aria-label="Mobile Menu" class="mobile_sidebar js-navigation" data-navigation-handle=".mobile_nav_handle" data-navigation-content=".page_wrapper" data-navigation-options='{"type":"reveal","labels":{"closed":"Navigation","open":"Close"}}'>
+
+
+        <div class="mobile_sidebar_header">
+
+          <div class="header_row">
+
+            <div class="header_cell">
+
+              <!-- Site Logo -->
+              <a href="index.html" class="logo_main icon_only" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+                <h1 class="offscreen" itemprop="name">Yale University</h1>
+                <img src="/sites/all/themes/yale_blue/images/logo-print.png" class="print" alt="">
+              </a>
+              <!-- END: Site Logo -->
+
+			  <div class="deskHeader">
+				<!-- Site Search -->
+				<a class="btn_site_seach" href="/search" role="button" aria-expanded="false">
+					<span class="btn_site_seach_text">Search</span>
+				</a>
+				<!-- END: Site Search -->
+				<button class="mobile_nav_handle">
+					Navigation
+					<span class="mobile_nav_handle_icon"></span>
+				</button>
+			  </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Mobile Sidebar Body -->
+        <div class="mobile_sidebar_body">
+
+
+          <!-- Main Nav -->
+                          <div class="region region-mobile-main">
+    <nav class="main_nav" aria-labelledby="main_nav_mobile_label">
+  <h2 class="visually_hidden" id="main_nav_mobile_label">Main Navigation</h2>
+  <div class="main_nav_list">
+    <div class="main_nav_item"><a class="main_nav_link" href="/about-yale"><span class="main_nav_text">About Yale</span></a></div><div class="main_nav_item"><a class="main_nav_link" href="/academics"><span class="main_nav_text">Academics</span></a></div><div class="main_nav_item"><a class="main_nav_link" href="/admissions"><span class="main_nav_text">Admissions</span></a></div><div class="main_nav_item"><a class="main_nav_link" href="https://research.yale.edu/"><span class="main_nav_text">Research</span></a></div><div class="main_nav_item"><a class="main_nav_link" href="/collections"><span class="main_nav_text">Collections</span></a></div><div class="main_nav_item"><a class="main_nav_link" href="/life-yale"><span class="main_nav_text">Life at Yale</span></a></div>  </div>
+</nav>
+  </div>
+                    <!-- END: Main Nav -->
+
+
+          <!-- Mobile Sidebar Row -->
+          <div class="mobile_sidebar_row">
+
+
+            <!-- Mobile Sidebar Nav Container -->
+            <div class="mobile_sidebar_nav_container">
+
+
+              <!-- Secondary Nav -->
+                                  <div class="region region-mobile-secondary">
+    <nav class="secondary_nav" aria-labelledby="mobile_secondary_nav_label">
+  <h2 class="visually_hidden" id="mobile_secondary_nav_label">Secondary Navigation</h2>
+  <div class="secondary_nav_list menu-block-wrapper menu-block-9 menu-name-menu-secondary-navigation parent-mlid-0 menu-level-1">
+    <a class="secondary_nav_link" href="/calendars"><span class="secondary_nav_text">Calendars</span></a><a class="secondary_nav_link" href="https://forhumanity.yale.edu"><span class="secondary_nav_text">Give</span></a><a class="secondary_nav_link" href="https://news.yale.edu/"><span class="secondary_nav_text">News</span></a><a class="secondary_nav_link" href="/directories"><span class="secondary_nav_text">Directories</span></a>  </div>
+</nav>
+  </div>
+                            <!-- END: Secondary Nav -->
+
+
+            </div>
+            <!-- END: Mobile Sidebar Nav Container -->
+
+
+            <!-- Mobile Sidebar Nav Container -->
+            <div class="mobile_sidebar_nav_container">
+
+
+              <!-- Gateway Nav -->
+                                  <div class="region region-mobile-gateway">
+    <nav class="gateway_nav" aria-labelledby="gateway_nav_label">
+  <h2 class="visually_hidden" id="gateway_nav_label">Gateway Navigation</h2>
+  <div class="gateway_nav_list">
+    <a class="gateway_nav_link" href="https://secretary.yale.edu/student-life">Students</a><a class="gateway_nav_link" href="/faculty">Faculty</a><a class="gateway_nav_link" href="https://your.yale.edu/">Staff</a><a class="gateway_nav_link" href="https://alumni.yale.edu">Alumni</a><a class="gateway_nav_link" href="https://onha.yale.edu/">New Haven Community</a>  </div>
+</nav>
+  </div>
+                            <!-- END: Gateway Nav -->
+
+
+            </div>
+            <!-- END: Mobile Sidebar Nav Container -->
+
+
+          </div>
+          <!-- END: Mobile Sidebar Row -->
+
+
+        </div>
+        <!-- END: Mobile Sidebar Body -->
+
+
+      </aside>
+      <!-- END: Mobile Sidebar -->
+
+
+
+    </div>
+    <!-- END: Body Wrapper -->
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+        (function() {
+        var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+        sz.src = '//siteimproveanalytics.com/js/siteanalyze_66356571.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+        })();
+        
+//--><!]]>
+</script>
+
+    <!-- Compiled JS -->
+    <script src="/sites/all/themes/yale_blue/js/site.js?t=202611102327"></script>
+	<!-- A11Y JS -->
+    <script src="/sites/all/themes/yale_blue/js/a11y.js?t=202611102327"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"edc4967dfd","applicationID":"70828766","transactionName":"ZVRWNxEACBZUAEFcW1weYREKTkkMWwdQTRpCWUQ=","queueTime":0,"applicationTime":85,"atts":"SRNVQVkaGxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,68 @@
+{
+ "id": 70,
+ "grupo": "ecuador",
+ "sigla": "UCuenca",
+ "pais": "EC",
+ "url": "https://www.ucuenca.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ucuenca.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucuenca.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:07:35+00:00",
+    "error": null,
+    "sha256": "866949191519291d21cdd7a8f9b7326079985e0cd61a9c82566aa623b41ea4c6"
+   },
+   {
+    "url_consultada": "https://www.ucuenca.edu.ec/proteccion-de-datos-personales/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucuenca.edu.ec/proteccion-de-datos-personales/",
+    "fecha_hora_utc": "2026-11-12T04:07:37+00:00",
+    "error": null,
+    "sha256": "f402f69dd91211196cce09f84758c4096c4f5bf2e099c696dae5b373b8055acf"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "barra": "wp-accessibility"
+   },
+   "transparencia": {
+    "texto": "Transparencia",
+    "url": "https://www.ucuenca.edu.ec/transparencia/"
+   },
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Protección de Datos Personales",
+    "url": "https://www.ucuenca.edu.ec/proteccion-de-datos-personales/"
+   }
+  ],
+  "aviso_url": "https://www.ucuenca.edu.ec/proteccion-de-datos-personales/",
+  "aviso_palabras": 883,
+  "aviso_sha256_texto": "338b249a67ff7df2585c6d8691c0c036e0aba25ba31a7a52df779792f999b753"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:37+00:00"
+}

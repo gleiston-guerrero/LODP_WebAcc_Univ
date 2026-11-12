@@ -1,0 +1,127 @@
+﻿id,grupo,Abbr.,C,Not.,Frm.,Rts.,DPO,Ckp.,Acc.,Notice,LOPDP,Rights,Transp.
+1,mundo,MIT,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+2,mundo,Stanford,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+3,mundo,Harvard,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+4,mundo,Oxford,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+5,mundo,Cambridge,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+6,mundo,Caltech,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+7,mundo,UC Berkeley,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+8,mundo,Princeton,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+9,mundo,Imperial,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+10,mundo,U Chicago,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+11,mundo,ETH Zurich,CH,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+12,mundo,Yale,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+13,mundo,UPenn,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+14,mundo,UCL,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+15,mundo,Cornell,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+16,mundo,Tsinghua,CN,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+17,mundo,Peking,CN,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+18,mundo,Johns Hopkins,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+19,mundo,Columbia,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+20,mundo,Toronto,CA,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+21,mundo,UCLA,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+22,mundo,NUS,SG,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+23,mundo,U Tokyo,JP,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+24,mundo,TUM,DE,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+25,mundo,Melbourne,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+26,mundo,Edinburgh,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+27,mundo,EPFL,CH,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+28,mundo,Michigan,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+29,mundo,Northwestern,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+30,mundo,Fudan,CN,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+31,mundo,PSL,FR,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+32,mundo,HKU,HK,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+33,mundo,Zhejiang,CN,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+34,mundo,NYU,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+35,mundo,SJTU,CN,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+36,mundo,KCL,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+37,mundo,UCSD,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+38,mundo,LMU,DE,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+39,mundo,Duke,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+40,mundo,Manchester,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+41,mundo,UBC,CA,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+42,mundo,Sydney,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+43,mundo,Paris-Saclay,FR,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+44,mundo,Kyoto,JP,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+45,mundo,Illinois,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+46,mundo,UT Austin,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+47,mundo,UW,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+48,mundo,NTU,SG,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+49,mundo,McGill,CA,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+50,mundo,CUHK,HK,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+51,mundo,CMU,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+52,mundo,Wisconsin,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+53,mundo,USTC,CN,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+54,mundo,WUSTL,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+55,mundo,Monash,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+56,mundo,SNU,KR,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+57,mundo,Heidelberg,DE,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+58,mundo,HKUST,HK,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+59,mundo,Karolinska,SE,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+60,mundo,TU Delft,NL,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+61,mundo,ANU,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+62,mundo,KU Leuven,BE,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+63,mundo,Queensland,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+64,ecuador,EPN,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+65,ecuador,ESPOL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+66,ecuador,ESPOCH,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+67,ecuador,ESPAM MFL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+68,ecuador,ESPE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+69,ecuador,UCE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+70,ecuador,UCuenca,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+71,ecuador,UG,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+72,ecuador,UNL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+73,ecuador,UAE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+74,ecuador,UTA,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+75,ecuador,UTB,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+76,ecuador,UTC,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+77,ecuador,UTMACH,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+78,ecuador,UTM,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+79,ecuador,UTN,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+80,ecuador,UTEQ,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+81,ecuador,UTELVT,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+82,ecuador,UEB,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+83,ecuador,UNESUM,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+84,ecuador,UNEMI,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+85,ecuador,UEA,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+86,ecuador,UPSE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+87,ecuador,ULEAM,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+88,ecuador,UNACH,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+89,ecuador,UNAE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+90,ecuador,UPEC,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+91,ecuador,Yachay Tech,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+92,ecuador,Ikiam,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+93,ecuador,UArtes,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+94,ecuador,Amawtay Wasi,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+95,ecuador,USECIPOL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+96,ecuador,IAEN,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+97,ecuador,UASB,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+98,ecuador,FLACSO,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+99,ecuador,PUCE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+100,ecuador,UCSG,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+101,ecuador,UCACUE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+102,ecuador,ULVR,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+103,ecuador,UTPL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+104,ecuador,UTE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+105,ecuador,UDA,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+106,ecuador,UPS,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+107,ecuador,UISEK,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+108,ecuador,UEES,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+109,ecuador,USFQ,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+110,ecuador,UDLA,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+111,ecuador,UIDE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+112,ecuador,UNIANDES,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+113,ecuador,UPACIFICO,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+114,ecuador,UTI,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+115,ecuador,Casa Grande,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+116,ecuador,UTEG,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+117,ecuador,UISRAEL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+118,ecuador,UDET,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+119,ecuador,UMET,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+120,ecuador,U. Otavalo,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+121,ecuador,USGP,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+122,ecuador,U. Hemisferios,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+123,ecuador,UNIB.E,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+124,ecuador,ECOTEC,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+125,ecuador,UDR,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+126,ecuador,UBE,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv

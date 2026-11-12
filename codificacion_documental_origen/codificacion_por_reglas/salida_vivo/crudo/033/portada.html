@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no, email=no">
+  <meta name="oupengmobile" content="portrait">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="x5-page-mode" content="app">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Zhejiang University (ZJU)</title>
+  
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/1/1.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/01/66/358/style/307/307.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="358"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<link href="/_upload/tpl/0b/85/2949/template2949/static/css/zju-en.css?1.8" rel="stylesheet">
+</head>
+
+<body>
+  <div id="zju-en">
+    <div data-component="header"></div>
+    <div class="zju-banner__home">
+      <div class="swiper" data-swiper="{
+          &quot;loop&quot;:true,
+          &quot;autoplay&quot;: {
+            &quot;delay&quot;: 4500,
+            &quot;stopOnLastSlide&quot;: false,
+            &quot;disableOnInteraction&quot;: true
+            }
+        }" v-if="widget.banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="(item, index) in widget.banner" :key="index" v-if="index < 3">
+            <div class="zju-banner__bg">
+              <div class="picture" :style="'background-image: url('+item.image+');'">
+                <Film v-if="item.video && item.video !== ''" :url="item.video"></ilm>                
+              </div>
+            </div>
+            <div class="zju-banner__text">
+              <div class="zju-container">
+                <div class="inner">
+                  <h2 data-appear-animation="slide-top" v-html="item.title"></h2>
+                </div>
+                <div class="author" v-html="item.subtitle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="zju-container">
+            <div class="pagination" data-swiper-pagination="" data-appear-animation="slide-top"
+              data-appear-animation-delay="0.05" data-appear-animation-repeat=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="zju-wave"></div>
+      <!-- <div class="zju-inset one">
+        <div class="sprite">
+          <div class="i1" data-sprite="0,49"></div>
+        </div>
+      </div> -->
+    </div>
+    <div class="zju-wrapper">
+      <div class="zju-container">
+        <div class="zju-public__header">
+          <h2 class="zju-public__title"> ZJU NEWS </h2>
+          <a href="/english/new_events/main.htm" class="zju-public__more">
+            <div class="icon">
+              <icon name="next">
+              </icon>
+            </div>
+            <span>FIND OUT MORE</span>
+          </a>
+        </div>
+        <div class="zju-inset two">
+          <div class="sprite">
+            <div class="i0" data-sprite="0,46"></div>
+          </div>
+        </div>
+        <div class="zju-section__news" v-if="widget.newsroom">
+          <div class="column big" v-for="(item, index) in widget.newsroom" :key="item.id" v-if="index === 0">
+            <div class="model" :style="'background-image: url('+item.image+');'">
+              <route :url="item.url" class="model-inner">
+                <div class="text">
+                  <!--
+                    <h3 class="zju-public__smalltitle" v-html="item.title"></h3>                  
+                    <div class="zju-public__date mt mb" v-text="item.time"> </div>
+                    -->
+                  <h3 class="zju-public__intro" v-html="item.title"></h3>
+                </div>
+              </route>
+              <div class="zju-public__play" :data-video="item.video" v-if="item.video && item.video !== ''"
+                style="z-index:1"></div>
+            </div>
+          </div>
+          <div class="column small">
+            <div class="model-wrap" v-for="(item, index) in widget.newsroom" :key="item.id" v-if="index > 0">
+              <div class="model" :style="'background-image: url('+item.thumb+');'">
+                <route :url="item.url" class="model-inner">
+                  <div class="text">
+                    <h3 class="zju-public__intro" v-html="item.title"></h3>
+                    <div class="zju-public__date mt" v-text="item.time"></div>
+                    <div class="icon">
+                      <icon name="next">
+                      </icon>
+                    </div>
+                  </div>
+                </route>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="zju-wrapper cross" style="background-image: url(/_upload/tpl/0b/85/2949/template2949/data/img-04.jpg);">
+      <div class="zju-container zju-space">
+        <div class="zju-public__header">
+          <h2 class="zju-public__title"> ZJU Events </h2>
+          <!-- TODO 上线时需要替换 url 为 widget.events_more -->
+          <route v-if="widget.events_more" url="/english/19936/list.htm" class="zju-public__more white">
+            <div class="icon">
+              <icon name="next">
+              </icon>
+            </div>
+            <span>FIND OUT MORE</span>
+          </route>
+        </div>
+        <div class="zju-section__events">
+          <div class="items" v-if="widget.events">
+            <div class="column">
+              <div class="item" v-for="(item, index) in widget.events" :key="item.id" v-if="index < 2">
+                <route :url="item.url" class="item-inner">
+                  <div class="item-inner__head">
+                    <div class="infos">
+                      <span class="tag" v-html="item.typeName"></span>
+                      <h3 v-html="item.title"></h3>
+                    </div>
+                    <i class="icon">
+                      <icon name="next">
+                      </icon>
+                    </i>
+                  </div>
+                  <div class="item-inner__bottom">
+                    <span class="author"><!-- 字段来源待沟通 --></span>
+                    <span class="date" v-text="formatTime(item.expand2, 'MMM D, YYYY')"></span>
+                  </div>
+                </route>
+              </div>
+            </div>
+            <div class="column">
+              <div class="item" v-for="(item, index) in widget.events" :key="item.id" v-if="index >= 2 && index < 4">
+                <route :url="item.url" class="item-inner">
+                  <div class="item-inner__head">
+                    <div class="infos">
+                      <span class="tag" v-html="item.typeName"></span>
+                      <h3 v-html="item.title"></h3>
+                    </div>
+                    <i class="icon">
+                      <icon name="next">
+                      </icon>
+                    </i>
+                  </div>
+                  <div class="item-inner__bottom" style="align-items: flex-end;">
+                    <span class="author" v-text="item.expand1" style="max-width: 50%;"></span>
+                    <span class="date" v-text="formatTime(item.expand2, 'MMM D, YYYY')"></span>
+                  </div>
+                </route>
+              </div>
+            </div>
+          </div>
+          <div class="zju-inset three">
+            <div class="sprite">
+              <div class="i0" data-sprite="0,32"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="zju-wave small reverse">
+      </div>
+      <div class="zju-wave small">
+      </div>
+    </div>
+    <div class="zju-wrapper">
+      <div class="zju-container">
+        <div class="zju-public__header">
+          <h2 class="zju-public__title"> Experience ZJU </h2>
+        </div>
+        <div class="zju-section__experience">
+          <div class="column big">
+            <div class="slide">
+              <div class="slide-video">
+                <div class="picture"
+                  style="background-image:url(/_upload/tpl/0b/85/2949/template2949/data/img-06-new.jpg);"> </div>
+              </div>
+              <div class="slide-infos">
+                <a href="/english/75035/list.htm" class="inner">
+                  <div class="inner__head">
+                    <div class="infos">
+                      <h3> ZJU Life Blog </h3>
+                      <p class="intro"> ZJU experience expands beyond the classroom </p>
+                    </div>
+                    <div class="icon">
+                      <icon name="next">
+                      </icon>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column small">
+            <div class="slide">
+              <div class="slide-video">
+                <div class="picture"
+                  style="background-image:url(/_upload/tpl/0b/85/2949/template2949/data/img-07.png);"> </div>
+              </div>
+              <div class="slide-infos">
+                <a href="/english/sustainability/main.htm" class="inner">
+                  <div class="inner__head">
+                    <div class="infos">
+                      <h3> For a better future </h3>
+                      <p class="intro"> Step up our efforts to support the SDGs </p>
+                    </div>
+                    <div class="icon">
+                      <icon name="next">
+                      </icon>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="slide reverse">
+              <div class="slide-video">
+                <div class="picture"
+                  style="background-image:url(/_upload/tpl/0b/85/2949/template2949/data/img-08.png);"> </div>
+              </div>
+              <div class="slide-infos">
+                <a href="/english/hangzhou/list.htm" class="inner">
+                  <div class="inner__head">
+                    <div class="infos">
+                      <h3> Hangzhou </h3>
+                      <p class="intro"> A city with glorious culture, entrepreneurial spirit and a dynamic landscape
+                      </p>
+                    </div>
+                    <div class="icon">
+                      <icon name="next">
+                      </icon>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="zju-inset four">
+            <div class="sprite">
+              <div class="i0" data-sprite="0,37"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-component="footer"></div>
+  </div>
+  <div id="wp-data" frag="面板001" style="display:none">
+    <div id="wp-site-name" class="hidden" frag="窗口001" portletmode="simpleSiteName"
+      style="height: 0; overflow: hidden;"><span class='Site_Name'>Zhejiang University</span></div>
+    <div id="wp-data-newsroom" frag="窗口002" style="height: 0; background-color: #00f; overflow: hidden;">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wp_article_list_table"> 
+<tr> 
+<td> 
+
+        <span class="index">1</span>
+        <span class="title">ZJU researchers build exceptionally strong graphene films with new nanoscale fold locks</span>
+        <span class="id">3225135</span>
+        <span class="url">/english/2026/1110/c75270a3225135/page.psp</span>
+        <span class="subtitle"></span>
+        <span class="type"><a href='/english/Headlines/list.htm' target='_blank' title='Headlines'>Headlines</a></span>
+        <span class="content">What makes a structure strong? Consider two familiar types of building blocks. Traditional wooden blocks rely on gravity to stay in place and can easily topple. Plastic lego bricks, by contrast, lock together, allowing even elaborate structures to remain stable. But what if the same principle could work at the nanoscale?Researchers at Zhejiang University have found a way to make it happen.In a stu...</span>
+        <span class="time">2026-11-10</span>
+        <span class="image">/_upload/article/images/6f/96/26c3252142e8a7fcbf4778873af8/b42d7de0-c6dc-4a67-99d0-061bc151ccea.jpg</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/6f/96/26c3252142e8a7fcbf4778873af8/b42d7de0-c6dc-4a67-99d0-061bc151ccea_s.jpg</span>
+        <span class="views">(57)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">2</span>
+        <span class="title">Zhejiang University launches new school to turn research into real-world impact</span>
+        <span class="id">3221199</span>
+        <span class="url">/english/2026/1031/c75270a3221199/page.psp</span>
+        <span class="subtitle"></span>
+        <span class="type"><a href='/english/Headlines/list.htm' target='_blank' title='Headlines'>Headlines</a></span>
+        <span class="content">&nbsp;Zhejiang University has launched the School of Tech Entrepreneurship to accelerate the translation of scientific discoveries into real-world applications and equip a new generation of innovators and entrepreneurs with the skills to bring emerging technologies to market.The school was officially inaugurated on October 25 on Zijingang Campus during a forum that brought together nearly 500 rese...</span>
+        <span class="time">2026-10-31</span>
+        <span class="image">/_upload/article/images/35/8a/e33b0b09400f9df08a5d88521f80/34e202d8-24b7-436c-988c-688c29e8379b.jpg</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/35/8a/e33b0b09400f9df08a5d88521f80/34e202d8-24b7-436c-988c-688c29e8379b_s.jpg</span>
+        <span class="views">(126)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">3</span>
+        <span class="title">ZJU researchers uncover a chiral dance of electron spins</span>
+        <span class="id">3221197</span>
+        <span class="url">/english/2026/1031/c75270a3221197/page.psp</span>
+        <span class="subtitle"></span>
+        <span class="type"><a href='/english/Headlines/list.htm' target='_blank' title='Headlines'>Headlines</a></span>
+        <span class="content">The mesmerizing formations of birds swirling across the sky and the rippling waves of spectators in a World Cup stadium share a striking quality: order emerging from the coordinated movements of many individuals. Something remarkably similar happens in the microscopic world, where thousands of particles can move in concert, giving rise to phenomena physicists call collective excitations.Now, a res...</span>
+        <span class="time">2026-10-31</span>
+        <span class="image">/_upload/article/images/f5/ee/93129fbc49a696a7552497ee4f57/dbeda500-6041-4b48-af21-2017ae5b3a33.jpeg</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/f5/ee/93129fbc49a696a7552497ee4f57/dbeda500-6041-4b48-af21-2017ae5b3a33_s.jpeg</span>
+        <span class="views">(53)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+      </td> 
+</tr> 
+</table>
+<div class="more"><a class="more-link" href="/english/Headlines/list.htm" title="显示更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_1.gif" border="0"/></span></a></div>
+    </div>
+    <div id="wp-data-events" frag="窗口003">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wp_article_list_table"> 
+<tr> 
+<td> 
+
+        <span class="index">1</span>
+        <span class="title">Registering Robots: When People Talk About Robots</span>
+        <span class="id">3225791</span>
+        <span class="url">/english/2026/1111/c19936a3225791/page.psp</span>
+        <span class="subtitle">15:30</span>
+        <span class="type"><a href='/english/19936/list.htm' target='_blank' title='Talk & Lecture'>Talk & Lecture</a></span>
+        <span class="content">Speaker:&nbsp;Christian&nbsp;GreiffenhagenVenue:&nbsp;Room 1017, No.8 Chengjun Building, Zijingang CampusAbstract:&nbsp;We live in a world where people increasingly interact with machines, including various forms of robots in public places. While this means that people now have to ‘interact’ with robots (e.g., yielding), it also allows for the possibility for people to notice them and talk about...</span>
+        <span class="time">2026-11-11</span>
+        <span class="image">/_upload/article/images/0c/d0/1fd66a5d456196eca542516d0154/d1124159-ba3b-4139-be6a-0b35134d3618.png</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/0c/d0/1fd66a5d456196eca542516d0154/d1124159-ba3b-4139-be6a-0b35134d3618_s.png</span>
+        <span class="views">(17)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+        <div class="expand1">GREIFFENHAGEN Christian</div>
+        <div class="expand2">2026-11-13 15:30:00</div>
+        <div class="expand3">Zijingang Campus</div>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">2</span>
+        <span class="title">Fluid ‘Ratchets’ and Biological Locomotion</span>
+        <span class="id">3225789</span>
+        <span class="url">/english/2026/1111/c19936a3225789/page.psp</span>
+        <span class="subtitle">14:00</span>
+        <span class="type"><a href='/english/19936/list.htm' target='_blank' title='Talk & Lecture'>Talk & Lecture</a></span>
+        <span class="content">Speaker:&nbsp;Zhang JunVenue:&nbsp;Room 242, No.14 Teaching Building, Yuquan CampusAbstract:&nbsp;Fluid-structure interactions (FSI) can give rise to fascinating and often counterintuitive phenomena. In this talk, we will explore three examples inspired by biological systems, in which net directional transport of mass or momentum emerges from seemingly simple, reciprocal back-and-forth motions. We...</span>
+        <span class="time">2026-11-11</span>
+        <span class="image">/_upload/article/images/2a/2f/c33563b742889b0d9405c782c05a/dbd18bd8-b6a0-41ef-a087-dd886743caa8.png</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/2a/2f/c33563b742889b0d9405c782c05a/dbd18bd8-b6a0-41ef-a087-dd886743caa8_s.png</span>
+        <span class="views">(11)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+        <div class="expand1">ZHANG Jun</div>
+        <div class="expand2">2026-11-17 14:00:00</div>
+        <div class="expand3">Yuquan Campus</div>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">3</span>
+        <span class="title">More than a Backdrop: The Credibility Costs of Virtual Backgrounds in Influencer Marketing </span>
+        <span class="id">3225785</span>
+        <span class="url">/english/2026/1111/c19936a3225785/page.psp</span>
+        <span class="subtitle">10:00</span>
+        <span class="type"><a href='/english/19936/list.htm' target='_blank' title='Talk & Lecture'>Talk & Lecture</a></span>
+        <span class="content">Speaker:&nbsp;Zhang YanVenue:&nbsp;A523, School of Management, Zijingang CampusAbstract:&nbsp;Although artificial intelligence (AI) is increasingly applied in operations management (OM), technical advances do not automatically enhance operational performance. Adopting a problem-driven perspective, this review examines where and under which conditions AI creates value in a decision objective. To na...</span>
+        <span class="time">2026-11-11</span>
+        <span class="image">/_upload/article/images/11/99/ec0d2d3443eaaabde5497ae9da35/7d9d22a5-0b3d-4794-9635-ae69094fba49.png</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/11/99/ec0d2d3443eaaabde5497ae9da35/7d9d22a5-0b3d-4794-9635-ae69094fba49_s.png</span>
+        <span class="views">(11)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+        <div class="expand1">ZHANG Yan</div>
+        <div class="expand2">2026-11-13 10:00:00</div>
+        <div class="expand3">Zijingang Campus</div>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">4</span>
+        <span class="title">How Artificial Intelligence Empowers Operations Management: Framework, Maturity, and Opportunities</span>
+        <span class="id">3225781</span>
+        <span class="url">/english/2026/1111/c19936a3225781/page.psp</span>
+        <span class="subtitle">15:30</span>
+        <span class="type"><a href='/english/19936/list.htm' target='_blank' title='Talk & Lecture'>Talk & Lecture</a></span>
+        <span class="content">Speaker:&nbsp;Zhao LimaVenue:&nbsp;A523, School of Management, Zijingang CampusAbstract:&nbsp;Although artificial intelligence (AI) is increasingly applied in operations management (OM), technical advances do not automatically enhance operational performance. Adopting a problem-driven perspective, this review examines where and under which conditions AI creates value in a decision objective. To na...</span>
+        <span class="time">2026-11-11</span>
+        <span class="image">/_upload/article/images/5c/0e/50525da54dceb8d49753783a9e12/03e36cf1-8b38-4dd4-ac66-291d42194394.png</span>
+        <span class="video"></span>
+        <span class="thumb">/_upload/article/images/5c/0e/50525da54dceb8d49753783a9e12/03e36cf1-8b38-4dd4-ac66-291d42194394_s.png</span>
+        <span class="views">(11)</span>
+        <span class="top"></span>
+        <span class="latest"></span>
+        <span class="hot"></span>
+        <div class="expand1">ZHAO Lima</div>
+        <div class="expand2">2026-11-12 15:30:00</div>
+        <div class="expand3">Zijingang Campus</div>
+      </td> 
+</tr> 
+</table>
+<div class="more"><a class="more-link" href="/english/19936/list.htm" title="显示更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_1.gif" border="0"/></span></a></div>
+    </div>
+    <div id="wp-data-banner" frag="窗口004">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wp_article_list_table"> 
+<tr> 
+<td> 
+
+        <span class="index">1</span>
+        <span class="title">Leading through Innovation</span>
+        <span class="id">2240800</span>
+        <span class="url">/english/2018/0516/c19556a2240800/page.psp</span>
+        <span class="subtitle">Photo: XU Guoliang</span>
+        <span class="content">&nbsp;</span>
+        <span class="image">/_upload/article/images/cb/1d/9285ffc8457a80a600e57655e2b6/c65ac78a-d950-4a58-a45e-bcefdf0546fa.jpg</span>
+        <span class="thumb">/_upload/article/images/cb/1d/9285ffc8457a80a600e57655e2b6/c65ac78a-d950-4a58-a45e-bcefdf0546fa_s.jpg</span>
+        <span class="video"></span>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">2</span>
+        <span class="title">Engaging with the world</span>
+        <span class="id">2938374</span>
+        <span class="url">/english/2024/0623/c19556a2938374/page.psp</span>
+        <span class="subtitle">Photo: ZIBS</span>
+        <span class="content">&nbsp;&nbsp;</span>
+        <span class="image">/_upload/article/images/39/1f/e8b748ea40558510e80784fb0e2d/0caa5e41-9166-42ba-ac6e-fa06228b8feb.jpg</span>
+        <span class="thumb">/_upload/article/images/39/1f/e8b748ea40558510e80784fb0e2d/0caa5e41-9166-42ba-ac6e-fa06228b8feb_s.jpg</span>
+        <span class="video"></span>
+      </td> 
+</tr> 
+<tr> 
+<td> 
+
+        <span class="index">3</span>
+        <span class="title">Creating a sustainable future</span>
+        <span class="id">2938373</span>
+        <span class="url">/english/2024/0623/c19556a2938373/page.psp</span>
+        <span class="subtitle">Photo: ZHOU Runjia</span>
+        <span class="content">&nbsp;</span>
+        <span class="image">/_upload/article/images/27/57/99368e674ac792e72c5d7277b8fb/5854b672-96c5-417a-91b8-f1bc5f4e678a.jpg</span>
+        <span class="thumb">/_upload/article/images/27/57/99368e674ac792e72c5d7277b8fb/5854b672-96c5-417a-91b8-f1bc5f4e678a_s.jpg</span>
+        <span class="video"></span>
+      </td> 
+</tr> 
+</table>
+    </div>
+  </div>
+  <script defer src="/_upload/tpl/0b/85/2949/template2949/static/js/manifest.js"></script>
+  <script defer src="/_upload/tpl/0b/85/2949/template2949/static/js/vendor.js"></script>
+  <script defer src="/_upload/tpl/0b/85/2949/template2949/static/js/zju-en.js?2.0"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      Promise.all([
+        new Promise(function (resolve, reject) {
+          // 读取统一的文章列表
+          function getList(selector) {
+            var list = [];
+            $(selector).each(function () {
+              var views = $(this).find('.views').text();
+              if (views && views !== '') {
+                views = views.replace('(', '');
+                views = views.replace(')', '');
+              }
+              list.push({
+                id: $(this).find('.id').text(),
+                url: $(this).find('.url').text(),
+                index: $(this).find('.index').text(),
+                title: $(this).find('.title').html(),
+                subtitle: $(this).find('.subtitle').html(),
+                time: $(this).find('.time').text(),
+                type: $(this).find('.type').html(),
+                typeName: $(this).find('.type').text(),
+                image: $(this).find('.image').text(),
+                video: $(this).find('.video').text(),
+                thumb: $(this).find('.thumb').text(),
+                views: views && views !== '' ? parseInt(views) : 0,
+                top: $(this).find('.top').html(),
+                latest: $(this).find('.latest').html(),
+                hot: $(this).find('.hot').html(),
+                content: $(this).find('.content').html(),
+                expand1: $(this).find('.expand1').text(),
+                expand2: $(this).find('.expand2').text(),
+                expand3: $(this).find('.expand3').text()
+              });
+            });
+            return list;
+          }
+
+          // 获取 Newsroom 数据
+          App.$set(App.$data.widget, 'newsroom', []);
+          // App.$set(App.$data.widget, 'newsroom_more', $('#wp-data-newsroom .more-link').attr('href'));
+          var newsroom = getList('#wp-data-newsroom tr');
+          App.$set(App.$data.widget, 'newsroom', newsroom);
+
+          // 获取 Events 数据
+          App.$set(App.$data.widget, 'events', []);
+          App.$set(App.$data.widget, 'events_more', $('#wp-data-events .more-link').attr('href'));
+          var events = getList('#wp-data-events tr');
+          App.$set(App.$data.widget, 'events', events);
+
+          // 获取 banner 数据
+          App.$set(App.$data.widget, 'banner', []);
+          var banner = getList('#wp-data-banner tr');
+          App.$set(App.$data.widget, 'banner', banner);
+
+          resolve();
+        })
+      ]).then(function () {
+        App.reinit();
+      });
+    });
+  </script>
+</body>
+
+</html>
+ <img src="/_visitcount?siteId=358&type=1&columnId=17220" style="display:none" width="0" height="0"/>

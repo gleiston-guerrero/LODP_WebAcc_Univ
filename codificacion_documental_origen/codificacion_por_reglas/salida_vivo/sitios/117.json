@@ -1,0 +1,70 @@
+{
+ "id": 117,
+ "grupo": "ecuador",
+ "sigla": "UISRAEL",
+ "pais": "EC",
+ "url": "https://www.uisrael.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uisrael.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uisrael.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:10:20+00:00",
+    "error": null,
+    "sha256": "44601c95eda05ab92bed14b8f790e00b1025469a4e967d57632af1054fb9d4e8"
+   },
+   {
+    "url_consultada": "https://www.uisrael.edu.ec/diplomado-proteccion-de-datos/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uisrael.edu.ec/diplomado-proteccion-de-datos/",
+    "fecha_hora_utc": "2026-11-12T04:10:23+00:00",
+    "error": null,
+    "sha256": "5bad8c2db43466da5cba8bc588f7219d2e6568c1a1b75328502b963d0d4e63c0"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Transparencia",
+    "url": "https://www.uisrael.edu.ec/inicio/nosotros/transparencia/"
+   },
+   "alcance_parcial": null,
+   "marco": "LOPDP",
+   "derechos": [],
+   "via_ejercicio": false,
+   "contacto": {
+    "rol": "delegado de protección de datos",
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Diplomado Protección de Datos",
+    "url": "https://www.uisrael.edu.ec/diplomado-proteccion-de-datos/"
+   },
+   {
+    "texto": "Política de Protección de Datos Personales",
+    "url": "https://www.uisrael.edu.ec/politica-de-proteccion-de-datos-personales/"
+   }
+  ],
+  "aviso_url": "https://www.uisrael.edu.ec/diplomado-proteccion-de-datos/",
+  "aviso_palabras": 1680,
+  "aviso_sha256_texto": "79220e69e39e42ec3e8f47122f3d786988e4e74bf3ef046ed244e946f466227f"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:10:24+00:00"
+}

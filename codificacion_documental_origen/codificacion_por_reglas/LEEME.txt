@@ -32,8 +32,12 @@ EJECUCIÓN (PowerShell, en esta carpeta)
   py codificar_documental.py
   py compilar_matriz.py --resultados salida_vivo
 
-  La corrida dura aproximadamente 15-30 minutos. Si se interrumpe, al volver a ejecutarla
-  continúa con los sitios pendientes (--rehacer para recodificar todo).
+  Duración aproximada: en vivo 15-30 min; con --wayback 40-60 min (pausa mínima de 5 s,
+  porque web.archive.org limita la frecuencia de solicitudes y responde 429).
+  Desde la versión 1.1.0 un error pasajero (429, 5xx, tiempo agotado) NO se codifica como
+  «nv»: se reintenta con espera creciente y, si persiste, el sitio queda pendiente sin
+  resultado. Con tres sitios pendientes seguidos la corrida se detiene; espere una hora y
+  repita el mismo comando, que continúa con los pendientes (--rehacer recodifica todo).
 
 QUÉ ENTREGAR PARA ACTUALIZAR EL MANUSCRITO Y EL DEPÓSITO
   La carpeta salida_<modo>/ completa: sitios/*.json (códigos y evidencia, con URL, fecha,

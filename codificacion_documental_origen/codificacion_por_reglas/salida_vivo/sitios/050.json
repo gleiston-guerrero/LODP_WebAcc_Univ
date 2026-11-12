@@ -1,0 +1,66 @@
+{
+ "id": 50,
+ "grupo": "mundo",
+ "sigla": "CUHK",
+ "pais": "HK",
+ "url": "https://www.cuhk.edu.hk/english/index.html",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.cuhk.edu.hk/english/index.html",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.cuhk.edu.hk/english/index.html",
+    "fecha_hora_utc": "2026-11-12T04:06:22+00:00",
+    "error": null,
+    "sha256": "a751dc40dcfbe397c1d2148ddd9ccc77d20df32a78f26f94d4fced34fdcfa04f"
+   },
+   {
+    "url_consultada": "https://www.cuhk.edu.hk/english/privacy.html",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.cuhk.edu.hk/english/privacy.html",
+    "fecha_hora_utc": "2026-11-12T04:06:25+00:00",
+    "error": null,
+    "sha256": "43fbae26f8c6f4671f53304814d82b14c33eb5c086e7ff4a0166c2f37ec08c4b"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Triple Gold Award at the Web Accessibility Recognition Scheme Triple Gold Award at the Web Accessibility Recognition Scheme",
+    "url": "https://www.web-accessibility.hk/en/"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Policy",
+    "url": "https://www.cuhk.edu.hk/english/privacy.html"
+   }
+  ],
+  "aviso_url": "https://www.cuhk.edu.hk/english/privacy.html",
+  "aviso_palabras": 370,
+  "aviso_sha256_texto": "c663d551cd2b5a78fe2917292e99227ac2e71514ec92eb5893d6131071b1147d"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:25+00:00"
+}

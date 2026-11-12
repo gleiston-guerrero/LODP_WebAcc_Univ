@@ -1,0 +1,71 @@
+{
+ "id": 39,
+ "grupo": "mundo",
+ "sigla": "Duke",
+ "pais": "US",
+ "url": "https://www.duke.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.duke.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.duke.edu/",
+    "fecha_hora_utc": "2026-11-12T04:05:47+00:00",
+    "error": null,
+    "sha256": "c8b16c709e86ed11c1125ec20f5e5e72728cb4b097a36a3ca9eed5a64ce47988"
+   },
+   {
+    "url_consultada": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/",
+    "fecha_hora_utc": "2026-11-12T04:05:49+00:00",
+    "error": null,
+    "sha256": "34a64e6b40098e038afc5a2b2ce30c3ce0fb2500ecd8c8c01ff2a8c4a03de95c"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Web & Digital",
+    "url": "https://web.accessibility.duke.edu/"
+   },
+   "alcance_parcial": null,
+   "marco": "HIPAA",
+   "derechos": [
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": true
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Policy",
+    "url": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/"
+   }
+  ],
+  "aviso_url": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/",
+  "aviso_palabras": 4511,
+  "aviso_sha256_texto": "d27f601ad05cc55ec1ca417e12b652979922ecd37334a61f76ecf916b73b33c8"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:51+00:00"
+}

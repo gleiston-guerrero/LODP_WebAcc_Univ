@@ -1,0 +1,70 @@
+{
+ "id": 96,
+ "grupo": "ecuador",
+ "sigla": "IAEN",
+ "pais": "EC",
+ "url": "https://www.iaen.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "parcial",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.iaen.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.iaen.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:08:49+00:00",
+    "error": null,
+    "sha256": "f20002382fd10f33b38b83458f4242434d8207d6056a7a95b47a66df0ff4f10b"
+   },
+   {
+    "url_consultada": "https://www.iaen.edu.ec/politica-de-privacidad/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.iaen.edu.ec/politica-de-privacidad/",
+    "fecha_hora_utc": "2026-11-12T04:08:51+00:00",
+    "error": null,
+    "sha256": "f78e88aadddbda6667a68fdaf921df52a22f5be0395a3ba1915d94c93422a53a"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "TRANSPARENCIA",
+    "url": "https://www.iaen.edu.ec/transparencia/"
+   },
+   "alcance_parcial": "Posgrado",
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "rectificacion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política para el tratamiento de datos personales",
+    "url": "https://www.iaen.edu.ec/politica-de-privacidad/"
+   }
+  ],
+  "aviso_url": "https://www.iaen.edu.ec/politica-de-privacidad/",
+  "aviso_palabras": 802,
+  "aviso_sha256_texto": "41da9294265236eaf94b5fbc5e5cd5f1b6136b1b93789e189e71894c8a138877"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:51+00:00"
+}

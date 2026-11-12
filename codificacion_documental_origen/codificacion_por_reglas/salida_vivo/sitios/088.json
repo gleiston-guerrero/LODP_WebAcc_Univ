@@ -1,0 +1,80 @@
+{
+ "id": 88,
+ "grupo": "ecuador",
+ "sigla": "UNACH",
+ "pais": "EC",
+ "url": "https://www.unach.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.unach.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.unach.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:08:25+00:00",
+    "error": null,
+    "sha256": "0c6c98d03e4611738da5a99ebe505b90e460a935d2b7fe9c45637cf0fd09249f"
+   },
+   {
+    "url_consultada": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/",
+    "fecha_hora_utc": "2026-11-12T04:08:27+00:00",
+    "error": null,
+    "sha256": "4f3016abc8f0e1a0040e23eddc56c187851fe01122783b56d0b6317b8e879f6e"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Provided by: Provided by sogo.co.il",
+    "url": "https://pluginsmarket.com/downloads/accessibility-plugin/"
+   },
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "acceso",
+    "limitacion",
+    "oposicion",
+    "portabilidad",
+    "rectificacion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "POLÍTICA DE PROTECCIÓN DE DATOS PERSONALES",
+    "url": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/"
+   },
+   {
+    "texto": "SEGURIDAD DE LA INFORMACIÓN Y PROTECCIÓN DE DATOS PERSONALES",
+    "url": "https://seguridadyprivacidad.unach.edu.ec/"
+   },
+   {
+    "texto": "SEGURIDAD DE LA INFORMACIÓN Y PROTECCIÓN DE DATOS PERSONALES Ver detalles",
+    "url": "https://www.unach.edu.ec/seguridad-de-la-informacion-y-proteccion-de-datos-personales/"
+   }
+  ],
+  "aviso_url": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/",
+  "aviso_palabras": 3177,
+  "aviso_sha256_texto": "17cc6ddebb75b17925560916b0894522b01d66f82d5322ec52cc39185494b321"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:28+00:00"
+}

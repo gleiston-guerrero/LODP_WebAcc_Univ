@@ -1,0 +1,66 @@
+{
+ "id": 64,
+ "grupo": "ecuador",
+ "sigla": "EPN",
+ "pais": "EC",
+ "url": "https://www.epn.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.epn.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.epn.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:07:20+00:00",
+    "error": null,
+    "sha256": "a4105dbc4ea7ab49a4d4e965745be21ab82bc95f4cf87343497225ef1d637a58"
+   },
+   {
+    "url_consultada": "https://www.epn.edu.ec/60785-2/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.epn.edu.ec/60785-2/",
+    "fecha_hora_utc": "2026-11-12T04:07:21+00:00",
+    "error": null,
+    "sha256": "759bd118d0a20a2fe69942258869f5657216ca46a36da44e469859a66eece6dc"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Lotaip",
+    "url": "https://www.epn.edu.ec/lotaip/"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": false,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Protección de Datos Protección de datos",
+    "url": "https://www.epn.edu.ec/60785-2/"
+   }
+  ],
+  "aviso_url": "https://www.epn.edu.ec/60785-2/",
+  "aviso_palabras": 421,
+  "aviso_sha256_texto": "9ff915ecbbd595a0b498110a9f5e491193b84986690475acd83b0624fc9f39f5"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:22+00:00"
+}

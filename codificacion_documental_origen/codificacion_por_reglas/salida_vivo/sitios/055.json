@@ -1,0 +1,35 @@
+{
+ "id": 55,
+ "grupo": "mundo",
+ "sigla": "Monash",
+ "pais": "AU",
+ "url": "https://www.monash.edu",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.monash.edu",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.monash.edu/",
+    "fecha_hora_utc": "2026-11-12T04:06:39+00:00",
+    "error": null,
+    "sha256": "576495fc069d35a7ae626f14add982fc562091c8a3c773c6b2a6995a32ccd048"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:39+00:00"
+}

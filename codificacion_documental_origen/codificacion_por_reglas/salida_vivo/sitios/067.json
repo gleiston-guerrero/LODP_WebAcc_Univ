@@ -1,0 +1,42 @@
+{
+ "id": 67,
+ "grupo": "ecuador",
+ "sigla": "ESPAM MFL",
+ "pais": "EC",
+ "url": "https://www.espam.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.espam.edu.ec",
+    "status": 200,
+    "tls_ok": false,
+    "url_final": "https://www.espam.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:07:28+00:00",
+    "error": "SSL: HTTPSConnectionPool(host='www.espam.edu.ec', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: un",
+    "sha256": "7a55f9973e4d560abccbc472d1e0fab8f225bbfeea8a0c75180b63da949ac996"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "TRANSPARENCIA",
+    "url": "https://www.espam.edu.ec/web/informativo/lotaip.aspx"
+   }
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:29+00:00"
+}

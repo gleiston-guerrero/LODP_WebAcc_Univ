@@ -1,0 +1,65 @@
+{
+ "id": 44,
+ "grupo": "mundo",
+ "sigla": "Kyoto",
+ "pais": "JP",
+ "url": "https://www.kyoto-u.ac.jp/en",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.kyoto-u.ac.jp/en",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.kyoto-u.ac.jp/en",
+    "fecha_hora_utc": "2026-11-12T04:06:03+00:00",
+    "error": null,
+    "sha256": "1c7d41f9362dca5d70651d38f8b1475a1454e128cb1a0d0323092d024bcbc332"
+   },
+   {
+    "url_consultada": "https://www.kyoto-u.ac.jp/en/privacy-policy",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.kyoto-u.ac.jp/en/privacy-policy",
+    "fecha_hora_utc": "2026-11-12T04:06:05+00:00",
+    "error": null,
+    "sha256": "dd3072aad03ce4c7b059d57e4f5057b96c9824e7942e86365900a5fc9aabf03b"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy policy",
+    "url": "https://www.kyoto-u.ac.jp/en/privacy-policy"
+   }
+  ],
+  "aviso_url": "https://www.kyoto-u.ac.jp/en/privacy-policy",
+  "aviso_palabras": 683,
+  "aviso_sha256_texto": "8e1026b6e0ad76e8335bf54a495bdda8ff4ce72a555be383c5ffdb1ace9f9445"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:05+00:00"
+}

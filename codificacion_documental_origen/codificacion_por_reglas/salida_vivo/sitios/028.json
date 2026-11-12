@@ -1,0 +1,35 @@
+{
+ "id": 28,
+ "grupo": "mundo",
+ "sigla": "Michigan",
+ "pais": "US",
+ "url": "https://umich.edu",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://umich.edu",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://umich.edu/",
+    "fecha_hora_utc": "2026-11-12T04:05:08+00:00",
+    "error": null,
+    "sha256": "cb2e6bfa2278f69f0232b16057e8afd086706fb087cb481fe00447f3db2bcf5d"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:08+00:00"
+}

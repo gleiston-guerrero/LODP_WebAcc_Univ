@@ -1,0 +1,76 @@
+{
+ "id": 24,
+ "grupo": "mundo",
+ "sigla": "TUM",
+ "pais": "DE",
+ "url": "https://www.tum.de/en/",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.tum.de/en/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.tum.de/en/",
+    "fecha_hora_utc": "2026-11-12T04:04:51+00:00",
+    "error": null,
+    "sha256": "dc731eb34bf4fd94af9d8139554195b1ba8fa558e6c59277d5fc3d2a7452c663"
+   },
+   {
+    "url_consultada": "https://www.tum.de/en/privacy-policy",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.tum.de/en/privacy-policy",
+    "fecha_hora_utc": "2026-11-12T04:04:54+00:00",
+    "error": null,
+    "sha256": "b0cb03ff9a3ec60271f769ec99d953c1811488fed1d180438155f1ea1fa49ca8"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://www.tum.de/en/spezialseiten/accessibility"
+   },
+   "alcance_parcial": null,
+   "marco": "Datenschutz-Grundverordnung",
+   "derechos": [
+    "acceso",
+    "limitacion",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Datenschutzbeauftragte",
+    "correo_dedicado": false
+   },
+   "cookies": {
+    "texto": "https://vimeo.com/cookie_policy",
+    "url": "https://vimeo.com/cookie_policy"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Policy",
+    "url": "https://www.tum.de/en/privacy-policy"
+   }
+  ],
+  "aviso_url": "https://www.tum.de/en/privacy-policy",
+  "aviso_palabras": 8068,
+  "aviso_sha256_texto": "a3921243ca6444039b1e0429a04bf0d085f640167f8e9ddc712af823b5879bfe"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:55+00:00"
+}

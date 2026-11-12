@@ -1,0 +1,42 @@
+{
+ "id": 102,
+ "grupo": "ecuador",
+ "sigla": "ULVR",
+ "pais": "EC",
+ "url": "https://www.ulvr.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ulvr.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ulvr.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:09:17+00:00",
+    "error": null,
+    "sha256": "7312f29b47f9158d2d3ea2648ee381d2737442554cf08c51ca39d930f9f5a7f3"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": {
+    "texto": "Transparencia",
+    "url": "https://www.ulvr.edu.ec/transparencia"
+   }
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:17+00:00"
+}

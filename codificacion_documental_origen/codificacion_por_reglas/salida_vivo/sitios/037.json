@@ -1,0 +1,72 @@
+{
+ "id": 37,
+ "grupo": "mundo",
+ "sigla": "UCSD",
+ "pais": "US",
+ "url": "https://www.ucsd.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ucsd.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucsd.edu/",
+    "fecha_hora_utc": "2026-11-12T04:05:39+00:00",
+    "error": null,
+    "sha256": "c39800e62aa88511747df0ab5e3a879fdee97e1252cbc18b5a909a1d9ad81ce5"
+   },
+   {
+    "url_consultada": "https://www.ucsd.edu/about/privacy.html",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucsd.edu/about/privacy.html",
+    "fecha_hora_utc": "2026-11-12T04:05:41+00:00",
+    "error": null,
+    "sha256": "9c09501a1ff239e0433994df06fb849a343e22e624358504800f3a54f86f8b95"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://accessibility.ucsd.edu/report-a-concern/index.html"
+   },
+   "alcance_parcial": null,
+   "marco": "HIPAA",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": true
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy",
+    "url": "https://www.ucsd.edu/about/privacy.html"
+   }
+  ],
+  "aviso_url": "https://www.ucsd.edu/about/privacy.html",
+  "aviso_palabras": 6495,
+  "aviso_sha256_texto": "12faf5aa7b0af05153688fe96720ad845e4366c5c494eaafbf4e1d06195ee38a"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:41+00:00"
+}

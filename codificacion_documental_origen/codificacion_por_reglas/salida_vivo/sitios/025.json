@@ -1,0 +1,35 @@
+{
+ "id": 25,
+ "grupo": "mundo",
+ "sigla": "Melbourne",
+ "pais": "AU",
+ "url": "https://www.unimelb.edu.au",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.unimelb.edu.au",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.unimelb.edu.au/",
+    "fecha_hora_utc": "2026-11-12T04:04:56+00:00",
+    "error": null,
+    "sha256": "15d66a9ea2fca5056523be0309d420eb1b2be49a4e29def177f7d8b0a98a0e42"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:56+00:00"
+}

@@ -1,0 +1,53 @@
+{
+ "id": 110,
+ "grupo": "ecuador",
+ "sigla": "UDLA",
+ "pais": "EC",
+ "url": "https://www.udla.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.udla.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.udla.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:09:48+00:00",
+    "error": null,
+    "sha256": "e6835b693a6f40242f98fc86e943650473813ee6afff27f01d0cec3bbb1772e0"
+   },
+   {
+    "url_consultada": "https://www.udla.edu.ec/avisos-legales-y-de-privacidad/",
+    "status": 308,
+    "tls_ok": true,
+    "url_final": "https://www.udla.edu.ec/avisos-legales-y-de-privacidad/",
+    "fecha_hora_utc": "2026-11-12T04:09:51+00:00",
+    "error": null,
+    "sha256": "9dbbfc50f48e4ef1478c6579ecdbf2fa988a895e7df2e2de4afaad7ef8cb5f79"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de datos personales",
+    "url": "https://www.udla.edu.ec/avisos-legales-y-de-privacidad/"
+   }
+  ],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:52+00:00"
+}

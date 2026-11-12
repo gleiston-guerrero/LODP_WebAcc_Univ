@@ -1,0 +1,35 @@
+{
+ "id": 87,
+ "grupo": "ecuador",
+ "sigla": "ULEAM",
+ "pais": "EC",
+ "url": "https://www.uleam.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "lotaip_transparency": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uleam.edu.ec",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.uleam.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:08:24+00:00",
+    "error": null,
+    "sha256": "41bdb932d1f355f5818e565dfbbe1d561d63f3abd381d1eeb883f5c8203133fa"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:24+00:00"
+}

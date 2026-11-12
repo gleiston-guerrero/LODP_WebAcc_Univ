@@ -1,0 +1,69 @@
+{
+ "id": 63,
+ "grupo": "mundo",
+ "sigla": "Queensland",
+ "pais": "AU",
+ "url": "https://www.uq.edu.au/",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uq.edu.au/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uq.edu.au/",
+    "fecha_hora_utc": "2026-11-12T04:07:14+00:00",
+    "error": null,
+    "sha256": "d32488abce6e08e8f0d6a3c2907da0d2fa66163415ab7c0ad87729d4eb0950a5"
+   },
+   {
+    "url_consultada": "https://uq.edu.au/legal/copyright-privacy-disclaimer",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://uq.edu.au/legal/copyright-privacy-disclaimer/",
+    "fecha_hora_utc": "2026-11-12T04:07:17+00:00",
+    "error": null,
+    "sha256": "3bcd8ed837b9969ac403b09759fab1deb3ff5881319f5da119eaa3029423190d"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://uq.edu.au/accessibility"
+   },
+   "alcance_parcial": null,
+   "marco": "Information Privacy Act 2009",
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": false
+   },
+   "cookies": {
+    "texto": "allaboutcookies.org",
+    "url": "http://www.allaboutcookies.org/"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Copyright, privacy and disclaimer",
+    "url": "https://uq.edu.au/legal/copyright-privacy-disclaimer"
+   }
+  ],
+  "aviso_url": "https://uq.edu.au/legal/copyright-privacy-disclaimer",
+  "aviso_palabras": 2836,
+  "aviso_sha256_texto": "c8cba235dde0e05a5f5bc41358cb3c0891f5367e41dc8cfa194085e88e413652"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:07:19+00:00"
+}

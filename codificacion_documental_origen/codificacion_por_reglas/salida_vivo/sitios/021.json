@@ -1,0 +1,72 @@
+{
+ "id": 21,
+ "grupo": "mundo",
+ "sigla": "UCLA",
+ "pais": "US",
+ "url": "https://www.ucla.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ucla.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucla.edu/",
+    "fecha_hora_utc": "2026-11-12T04:04:34+00:00",
+    "error": null,
+    "sha256": "20f2f34738794b98435c02bb627baaa72e9250630f3f5c879b322e5853233951"
+   },
+   {
+    "url_consultada": "https://www.ucla.edu/terms-of-use",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucla.edu/terms-of-use",
+    "fecha_hora_utc": "2026-11-12T04:04:36+00:00",
+    "error": null,
+    "sha256": "2c6b3f954e9a63a1fd6d2efbf5577841b92d07a88c6d3825085fd3f306c51699"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://www.ucla.edu/accessibility"
+   },
+   "alcance_parcial": null,
+   "marco": "EU) 2016/679",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": true
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy & Terms of Use",
+    "url": "https://www.ucla.edu/terms-of-use"
+   }
+  ],
+  "aviso_url": "https://www.ucla.edu/terms-of-use",
+  "aviso_palabras": 4219,
+  "aviso_sha256_texto": "988e70ff4af7c784428442d2e1feb51def28b44320562421b3119a33f1ed243d"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:36+00:00"
+}

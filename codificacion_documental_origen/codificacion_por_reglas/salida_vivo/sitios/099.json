@@ -1,0 +1,69 @@
+{
+ "id": 99,
+ "grupo": "ecuador",
+ "sigla": "PUCE",
+ "pais": "EC",
+ "url": "https://www.puce.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.puce.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.puce.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:08:56+00:00",
+    "error": null,
+    "sha256": "4e55b48dfda504ccbcdbdfb2ebe76b7f1d679fb7aeaec7d73c2e332a1d09bccf"
+   },
+   {
+    "url_consultada": "https://www.puce.edu.ec/intranet/documentos/gaceta/politicas-generales/politica-general-proteccion-datos-personales_20240228.pdf",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://intranet.puce.edu.ec/documentos/gaceta/politicas-generales/politica-general-proteccion-datos-personales_20240228.pdf",
+    "fecha_hora_utc": "2026-11-12T04:09:01+00:00",
+    "error": null,
+    "sha256": "a5e70676a518c65b0a8844ef2971ff91d4b39d404c2d7d9255a743d6217b6fbf"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política general de protección de datos personales",
+    "url": "https://www.puce.edu.ec/intranet/documentos/gaceta/politicas-generales/politica-general-proteccion-datos-personales_20240228.pdf"
+   }
+  ],
+  "aviso_url": "https://www.puce.edu.ec/intranet/documentos/gaceta/politicas-generales/politica-general-proteccion-datos-personales_20240228.pdf",
+  "aviso_palabras": 3590,
+  "aviso_sha256_texto": "2bed0ddd92c12ab476888da37903797bb7cf90d8d1f793d06101a98d07b9114d"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:03+00:00"
+}

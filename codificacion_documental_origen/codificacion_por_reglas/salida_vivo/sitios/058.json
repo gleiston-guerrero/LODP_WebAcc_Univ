@@ -1,0 +1,68 @@
+{
+ "id": 58,
+ "grupo": "mundo",
+ "sigla": "HKUST",
+ "pais": "HK",
+ "url": "https://hkust.edu.hk/",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://hkust.edu.hk/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://hkust.edu.hk/",
+    "fecha_hora_utc": "2026-11-12T04:06:53+00:00",
+    "error": null,
+    "sha256": "9c1d6e3770590a7dfa96761fcf9cf81c31c2a3257c232ea2d88280f4ceb6839d"
+   },
+   {
+    "url_consultada": "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/",
+    "fecha_hora_utc": "2026-11-12T04:06:56+00:00",
+    "error": null,
+    "sha256": "32b6ecb40dc660750586267796d6b2262c23c17331669bbb5f1ac0e8eefac98c"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://hkust.edu.hk/accessibility"
+   },
+   "alcance_parcial": null,
+   "marco": "Personal Data (Privacy) Ordinance",
+   "derechos": [
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Officer",
+    "correo_dedicado": true
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy",
+    "url": "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/"
+   }
+  ],
+  "aviso_url": "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/",
+  "aviso_palabras": 1947,
+  "aviso_sha256_texto": "4bc531ea4adc4e293b999d81188383965a1133660682adf1f626fb71f13b7fe2"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:58+00:00"
+}

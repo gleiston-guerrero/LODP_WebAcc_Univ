@@ -1,0 +1,35 @@
+{
+ "id": 4,
+ "grupo": "mundo",
+ "sigla": "Oxford",
+ "pais": "GB",
+ "url": "https://www.ox.ac.uk",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ox.ac.uk",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.ox.ac.uk/",
+    "fecha_hora_utc": "2026-11-12T04:03:38+00:00",
+    "error": null,
+    "sha256": "b2c86a9f68cd69e959cc72cce7ecf5c192422fb800f8b2a159d056c5f87a94d9"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:39+00:00"
+}

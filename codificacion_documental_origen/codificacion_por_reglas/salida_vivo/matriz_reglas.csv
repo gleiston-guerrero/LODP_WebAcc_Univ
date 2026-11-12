@@ -1,0 +1,127 @@
+﻿id,grupo,Abbr.,C,Not.,Frm.,Rts.,DPO,Ckp.,Acc.,Notice,LOPDP,Rights,Transp.
+1,mundo,MIT,US,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+2,mundo,Stanford,US,si,no,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+3,mundo,Harvard,US,nv,nv,nv,nv,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+4,mundo,Oxford,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+5,mundo,Cambridge,GB,si,no,no,no,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+6,mundo,Caltech,US,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+7,mundo,UC Berkeley,US,si,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+8,mundo,Princeton,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+9,mundo,Imperial,GB,si,no,no,no,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+10,mundo,U Chicago,US,nv,nv,nv,nv,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+11,mundo,ETH Zurich,CH,si,no,si,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+12,mundo,Yale,US,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+13,mundo,UPenn,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+14,mundo,UCL,GB,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+15,mundo,Cornell,US,nv,nv,nv,nv,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+16,mundo,Tsinghua,CN,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+17,mundo,Peking,CN,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+18,mundo,Johns Hopkins,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+19,mundo,Columbia,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+20,mundo,Toronto,CA,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+21,mundo,UCLA,US,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+22,mundo,NUS,SG,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+23,mundo,U Tokyo,JP,si,parcial,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+24,mundo,TUM,DE,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+25,mundo,Melbourne,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+26,mundo,Edinburgh,GB,si,no,no,no,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+27,mundo,EPFL,CH,si,si,no,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+28,mundo,Michigan,US,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+29,mundo,Northwestern,US,si,no,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+30,mundo,Fudan,CN,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+31,mundo,PSL,FR,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+32,mundo,HKU,HK,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+33,mundo,Zhejiang,CN,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+34,mundo,NYU,US,nv,nv,nv,nv,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+35,mundo,SJTU,CN,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+36,mundo,KCL,GB,si,no,no,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+37,mundo,UCSD,US,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+38,mundo,LMU,DE,si,si,si,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+39,mundo,Duke,US,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+40,mundo,Manchester,GB,si,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+41,mundo,UBC,CA,no,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+42,mundo,Sydney,AU,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+43,mundo,Paris-Saclay,FR,no,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+44,mundo,Kyoto,JP,si,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+45,mundo,Illinois,US,nv,nv,nv,nv,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+46,mundo,UT Austin,US,nv,nv,nv,nv,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+47,mundo,UW,US,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+48,mundo,NTU,SG,no,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+49,mundo,McGill,CA,si,si,no,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+50,mundo,CUHK,HK,si,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+51,mundo,CMU,US,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+52,mundo,Wisconsin,US,si,si,no,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+53,mundo,USTC,CN,no,no,no,no,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+54,mundo,WUSTL,US,si,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+55,mundo,Monash,AU,nv,nv,nv,nv,nv,nv,no_aplica,no_aplica,no_aplica,no_aplica
+56,mundo,SNU,KR,si,si,no,si,no,no,no_aplica,no_aplica,no_aplica,no_aplica
+57,mundo,Heidelberg,DE,si,si,si,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+58,mundo,HKUST,HK,si,si,no,si,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+59,mundo,Karolinska,SE,no,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+60,mundo,TU Delft,NL,si,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+61,mundo,ANU,AU,no,no,no,no,no,si,no_aplica,no_aplica,no_aplica,no_aplica
+62,mundo,KU Leuven,BE,si,si,no,si,si,no,no_aplica,no_aplica,no_aplica,no_aplica
+63,mundo,Queensland,AU,si,si,no,si,si,si,no_aplica,no_aplica,no_aplica,no_aplica
+64,ecuador,EPN,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,no,no,si
+65,ecuador,ESPOL,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,si
+66,ecuador,ESPOCH,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+67,ecuador,ESPAM MFL,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+68,ecuador,ESPE,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,no,si
+69,ecuador,UCE,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+70,ecuador,UCuenca,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,si,si,si,no,si
+71,ecuador,UG,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,no,no,si
+72,ecuador,UNL,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+73,ecuador,UAE,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+74,ecuador,UTA,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+75,ecuador,UTB,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,si
+76,ecuador,UTC,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,no,no,si
+77,ecuador,UTMACH,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+78,ecuador,UTM,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+79,ecuador,UTN,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+80,ecuador,UTEQ,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+81,ecuador,UTELVT,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+82,ecuador,UEB,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+83,ecuador,UNESUM,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+84,ecuador,UNEMI,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,si,si,si
+85,ecuador,UEA,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+86,ecuador,UPSE,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+87,ecuador,ULEAM,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+88,ecuador,UNACH,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,si,si,si,si,no
+89,ecuador,UNAE,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+90,ecuador,UPEC,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+91,ecuador,Yachay Tech,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+92,ecuador,Ikiam,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,si,si,si,si,si
+93,ecuador,UArtes,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,si
+94,ecuador,Amawtay Wasi,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+95,ecuador,USECIPOL,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,no,nv,nv,nv,si
+96,ecuador,IAEN,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,parcial,si,si,si
+97,ecuador,UASB,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,si
+98,ecuador,FLACSO,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+99,ecuador,PUCE,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,no
+100,ecuador,UCSG,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,si,si,si,si,si
+101,ecuador,UCACUE,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,si,si,si,si,si
+102,ecuador,ULVR,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+103,ecuador,UTPL,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+104,ecuador,UTE,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,si,si,no,no,si
+105,ecuador,UDA,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+106,ecuador,UPS,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,si
+107,ecuador,UISEK,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,no,si,no
+108,ecuador,UEES,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,no
+109,ecuador,USFQ,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,no
+110,ecuador,UDLA,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,no,nv,nv,nv,no
+111,ecuador,UIDE,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,si,si,si,si,si
+112,ecuador,UNIANDES,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,si,si,parcial,no,no
+113,ecuador,UPACIFICO,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+114,ecuador,UTI,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,no,no,si
+115,ecuador,Casa Grande,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,si,no,no
+116,ecuador,UTEG,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,si,no,si
+117,ecuador,UISRAEL,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,no,si
+118,ecuador,UDET,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+119,ecuador,UMET,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,no,no,no
+120,ecuador,U. Otavalo,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,parcial,no,no
+121,ecuador,USGP,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,no
+122,ecuador,U. Hemisferios,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,parcial,no,no
+123,ecuador,UNIB.E,EC,no_aplica,no_aplica,no_aplica,nv,no_aplica,nv,nv,nv,nv,nv
+124,ecuador,ECOTEC,EC,no_aplica,no_aplica,no_aplica,si,no_aplica,no,si,si,si,no
+125,ecuador,UDR,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,no,no,no,no
+126,ecuador,UBE,EC,no_aplica,no_aplica,no_aplica,no,no_aplica,no,si,si,no,si

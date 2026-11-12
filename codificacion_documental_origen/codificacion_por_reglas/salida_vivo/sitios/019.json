@@ -1,0 +1,35 @@
+{
+ "id": 19,
+ "grupo": "mundo",
+ "sigla": "Columbia",
+ "pais": "US",
+ "url": "https://www.columbia.edu",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.columbia.edu",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.columbia.edu/",
+    "fecha_hora_utc": "2026-11-12T04:04:28+00:00",
+    "error": null,
+    "sha256": "173c9978834cd5f2aa0f30982bd8c9630a564f0e15745704476af72dbaa50d68"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:28+00:00"
+}

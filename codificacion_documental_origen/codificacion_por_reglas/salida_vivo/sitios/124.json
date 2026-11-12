@@ -1,0 +1,73 @@
+{
+ "id": 124,
+ "grupo": "ecuador",
+ "sigla": "ECOTEC",
+ "pais": "EC",
+ "url": "https://ecotec.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://ecotec.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://ecotec.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:11:12+00:00",
+    "error": null,
+    "sha256": "d339907eeee1351946a6c251d5f41ada088ef4ddeb832fa2f67ecd0760285604"
+   },
+   {
+    "url_consultada": "https://ecotec.edu.ec/proteccion-de-datos-personales/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://ecotec.edu.ec/proteccion-de-datos-personales/",
+    "fecha_hora_utc": "2026-11-12T04:11:14+00:00",
+    "error": null,
+    "sha256": "d8c6cb0b25ea6114cbe4c872f598c8e32f594a42c04b917ed45ae6ef6d1e8603"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "LOPDP",
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Delegado de Protección de datos",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Manual de Protección de datos",
+    "url": "https://ecotec.edu.ec/proteccion-de-datos-personales/"
+   },
+   {
+    "texto": "Políticas de privacidad",
+    "url": "https://ecotec.edu.ec/politicas-de-privacidad/"
+   }
+  ],
+  "aviso_url": "https://ecotec.edu.ec/proteccion-de-datos-personales/",
+  "aviso_palabras": 6411,
+  "aviso_sha256_texto": "ab2938f028eead05ba22c3027be28a919ce45b8a4fc115e574605fd0e8de5ee6"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:11:14+00:00"
+}

@@ -1,0 +1,72 @@
+{
+ "id": 9,
+ "grupo": "mundo",
+ "sigla": "Imperial",
+ "pais": "GB",
+ "url": "https://www.imperial.ac.uk",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.imperial.ac.uk",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.imperial.ac.uk/",
+    "fecha_hora_utc": "2026-11-12T04:03:51+00:00",
+    "error": null,
+    "sha256": "7b78981daa1ed0d71f80540b34118d19be575c4d6e0f511a85a66ba3c5766e90"
+   },
+   {
+    "url_consultada": "https://www.imperial.ac.uk/about-the-site/privacy/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.imperial.ac.uk/about-the-site/privacy/",
+    "fecha_hora_utc": "2026-11-12T04:03:53+00:00",
+    "error": null,
+    "sha256": "46d509ca3e03e55a9760e18983610c470c0c1100913106387c018b7db81b90f7"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "View accessibility support page",
+    "url": "https://www.imperial.ac.uk/about-the-site/accessibility/"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "acceso",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": {
+    "texto": "Use of cookies",
+    "url": "https://www.imperial.ac.uk/about-the-site/use-of-cookies/"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy notice",
+    "url": "https://www.imperial.ac.uk/about-the-site/privacy/"
+   }
+  ],
+  "aviso_url": "https://www.imperial.ac.uk/about-the-site/privacy/",
+  "aviso_palabras": 1580,
+  "aviso_sha256_texto": "1f552d01a5cb4a3736a1a04efd78d71dfb8ef6644e2361f98abf54dfa12ff696"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:54+00:00"
+}

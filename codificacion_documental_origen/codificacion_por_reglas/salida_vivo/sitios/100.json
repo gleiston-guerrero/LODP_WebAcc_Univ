@@ -1,0 +1,78 @@
+{
+ "id": 100,
+ "grupo": "ecuador",
+ "sigla": "UCSG",
+ "pais": "EC",
+ "url": "https://www.ucsg.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "lotaip_transparency": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ucsg.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucsg.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:09:04+00:00",
+    "error": null,
+    "sha256": "704848fc4a926574aa0082da00be71e52a0199362aae2b62dbeb73a3d0423dc9"
+   },
+   {
+    "url_consultada": "https://www.ucsg.edu.ec/politica-de-proteccion-de-datos-personales/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ucsg.edu.ec/politica-de-proteccion-de-datos-personales/",
+    "fecha_hora_utc": "2026-11-12T04:09:08+00:00",
+    "error": null,
+    "sha256": "3551e71deefaa4088384c78a6512abb4ed8decf72fb2cfff6f4e46c03cf190c6"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "barra": "userway"
+   },
+   "transparencia": {
+    "texto": "TRANSPARENCIA DE INFORMACIÓN",
+    "url": "https://www.ucsg.edu.ec/transparencia-de-la-informacion/"
+   },
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "acceso",
+    "limitacion",
+    "oposicion",
+    "portabilidad",
+    "rectificacion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Delegado de Protección de Datos",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de Protección de Datos Personales",
+    "url": "https://www.ucsg.edu.ec/politica-de-proteccion-de-datos-personales/"
+   },
+   {
+    "texto": "Formulario de Acceso de Datos Personales",
+    "url": "https://www.ucsg.edu.ec/wp-content/uploads/pdf/legal/Formulario_Ejercicio_Derechos_Datos_Personales_UCSG.docx"
+   }
+  ],
+  "aviso_url": "https://www.ucsg.edu.ec/politica-de-proteccion-de-datos-personales/",
+  "aviso_palabras": 36468,
+  "aviso_sha256_texto": "85bd86cdf2b013a6c893c2d06505ec91da03ee95015a8ab0cbee718247b4b237"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:10+00:00"
+}

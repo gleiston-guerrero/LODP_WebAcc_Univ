@@ -1,0 +1,69 @@
+{
+ "id": 107,
+ "grupo": "ecuador",
+ "sigla": "UISEK",
+ "pais": "EC",
+ "url": "https://uisek.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "si",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://uisek.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://uisek.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:09:29+00:00",
+    "error": null,
+    "sha256": "939d5d7a747d0022b8b3f9709c07a62894ba3f2106e9c0a9d159bb5b9ec60f43"
+   },
+   {
+    "url_consultada": "https://uisek.edu.ec/politica-de-privacidad/",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://uisek.edu.ec/politica-de-privacidad/",
+    "fecha_hora_utc": "2026-11-12T04:09:31+00:00",
+    "error": null,
+    "sha256": "50e0c269e2d6344f64f73fb2b11e210409ec667cbb0f6415ddafe66ad7c80146"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "acceso",
+    "limitacion",
+    "portabilidad",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de privacidad",
+    "url": "https://uisek.edu.ec/politica-de-privacidad/"
+   }
+  ],
+  "aviso_url": "https://uisek.edu.ec/politica-de-privacidad/",
+  "aviso_palabras": 1747,
+  "aviso_sha256_texto": "e795793faa78e8ef14fd934421b54b9eb18222181c8750744ab0199199113c73"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:32+00:00"
+}

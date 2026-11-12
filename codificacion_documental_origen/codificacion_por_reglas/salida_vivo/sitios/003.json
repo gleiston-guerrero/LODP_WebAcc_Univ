@@ -1,0 +1,56 @@
+{
+ "id": 3,
+ "grupo": "mundo",
+ "sigla": "Harvard",
+ "pais": "US",
+ "url": "https://www.harvard.edu",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.harvard.edu",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.harvard.edu/",
+    "fecha_hora_utc": "2026-11-12T04:03:35+00:00",
+    "error": null,
+    "sha256": "6b48aa1f4c3eb388480860fb45edb95c72afc3d3b13cbc84be42be4fc1292250"
+   },
+   {
+    "url_consultada": "https://privsec.harvard.edu/harvard-university-umbrella-privacy-statement",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://privsec.harvard.edu/harvard-university-umbrella-privacy-statement",
+    "fecha_hora_utc": "2026-11-12T04:03:37+00:00",
+    "error": null,
+    "sha256": "0b305ed7c3fed2da7d1c28cf2938c5804a344738fb10e21a3e7c6db459376fb5"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://accessibility.harvard.edu/"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy Statement",
+    "url": "https://privsec.harvard.edu/harvard-university-umbrella-privacy-statement"
+   }
+  ],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:37+00:00"
+}

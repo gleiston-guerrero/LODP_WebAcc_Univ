@@ -1,0 +1,42 @@
+{
+ "id": 41,
+ "grupo": "mundo",
+ "sigla": "UBC",
+ "pais": "CA",
+ "url": "https://www.ubc.ca",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.ubc.ca",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.ubc.ca/",
+    "fecha_hora_utc": "2026-11-12T04:05:56+00:00",
+    "error": null,
+    "sha256": "d1e01d712b8569b2ed499d4648c5cfe40698d33f5c1d0f1e48dc9d2f59422964"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://cdn.ubc.ca/clf/ref/accessibility"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:05:57+00:00"
+}

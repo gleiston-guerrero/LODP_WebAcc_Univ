@@ -1,0 +1,35 @@
+{
+ "id": 8,
+ "grupo": "mundo",
+ "sigla": "Princeton",
+ "pais": "US",
+ "url": "https://www.princeton.edu",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.princeton.edu",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.princeton.edu/",
+    "fecha_hora_utc": "2026-11-12T04:03:49+00:00",
+    "error": null,
+    "sha256": "ab4c774cd5a4a3406d82c75b4e30ce2a9185920803a755f3ebb8866f584dd9cb"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:50+00:00"
+}

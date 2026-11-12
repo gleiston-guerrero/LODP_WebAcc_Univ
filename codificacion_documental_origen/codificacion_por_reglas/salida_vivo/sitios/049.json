@@ -1,0 +1,72 @@
+{
+ "id": 49,
+ "grupo": "mundo",
+ "sigla": "McGill",
+ "pais": "CA",
+ "url": "https://www.mcgill.ca",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "no",
+  "dpo_contact": "si",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.mcgill.ca",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.mcgill.ca/",
+    "fecha_hora_utc": "2026-11-12T04:06:18+00:00",
+    "error": null,
+    "sha256": "b1be40275f417dbd31ba30163a3cefca94a4fa71c60c047d2cbecfe4e99988c6"
+   },
+   {
+    "url_consultada": "https://www.mcgill.ca/privacy-notice",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.mcgill.ca/privacy-notice",
+    "fecha_hora_utc": "2026-11-12T04:06:20+00:00",
+    "error": null,
+    "sha256": "45ed1a0f808ab30ba2fde98b253ae86b3a3e315b71b7978242c5350bac26b7d2"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://www.mcgill.ca/digital-accessibility-mcgill-university"
+   },
+   "alcance_parcial": null,
+   "marco": "Act respecting Access to documents",
+   "derechos": [
+    "acceso",
+    "rectificacion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": false
+   },
+   "cookies": {
+    "texto": "Cookie notice",
+    "url": "https://www.mcgill.ca/cookie-notice"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy notice",
+    "url": "https://www.mcgill.ca/privacy-notice"
+   }
+  ],
+  "aviso_url": "https://www.mcgill.ca/privacy-notice",
+  "aviso_palabras": 2756,
+  "aviso_sha256_texto": "eb1475e170c25716aebf13cb58d9b742ac2886611661fff4b46b887a9671a170"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:21+00:00"
+}

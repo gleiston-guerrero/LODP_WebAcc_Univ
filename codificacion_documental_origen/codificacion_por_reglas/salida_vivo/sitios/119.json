@@ -1,0 +1,63 @@
+{
+ "id": 119,
+ "grupo": "ecuador",
+ "sigla": "UMET",
+ "pais": "EC",
+ "url": "https://umet.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://umet.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://umet.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:10:28+00:00",
+    "error": null,
+    "sha256": "694a58670d9357ac5564e70539a91b61ef51d976268fa209640961b9f31574ea"
+   },
+   {
+    "url_consultada": "https://umet.edu.ec/81-RESOLUCION-N-81-UMET-CAS-SO-09-2025-UMET-POLITICA-DE-PROTECCION-DE-DATOS-PERSONALES-2025-signed",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://umet.edu.ec/81-RESOLUCION-N-81-UMET-CAS-SO-09-2025-UMET-POLITICA-DE-PROTECCION-DE-DATOS-PERSONALES-2025-signed/",
+    "fecha_hora_utc": "2026-11-12T04:10:32+00:00",
+    "error": null,
+    "sha256": "a5d93c1b03624845f8ecb609e8ccc51b7676af57813b0b4de452633815973e93"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Políticas de Protección de Datos Personales",
+    "url": "https://umet.edu.ec/81-RESOLUCION-N-81-UMET-CAS-SO-09-2025-UMET-POLITICA-DE-PROTECCION-DE-DATOS-PERSONALES-2025-signed"
+   }
+  ],
+  "aviso_url": "https://umet.edu.ec/81-RESOLUCION-N-81-UMET-CAS-SO-09-2025-UMET-POLITICA-DE-PROTECCION-DE-DATOS-PERSONALES-2025-signed",
+  "aviso_palabras": 859,
+  "aviso_sha256_texto": "1aa5dd4fa1ab960e84e1c382f47e9f2320cd887ff1e38110e65b01481f4cb6c8"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:10:36+00:00"
+}

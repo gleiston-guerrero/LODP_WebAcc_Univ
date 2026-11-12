@@ -1,0 +1,39 @@
+{
+ "id": 77,
+ "grupo": "ecuador",
+ "sigla": "UTMACH",
+ "pais": "EC",
+ "url": "https://www.utmachala.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.utmachala.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.utmachala.edu.ec/matricula/",
+    "fecha_hora_utc": "2026-11-12T04:08:00+00:00",
+    "error": null,
+    "sha256": "1400159ae432e1d6c0f339d870f41c7cf58a9298c336a85f557a1c48f0d9c4a3"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:08:00+00:00"
+}

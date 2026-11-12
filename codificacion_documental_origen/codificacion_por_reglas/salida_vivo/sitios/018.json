@@ -1,0 +1,35 @@
+{
+ "id": 18,
+ "grupo": "mundo",
+ "sigla": "Johns Hopkins",
+ "pais": "US",
+ "url": "https://www.jhu.edu",
+ "modo": "vivo",
+ "codigos": {
+  "privacy_notice": "nv",
+  "legal_framework": "nv",
+  "data_subject_rights": "nv",
+  "dpo_contact": "nv",
+  "accessibility_statement": "nv",
+  "cookie_policy": "nv"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.jhu.edu",
+    "status": 403,
+    "tls_ok": true,
+    "url_final": "https://www.jhu.edu/",
+    "fecha_hora_utc": "2026-11-12T04:04:27+00:00",
+    "error": null,
+    "sha256": "bd511de4bd1b30a1e0bbb39976a727a2029baea2df76126797c72246f5003ebd"
+   }
+  ],
+  "coincidencias": {},
+  "motivo_nv": "portada no recuperable"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:27+00:00"
+}

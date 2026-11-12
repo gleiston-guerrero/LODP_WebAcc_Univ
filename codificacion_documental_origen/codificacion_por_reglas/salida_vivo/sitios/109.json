@@ -1,0 +1,67 @@
+{
+ "id": 109,
+ "grupo": "ecuador",
+ "sigla": "USFQ",
+ "pais": "EC",
+ "url": "https://www.usfq.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "si",
+  "data_subject_rights": "si",
+  "dpo_contact": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.usfq.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.usfq.edu.ec/es",
+    "fecha_hora_utc": "2026-11-12T04:09:43+00:00",
+    "error": null,
+    "sha256": "50dabcadc05918b09cfae3ac7bd9ad32c1d219355ad37a3404851805de5e0e7b"
+   },
+   {
+    "url_consultada": "https://www.usfq.edu.ec/es/politica-de-privacidad",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.usfq.edu.ec/es/politica-de-privacidad",
+    "fecha_hora_utc": "2026-11-12T04:09:46+00:00",
+    "error": null,
+    "sha256": "5e4edd99646613ad016c1bdc707237051f80a9c35dbd0792b0eced4337ecdaf0"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "Ley Orgánica de Protección de Datos Personales",
+   "derechos": [
+    "acceso",
+    "portabilidad",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Delegado de Protección de Datos",
+    "correo_dedicado": true
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacidad",
+    "url": "https://www.usfq.edu.ec/es/politica-de-privacidad"
+   }
+  ],
+  "aviso_url": "https://www.usfq.edu.ec/es/politica-de-privacidad",
+  "aviso_palabras": 5511,
+  "aviso_sha256_texto": "30a4064531b738e7e7dd6f5fa48865b86654f42f276c005e1ee8ed2cef4bf1c8"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:09:46+00:00"
+}

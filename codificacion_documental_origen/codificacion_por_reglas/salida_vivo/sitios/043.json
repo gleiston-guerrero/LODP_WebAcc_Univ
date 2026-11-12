@@ -1,0 +1,42 @@
+{
+ "id": 43,
+ "grupo": "mundo",
+ "sigla": "Paris-Saclay",
+ "pais": "FR",
+ "url": "https://www.universite-paris-saclay.fr/en",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "no",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.universite-paris-saclay.fr/en",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.universite-paris-saclay.fr/en",
+    "fecha_hora_utc": "2026-11-12T04:06:00+00:00",
+    "error": null,
+    "sha256": "762f74f0ed76473a08fea5f1d7bc3bba2b709f7590601f859bded8eeda00d9e0"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility",
+    "url": "https://www.universite-paris-saclay.fr/en/accessibility"
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [],
+  "aviso_url": null
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:06:02+00:00"
+}

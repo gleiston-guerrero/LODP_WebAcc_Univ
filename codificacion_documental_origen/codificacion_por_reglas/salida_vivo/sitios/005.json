@@ -1,0 +1,69 @@
+{
+ "id": 5,
+ "grupo": "mundo",
+ "sigla": "Cambridge",
+ "pais": "GB",
+ "url": "https://www.cam.ac.uk",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "no",
+  "cookie_policy": "si"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.cam.ac.uk",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.cam.ac.uk/",
+    "fecha_hora_utc": "2026-11-12T04:03:40+00:00",
+    "error": null,
+    "sha256": "7e7a06c04a4e01518ba060fdf42c8066b099f8b24167ed68ad0a18bec94638d3"
+   },
+   {
+    "url_consultada": "https://www.cam.ac.uk/about-this-site/privacy-policy?ucam-ref=global-footer",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.cam.ac.uk/about-this-site/privacy-policy?ucam-ref=global-footer",
+    "fecha_hora_utc": "2026-11-12T04:03:41+00:00",
+    "error": null,
+    "sha256": "306524b018938e219c53a315df3f02531a75de0768f6350f140cadca2acf28db"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Accessibility statement",
+    "url": "https://www.cam.ac.uk/about-this-site/accessibility?ucam-ref=global-footer"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": {
+    "texto": "Cookies",
+    "url": "https://www.cam.ac.uk/about-this-site/cookies"
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Privacy policy and cookies",
+    "url": "https://www.cam.ac.uk/about-this-site/privacy-policy?ucam-ref=global-footer"
+   }
+  ],
+  "aviso_url": "https://www.cam.ac.uk/about-this-site/privacy-policy?ucam-ref=global-footer",
+  "aviso_palabras": 1269,
+  "aviso_sha256_texto": "a25503cf4c46e8bb77cedfd8500d3df9a7f2bff0cd5ae69ae4db2cf79f85d12c"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:03:41+00:00"
+}

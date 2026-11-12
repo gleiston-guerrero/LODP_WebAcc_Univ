@@ -1,0 +1,63 @@
+{
+ "id": 122,
+ "grupo": "ecuador",
+ "sigla": "U. Hemisferios",
+ "pais": "EC",
+ "url": "https://www.uhemisferios.edu.ec",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "no",
+  "lotaip_transparency": "no",
+  "privacy_notice": "si",
+  "legal_framework": "parcial",
+  "data_subject_rights": "no",
+  "dpo_contact": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://www.uhemisferios.edu.ec",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uhemisferios.edu.ec/",
+    "fecha_hora_utc": "2026-11-12T04:10:46+00:00",
+    "error": null,
+    "sha256": "7da25ae2ec7fcafe7b066cc737d4dd55ad9a0f49d12472a5664552612a07a6ca"
+   },
+   {
+    "url_consultada": "https://www.uhemisferios.edu.ec/politica-de-privacidad",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://www.uhemisferios.edu.ec/politica-de-privacidad",
+    "fecha_hora_utc": "2026-11-12T04:10:48+00:00",
+    "error": null,
+    "sha256": "3a2980661938ffe61bea2ce1df17cef7b12b37c19cc9d1645277bf8b22b80b3c"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": null,
+   "transparencia": null,
+   "alcance_parcial": null,
+   "marco": "Ley de Comercio Electrónico",
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   }
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Política de privacidad",
+    "url": "https://www.uhemisferios.edu.ec/politica-de-privacidad"
+   }
+  ],
+  "aviso_url": "https://www.uhemisferios.edu.ec/politica-de-privacidad",
+  "aviso_palabras": 614,
+  "aviso_sha256_texto": "8fa73347c652b88efed2a57ff4a391a87dadd311de771298913d68de27190144"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:10:49+00:00"
+}

@@ -1,0 +1,71 @@
+{
+ "id": 11,
+ "grupo": "mundo",
+ "sigla": "ETH Zurich",
+ "pais": "CH",
+ "url": "https://ethz.ch",
+ "modo": "vivo",
+ "codigos": {
+  "accessibility_statement": "si",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "si",
+  "dpo_contact": "no",
+  "cookie_policy": "no"
+ },
+ "evidencia": {
+  "descargas": [
+   {
+    "url_consultada": "https://ethz.ch",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://ethz.ch/de.html",
+    "fecha_hora_utc": "2026-11-12T04:04:01+00:00",
+    "error": null,
+    "sha256": "518b6aa8006ce9fcf93f9c39c9a2c72e40566cc728d2a213754d4945fea46bcb"
+   },
+   {
+    "url_consultada": "https://ethz.ch/de/footer/datenschutz.html",
+    "status": 200,
+    "tls_ok": true,
+    "url_final": "https://ethz.ch/de/footer/datenschutz.html",
+    "fecha_hora_utc": "2026-11-12T04:04:06+00:00",
+    "error": null,
+    "sha256": "e66497a40123637f3f59c631e4139014ba2c5e097eb91fb4b79683ab81218af0"
+   }
+  ],
+  "coincidencias": {
+   "accesibilidad": {
+    "texto": "Erklärung zur Barrierefreiheit Erklärung zur Barrierefreiheit",
+    "url": "https://ethz.ch/de/footer/barrierefreiheitserkl%C3%A4rung.html"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [
+    "acceso",
+    "oposicion",
+    "rectificacion",
+    "supresion"
+   ],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": null,
+    "correo_dedicado": false
+   },
+   "cookies": null
+  },
+  "candidatos_aviso": [
+   {
+    "texto": "Datenschutz Datenschutz",
+    "url": "https://ethz.ch/de/footer/datenschutz.html"
+   }
+  ],
+  "aviso_url": "https://ethz.ch/de/footer/datenschutz.html",
+  "aviso_palabras": 2118,
+  "aviso_sha256_texto": "7797f07b21930a424659786c88d0a2b58d73551c03c5e8cb6cb2464d90bb6090"
+ },
+ "script": "codificar_documental.py",
+ "version": "1.0.0",
+ "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
+ "fecha_ejecucion_utc": "2026-11-12T04:04:09+00:00"
+}
