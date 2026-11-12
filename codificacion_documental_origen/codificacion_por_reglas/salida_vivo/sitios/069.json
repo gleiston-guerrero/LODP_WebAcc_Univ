@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uce.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:07:34+00:00",
+    "fecha_hora_utc": "2026-11-12T10:17:16+00:00",
     "error": null,
-    "sha256": "2dabe7f89bc40ad0370d9208c72a9cd75bf7ce75fbd9bfd0131970210692181c"
+    "instantanea": null,
+    "sha256": "c767ce68a7a4aafaca2608d6e4d0434b9705fbfb7d86d226fba5b639f8c1950a"
    }
   ],
   "coincidencias": {
@@ -33,7 +34,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:34+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:17:17+00:00"
 }

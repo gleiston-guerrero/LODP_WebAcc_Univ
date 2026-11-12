@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.harvard.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:35+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:12+00:00",
     "error": null,
-    "sha256": "6b48aa1f4c3eb388480860fb45edb95c72afc3d3b13cbc84be42be4fc1292250"
+    "instantanea": null,
+    "sha256": "16d0418defffbc71c0d57bc3df1f5dcbb3c2a5b31f9d9768eb60413b10b0f5c5"
    },
    {
     "url_consultada": "https://privsec.harvard.edu/harvard-university-umbrella-privacy-statement",
     "status": 403,
     "tls_ok": true,
     "url_final": "https://privsec.harvard.edu/harvard-university-umbrella-privacy-statement",
-    "fecha_hora_utc": "2026-11-12T04:03:37+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:14+00:00",
     "error": null,
-    "sha256": "0b305ed7c3fed2da7d1c28cf2938c5804a344738fb10e21a3e7c6db459376fb5"
+    "instantanea": null,
+    "sha256": "30da3bc38fa350fca9e476af4a9ceeddd6ef77e383db732220dc1bfa06e96186"
    }
   ],
   "coincidencias": {
@@ -50,7 +52,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:37+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:15+00:00"
 }

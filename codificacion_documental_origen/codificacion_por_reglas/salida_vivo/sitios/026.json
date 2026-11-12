@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ed.ac.uk/",
-    "fecha_hora_utc": "2026-11-12T04:04:57+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:31+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "06856709e58d382c92fe5606ebe2e682f3d142149b370f0f14ed39c330e7cfc6"
    },
    {
@@ -29,9 +30,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ed.ac.uk/about/website/privacy/privacy-information-for-edweb-2",
-    "fecha_hora_utc": "2026-11-12T04:04:59+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:32+00:00",
     "error": null,
-    "sha256": "9962281f6e4ca4fd5a9ea79ed5f0c79733157f40d9d2fccf2309d1bddf4ce1dc"
+    "instantanea": null,
+    "sha256": "0b51a92251c3af83f9047dd63c1a1f400c92289bbcbf924d47ced135f2486a2d"
    }
   ],
   "coincidencias": {
@@ -67,7 +69,7 @@
   "aviso_sha256_texto": "9549d51276ddd6a256f8114bf1d15120847d5c854e226a678587b8ebd153533a"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:00+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:14:34+00:00"
 }

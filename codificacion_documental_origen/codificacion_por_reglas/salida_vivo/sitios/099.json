@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.puce.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:56+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:34+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "4e55b48dfda504ccbcdbdfb2ebe76b7f1d679fb7aeaec7d73c2e332a1d09bccf"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://intranet.puce.edu.ec/documentos/gaceta/politicas-generales/politica-general-proteccion-datos-personales_20240228.pdf",
-    "fecha_hora_utc": "2026-11-12T04:09:01+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:38+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "a5e70676a518c65b0a8844ef2971ff91d4b39d404c2d7d9255a743d6217b6fbf"
    }
   ],
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "2bed0ddd92c12ab476888da37903797bb7cf90d8d1f793d06101a98d07b9114d"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:03+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:40+00:00"
 }

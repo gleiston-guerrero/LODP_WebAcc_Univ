@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.mit.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:28+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:06+00:00",
     "error": null,
-    "sha256": "e6bbd2a69cc89e9201a571521cbf605285598142bcdfdb59c058661e2dc8280d"
+    "instantanea": null,
+    "sha256": "9edb655394d4d344a49b9829660fcb44571da1306b30e4863b96d4d8bb3d0f97"
    },
    {
     "url_consultada": "https://www.mit.edu/privacy",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.mit.edu/privacy/",
-    "fecha_hora_utc": "2026-11-12T04:03:30+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:07+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "ac3af3e59a47af980f3d22a23026a597fef62556e5122e49b8e71c716b8df44b"
    }
   ],
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "4743ee7a861881b01f629ddf32a0cc49c96c76d3bd5c50d24768de52a6a2555a"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:30+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:08+00:00"
 }

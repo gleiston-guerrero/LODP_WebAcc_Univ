@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ki.se/en",
-    "fecha_hora_utc": "2026-11-12T04:06:59+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:45+00:00",
     "error": null,
-    "sha256": "9337f322f3066730794372691ffad69adb160af4327f85f8aa14e21ed4eee6e3"
+    "instantanea": null,
+    "sha256": "f3524404807c5c2ee8ee413bf8a27fc089e8cde10446b0125c66dbdbd0cfcaef"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:01+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:16:46+00:00"
 }

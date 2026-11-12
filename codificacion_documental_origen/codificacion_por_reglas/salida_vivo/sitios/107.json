@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://uisek.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:29+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:02+00:00",
     "error": null,
-    "sha256": "939d5d7a747d0022b8b3f9709c07a62894ba3f2106e9c0a9d159bb5b9ec60f43"
+    "instantanea": null,
+    "sha256": "9afe5a23b6a91e96f2a8ec58200b08cf6378708d16f268853ec8ff9f18c94085"
    },
    {
     "url_consultada": "https://uisek.edu.ec/politica-de-privacidad/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://uisek.edu.ec/politica-de-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:09:31+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:06+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "50e0c269e2d6344f64f73fb2b11e210409ec667cbb0f6415ddafe66ad7c80146"
    }
   ],
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "e795793faa78e8ef14fd934421b54b9eb18222181c8750744ab0199199113c73"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:32+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:37:06+00:00"
 }

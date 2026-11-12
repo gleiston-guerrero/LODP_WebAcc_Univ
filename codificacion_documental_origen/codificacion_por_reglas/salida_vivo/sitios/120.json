@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": false,
     "url_final": "https://www.uotavalo.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:10:37+00:00",
+    "fecha_hora_utc": "2026-11-12T10:38:08+00:00",
     "error": "SSL: HTTPSConnectionPool(host='www.uotavalo.edu.ec', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:",
-    "sha256": "fb70c45fe8133f0abe91f066de897ae9864971995b44ffb27fa59a031b22e0f6"
+    "instantanea": null,
+    "sha256": "f0da81adb24695431f10390e6db0058f0cf75d01482ffbcbd57601c3fef81613"
    },
    {
     "url_consultada": "https://www.uotavalo.edu.ec/politica-de-privacidad/",
     "status": 200,
     "tls_ok": false,
     "url_final": "https://www.uotavalo.edu.ec/politica-de-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:10:39+00:00",
+    "fecha_hora_utc": "2026-11-12T10:38:10+00:00",
     "error": "SSL: HTTPSConnectionPool(host='www.uotavalo.edu.ec', port=443): Max retries exceeded with url: /politica-de-privacidad/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] cer",
-    "sha256": "d0639fd9f32775925021d5a51a2716edd15f1bf0cedf856a42b7d2b9a9ef12eb"
+    "instantanea": null,
+    "sha256": "f8849a688f06bc546abe6546131942a7f7d1748d277fff8e6221f35477012471"
    }
   ],
   "coincidencias": {
@@ -60,7 +62,7 @@
   "aviso_sha256_texto": "611410181a28dabac31fd1e558eedff5666ec128fd11c3d91f32d70b34bc9e0f"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:10:40+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:38:11+00:00"
 }

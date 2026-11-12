@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ikiam.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:36+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:15+00:00",
     "error": null,
-    "sha256": "d1203f8003d2efcf195b800fd32d357e71a80b8e401f493c21eb9c9d8b03c257"
+    "instantanea": null,
+    "sha256": "7af6c3e5afc22cf7b0d2dab99bb8aa619309820d5f41a8f8fdba1a4e4b591494"
    },
    {
     "url_consultada": "https://www.ikiam.edu.ec/index.php/ley-organica-de-proteccion-de-datos/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ikiam.edu.ec/index.php/ley-organica-de-proteccion-de-datos/",
-    "fecha_hora_utc": "2026-11-12T04:08:38+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:17+00:00",
     "error": null,
-    "sha256": "af677f8eee4c4324004fac3dd4ad8be02027282477ea25517078dd382d434d7d"
+    "instantanea": null,
+    "sha256": "c455e720bbef8b2b49ecfbf81ab1fa7232dee68676c42056526fec0e733a085c"
    }
   ],
   "coincidencias": {
@@ -67,7 +69,7 @@
   "aviso_sha256_texto": "697b74519755e2a3197f214d6f2080999ba00a4c77a84c09746246588092997d"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:39+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:18+00:00"
 }

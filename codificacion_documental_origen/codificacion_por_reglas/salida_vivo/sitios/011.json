@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ethz.ch/de.html",
-    "fecha_hora_utc": "2026-11-12T04:04:01+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:38+00:00",
     "error": null,
-    "sha256": "518b6aa8006ce9fcf93f9c39c9a2c72e40566cc728d2a213754d4945fea46bcb"
+    "instantanea": null,
+    "sha256": "0ca4bcad3744821bd8da507959e50ed0d0bd4fe3f4046eec0e02149f5245eb6f"
    },
    {
     "url_consultada": "https://ethz.ch/de/footer/datenschutz.html",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ethz.ch/de/footer/datenschutz.html",
-    "fecha_hora_utc": "2026-11-12T04:04:06+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:41+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "e66497a40123637f3f59c631e4139014ba2c5e097eb91fb4b79683ab81218af0"
    }
   ],
@@ -65,7 +67,7 @@
   "aviso_sha256_texto": "7797f07b21930a424659786c88d0a2b58d73551c03c5e8cb6cb2464d90bb6090"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:04:09+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:44+00:00"
 }

@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uasb.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:52+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:30+00:00",
     "error": null,
-    "sha256": "4506f630f6df24f671127cd7d501b5bd3d78b186cd56728369d160bb69bce5b2"
+    "instantanea": null,
+    "sha256": "33482a48eb750f20bbb6329da6d73c60cf9812a752288a5d44d6d76c2d3e66ff"
    },
    {
     "url_consultada": "https://www.uasb.edu.ec/nosotros/politica-de-privacidad/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uasb.edu.ec/nosotros/politica-de-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:08:54+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:31+00:00",
     "error": null,
-    "sha256": "d7356d7cea721795fca6659a6dfac071f5799e34f8d84601fc3e52cf08923725"
+    "instantanea": null,
+    "sha256": "2a52cbe0699de5dcbe19a68022b7049c93e84633b3935066841e6a534f7a8203"
    }
   ],
   "coincidencias": {
@@ -71,7 +73,7 @@
   "aviso_sha256_texto": "160e53874f266170c91932f90bcf76930c34dddeee7f8f5352c33b144d82c1d5"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:54+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:32+00:00"
 }

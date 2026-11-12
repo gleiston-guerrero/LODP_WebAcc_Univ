@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.unemi.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:15+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:55+00:00",
     "error": null,
-    "sha256": "9438f667d0768e59a19919b5231d8b2b6fc0beb04db1a9c08b7c8d18fb8602c6"
+    "instantanea": null,
+    "sha256": "77f451f60a263aa3fae974ed3cae39705d32cd3c7ffbfd6d4d8a2ce76983e1df"
    },
    {
     "url_consultada": "https://www.unemi.edu.ec/index.php/politica-de-privacidad-y-proteccion-de-datos-personales/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.unemi.edu.ec/index.php/politica-de-privacidad-y-proteccion-de-datos-personales/",
-    "fecha_hora_utc": "2026-11-12T04:08:17+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:57+00:00",
     "error": null,
-    "sha256": "29807e46d313298f3f24e38f5e342b8382f8db0fa2a25404cc8c719d77378ce8"
+    "instantanea": null,
+    "sha256": "26503552c3944877716037d2154a6e3c502a6cec06978bdc796a7b99e0549ec0"
    }
   ],
   "coincidencias": {
@@ -65,7 +67,7 @@
   "aviso_sha256_texto": "8fb41781acbd4e5f0d810b0f759e335271bafdbc06150020a9768033f0c0fa25"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:19+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:58+00:00"
 }

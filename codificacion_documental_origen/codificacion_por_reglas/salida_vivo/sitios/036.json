@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.kcl.ac.uk/",
-    "fecha_hora_utc": "2026-11-12T04:05:34+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:23+00:00",
     "error": null,
-    "sha256": "41f9b5e2c00aecd03876f33be76cf3b8a8986a376c740f4b8ef6f4649f0eca8c"
+    "instantanea": null,
+    "sha256": "0ffe09b3de5f71024931f4cd52da9774569f4c5965d2a9b8833cbad5ce4da0f3"
    },
    {
     "url_consultada": "https://www.kcl.ac.uk/terms/privacy",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.kcl.ac.uk/terms/privacy",
-    "fecha_hora_utc": "2026-11-12T04:05:36+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:26+00:00",
     "error": null,
-    "sha256": "4996b1db3a81a122d6fc4f73a8deb0ea1e43554a612389acf6c98a139dd15992"
+    "instantanea": null,
+    "sha256": "25fbe517d7c3c5037a39943c4ddc38c4c8ee59bdf70d0c2123292ae94bcee1b9"
    }
   ],
   "coincidencias": {
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "52c55879db35954ea833fd425257d7888c37afe54061eb70203ffbcfb097ab6a"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:38+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:27+00:00"
 }

@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.caltech.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:42+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:19+00:00",
     "error": null,
-    "sha256": "3ef1398947e0192031eca673b78792538738d834eb6aa1b9b111c05885936795"
+    "instantanea": null,
+    "sha256": "40c2b10127dde988ed06d30ace7e73cc38eadac58056f484e774461a69e9a9b3"
    },
    {
     "url_consultada": "https://www.caltech.edu/privacy-notice",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.caltech.edu/privacy-notice",
-    "fecha_hora_utc": "2026-11-12T04:03:44+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:21+00:00",
     "error": null,
-    "sha256": "9f34392f5becd6630a0d8b040f916ffbed209618a88995cb74bc7fdfd7fcfa19"
+    "instantanea": null,
+    "sha256": "890428cab7720d0d351d08252b154017b6f44770f27ef43ff5d2b265701a9185"
    }
   ],
   "coincidencias": {
@@ -65,7 +67,7 @@
   "aviso_sha256_texto": "b166ca993eabd8422b8bee749772d19a95300eb75fa5f5adbeafced765a84b0d"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:45+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:22+00:00"
 }

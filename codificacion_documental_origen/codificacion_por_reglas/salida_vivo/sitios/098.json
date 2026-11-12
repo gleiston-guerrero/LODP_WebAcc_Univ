@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.flacso.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:55+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:33+00:00",
     "error": null,
-    "sha256": "91817f932a66aa130b3049ce5a84b9c76a83eae9ccf170e62efcbefa551ecbe0"
+    "instantanea": null,
+    "sha256": "267a40fb7f94234b69293d49ea5e9f244c1e8d8e703b6be36c4db5ffcc91d6fd"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:55+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:33+00:00"
 }

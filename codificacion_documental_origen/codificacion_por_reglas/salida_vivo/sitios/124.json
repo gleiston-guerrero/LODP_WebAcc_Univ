@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ecotec.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:11:12+00:00",
+    "fecha_hora_utc": "2026-11-12T10:56:01+00:00",
     "error": null,
-    "sha256": "d339907eeee1351946a6c251d5f41ada088ef4ddeb832fa2f67ecd0760285604"
+    "instantanea": null,
+    "sha256": "fd499ac48a91e406a2104b1a01a34bae1f01adc20c4a716cf0c66f4a0d4fde58"
    },
    {
     "url_consultada": "https://ecotec.edu.ec/proteccion-de-datos-personales/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ecotec.edu.ec/proteccion-de-datos-personales/",
-    "fecha_hora_utc": "2026-11-12T04:11:14+00:00",
+    "fecha_hora_utc": "2026-11-12T10:56:03+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "d8c6cb0b25ea6114cbe4c872f598c8e32f594a42c04b917ed45ae6ef6d1e8603"
    }
   ],
@@ -67,7 +69,7 @@
   "aviso_sha256_texto": "ab2938f028eead05ba22c3027be28a919ce45b8a4fc115e574605fd0e8de5ee6"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:11:14+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:56:03+00:00"
 }

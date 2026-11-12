@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.hku.hk/",
-    "fecha_hora_utc": "2026-11-12T04:05:19+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:58+00:00",
     "error": null,
-    "sha256": "85a5c41874364e76fdb0cc21ff7144badcff72ac65c9253f850985d819acc1ce"
+    "instantanea": null,
+    "sha256": "60976f3d02cf8c8f9b68a5dbfc100f7cd9ad90e4ab591c7af41c31f3aec433c0"
    },
    {
     "url_consultada": "https://www.hku.hk/en/privacy-policy",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.hku.hk/en/privacy-policy",
-    "fecha_hora_utc": "2026-11-12T04:05:21+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:01+00:00",
     "error": null,
-    "sha256": "082e4ebdb0c44a917fa3cf55d9618ea07a1d20c90bee3252a0b6d701f13f6293"
+    "instantanea": null,
+    "sha256": "e7deb941dafeb89466c0c0232068fddf9b56cfb6a82fef7b596280d41fec3426"
    }
   ],
   "coincidencias": {
@@ -60,7 +62,7 @@
   "aviso_sha256_texto": "3aa2e14d568246c5a75cb7bbd9e4e1c20b410e4a988acba7886d7a1adf2fb09e"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:22+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:02+00:00"
 }

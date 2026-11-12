@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.utn.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:04+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:46+00:00",
     "error": null,
-    "sha256": "4a963245996433196e0350af72ef463bb216400f413039ef31fa2b8fa70ab331"
+    "instantanea": null,
+    "sha256": "425b27d98a145e6f0870c7657e7fa501254e3c5807bd9d5f91c6db6cc3007a9b"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:05+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:46+00:00"
 }

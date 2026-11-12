@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.sangregorio.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:10:41+00:00",
+    "fecha_hora_utc": "2026-11-12T10:38:12+00:00",
     "error": null,
-    "sha256": "e491a2b163dd528e1cea4f5cb0255d0fb585089f780ba7e34bbdc4f3564bf5a8"
+    "instantanea": null,
+    "sha256": "e59653dddc04b5ead912d16cce7677a171060dd796210490ccba817ac1966d5a"
    },
    {
     "url_consultada": "https://app.sangregorio.edu.ec/SSSO_USGP/modulos/academico/dist/doc/Sistema/ProteccionDatosPersonales.pdf",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://app.sangregorio.edu.ec/SSSO_USGP/modulos/academico/dist/doc/Sistema/ProteccionDatosPersonales.pdf",
-    "fecha_hora_utc": "2026-11-12T04:10:44+00:00",
+    "fecha_hora_utc": "2026-11-12T10:38:14+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "c64cfb412406a6d0de576910b410f8410280a4bb897f82cd86d480dc3aab2672"
    }
   ],
@@ -71,7 +73,7 @@
   "aviso_sha256_texto": "8a7d79a3a59ceb059c34597d197d2c3f1ce5d85c4b6c599bcd9db611195e29cf"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:10:45+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:38:15+00:00"
 }

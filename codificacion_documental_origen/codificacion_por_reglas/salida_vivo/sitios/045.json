@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://illinois.edu/",
-    "fecha_hora_utc": "2026-11-12T04:06:06+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:53+00:00",
     "error": null,
-    "sha256": "73f1f80381db1a39fdd2d4a8995c3f2e2fcb4e2d0587a626202e8d26331bb5c7"
+    "instantanea": null,
+    "sha256": "3639a394692de617553d806620735b0447c664fc69c9f4cd5be9dbd9a8f47aa3"
    },
    {
     "url_consultada": "https://www.vpaa.uillinois.edu/resources/web_privacy",
     "status": 403,
     "tls_ok": true,
     "url_final": "https://www.vpaa.uillinois.edu/resources/web_privacy",
-    "fecha_hora_utc": "2026-11-12T04:06:08+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:55+00:00",
     "error": null,
-    "sha256": "19c5bcae9460bbaf53b61c867bc618b30abef71d736dd32b86c61e53598b02e9"
+    "instantanea": null,
+    "sha256": "4ec5cf7ed56026286c57426ff57a4bb33d507fb3c395684bbb13592b1a02c66c"
    }
   ],
   "coincidencias": {
@@ -50,7 +52,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:06:09+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:56+00:00"
 }

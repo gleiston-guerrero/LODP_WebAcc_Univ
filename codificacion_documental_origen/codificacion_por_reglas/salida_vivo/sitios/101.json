@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucacue.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:11+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:45+00:00",
     "error": null,
-    "sha256": "42c8e70abe2360e0f8533e1f364b707253cf4df77c0dc28fad1707e93d26954f"
+    "instantanea": null,
+    "sha256": "36801ebe8afaa605dd76c2fac08caa179760e9fc8827beecac586a9c30283637"
    },
    {
     "url_consultada": "https://www.ucacue.edu.ec/politica-privacidad/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucacue.edu.ec/politica-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:09:14+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:48+00:00",
     "error": null,
-    "sha256": "ef21e451e1f36ed6dcc49cbcfe2919c4002651ef70e6788b87af96a55394ce6a"
+    "instantanea": null,
+    "sha256": "380e5a20a7d81a9c9710dd5626ed2f17befb4811a378c153e413b5de01d3d743"
    }
   ],
   "coincidencias": {
@@ -65,10 +67,10 @@
   ],
   "aviso_url": "https://www.ucacue.edu.ec/politica-privacidad/",
   "aviso_palabras": 1680,
-  "aviso_sha256_texto": "1d0816e4a6637e04d146b8d4f9388057df6b214aa42bea59da71d51f87297123"
+  "aviso_sha256_texto": "d969f5799cdc5a604b59761712ea9fbdade8f2bba0042fca83cd6cf6c067a303"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:16+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:50+00:00"
 }

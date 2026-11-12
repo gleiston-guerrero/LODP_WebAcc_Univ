@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ulvr.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:17+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:51+00:00",
     "error": null,
-    "sha256": "7312f29b47f9158d2d3ea2648ee381d2737442554cf08c51ca39d930f9f5a7f3"
+    "instantanea": null,
+    "sha256": "73d9bb383b5adc325081a857d0c75d98cebb2b4435ec2bee33ad6255a55bbe44"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:17+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:52+00:00"
 }

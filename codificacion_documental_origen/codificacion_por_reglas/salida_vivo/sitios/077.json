@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.utmachala.edu.ec/matricula/",
-    "fecha_hora_utc": "2026-11-12T04:08:00+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:43+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "1400159ae432e1d6c0f339d870f41c7cf58a9298c336a85f557a1c48f0d9c4a3"
    }
   ],
@@ -33,7 +34,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:00+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:43+00:00"
 }

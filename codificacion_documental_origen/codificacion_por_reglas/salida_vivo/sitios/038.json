@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.lmu.de/de/index.html",
-    "fecha_hora_utc": "2026-11-12T04:05:42+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:31+00:00",
     "error": null,
-    "sha256": "d84d44ad29e0c3525b4248f4bdd646774c833311100daf177cc5900ff89a62b8"
+    "instantanea": null,
+    "sha256": "0da5387a329c155168f484247595eab95ab0f3b4f4073b208fb7b2df0cbf63dd"
    },
    {
     "url_consultada": "https://www.lmu.de/de/footer/datenschutz/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.lmu.de/de/footer/datenschutz/",
-    "fecha_hora_utc": "2026-11-12T04:05:45+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:34+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "279156791f97e2c57ec1dee4b3c5fe02c48aec5525ddd0991e8fae0ddbb171a7"
    }
   ],
@@ -70,7 +72,7 @@
   "aviso_sha256_texto": "58b12e59bb1e299f196757cebd0ff5d891ba98554769cd0af882f37d7c0623d2"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:46+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:34+00:00"
 }

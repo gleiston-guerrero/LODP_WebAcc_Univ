@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ups.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:27+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:00+00:00",
     "error": null,
-    "sha256": "b455435703545440e6ca7481548eac333211de8f7bc898fa22ce535b23fc4465"
+    "instantanea": null,
+    "sha256": "b263612781bc5d682510b3214627de575e7949d857cbfbaccb09641e9e12fff7"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:28+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:37:01+00:00"
 }

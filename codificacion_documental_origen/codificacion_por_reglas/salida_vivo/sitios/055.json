@@ -20,16 +20,17 @@
     "status": 403,
     "tls_ok": true,
     "url_final": "https://www.monash.edu/",
-    "fecha_hora_utc": "2026-11-12T04:06:39+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:26+00:00",
     "error": null,
-    "sha256": "576495fc069d35a7ae626f14add982fc562091c8a3c773c6b2a6995a32ccd048"
+    "instantanea": null,
+    "sha256": "cad89ae7b50abc8a24a51f7155bbc0595f139e034fd3829ed8e44dcc33ff00cd"
    }
   ],
   "coincidencias": {},
   "motivo_nv": "portada no recuperable"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:06:39+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:16:26+00:00"
 }

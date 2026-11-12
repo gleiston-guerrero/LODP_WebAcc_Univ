@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.epfl.ch/en/",
-    "fecha_hora_utc": "2026-11-12T04:05:01+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:35+00:00",
     "error": null,
-    "sha256": "8ff101dba7c74f77c5f8e890791287cc24b503d3fa6ec4089948e1a0baad3c31"
+    "instantanea": null,
+    "sha256": "795d3b26a4a4f8f3a734692d932b94bea51bf28e5b106791be31f85ff3b27a89"
    },
    {
     "url_consultada": "https://go.epfl.ch/privacy-policy/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.epfl.ch/about/overview/regulations-and-guidelines/epfl-privacy-policy/",
-    "fecha_hora_utc": "2026-11-12T04:05:04+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:38+00:00",
     "error": null,
-    "sha256": "8ee730d3b748b9e6258dcb0a4689d361a2a98594ff4d109ae0027d061b7da2ea"
+    "instantanea": null,
+    "sha256": "1858aa7e5c42cf2ec40ce34abdbc5c8e56d2e9ee304bc627d7f68ffb06e6d2db"
    }
   ],
   "coincidencias": {
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "4f4e7c34f868d48beb58b3ec56e24e3db4669ecec7bb687f26c2c23d864f9b72"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:07+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:14:46+00:00"
 }

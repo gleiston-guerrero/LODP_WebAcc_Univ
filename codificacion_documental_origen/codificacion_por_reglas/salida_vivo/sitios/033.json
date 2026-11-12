@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.zju.edu.cn/english/",
-    "fecha_hora_utc": "2026-11-12T04:05:23+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:13+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "49088f06111b75e28b3cc4d000b3ebdc66a0a05d68fd03b6d52ae0671ce8cd1f"
    }
   ],
@@ -33,7 +34,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:26+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:16+00:00"
 }

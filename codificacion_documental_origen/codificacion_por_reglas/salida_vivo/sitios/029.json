@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.northwestern.edu/",
-    "fecha_hora_utc": "2026-11-12T04:05:09+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:48+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "031a331761794de536ccaea155f5ea7e7c7745a2dc036303a6954198bd170b96"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.northwestern.edu/privacy/",
-    "fecha_hora_utc": "2026-11-12T04:05:11+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:51+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "1a8540310ffd6dc3c3779bb03030006a3712841139d9b66b7d571803b6db3458"
    }
   ],
@@ -68,7 +70,7 @@
   "aviso_sha256_texto": "bff08945c29ee33f3f1721a803335b698ad1e3bd1f7dd8c201662ea720e26977"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:12+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:14:52+00:00"
 }

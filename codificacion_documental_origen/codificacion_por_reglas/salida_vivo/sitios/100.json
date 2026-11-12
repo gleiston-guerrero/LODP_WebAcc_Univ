@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucsg.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:04+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:41+00:00",
     "error": null,
-    "sha256": "704848fc4a926574aa0082da00be71e52a0199362aae2b62dbeb73a3d0423dc9"
+    "instantanea": null,
+    "sha256": "a03f9145a4d78fe610142af1a93f1c800394c9fddbf8c72ddc4397abcbe26561"
    },
    {
     "url_consultada": "https://www.ucsg.edu.ec/politica-de-proteccion-de-datos-personales/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucsg.edu.ec/politica-de-proteccion-de-datos-personales/",
-    "fecha_hora_utc": "2026-11-12T04:09:08+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:43+00:00",
     "error": null,
-    "sha256": "3551e71deefaa4088384c78a6512abb4ed8decf72fb2cfff6f4e46c03cf190c6"
+    "instantanea": null,
+    "sha256": "0ce4e8fca376b647cff5a4200c91b170891370870b84afd3829a35a52b05fa5e"
    }
   ],
   "coincidencias": {
@@ -72,7 +74,7 @@
   "aviso_sha256_texto": "85bd86cdf2b013a6c893c2d06505ec91da03ee95015a8ab0cbee718247b4b237"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:10+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:44+00:00"
 }

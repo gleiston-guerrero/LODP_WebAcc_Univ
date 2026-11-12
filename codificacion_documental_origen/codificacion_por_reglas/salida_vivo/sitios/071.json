@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ug.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:07:38+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:25+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "de7c29601834a6ad45bb01309b38e7b9dbc1bd053adc39e1e258254aca6b16bb"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ug.edu.ec/politica-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:07:40+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:27+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "a4ca30d5eb75147843f3db1ade6a1380542a6bece640a26643f427eda1c9349b"
    }
   ],
@@ -64,7 +66,7 @@
   "aviso_sha256_texto": "17f4b3ecb4633758d2e6b995b0019af331bf9485692ee519257a676f41d25b81"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:41+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:27+00:00"
 }

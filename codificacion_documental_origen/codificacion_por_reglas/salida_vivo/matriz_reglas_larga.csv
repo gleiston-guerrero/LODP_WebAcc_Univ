@@ -53,10 +53,10 @@
 9,mundo,Imperial,dpo_contact,DPO,no,no
 9,mundo,Imperial,cookie_policy,Ckp.,si,si
 9,mundo,Imperial,accessibility_statement,Acc.,si,si
-10,mundo,U Chicago,privacy_notice,Not.,nv,si
-10,mundo,U Chicago,legal_framework,Frm.,nv,parcial
-10,mundo,U Chicago,data_subject_rights,Rts.,nv,si
-10,mundo,U Chicago,dpo_contact,DPO,nv,si
+10,mundo,U Chicago,privacy_notice,Not.,si,si
+10,mundo,U Chicago,legal_framework,Frm.,no,parcial
+10,mundo,U Chicago,data_subject_rights,Rts.,no,si
+10,mundo,U Chicago,dpo_contact,DPO,si,si
 10,mundo,U Chicago,cookie_policy,Ckp.,no,no
 10,mundo,U Chicago,accessibility_statement,Acc.,si,no
 11,mundo,ETH Zurich,privacy_notice,Not.,si,si

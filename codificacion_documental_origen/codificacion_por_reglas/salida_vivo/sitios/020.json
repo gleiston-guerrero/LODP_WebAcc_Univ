@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.utoronto.ca/",
-    "fecha_hora_utc": "2026-11-12T04:04:29+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:04+00:00",
     "error": null,
-    "sha256": "573d90a72c8b1009d7e98b07795b948c6dcc943508e8238f71715d9a28fb63dc"
+    "instantanea": null,
+    "sha256": "406acdfa38b13445d2e67abe4dbab3cc1e9f969a2d5741dabcd9e440228f17a9"
    },
    {
     "url_consultada": "https://privacy.utoronto.ca/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://privacy.utoronto.ca/",
-    "fecha_hora_utc": "2026-11-12T04:04:31+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:06+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "ca3660734f281786e326b1ba3646ac18993bdd5f8c8eb7779d59748283aff0ed"
    }
   ],
@@ -60,7 +62,7 @@
   "aviso_sha256_texto": "6a6818f2a0d79a11f0850c51ab151cd5cd2a7a11fb65140fd467d839093a88c9"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:04:33+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:14:07+00:00"
 }

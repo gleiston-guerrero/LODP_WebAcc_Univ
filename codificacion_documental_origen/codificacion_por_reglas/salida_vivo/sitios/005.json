@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.cam.ac.uk/",
-    "fecha_hora_utc": "2026-11-12T04:03:40+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:17+00:00",
     "error": null,
-    "sha256": "7e7a06c04a4e01518ba060fdf42c8066b099f8b24167ed68ad0a18bec94638d3"
+    "instantanea": null,
+    "sha256": "e8efe764489850f48e8a107c2fa9ba639c1aea76956f4cca2bf020c26273c46c"
    },
    {
     "url_consultada": "https://www.cam.ac.uk/about-this-site/privacy-policy?ucam-ref=global-footer",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.cam.ac.uk/about-this-site/privacy-policy?ucam-ref=global-footer",
-    "fecha_hora_utc": "2026-11-12T04:03:41+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:18+00:00",
     "error": null,
-    "sha256": "306524b018938e219c53a315df3f02531a75de0768f6350f140cadca2acf28db"
+    "instantanea": null,
+    "sha256": "9c5204227ba9bbc00970e57abf975f2b58a5376dec4638a1dfc2b6c8ce2f225c"
    }
   ],
   "coincidencias": {
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "a25503cf4c46e8bb77cedfd8500d3df9a7f2bff0cd5ae69ae4db2cf79f85d12c"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:41+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:18+00:00"
 }

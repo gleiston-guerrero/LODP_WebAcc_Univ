@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.cornell.edu/",
-    "fecha_hora_utc": "2026-11-12T04:04:16+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:52+00:00",
     "error": null,
-    "sha256": "a3b601567b0f85d6192e5fcbf650965edd5eb17daf267f1d14266be3d334b426"
+    "instantanea": null,
+    "sha256": "ac2b4ca70f439534655b7515480b99a34a70b8d67e8ea7f88928f1346ba1d258"
    },
    {
     "url_consultada": "https://privacy.cornell.edu/",
     "status": 403,
     "tls_ok": true,
     "url_final": "https://privacy.cornell.edu/",
-    "fecha_hora_utc": "2026-11-12T04:04:19+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:55+00:00",
     "error": null,
-    "sha256": "941d6ebbd535b1080a7f6c6d91939773e4266514410b3979bc2de93e200283a3"
+    "instantanea": null,
+    "sha256": "0920ce84964a58e1cea8c63e89d6ab44bf37d43b4164ad9b3485bcc6d805489b"
    }
   ],
   "coincidencias": {
@@ -50,7 +52,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:04:19+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:55+00:00"
 }

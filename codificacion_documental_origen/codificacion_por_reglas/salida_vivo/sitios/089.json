@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://unae.edu.ec/inicio/",
-    "fecha_hora_utc": "2026-11-12T04:08:29+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:08+00:00",
     "error": null,
-    "sha256": "8040d2612e32a668475c708cd8537dc2a861d2ac8ed00e4cb1aad7fee8ffc544"
+    "instantanea": null,
+    "sha256": "e94cf1abb52b1abe589fec3da5a84d1f75541393b18e72a48df1150fc9196f3b"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:30+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:09+00:00"
 }

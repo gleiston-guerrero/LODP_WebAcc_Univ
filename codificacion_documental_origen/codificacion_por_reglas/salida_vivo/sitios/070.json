@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucuenca.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:07:35+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:23+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "866949191519291d21cdd7a8f9b7326079985e0cd61a9c82566aa623b41ea4c6"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucuenca.edu.ec/proteccion-de-datos-personales/",
-    "fecha_hora_utc": "2026-11-12T04:07:37+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:24+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "f402f69dd91211196cce09f84758c4096c4f5bf2e099c696dae5b373b8055acf"
    }
   ],
@@ -62,7 +64,7 @@
   "aviso_sha256_texto": "338b249a67ff7df2585c6d8691c0c036e0aba25ba31a7a52df779792f999b753"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:37+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:24+00:00"
 }

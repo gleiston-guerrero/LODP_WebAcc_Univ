@@ -20,16 +20,17 @@
     "status": 403,
     "tls_ok": true,
     "url_final": "https://www.princeton.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:49+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:26+00:00",
     "error": null,
-    "sha256": "ab4c774cd5a4a3406d82c75b4e30ce2a9185920803a755f3ebb8866f584dd9cb"
+    "instantanea": null,
+    "sha256": "c972d15af7fec0ca4670a33251c6ca4df419d267804a0867b1509d3b4b57d00f"
    }
   ],
   "coincidencias": {},
   "motivo_nv": "portada no recuperable"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:50+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:26+00:00"
 }

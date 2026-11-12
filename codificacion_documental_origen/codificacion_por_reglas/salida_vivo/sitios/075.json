@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://utb.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:07:54+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:38+00:00",
     "error": null,
-    "sha256": "4546a414319e25290dbfa661e2337b65a9d7cefac11a389bb0e149b8d3a4cfbf"
+    "instantanea": null,
+    "sha256": "f7d98e79b76a1f7d1873b554e189a1e524e7fa639b3511c8911019f766d48f47"
    },
    {
     "url_consultada": "https://utb.edu.ec/politica-de-privacidad",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://utb.edu.ec/politica-de-privacidad",
-    "fecha_hora_utc": "2026-11-12T04:07:56+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:39+00:00",
     "error": null,
-    "sha256": "eb2a16b7511b4f6cdb618aaaefabcb9898e296f476941fdbadf54c0edc7a0253"
+    "instantanea": null,
+    "sha256": "bafe7bdece686214764c11333cf116fe809a1cbedb53232cb0da9ecb5ad55ab8"
    }
   ],
   "coincidencias": {
@@ -64,7 +66,7 @@
   "aviso_sha256_texto": "215a046bc5f9f063336e1bebe61481cf9e5a2261856a59bbc8eddeba88a39f75"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:56+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:39+00:00"
 }

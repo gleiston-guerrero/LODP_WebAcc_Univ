@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.espol.edu.ec/es",
-    "fecha_hora_utc": "2026-11-12T04:07:23+00:00",
+    "fecha_hora_utc": "2026-11-12T10:17:07+00:00",
     "error": null,
-    "sha256": "76e813eec5eb1ad81168e79a185423fa0f0ba9799fecab6823dab410729f6ada"
+    "instantanea": null,
+    "sha256": "25e0114c135276a745355668bf183a9c073a32a17841260595885e3f71e3c4f4"
    },
    {
     "url_consultada": "https://www.espol.edu.ec/es/proteccion-datos-personales",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.espol.edu.ec/es/proteccion-datos-personales",
-    "fecha_hora_utc": "2026-11-12T04:07:24+00:00",
+    "fecha_hora_utc": "2026-11-12T10:17:08+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "88fba4d32be2bdb8f2d4614b35a682418ccb6976884bbc2eb461af0b22d6b5cb"
    }
   ],
@@ -64,7 +66,7 @@
   "aviso_sha256_texto": "79bd4c0b292b0f5bd285035274060d026be51a37ba800b6585700954cf96a75d"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:24+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:17:08+00:00"
 }

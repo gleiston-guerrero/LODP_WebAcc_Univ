@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.upse.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:21+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:00+00:00",
     "error": null,
-    "sha256": "1189d6d87cda2352d50515eebb475331cd35bb196a0751317c450e2c37436e2f"
+    "instantanea": null,
+    "sha256": "17d15db774bdf31176b012d2f20739a057a924b5292024e8e6415df498776855"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:23+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:02+00:00"
 }

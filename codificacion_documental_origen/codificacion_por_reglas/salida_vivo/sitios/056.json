@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://en.snu.ac.kr/index.html",
-    "fecha_hora_utc": "2026-11-12T04:06:40+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:27+00:00",
     "error": null,
-    "sha256": "5e1e167bb52d3e2e589a27559fdf50c1cdff120906a5d060f38523b4da474ddb"
+    "instantanea": null,
+    "sha256": "2bcca3b1db47871f4c97fa1b1dc34f9b49d648e25e404164db2e788e8bfad6b9"
    },
    {
     "url_consultada": "https://en.snu.ac.kr/privacy-policy",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://en.snu.ac.kr/privacy-policy",
-    "fecha_hora_utc": "2026-11-12T04:06:46+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:32+00:00",
     "error": null,
-    "sha256": "61c93a70a9e149ba2d100a36a5d4389710f98833078b9be4e1e13646d0ac7965"
+    "instantanea": null,
+    "sha256": "2607b7a74f291f68f44aed8aee59934557b26b5812260f51cf65f7b4d29b294d"
    }
   ],
   "coincidencias": {
@@ -60,7 +62,7 @@
   "aviso_sha256_texto": "4f7d98472caaa499afb853a5c5b75f4e10894b42410d4f60c6a871e8580341d0"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:06:49+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:16:34+00:00"
 }

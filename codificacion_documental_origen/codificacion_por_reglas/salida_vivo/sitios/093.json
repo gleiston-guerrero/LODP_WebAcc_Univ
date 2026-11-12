@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uartes.edu.ec/sitio/",
-    "fecha_hora_utc": "2026-11-12T04:08:40+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:19+00:00",
     "error": null,
-    "sha256": "6c4ccd4af7b6984c0195d69f21ee8e5c5f3b939a5c82128047b6fad5b7e9325c"
+    "instantanea": null,
+    "sha256": "359165fb9ee783ab73ed90e9cb6384b8bff83081d683c01a9d82df73c195d063"
    },
    {
     "url_consultada": "https://www.uartes.edu.ec/sitio/proteccion-de-datos",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uartes.edu.ec/sitio/proteccion-de-datos",
-    "fecha_hora_utc": "2026-11-12T04:08:42+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:20+00:00",
     "error": null,
-    "sha256": "83a505770715bffcbf30f97d1df422f44b61edb56415f8211b4ed8020b11db48"
+    "instantanea": null,
+    "sha256": "41c93798c12078dab08c2bf79c811be5143c8430d40416991f78332f1000e840"
    }
   ],
   "coincidencias": {
@@ -66,7 +68,7 @@
   "aviso_sha256_texto": "1d65a999dc9476bfa4f0139e17215df41f0888688e1fbacceab75fd3921bfea8"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:43+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:21+00:00"
 }

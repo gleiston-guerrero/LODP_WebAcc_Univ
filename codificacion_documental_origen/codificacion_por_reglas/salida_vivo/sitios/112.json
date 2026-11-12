@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uniandes.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:56+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:29+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "97452bc7748826feab2edf8c5f85be12d54e1ead3438f7821b9385b82b063bd3"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uniandes.edu.ec/politica-de-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:09:59+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:31+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "defc4755a7bc1d2a3fdac37c5ff0c9facc0747ad87a178452555fd0039830df4"
    }
   ],
@@ -62,7 +64,7 @@
   "aviso_sha256_texto": "ced1e404a93f5c7d8efaec09e0dc56ab165bc92066e7c77735753e6cdaececc0"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:59+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:37:31+00:00"
 }

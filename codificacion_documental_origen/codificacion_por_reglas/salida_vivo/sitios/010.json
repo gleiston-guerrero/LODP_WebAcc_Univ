@@ -7,10 +7,10 @@
  "modo": "vivo",
  "codigos": {
   "accessibility_statement": "si",
-  "privacy_notice": "nv",
-  "legal_framework": "nv",
-  "data_subject_rights": "nv",
-  "dpo_contact": "nv",
+  "privacy_notice": "si",
+  "legal_framework": "no",
+  "data_subject_rights": "no",
+  "dpo_contact": "si",
   "cookie_policy": "no"
  },
  "evidencia": {
@@ -20,24 +20,34 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uchicago.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:55+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:30+00:00",
     "error": null,
-    "sha256": "5f0729e8a04740b4b1d21a7c8ad4c2ae131233091eb3270bc48269216f9adfa6"
+    "instantanea": null,
+    "sha256": "d6b3727f445516e779e0c10553b0e766a276cdecd8083c08a157b0d025cc0620"
    },
    {
     "url_consultada": "https://privacy.uchicago.edu/privacy-policy/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://intranet.uchicago.edu/tools-and-resources/it-services/services/privacy-office",
-    "fecha_hora_utc": "2026-11-12T04:03:57+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:33+00:00",
     "error": null,
-    "sha256": "fa72c9da8d97cf8faa21aeb1a1310fa7580ca718345d74609a47eddfa94cb995"
+    "instantanea": null,
+    "sha256": "a28ae524a4c35c8e70bd3f43fa6a0a5b5d6f6827498e7ad41b6ee7909952f070"
    }
   ],
   "coincidencias": {
    "accesibilidad": {
     "texto": "Accessibility",
     "url": "https://accessibility.uchicago.edu/"
+   },
+   "alcance_parcial": null,
+   "marco": null,
+   "derechos": [],
+   "via_ejercicio": true,
+   "contacto": {
+    "rol": "Privacy Office",
+    "correo_dedicado": false
    },
    "cookies": null
   },
@@ -47,10 +57,12 @@
     "url": "https://privacy.uchicago.edu/privacy-policy/"
    }
   ],
-  "aviso_url": null
+  "aviso_url": "https://privacy.uchicago.edu/privacy-policy/",
+  "aviso_palabras": 465,
+  "aviso_sha256_texto": "ade770262ba55ab077450f4129d5637f6b50201bd672746ece608912e12a21eb"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:04:00+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:37+00:00"
 }

@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.washington.edu/",
-    "fecha_hora_utc": "2026-11-12T04:06:12+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:59+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "cf48e98e0630895d32f92564a26130de97c8ae37d957e8f0204568f5e490ad77"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.washington.edu/online/privacy/",
-    "fecha_hora_utc": "2026-11-12T04:06:15+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:01+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "fce8cdf82787dd85a7be2c8d0b6646243068ce7d31aedcce9651abb51ac5490d"
    }
   ],
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "39cfa1b5ab3ad36981f604aa916e0419e07fff4ccb91efe4ac9a8aa27fe0c43f"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:06:15+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:16:02+00:00"
 }

@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://uaw.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:44+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:22+00:00",
     "error": null,
-    "sha256": "8d2b6d3ed0a494f2d95d2263e1ff8bd7901d7ccd9d25c167614985a7ed0cd9ac"
+    "instantanea": null,
+    "sha256": "70f24a702f4c23f074452df97f99824a874fbbafc4dadd3b26d633ac80671feb"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:44+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:22+00:00"
 }

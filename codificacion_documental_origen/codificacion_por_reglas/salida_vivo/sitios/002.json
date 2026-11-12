@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.stanford.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:31+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:09+00:00",
     "error": null,
-    "sha256": "6a24bdd0e5d2e319f7194b34a3fbec2bf61c468a90ff013cb1c194f5bcc9123f"
+    "instantanea": null,
+    "sha256": "648cab1bcf46b8fde2ead8b54ede00fc83eb8bf9f321b2bb57457e4ed17466ce"
    },
    {
     "url_consultada": "https://www.stanford.edu/privacy",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.stanford.edu/privacy",
-    "fecha_hora_utc": "2026-11-12T04:03:34+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:11+00:00",
     "error": null,
-    "sha256": "3cb43ff2876c3b93d0afa10073154c5d720ddfe63e69bb452c01b2017f5cf913"
+    "instantanea": null,
+    "sha256": "848ec473c5012c84d9b6c6a9c8ef3b0cb85f83cebdd87c7e7e429def91728817"
    }
   ],
   "coincidencias": {
@@ -69,7 +71,7 @@
   "aviso_sha256_texto": "0af849b49d81a2afa12f73e1d5fa958be4116682306463211648efbceb83f597"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:34+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:11+00:00"
 }

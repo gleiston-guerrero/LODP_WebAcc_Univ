@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uisrael.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:10:20+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:51+00:00",
     "error": null,
-    "sha256": "44601c95eda05ab92bed14b8f790e00b1025469a4e967d57632af1054fb9d4e8"
+    "instantanea": null,
+    "sha256": "e84f786df34ace1884e10caa9964f7a2f68b42379d266ac9be2e36964b21c6bf"
    },
    {
     "url_consultada": "https://www.uisrael.edu.ec/diplomado-proteccion-de-datos/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.uisrael.edu.ec/diplomado-proteccion-de-datos/",
-    "fecha_hora_utc": "2026-11-12T04:10:23+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:55+00:00",
     "error": null,
-    "sha256": "5bad8c2db43466da5cba8bc588f7219d2e6568c1a1b75328502b963d0d4e63c0"
+    "instantanea": null,
+    "sha256": "44391851385c4c76242c2d688f43770d90fb6ca68df8af9b687da963019b2455"
    }
   ],
   "coincidencias": {
@@ -64,7 +66,7 @@
   "aviso_sha256_texto": "79220e69e39e42ec3e8f47122f3d786988e4e74bf3ef046ed244e946f466227f"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:10:24+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:37:56+00:00"
 }

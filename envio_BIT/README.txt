@@ -49,8 +49,8 @@ COMPILATION
 
   (same sequence with privacidad_BIT for the full version)
 
-Expected output: A4, single column; privacidad_BIT_anonymised.pdf 47 pages,
-privacidad_BIT.pdf 48 pages; no undefined citations or references.
+Expected output: A4, single column; privacidad_BIT_anonymised.pdf 48 pages,
+privacidad_BIT.pdf 49 pages; no undefined citations or references.
 
 Note on tfapacite.bst: the distributed file calls the function
 format.author.names before defining it. In this copy the definition of

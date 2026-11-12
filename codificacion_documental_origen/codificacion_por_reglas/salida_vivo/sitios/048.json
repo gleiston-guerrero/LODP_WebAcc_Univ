@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ntu.edu.sg/",
-    "fecha_hora_utc": "2026-11-12T04:06:16+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:03+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "f1edc81c38d629a007a998adb1d60678d9571b98600e46dfae60ec2c6c32781b"
    }
   ],
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:06:17+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:16:04+00:00"
 }

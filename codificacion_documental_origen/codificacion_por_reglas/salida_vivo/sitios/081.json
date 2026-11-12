@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.utelvt.edu.ec/site/",
-    "fecha_hora_utc": "2026-11-12T04:08:08+00:00",
+    "fecha_hora_utc": "2026-11-12T10:35:49+00:00",
     "error": null,
-    "sha256": "fc34d0aa88a3c4fd354a0ce4766550018dbebfd855b75fd2f24bf12e4f7a3e5d"
+    "instantanea": null,
+    "sha256": "b53634c447cec2f4c12c4c1390b2695710a53ab8c0eb80107a2cb6333c7d5551"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:11+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:35:51+00:00"
 }

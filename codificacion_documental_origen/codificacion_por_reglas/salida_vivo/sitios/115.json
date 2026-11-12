@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.casagrande.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:10:09+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:39+00:00",
     "error": null,
-    "sha256": "712f354394e7cba6099d1ae10732a810ab3a9f3af68e4a4303b44bf73b894a54"
+    "instantanea": null,
+    "sha256": "2fb3d6f764dc2c8e6126cc97f52480f78c356d0a1023cb0170531c12f59c6146"
    },
    {
     "url_consultada": "https://www.casagrande.edu.ec/politica-de-privacidad",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.casagrande.edu.ec/politica-de-privacidad",
-    "fecha_hora_utc": "2026-11-12T04:10:10+00:00",
+    "fecha_hora_utc": "2026-11-12T10:37:40+00:00",
     "error": null,
-    "sha256": "36062d5f9c681a78dbef4d63833f0066977ea0a9f2cc71182c0dbcf23f782816"
+    "instantanea": null,
+    "sha256": "41da0cbadf212e6e7e1f8fdff7c25cf8969165dba83aa8a13dfb084bdbbf8476"
    }
   ],
   "coincidencias": {
@@ -57,7 +59,7 @@
   "aviso_sha256_texto": "e2f33b9ff0cbb4f5a45f2cd25237b2906828943a7c4baf4049f9c64feb5a378f"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:10:11+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:37:40+00:00"
 }

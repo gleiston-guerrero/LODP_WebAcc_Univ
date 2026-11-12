@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.unach.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:08:25+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:04+00:00",
     "error": null,
-    "sha256": "0c6c98d03e4611738da5a99ebe505b90e460a935d2b7fe9c45637cf0fd09249f"
+    "instantanea": null,
+    "sha256": "2796cf4f0fd291f3866051cb449954354642961d34ce1425ffe1053eab86d64f"
    },
    {
     "url_consultada": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/",
-    "fecha_hora_utc": "2026-11-12T04:08:27+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:06+00:00",
     "error": null,
-    "sha256": "4f3016abc8f0e1a0040e23eddc56c187851fe01122783b56d0b6317b8e879f6e"
+    "instantanea": null,
+    "sha256": "13e01d743a448e4e3cb32b715e8144204112fa76c51cc6095c9274b9397b5bfe"
    }
   ],
   "coincidencias": {
@@ -71,10 +73,10 @@
   ],
   "aviso_url": "https://www.unach.edu.ec/politica-de-proteccion-de-datos-personales/",
   "aviso_palabras": 3177,
-  "aviso_sha256_texto": "17cc6ddebb75b17925560916b0894522b01d66f82d5322ec52cc39185494b321"
+  "aviso_sha256_texto": "351e3634bc80338b0b3f3930226e8d5dc1fd321fbac10c85b65cb015f46853e2"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:08:28+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:07+00:00"
 }

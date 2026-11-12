@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucla.edu/",
-    "fecha_hora_utc": "2026-11-12T04:04:34+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:08+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "20f2f34738794b98435c02bb627baaa72e9250630f3f5c879b322e5853233951"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.ucla.edu/terms-of-use",
-    "fecha_hora_utc": "2026-11-12T04:04:36+00:00",
+    "fecha_hora_utc": "2026-11-12T10:14:10+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "2c6b3f954e9a63a1fd6d2efbf5577841b92d07a88c6d3825085fd3f306c51699"
    }
   ],
@@ -66,7 +68,7 @@
   "aviso_sha256_texto": "988e70ff4af7c784428442d2e1feb51def28b44320562421b3119a33f1ed243d"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:04:36+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:14:10+00:00"
 }

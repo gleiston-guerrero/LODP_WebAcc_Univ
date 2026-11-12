@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.berkeley.edu/",
-    "fecha_hora_utc": "2026-11-12T04:03:46+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:23+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "db0b722ba905f034922c3e159da00f58f5dd12313477fd3202de8a783657ae32"
    },
    {
@@ -29,9 +30,10 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.berkeley.edu/privacy-policy/",
-    "fecha_hora_utc": "2026-11-12T04:03:48+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:25+00:00",
     "error": null,
-    "sha256": "b1a1a31c0231590cccac7481319181e319a9cc6c773fdbb9f7924b30be96ce0d"
+    "instantanea": null,
+    "sha256": "530977aecce9974f0710c9261fc5c21461242e4aacca485582a1e99fea06bbbb"
    }
   ],
   "coincidencias": {
@@ -60,7 +62,7 @@
   "aviso_sha256_texto": "d71b3d3cb9ef412e137c008ada186691eb48d2ef5378b50ae0f3f6939390f92f"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:03:48+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:25+00:00"
 }

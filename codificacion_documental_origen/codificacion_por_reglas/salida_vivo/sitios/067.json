@@ -20,9 +20,10 @@
     "status": 200,
     "tls_ok": false,
     "url_final": "https://www.espam.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:07:28+00:00",
+    "fecha_hora_utc": "2026-11-12T10:17:12+00:00",
     "error": "SSL: HTTPSConnectionPool(host='www.espam.edu.ec', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: un",
-    "sha256": "7a55f9973e4d560abccbc472d1e0fab8f225bbfeea8a0c75180b63da949ac996"
+    "instantanea": null,
+    "sha256": "8eeef61c14a1263dbefd8aea8926d5c7913a2a94c890d07b040fc3d6d5aaa9e2"
    }
   ],
   "coincidencias": {
@@ -36,7 +37,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:29+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:17:12+00:00"
 }

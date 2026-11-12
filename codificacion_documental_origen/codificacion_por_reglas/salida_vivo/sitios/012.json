@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.yale.edu/",
-    "fecha_hora_utc": "2026-11-12T04:04:10+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:47+00:00",
     "error": null,
-    "sha256": "e37ba563a19290af33fa733b1b83b21e48c80a0125082fa5613229c62c1d30c5"
+    "instantanea": null,
+    "sha256": "17aa8a7c020089e89891476d3c76e26c3e4382680ca5498aa89e3b8b63cfcf07"
    },
    {
     "url_consultada": "https://privacy.yale.edu/resources/privacy-statement",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://privacy.yale.edu/resources/privacy-statement",
-    "fecha_hora_utc": "2026-11-12T04:04:12+00:00",
+    "fecha_hora_utc": "2026-11-12T10:13:48+00:00",
     "error": null,
-    "sha256": "86ec73ccc2e8bae678b23f00c1033a3c6c102c3e8860cc4494286aea15041e42"
+    "instantanea": null,
+    "sha256": "2b822c3a2e1e8e3ea74e9cccdce1bb416713513f5f3887a30436f2d7bbf766f3"
    }
   ],
   "coincidencias": {
@@ -63,7 +65,7 @@
   "aviso_sha256_texto": "419f321af9320ed4046b26bf86607ea2b7dbb79403aed492b4710de8bc0e1391"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:04:13+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:13:49+00:00"
 }

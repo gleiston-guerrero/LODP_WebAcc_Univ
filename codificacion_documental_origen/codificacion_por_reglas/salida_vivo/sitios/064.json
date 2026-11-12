@@ -20,18 +20,20 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.epn.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:07:20+00:00",
+    "fecha_hora_utc": "2026-11-12T10:17:04+00:00",
     "error": null,
-    "sha256": "a4105dbc4ea7ab49a4d4e965745be21ab82bc95f4cf87343497225ef1d637a58"
+    "instantanea": null,
+    "sha256": "3a3c697c0e29f3580ecb6c3018d2be7c9bf59e5f1530b0e1fdfc8d3feb190a95"
    },
    {
     "url_consultada": "https://www.epn.edu.ec/60785-2/",
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.epn.edu.ec/60785-2/",
-    "fecha_hora_utc": "2026-11-12T04:07:21+00:00",
+    "fecha_hora_utc": "2026-11-12T10:17:05+00:00",
     "error": null,
-    "sha256": "759bd118d0a20a2fe69942258869f5657216ca46a36da44e469859a66eece6dc"
+    "instantanea": null,
+    "sha256": "8c6e70a5ccdbea8c27a2f81a5f609df70f59c08031e2a707777eac0be63c39f3"
    }
   ],
   "coincidencias": {
@@ -60,7 +62,7 @@
   "aviso_sha256_texto": "9ff915ecbbd595a0b498110a9f5e491193b84986690475acd83b0624fc9f39f5"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:07:22+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:17:06+00:00"
 }

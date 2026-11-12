@@ -1,0 +1,153 @@
+% !TeX program = pdflatex
+% ============================================================================
+%  Informe de revision por pares (segunda lectura)
+%  Manuscrito: "Two barriers to equitable access: WCAG conformance and
+%               pre-consent tracking on Ecuadorian and top-ranked
+%               university websites"
+%  Revista: Behaviour & Information Technology (Taylor & Francis)
+%  Lectura independiente de la version anonima revisada. 11 de noviembre de 2026
+% ============================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.6cm,right=2.6cm]{geometry}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+
+\hypersetup{
+	pdftitle	= {Informe de revision por pares, segunda lectura. Manuscrito BIT sobre conformidad WCAG y rastreo previo al consentimiento},
+	pdfauthor	= {Revisor},
+	pdfsubject	= {Behaviour and Information Technology (Taylor and Francis)}
+}
+
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.6em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Informe de revisi\'on por pares (segunda lectura) --- Behaviour \& Information Technology}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlist[itemize]{leftmargin=1.5em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.8em,itemsep=3pt,topsep=3pt}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% Cita textual del manuscrito, en ingles
+\newcommand{\cita}[1]{``\textit{#1}''}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\tolerance=9999
+\emergencystretch=3.5em
+\hbadness=10000
+
+\title{\textbf{Informe de revisi\'on por pares (segunda lectura)}\\[4pt]
+	\large Manuscrito: \emph{Two barriers to equitable access: WCAG conformance and pre-consent tracking on Ecuadorian and top-ranked university websites}\\[4pt]
+	\normalsize Revista: \emph{Behaviour \& Information Technology} (Taylor \& Francis)}
+\author{}
+\date{Lectura independiente de la versi\'on anonimizada revisada (47 p\'aginas) --- 11 de noviembre de 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\noindent Este informe eval\'ua la versi\'on revisada del manuscrito como si llegara por primera vez a la revista. Le\'i el texto completo, recalcul\'e las cifras nuevas a partir del dep\'osito p\'ublico de datos (versi\'on 1.1.0) y verifiqu\'e las referencias a\~nadidas. Las citas del manuscrito se reproducen en ingl\'es, tal como aparecen en el original.
+
+% ============================================================================
+\section{Veredicto}
+% ============================================================================
+
+Recomendaci\'on: \textbf{revisi\'on mayor, acotada a un solo problema de fondo}. La versi\'on revisada resuelve casi todo lo que hac\'ia vulnerable a la anterior: el enfoque ahora corresponde a la revista, la atribuci\'on al proveedor se apoya en registros de red y las afirmaciones se ajustan a lo medido. Queda un problema que s\'i afecta a las conclusiones principales: los indicadores documentales, que sostienen las diferencias m\'as grandes del estudio, se compilaron con ayuda de inteligencia artificial y no tienen ninguna medida de fiabilidad. Si los autores lo resuelven con la recodificaci\'on independiente que ellos mismos proponen, el art\'iculo quedar\'ia en condiciones de aceptarse con cambios menores.
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption{Respuestas al formulario del revisor.}
+	\begin{tabular}{@{}L{9.6cm}L{4.4cm}@{}}
+		\toprule
+		\textbf{Pregunta} & \textbf{Respuesta} \\
+		\midrule
+		¿El tema est\'a dentro del alcance de la revista? & S\'i, tras la reorientaci\'on \\
+		¿El trabajo es original? & S\'i \\
+		¿Los m\'etodos son adecuados y est\'an bien descritos? & S\'i, salvo la fiabilidad documental \\
+		¿Las conclusiones se siguen de los resultados? & S\'i, con dos matices (apartado~\ref{sec:menores}) \\
+		¿El an\'alisis estad\'istico es correcto? & S\'i; cifras reproducidas \\
+		¿Las referencias son adecuadas? & S\'i \\
+		¿La presentaci\'on y la extensi\'on son adecuadas? & Presentaci\'on s\'i; extensi\'on excesiva \\
+		Recomendaci\'on & Revisi\'on mayor (acotada) \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+% ============================================================================
+\section{Lo que la versi\'on revisada hace bien}
+% ============================================================================
+
+\begin{itemize}
+	\item \textbf{Encaje con la revista.} El resumen ya no est\'a estructurado y tiene 197 palabras, hay seis palabras clave, y el nuevo apartado~5.3 (\cita{What users can see and do}) conecta los hallazgos con la conducta del usuario. Las siete referencias de la revista a\~nadidas existen, sus datos coinciden con Crossref y lo que el texto les atribuye coincide con sus res\'umenes.
+	\item \textbf{Atribuci\'on al proveedor demostrada en la capa correcta.} La campa\~na del 16 de agosto registra las peticiones de red y permite distinguir si la cookie la retiene el proveedor o una capa anterior. El resultado es matizado y honesto: Microsoft decide en 13 de 14 sitios, mientras que en TapAd la petici\'on ni siquiera sale desde Europa. Reproduje la Tabla~7 completa con \texttt{vendor\_layer.py} y coincide celda por celda.
+	\item \textbf{Control de red bien dise\~nado.} Fr\'ancfort y Miami usaron el mismo sistema aut\'onomo (AS46475) en las seis pasadas, y las 105 comprobaciones de ubicaci\'on coinciden con el punto declarado.
+	\item \textbf{Menos dependencia de la IA en los resultados.} Los veredictos de la validaci\'on manual salen ahora de la segunda codificaci\'on, enteramente humana, y la lectura asistida queda como an\'alisis de sensibilidad (59\,\% frente a 61\,\%). Comprob\'e en el dep\'osito que la segunda codificaci\'on da 12 sitios fallidos en 1.1.1 y que la Tabla~4 tiene 23 casillas en negrita, como dice el texto.
+	\item \textbf{Transparencia.} La declaraci\'on de uso de IA es detallada, el texto ya no afirma doble codificaci\'on documental y el dep\'osito ya no contiene direcciones de contacto.
+	\item \textbf{Honestidad estad\'istica.} El texto informa que la diferencia entre Ecuador y Alemania del 16 de agosto no sobrevive al ajuste de Holm: \cita{in this family of ten comparisons that contrast does not survive Holm adjustment}.
+\end{itemize}
+
+% ============================================================================
+\section{Problemas mayores}
+% ============================================================================
+
+\subsection{Los indicadores documentales no tienen ninguna medida de fiabilidad}\label{sec:fiabilidad}
+
+Las diferencias m\'as grandes y m\'as citadas del art\'iculo son documentales: contacto de privacidad (47,6 puntos), declaraci\'on de accesibilidad (63,5) y aviso de privacidad (31,7). El resumen abre con una de ellas. Sin embargo, el apartado~3.4 indica que la matriz se compil\'o con ayuda de IA y que \cita{The three authors and one external collaborator then took part in coding and reviewing the matrix, but their individual codings were not retained}. La \'unica comprobaci\'on manual cubre 24 celdas de seis instituciones elegidas a prop\'osito, y encontr\'o dos errores. El propio texto reconoce que esa cifra \cita{is neither an upper nor a lower bound on the error rate of the full matrix}.
+
+Esto deja la conclusi\'on principal del art\'iculo sin respaldo de fiabilidad. Que la primera versi\'on de los datos la produjera un sistema de IA agrava el problema: un lector no puede saber cu\'antas celdas se revisaron a fondo y cu\'antas se aceptaron tal como las propuso el sistema. La medida habitual es el acuerdo entre dos personas que codifican lo mismo sin ver el trabajo de la otra, corregido por el acuerdo esperado por azar (coeficiente kappa de Cohen).
+
+Pido a los autores:
+\begin{enumerate}
+	\item Realizar la doble codificaci\'on independiente que ellos mismos proponen como trabajo futuro: dos personas, sin IA, sobre una muestra aleatoria de al menos 30 instituciones, con kappa por indicador. Para la muestra basta una tarde de trabajo por persona, y convierte la principal debilidad del estudio en un dato publicable.
+	\item Informar tambi\'en el acuerdo de cada codificador humano con la matriz publicada. Eso estima cu\'antas celdas de la matriz asistida habr\'ia corregido una lectura humana independiente.
+	\item Si no es posible antes del env\'io, mencionarlo en el resumen. Hoy el resumen presenta las cifras documentales sin ninguna advertencia, mientras que la limitaci\'on solo aparece en los apartados~3.4 y~5.6.
+\end{enumerate}
+
+\subsection{Extensi\'on}
+
+El cuerpo tiene unas 17\,800 palabras, a las que se suman unas 2\,500 de ap\'endices, 11 tablas y 6 figuras. La revisi\'on a\~nadi\'o contenido sin recortar, y algunos apartados son muy largos: el~4.7 tiene unas 2\,200 palabras y el de amenazas a la validez unas 1\,400. Conviene confirmar el l\'imite en las instrucciones oficiales de la revista. En cualquier caso hay recortes que no quitan nada sustantivo:
+\begin{itemize}
+	\item Pasar a material suplementario los ap\'endices C y D (matrices por instituci\'on), que ya est\'an en el dep\'osito.
+	\item Reducir el apartado~4.7 a sus tres hallazgos (diferencia por pa\'is, capa de decisi\'on y r\'eplica) y dejar en el suplemento la explicaci\'on de las tres cifras de Ecuador y el detalle de las cinco exclusiones.
+	\item Condensar el apartado~2.3 (\cita{The gap addressed here}), que repite lo que ya dice la introducci\'on.
+\end{itemize}
+
+% ============================================================================
+\section{Problemas menores}\label{sec:menores}
+% ============================================================================
+
+\begin{enumerate}
+	\item \textbf{Se\~nales de consentimiento en los 13 sitios de Microsoft.} La regla de atribuci\'on supone que, si la petici\'on sale y no hay cookie, decidi\'o el proveedor. Una alternativa es que el propio sitio pase al proveedor una se\~nal de consentimiento por regi\'on, y que el c\'odigo del proveedor solo la obedezca. El instrumento registra esas se\~nales (campo \texttt{consentimiento\_por\_defecto}). Lo comprob\'e en el dep\'osito: en 11 de los 13 sitios no hay plataforma de consentimiento ni se\~nal de consentimiento declarada para Microsoft (UET o Clarity) o Google, y en los otros dos (CMU con OneTrust y UIDE con CookieYes) s\'i hay plataforma de consentimiento. Es un dato que refuerza la conclusi\'on y debe estar en el texto. Para CMU y UIDE corresponde decir que no puede descartarse una se\~nal transmitida por la plataforma.
+	\item \textbf{Igualdad de las se\~nales del navegador.} Conviene declarar que la zona horaria y el idioma del navegador fueron los mismos en los cinco puntos (el instrumento no los fija, as\'i que toma los del equipo). Con eso queda claro que lo \'unico que cambi\'o fue la direcci\'on IP, y que el proveedor decidi\'o por la ubicaci\'on de red.
+	\item \textbf{El resumen no menciona la r\'eplica.} El resumen da \cita{67.8\% of visits from Ecuador and 60.3\% of visits from Germany}, del 15 de agosto. Al d\'ia siguiente la diferencia tuvo la misma direcci\'on (seis sitios, todos en el mismo sentido), pero no sobrevivi\'o al ajuste por comparaciones m\'ultiples. Una frase en el resumen lo dejar\'ia claro.
+	\item \textbf{Intervalos sin ajustar en la Figura~1.} La leyenda dice \cita{Filled squares mark intervals that exclude zero}. Con ese criterio aparecen como diferencias claras los derechos enumerados, la ausencia total de fallos autom\'aticos y el certificado TLS, cuyos valores ajustados por Holm son 0,235, 0,193 y 0,288. La leyenda debe advertir que los intervalos no est\'an ajustados por comparaciones m\'ultiples.
+	\item \textbf{Cifra de comprobaciones de ubicaci\'on.} En amenazas a la validez se lee \cita{geolocation was verified 84 times}, que es la cifra del 15 de agosto. Con la campa\~na del 16 se suman 105 comprobaciones m\'as.
+	\item \textbf{Selecci\'on de la submuestra manual.} El texto reconoce que \cita{The subsample of fifteen sites was selected purposively and the selection criterion was not recorded}. Es una limitaci\'on bien declarada, pero si existe alg\'un registro del criterio, conviene a\~nadirlo.
+	\item \textbf{Agradecimientos.} La versi\'on completa no tiene apartado de agradecimientos, aunque el apartado~3.4 menciona a una persona colaboradora externa que particip\'o en la codificaci\'on. Hay que reconocerla, con su consentimiento.
+	\item \textbf{Pol\'itica de la revista sobre IA.} El uso de IA declarado es amplio: compil\'o la primera versi\'on de la matriz documental y redact\'o y ejecut\'o un script de an\'alisis. Los autores deben confirmar que la declaraci\'on cumple la pol\'itica vigente de Taylor \& Francis sobre herramientas de IA generativa.
+\end{enumerate}
+
+% ============================================================================
+\section{Comentarios confidenciales para el editor}
+% ============================================================================
+
+La revisi\'on es seria y responde a las cr\'iticas con datos, no con ret\'orica. El hallazgo sobre la capa de decisi\'on del proveedor es original y est\'a bien demostrado. Mi reserva principal es la fiabilidad de los indicadores documentales: hoy descansan en una matriz compilada con IA y revisada sin registro, y son la base de las conclusiones m\'as citables. No veo indicios de manipulaci\'on de datos; al contrario, los autores declaran sus limitaciones con un detalle poco com\'un. Si completan la recodificaci\'on independiente y recortan la extensi\'on, recomendar\'ia aceptar.
+
+\end{document}

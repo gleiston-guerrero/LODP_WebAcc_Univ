@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.cmu.edu/",
-    "fecha_hora_utc": "2026-11-12T04:06:26+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:13+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "32d64865e43cead0442df097db37042a23e756be6156692ee44db71ee66f0330"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.cmu.edu/legal/privacy-notice",
-    "fecha_hora_utc": "2026-11-12T04:06:28+00:00",
+    "fecha_hora_utc": "2026-11-12T10:16:15+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "a2b8fb20f8f3abcfbe881f0fe6cf71daf698976411dcc297552ba45aa20bc1b4"
    }
   ],
@@ -66,7 +68,7 @@
   "aviso_sha256_texto": "a43432ae8fff5595783258bee48d3a1127d85a632d8d3e6e9ea7b441e8e813b5"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:06:29+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:16:15+00:00"
 }

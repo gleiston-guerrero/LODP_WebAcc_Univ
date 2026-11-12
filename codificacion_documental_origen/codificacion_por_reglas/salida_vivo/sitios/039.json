@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.duke.edu/",
-    "fecha_hora_utc": "2026-11-12T04:05:47+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:35+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "c8b16c709e86ed11c1125ec20f5e5e72728cb4b097a36a3ca9eed5a64ce47988"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/",
-    "fecha_hora_utc": "2026-11-12T04:05:49+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:37+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "34a64e6b40098e038afc5a2b2ce30c3ce0fb2500ecd8c8c01ff2a8c4a03de95c"
    }
   ],
@@ -65,7 +67,7 @@
   "aviso_sha256_texto": "d27f601ad05cc55ec1ca417e12b652979922ecd37334a61f76ecf916b73b33c8"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:51+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:39+00:00"
 }

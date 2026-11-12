@@ -20,8 +20,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ute.edu.ec/",
-    "fecha_hora_utc": "2026-11-12T04:09:20+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:54+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "3f12aed5361620b287ae37bf86ff01b5b7af1f5f4541aec7bd0f63b6070679b7"
    },
    {
@@ -29,8 +30,9 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://ute.edu.ec/politica-de-privacidad/",
-    "fecha_hora_utc": "2026-11-12T04:09:23+00:00",
+    "fecha_hora_utc": "2026-11-12T10:36:57+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "4f429f4a95194e048dfbeee3e952ccca216a2b5d6f0f72c3db900b5bfc9bf9e9"
    }
   ],
@@ -65,7 +67,7 @@
   "aviso_sha256_texto": "a5849bf3091a0a6103a747bd0bfa6bbf31338def7aab4e7a65a371863cb0efe3"
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:09:24+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:36:57+00:00"
 }

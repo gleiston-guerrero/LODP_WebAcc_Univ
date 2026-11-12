@@ -20,17 +20,19 @@
     "status": 200,
     "tls_ok": true,
     "url_final": "https://www.nyu.edu/",
-    "fecha_hora_utc": "2026-11-12T04:05:27+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:17+00:00",
     "error": null,
-    "sha256": "2ce76dd7192f6ab5fd80467ac5470785919182fa28a3bbfb027ebed9cf183bd2"
+    "instantanea": null,
+    "sha256": "4320884c889d2e1a5484fc3ea9b2fe76d13fa3d2e0b9369c7a63e9807d6146e7"
    },
    {
     "url_consultada": "https://www.nyu.edu/footer/privacy.html",
     "status": 202,
     "tls_ok": true,
     "url_final": "https://www.nyu.edu/footer/privacy.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1",
-    "fecha_hora_utc": "2026-11-12T04:05:29+00:00",
+    "fecha_hora_utc": "2026-11-12T10:15:18+00:00",
     "error": null,
+    "instantanea": null,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
    }
   ],
@@ -50,7 +52,7 @@
   "aviso_url": null
  },
  "script": "codificar_documental.py",
- "version": "1.0.0",
- "sha256_script": "399878730d457584693e274b082c1c1c98054f8ae5acd7439ae2218f41c1fc9b",
- "fecha_ejecucion_utc": "2026-11-12T04:05:29+00:00"
+ "version": "1.1.0",
+ "sha256_script": "ff84a6bae46a291bb12e18666fbe185585fb9e0be073f293c7165735a6260f16",
+ "fecha_ejecucion_utc": "2026-11-12T10:15:19+00:00"
 }
